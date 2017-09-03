@@ -10,3 +10,6 @@ import_includes:
 	cp -a $$ERL_TOP/lib/wx/include ./src/include
 
 import: build_edocs import_edocs import_includes
+
+regenerate_wrappers:
+	rm -rf lib/wx_widgets/gen && mix wx_widgets.gen.wrappers && mix compile

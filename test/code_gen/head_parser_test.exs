@@ -1,17 +1,17 @@
-defmodule CodeGenParserTest do
+defmodule CodeGenHeadParserTest do
   use ExUnit.Case
 
   alias WxWidgets.CodeGen
-  alias WxWidgets.CodeGen.Parser
+  alias WxWidgets.CodeGen.HeadParser
 
-  # doctest Parser
+  doctest HeadParser
 
   parse_tests = [
     [
       "isOk(This) -> boolean()",
       %CodeGen.AtSpec{
         method: "isOk",
-        args: ["this"],
+        args: ["This"],
         return_value: "boolean()"
       }
     ],
@@ -19,7 +19,7 @@ defmodule CodeGenParserTest do
       "getColour(This) -> wx:wx_colour4()",
       %CodeGen.AtSpec{
         method: "getColour",
-        args: ["this"],
+        args: ["This"],
         return_value: "wx:wx_colour4()"
       }
     ],
@@ -27,7 +27,7 @@ defmodule CodeGenParserTest do
       "getStipple(This) -> wxBitmap:wxBitmap()",
       %CodeGen.AtSpec{
         method: "getStipple",
-        args: ["this"],
+        args: ["This"],
         return_value: "wxBitmap:wxBitmap()"
       }
     ],
@@ -43,7 +43,7 @@ defmodule CodeGenParserTest do
       "new(Colour) -> wxBrush()",
       %CodeGen.AtSpec{
         method: "new",
-        args: ["colour"],
+        args: ["Colour"],
         return_value: "wxBrush()"
       }
     ],
@@ -51,7 +51,7 @@ defmodule CodeGenParserTest do
       "new(Colour, Options :: [Option]) -> wxBrush()",
       %CodeGen.AtSpec{
         method: "new",
-        args: ["colour", {"options", "[option]"}],
+        args: ["Colour", {"Options", "[Option]"}],
         return_value: "wxBrush()"
       }
     ],
@@ -59,24 +59,56 @@ defmodule CodeGenParserTest do
       "setColour(This, Col) -> ok",
       %CodeGen.AtSpec{
         method: "setColour",
-        args: ["this", "col"],
-        return_value: ":ok"
+        args: ["This", "Col"],
+        return_value: "ok"
       }
     ],
     [
       "setColour(This, R, G, B) -> ok",
       %CodeGen.AtSpec{
         method: "setColour",
-        args: ["this", "r", "g", "b"],
-        return_value: ":ok"
+        args: ["This", "R", "G", "B"],
+        return_value: "ok"
       }
     ],
     [
       "destroy(This :: wxBrush()) -> ok",
       %CodeGen.AtSpec{
         method: "destroy",
-        args: [{"this", "wxBrush()"}],
-        return_value: ":ok"
+        args: [{"This", "wxBrush()"}],
+        return_value: "ok"
+      }
+    ],
+    [
+      "'begin'(Mode) -> ok",
+      %CodeGen.AtSpec{
+        method: "'begin'",
+        args: ["Mode"],
+        return_value: "ok"
+      }
+    ],
+    [
+      "depthRange(Near_val, Far_val) -> ok",
+      %CodeGen.AtSpec{
+        method: "depthRange",
+        args: ["Near_val", "Far_val"],
+        return_value: "ok"
+      }
+    ],
+    [
+      "debug(Debug :: Level | [Level]) -> ok",
+      %CodeGen.AtSpec{
+        method: "debug",
+        args: [{"Debug", "Level | [Level]"}],
+        return_value: "ok"
+      }
+    ],
+    [
+      "reply(X1 :: {pid(), Tag :: term()}, Reply :: term()) -> pid()",
+      %CodeGen.AtSpec{
+        method: "reply",
+        args: [{"X1", "{pid(), Tag :: term()}"}, {"Reply", "term()"}],
+        return_value: "pid()"
       }
     ],
   ]
@@ -85,8 +117,8 @@ defmodule CodeGenParserTest do
     @input input
     @output output
 
-    test "Parser.parse_head for \"#{@input}\"" do
-      assert @output == Parser.parse_head(@input)
+    test "HeadParser.parse_head for \"#{@input}\"" do
+      assert @output == HeadParser.parse_head(@input)
     end
   end
 end

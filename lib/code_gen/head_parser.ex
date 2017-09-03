@@ -1,4 +1,4 @@
-defmodule WxWidgets.CodeGen.Parser do
+defmodule WxWidgets.CodeGen.HeadParser do
   use Combine
   alias WxWidgets.CodeGen
 
@@ -21,21 +21,11 @@ defmodule WxWidgets.CodeGen.Parser do
       end
     end
 
-    return_value  = Elixifier.elixify_type(return_value)
-
     %CodeGen.AtSpec{
       method: method,
       args: args,
       return_value: return_value
     }
-  end
-
-  def downcase_unless_parens(str) do
-    if String.ends_with?(str, "()") do
-      str
-    else
-      String.downcase(str)
-    end
   end
 
   def split_trim(str, on) do
@@ -50,10 +40,7 @@ defmodule WxWidgets.CodeGen.Parser do
   end
 
   def method() do
-    either(
-      between(string("'"), word(), string("'")),
-      word()
-    )
+    word_of(~r/([a-zA-Z0-9_'])/)
   end
 
   def args() do
@@ -78,13 +65,12 @@ defmodule WxWidgets.CodeGen.Parser do
 
   def arg_var do
     word_of(~r/([a-zA-Z0-9_])/)
-    |> map(&String.downcase/1)
   end
 
   def arg_type do
     either(
       tuple_spec(),
-      word_of(~r/([a-zA-Z0-9_:-\[\]]|\(\))/)|> map(&downcase_unless_parens/1)
+      word_of(~r/([a-zA-Z0-9_:-\[\]]|\(\))/)
     )
   end
 
@@ -110,12 +96,10 @@ defmodule WxWidgets.CodeGen.Parser do
 
   def tuple_member_var() do
     word_of(~r/([a-zA-Z0-9_])/)
-    |> map(&String.downcase/1)
   end
 
   def tuple_member_type() do
     word_of(~r/([a-zA-Z0-9_:-\[\]]|\(\))/)
-    |> map(&downcase_unless_parens/1)
   end
 
   def sep_and_whitespace(sep) do
