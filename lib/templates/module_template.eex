@@ -1,8 +1,9 @@
-defmodule WxWidgets.<%= @module_name %> do
-<%= for m <- @methods do %>
-  <%= WxWidgets.CodeGen.render_atspec(m) %>
-  <%= WxWidgets.CodeGen.render_def(m) %>
-    <%= WxWidgets.CodeGen.render_erlcall(m) %>
-  end
+defmodule WxWidgets.<%= @elixir_module_name %> do
+<%= for t <- @types do %>
+<%= WxWidgets.CodeGen.render_type(t) %>
+<% end %>
+
+<%= for s <- @specs do %>
+<%= WxWidgets.CodeGen.render_def(@mod, s) %>
 <% end %>
 end
