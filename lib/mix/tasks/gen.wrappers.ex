@@ -14,9 +14,15 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
 
   def run(_args) do
     for file <- Path.wildcard("src/specs/*.xml") do
-      if file == "src/specs/specs_wxImage.xml" do
-        gen_wrapper(file)
-      end
+      # files = [
+      #   "src/specs/specs_wxImage.xml",
+      #   "src/specs/specs_wxStyledTextCtrl.xml",
+      #   "src/specs/specs_wxRegion.xml",
+      #   "src/specs/specs_wxCheckListBox.xml",
+      # ]
+      # if file in files, do: gen_wrapper(file)
+
+      gen_wrapper(file)
     end
   end
 
@@ -39,6 +45,7 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
 	content =
       src
       |> WxWidgets.CodeGen.generate_module
+      |> String.replace(~r/\n{2,}/, "\n\n")
 
     :ok = File.mkdir_p!(module_dir)
     File.write!(target, content)

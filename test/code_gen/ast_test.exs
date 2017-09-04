@@ -5,7 +5,7 @@ defmodule CodeGenASTTest do
   alias WxWidgets.CodeGen
   alias WxWidgets.CodeGen.AST
 
-  describe "parsing erlang snipets" do
+  describe "parsing erlang snippets" do
 
     # TODO: StreamData
     parse_tests = [
@@ -22,15 +22,23 @@ defmodule CodeGenASTTest do
       ["xaSDFsdf", {:symbol, "xaSDFsdf"}],
       ["xa_SDFsdf", {:symbol, "xa_SDFsdf"}],
       ["'Destroy'", {:symbol, "'Destroy'"}],
+      ["'end'", {:symbol, "'end'"}],
+
+      # literals
+      ["0", {:numeric, "0"}],
+      ["1234", {:numeric, "1234"}],
+      ["-1234", {:numeric, "-1234"}],
 
       # calls
       ["x()", {:call, {:symbol, "x"}, []}],
       ["xasdf()", {:call, {:symbol, "xasdf"}, []}],
+      ["xa_sdf()", {:call, {:symbol, "xa_sdf"}, []}],
       ["xaSDFsdf()", {:call, {:symbol, "xaSDFsdf"}, []}],
       ["'Destroy'()", {:call, {:symbol, "'Destroy'"}, []}],
       ["x(This)", {:call, {:symbol, "x"}, [{:variable, "This"}]}],
       ["x(This, That)", {:call, {:symbol, "x"}, [{:variable, "This"}, {:variable, "That"}]}],
       ["'Destroy'(This)", {:call, {:symbol, "'Destroy'"}, [{:variable, "This"}]}],
+      ["'end'(This)", {:call, {:symbol, "'end'"}, [{:variable, "This"}]}],
 
       # list_type
       ["[Option]",{:list_type, {:variable, "Option"}}],
@@ -73,6 +81,10 @@ defmodule CodeGenASTTest do
         {:specdef, {:call, {:symbol, "'Destroy'"}, [{:variable, "This"}]}, {:symbol, "ok"}}
       ],
       [
+        "'end'(This) -> ok",
+        {:specdef, {:call, {:symbol, "'end'"}, [{:variable, "This"}]}, {:symbol, "ok"}}
+      ],
+      [
         "blur(This, Radius) -> wxImage()",
         {:specdef, {:call, {:symbol, "blur"}, [{:variable, "This"}, {:variable, "Radius"}]}, {:call, {:symbol, "wxImage"}, []}}
       ],
@@ -87,6 +99,10 @@ defmodule CodeGenASTTest do
       [
         "convertAlphaToMask(This, Options :: [Option]) -> boolean()",
         {:specdef, {:call, {:symbol, "convertAlphaToMask"}, [{:variable, "This"}, {:annotation, {:variable, "Options"}, {:list_type, {:variable, "Option"}}}]}, {:call, {:symbol, "boolean"}, []}},
+      ],
+      [
+        "areTexturesResident(Textures) -> {0 | 1, Residences :: [0 | 1]}",
+        {:specdef, {:call, {:symbol, "areTexturesResident"}, [{:variable, "Textures"}]}, {:tuple, [{:alternatives, [numeric: "0", numeric: "1"]}, {:annotation, {:variable, "Residences"}, {:list_type, {:alternatives, [numeric: "0", numeric: "1"]}}}]}}
       ],
     ]
 
@@ -108,21 +124,29 @@ defmodule CodeGenASTTest do
       [{:variable, "X"}, "x"],
       [{:variable, "Xasdf"}, "xasdf"],
 
-      # symboles
+      # symbols
       [{:symbol, "x"}, ":x"],
       [{:symbol, "xasdf"}, ":xasdf"],
       [{:symbol, "xaSDFsdf"}, ":xaSDFsdf"],
       [{:symbol, "'Destroy'"}, ":destroy"],
+      [{:symbol, "'end'"}, ":end"],
+
+      # literals
+      [{:numeric, "0"}, "0"],
+      [{:numeric, "1234"}, "1234"],
+      [{:numeric, "-1234"}, "-1234"],
 
       # calls
       [{:call, {:symbol, "x"}, []}, "x()"],
       [{:call, {:symbol, "xasdf"}, []}, "xasdf()"],
       [{:call, {:symbol, "xaSDFsdf"}, []}, "xaSDFsdf()"],
       [{:call, {:symbol, "'Destroy'"}, []}, "destroy()"],
+      [{:call, {:symbol, "'End'"}, []}, "end()"],
       [{:call, {:symbol, "x"}, [{:variable, "This"}]}],
       [{:call, {:symbol, "x"}, [{:variable, "This"}]}, "x(this)"],
       [{:call, {:symbol, "x"}, [{:variable, "This"}, {:variable, "That"}]}, "x(this, that)"],
       [{:call, {:symbol, "'Destroy'"}, [{:variable, "This"}]}, "destroy(this)"],
+      [{:call, {:symbol, "'End'"}, [{:variable, "This"}]}, "end(this)"],
 
       # list_type
       [{:list_type, {:variable, "Option"}}, "[option]"],
@@ -155,32 +179,41 @@ defmodule CodeGenASTTest do
       # specdef
       [
         {:specdef, {:call, {:symbol, "something"}, []}, {:call, {:symbol, "boolean"}, []}},
-        "something() -> boolean()"
+        "something() :: boolean()"
       ],
       [
         {:specdef, {:call, {:symbol, "copy"}, [{:variable, "This"}]}, {:call, {:symbol, "wxImage"}, []}},
-        "copy(this) -> wxImage()",
+        "copy(this) :: wxImage()",
       ],
       [
         {:specdef, {:call, {:symbol, "'Destroy'"}, [{:variable, "This"}]}, {:symbol, "ok"}},
-        "destroy(this) -> :ok",
+        "destroy(this) :: :ok",
+      ],
+      [
+        {:specdef, {:call, {:symbol, "'End'"}, [{:variable, "This"}]}, {:symbol, "ok"}},
+        "end(this) :: :ok",
       ],
       [
         {:specdef, {:call, {:symbol, "blur"}, [{:variable, "This"}, {:variable, "Radius"}]}, {:call, {:symbol, "wxImage"}, []}},
-        "blur(this, radius) -> wxImage()",
+        "blur(this, radius) :: wxImage()",
       ],
       [
         {:specdef, {:call, {:symbol, "convertToMono"}, [{:variable, "This"}, {:variable, "R"}, {:variable, "G"}, {:variable, "B"}]}, {:call, {:symbol, "wxImage"}, []}},
-        "convertToMono(this, r, g, b) -> wxImage()",
+        "convertToMono(this, r, g, b) :: wxImage()",
       ],
       [
         {:specdef, {:call, {:symbol, "getImageExtWildcard"}, []}, {:module_ref, {:symbol, "unicode"}, {:call, {:symbol, "charlist"}, []}}},
-        "getImageExtWildcard() -> :unicode.charlist()",
+        "getImageExtWildcard() :: :unicode.charlist()",
       ],
       [
         {:specdef, {:call, {:symbol, "convertAlphaToMask"}, [{:variable, "This"}, {:annotation, {:variable, "Options"}, {:list_type, {:variable, "Option"}}}]}, {:call, {:symbol, "boolean"}, []}},
-        "convertAlphaToMask(this, options :: [option]) -> boolean()",
-      ]
+        "convertAlphaToMask(this, options :: [option]) :: boolean()",
+      ],
+      [
+        {:specdef, {:call, {:symbol, "areTexturesResident"}, [{:variable, "Textures"}]}, {:tuple, [{:alternatives, [numeric: "0", numeric: "1"]}, {:annotation, {:variable, "Residences"}, {:list_type, {:alternatives, [numeric: "0", numeric: "1"]}}}]}},
+
+        "areTexturesResident(textures) :: {0 | 1, residences :: [0 | 1]}",
+      ],
     ]
 
     for [input, output] <- ast_tests do

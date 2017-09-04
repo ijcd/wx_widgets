@@ -54,8 +54,9 @@ defmodule WxWidgets.CodeGen do
     # group by [name, arity] for proper placement adjacency in the generated file
     specs =
       mod.specs
-      |> Enum.group_by(fn s -> [AST.erlang_to_elixir(s.name), s.arity] end)
-      |> Enum.sort
+      |> Enum.group_by(fn s -> [s.name, s.arity] end)
+      |> Enum.uniq_by(fn {[name, arity], _} -> [AST.erlang_to_elixir(name), arity] end)
+      |> Enum.sort_by(fn {[name, arity], _} -> [AST.erlang_to_elixir(name), arity] end)
 
     EEx.eval_file(
       "lib/templates/module_template.eex",
@@ -73,17 +74,17 @@ defmodule WxWidgets.CodeGen do
   def render_type(t) do
     sym = {:symbol, t.name}
     modtype = AST.ast_to_elixir({:module_ref, sym, {:call, sym, []}})
-    "  @type t :: #{modtype}"
+    "  @type #{t.name}_t :: #{modtype}"
   end
 
   def render_def(mod, spec_group) do
-    {[name, arity], specs} = spec_group
+    {[_name, _arity], specs} = spec_group
 
     # build the call from the first spec
     spec = List.first(specs)
 
     if spec.head do
-      atspecs = (for s <- specs, do: build_spec(mod, spec)) |> Enum.uniq |> Enum.join
+      atspecs = (for _s <- specs, do: build_spec(mod, spec)) |> Enum.uniq |> Enum.join
 
       atspecs
       <> build_def(mod, specs |> List.first)
@@ -92,13 +93,13 @@ defmodule WxWidgets.CodeGen do
     end
   end
 
-  defp build_def(mod, spec) do
-    [{:specdef, {:call, sym, args}, ret}] = AST.erlang_to_ast(spec.head)
+  def build_def(mod, spec) do
+    [{:specdef, {:call, sym, args}, _ret}] = AST.erlang_to_ast(spec.head)
 
     call_args = build_call_args(args)
 
     method_def = {:call, sym, call_args} |> AST.ast_to_elixir
-    method_call = {:module_ref, {:symbol, mod.name}, {:call, {:symbol, spec.name}, call_args}} |> AST.ast_to_elixir
+    method_call = {:module_ref, {:symbol, mod.name}, {:call, sym, call_args}} |> AST.ast_to_elixir(unquote_calls: false)
 
 """
   def #{method_def} do
@@ -107,7 +108,7 @@ defmodule WxWidgets.CodeGen do
 """
   end
 
-  defp build_spec(mod, spec) do
+  def build_spec(mod, spec) do
     typemap = guards_to_typemap(spec.guards)
 
     [{:specdef, {:call, sym, args}, ret}] = AST.erlang_to_ast(spec.head)
@@ -118,7 +119,7 @@ defmodule WxWidgets.CodeGen do
     # fill in annotations from guards instead of having a long when clause
     spec_args = for arg <- args do
       case arg do
-        {:annotation, {:variable, var} = v, _} = a -> a
+        {:annotation, {:variable, _var} = _v, _} = a -> a
         {:variable, var} = v ->
           if type = Map.get(typemap, var) do
             [type_ast] = AST.erlang_to_ast(type)
@@ -153,9 +154,9 @@ defmodule WxWidgets.CodeGen do
       typemap
       |> Map.drop(call_args_used)
       |> Enum.map(fn {k, v} ->
-      AST.erlang_to_elixir(k) <> ": " <> AST.erlang_to_elixir(v)
-    end)
-    |> Enum.join(", ")
+        AST.erlang_to_elixir(k) <> ": " <> AST.erlang_to_elixir(v)
+      end)
+      |> Enum.join(", ")
 
       when_guards = if guards != "" do
         " when #{guards}"
@@ -170,15 +171,15 @@ defmodule WxWidgets.CodeGen do
 
   def build_call_args(args) do
     # call args do not have annotations
-    call_args = for arg <- args do
+    for arg <- args do
       case arg do
-        {:annotation, {:variable, var} = v, _} -> v
-        {:variable, var} = v -> v
+        {:annotation, {:variable, _var} = v, _} -> v
+        {:variable, _var} = v -> v
       end
     end
   end
 
-  defp guards_to_typemap(guards) do
+  def guards_to_typemap(guards) do
     for guard <- guards do
       case guard do
         %{string: ""} -> nil
