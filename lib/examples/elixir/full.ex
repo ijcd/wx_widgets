@@ -1,7 +1,7 @@
 defmodule WxWidgets.Examples.Elixir.Full do
   use WxWidgets.WxObject
 
-  alias WxWidgets.{WxWindow, WxFrame, WxGLCanvas}
+  alias WxWidgets.{Wx, WxWindow, WxFrame, WxGLCanvas}
   alias WxWidgets.{Gl, Glu}
 
   # @behaviour :wx_object
@@ -42,7 +42,7 @@ defmodule WxWidgets.Examples.Elixir.Full do
   end
 
   def handle_info(:update, state) do
-    :wx.batch(fn -> render(state) end)
+    Wx.batch(fn -> render(state) end)
     {:noreply, state}
   end
 
