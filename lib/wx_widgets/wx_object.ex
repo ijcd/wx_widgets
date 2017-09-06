@@ -4,6 +4,7 @@ defmodule WxWidgets.WxObject do
   @doc false
   defmacro __using__(opts) do
     quote location: :keep, bind_quoted: [opts: opts] do
+      alias WxWidgets
       import WxWidgets
 
       @behaviour :wx_object
@@ -23,13 +24,6 @@ defmodule WxWidgets.WxObject do
 
       defoverridable child_spec: 1
 
-      # @doc false
-      # def init(args \\ []) do
-      #   IO.inspect("init 2")
-      #   wx = :wx.new
-      #   {:ok, wx}
-      # end
-
       @doc false
       def init(config) do
         config
@@ -37,11 +31,16 @@ defmodule WxWidgets.WxObject do
         |> build()
       end
 
+      defoverridable init: 1
+
       @doc false
       def build(wx) do
+        IO.inspect("build wx_object")
         win = :wxWindow.new()
         {win, %{}}
       end
+
+      defoverridable build: 1
 
       @doc false
       def start_link() do
@@ -50,64 +49,64 @@ defmodule WxWidgets.WxObject do
 
       defoverridable start_link: 0
 
-      # @doc false
-      # def start_link(mod, args \\ [], options \\ []) do
-      #   WxWidgets.WxObject.start_link(mod, args, options)
-      # end
+      @doc false
+      def start_link(mod, args \\ [], options \\ []) do
+        WxWidgets.WxObject.start_link(mod, args, options)
+      end
 
-      # defoverridable start_link: 3
+      defoverridable start_link: 3
 
-  #     @doc false
-  #     def handle_call(msg, _from, state) do
-  #       proc =
-  #         case Process.info(self(), :registered_name) do
-  #           {_, []}   -> self()
-  #           {_, name} -> name
-  #         end
+      @doc false
+      def handle_call(msg, _from, state) do
+        proc =
+          case Process.info(self(), :registered_name) do
+            {_, []}   -> self()
+            {_, name} -> name
+          end
 
-  #       # We do this to trick Dialyzer to not complain about non-local returns.
-  #       case :erlang.phash2(1, 1) do
-  #         0 -> raise "attempted to call GenServer #{inspect proc} but no handle_call/3 clause was provided"
-  #         1 -> {:stop, {:bad_call, msg}, state}
-  #       end
-  #     end
+        # We do this to trick Dialyzer to not complain about non-local returns.
+        case :erlang.phash2(1, 1) do
+          0 -> raise "attempted to call GenServer #{inspect proc} but no handle_call/3 clause was provided"
+          1 -> {:stop, {:bad_call, msg}, state}
+        end
+      end
 
-  #     @doc false
-  #     def handle_info(msg, state) do
-  #       proc =
-  #         case Process.info(self(), :registered_name) do
-  #           {_, []}   -> self()
-  #           {_, name} -> name
-  #         end
-  #       :error_logger.error_msg('~p ~p received unexpected message in handle_info/2: ~p~n',
-  #                               [__MODULE__, proc, msg])
-  #       {:noreply, state}
-  #     end
+      @doc false
+      def handle_info(msg, state) do
+        proc =
+          case Process.info(self(), :registered_name) do
+            {_, []}   -> self()
+            {_, name} -> name
+          end
+        :error_logger.error_msg('~p ~p received unexpected message in handle_info/2: ~p~n',
+                                [__MODULE__, proc, msg])
+        {:noreply, state}
+      end
 
-  #     @doc false
-  #     def handle_cast(msg, state) do
-  #       proc =
-  #         case Process.info(self(), :registered_name) do
-  #           {_, []}   -> self()
-  #           {_, name} -> name
-  #         end
+      @doc false
+      def handle_cast(msg, state) do
+        proc =
+          case Process.info(self(), :registered_name) do
+            {_, []}   -> self()
+            {_, name} -> name
+          end
 
-  #       # We do this to trick Dialyzer to not complain about non-local returns.
-  #       case :erlang.phash2(1, 1) do
-  #         0 -> raise "attempted to cast GenServer #{inspect proc} but no handle_cast/2 clause was provided"
-  #         1 -> {:stop, {:bad_cast, msg}, state}
-  #       end
-  #     end
+        # We do this to trick Dialyzer to not complain about non-local returns.
+        case :erlang.phash2(1, 1) do
+          0 -> raise "attempted to cast WxWindows.WxObject #{inspect proc} but no handle_cast/2 clause was provided"
+          1 -> {:stop, {:bad_cast, msg}, state}
+        end
+      end
 
-  #     @doc false
-  #     def terminate(_reason, _state) do
-  #       :ok
-  #     end
+      @doc false
+      def terminate(_reason, _state) do
+        :ok
+      end
 
-  #     @doc false
-  #     def code_change(_old, state, _extra) do
-  #       {:ok, state}
-  #     end
+      @doc false
+      def code_change(_old, state, _extra) do
+        {:ok, state}
+      end
 
       defoverridable :wx_object
     end

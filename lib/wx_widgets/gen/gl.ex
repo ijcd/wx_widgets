@@ -230,7 +230,7 @@ defmodule WxWidgets.Generated.Gl do
         :gl.bufferSubData(target, offset, size, data)
       end
 
-      
+
       def call(a, b) do
         :gl.call(a, b)
       end
@@ -245,7 +245,7 @@ defmodule WxWidgets.Generated.Gl do
         :gl.callLists(lists)
       end
 
-      
+
       def cast(a, b) do
         :gl.cast(a, b)
       end
@@ -3365,7 +3365,7 @@ defmodule WxWidgets.Generated.Gl do
         :gl.selectBuffer(size, buffer)
       end
 
-      
+
       def send_bin(a) do
         :gl.send_bin(a)
       end
