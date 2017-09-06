@@ -15,12 +15,13 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
   def run(["--erl"]) do
     for file <- Path.wildcard("src/specs/*.xml") do
       # files = [
-      #   "src/specs/specs_wxImage.xml",
-      #   "src/specs/specs_wxStyledTextCtrl.xml",
-      #   "src/specs/specs_wxRegion.xml",
-      #   "src/specs/specs_wxCheckListBox.xml",
+      #   # "src/specs/specs_wxImage.xml",
+      #   # "src/specs/specs_wxStyledTextCtrl.xml",
+      #   # "src/specs/specs_wxRegion.xml",
+      #   # "src/specs/specs_wxCheckListBox.xml",
+      #   "src/specs/specs_wxFrame.xml",
       # ]
-      # if file in files, do: gen_wrapper(file)
+      # if file in files, do: gen_wrappers(file)
 
       gen_wrappers(file)
     end
@@ -28,13 +29,13 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
 
   def run(["--hrl"]) do
     for file <- Path.wildcard("src/include/*.hrl") do
-      # files = [
-      #   "src/specs/specs_wxImage.xml",
-      #   "src/specs/specs_wxStyledTextCtrl.xml",
-      #   "src/specs/specs_wxRegion.xml",
-      #   "src/specs/specs_wxCheckListBox.xml",
-      # ]
-      # if file in files, do: gen_wrapper(file)
+      files = [
+        "src/specs/specs_wxImage.xml",
+        "src/specs/specs_wxStyledTextCtrl.xml",
+        "src/specs/specs_wxRegion.xml",
+        "src/specs/specs_wxCheckListBox.xml",
+      ]
+      if file in files, do: gen_hrlwrapper(file)
 
       gen_hrlwrapper(file)
     end

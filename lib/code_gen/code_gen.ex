@@ -132,25 +132,36 @@ constant(const#{constant}) ->
     # build the call from the first spec
     spec = List.first(specs)
 
-    if spec.head do
-      atspecs = (for _s <- specs, do: build_spec(mod, spec)) |> Enum.uniq |> Enum.join
+    atspecs = case spec.head do
+                nil -> ""
+                _ ->  (for _s <- specs, do: build_spec(mod, spec)) |> Enum.uniq |> Enum.join
+              end
 
 """
   #{atspecs}
 #{build_def(mod, specs |> List.first)}
 """
-    else
-      ""
-    end
   end
 
   def build_def(mod, spec) do
-    [{:specdef, {:call, sym, args}, _ret}] = AST.erlang_to_ast(spec.head)
+    {method_def, method_call} =
+      case spec.head do
+        nil ->
+          call_args =
+            (?a..?z)
+            |> Enum.map(fn c -> {:variable, <<c>>} end)
+            |> Enum.take(spec.arity)
+          method_def = {:call, {:symbol, spec.name}, call_args} |> AST.ast_to_elixir
+          method_call = {:module_ref, {:symbol, mod.name}, {:call, {:symbol, spec.name}, call_args}} |> AST.ast_to_elixir(unquote_calls: false)
+          {method_def, method_call}
 
-    call_args = build_call_args(args)
-
-    method_def = {:call, sym, call_args} |> AST.ast_to_elixir
-    method_call = {:module_ref, {:symbol, mod.name}, {:call, sym, call_args}} |> AST.ast_to_elixir(unquote_calls: false)
+        _ ->
+          [{:specdef, {:call, sym, args}, _ret}] = AST.erlang_to_ast(spec.head)
+          call_args = build_call_args(args)
+          method_def = {:call, sym, call_args} |> AST.ast_to_elixir
+          method_call = {:module_ref, {:symbol, mod.name}, {:call, sym, call_args}} |> AST.ast_to_elixir(unquote_calls: false)
+          {method_def, method_call}
+      end
 
 """
       def #{method_def} do
