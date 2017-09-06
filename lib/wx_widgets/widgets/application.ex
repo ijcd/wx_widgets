@@ -11,7 +11,8 @@ defmodule WxWidgets.Application do
       # Starts a worker by calling: WxWidgets.Worker.start_link(arg)
       # {WxWidgets.Worker, arg},
 
-      #WxWidgets.Examples.Elixir.Simple,
+      # WxWidgets.Examples.Elixir.Simple,
+      {WxWidgets.WxObjectServer, [WxWidgets.Examples.Elixir.Full]},
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

@@ -42,8 +42,8 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
   end
 
   def gen_wrappers(src) do
-    wrapper_module_dir = "lib/wx_widgets/gen"
-    wrapping_module_dir = "lib/wx_widgets"
+    wrapper_module_dir = "lib/wx_widgets/widgets/gen"
+    wrapping_module_dir = "lib/wx_widgets/widgets"
 
     camel =
       src

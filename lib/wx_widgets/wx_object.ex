@@ -4,18 +4,14 @@ defmodule WxWidgets.WxObject do
   @doc false
   defmacro __using__(opts) do
     quote location: :keep, bind_quoted: [opts: opts] do
-      alias WxWidgets
       import WxWidgets
 
       @behaviour :wx_object
 
-      spec = [
-        id: opts[:id] || __MODULE__,
-        start: Macro.escape(opts[:start]) || quote(do: {__MODULE__, :start_link, [arg]}),
-        restart: opts[:restart] || :permanent,
-        shutdown: opts[:shutdown] || 5000,
-        type: :worker
-      ]
+      spec = [ id: opts[:id] || __MODULE__, start:
+        Macro.escape(opts[:start]) || quote(do: {__MODULE__,
+        :start_link, [arg]}), restart: opts[:restart] || :permanent,
+        shutdown: opts[:shutdown] || 5000, type: :worker ]
 
       @doc false
       def child_spec(arg) do
@@ -44,6 +40,7 @@ defmodule WxWidgets.WxObject do
 
       @doc false
       def start_link() do
+        IO.inspect(label: "START_LINK0")
         WxWidgets.WxObject.start_link(__MODULE__, [], [])
       end
 
@@ -51,6 +48,7 @@ defmodule WxWidgets.WxObject do
 
       @doc false
       def start_link(mod, args \\ [], options \\ []) do
+        IO.inspect({mod, args, options}, label: "START_LINK3")
         WxWidgets.WxObject.start_link(mod, args, options)
       end
 

@@ -12,7 +12,7 @@ import_includes:
 import: build_edocs import_edocs import_includes
 
 clean_generated:
-	rm -rf lib/wx_widgets/gen
+	rm -rf lib/wx_widgets/widgets/gen
 	rm -rf src/*_const.erl
 
 regenerate_erl_wrappers:
