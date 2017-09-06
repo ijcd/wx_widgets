@@ -2,8 +2,18 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxGraphicsFont do
+defmodule WxWidgets.Generated.WxGraphicsFont do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxGraphicsFont_t :: :wxGraphicsFont.wxGraphicsFont()
+      @type wxGraphicsFont_t :: :wxGraphicsFont.wxGraphicsFont()
 
+    
+
+    
+
+    
+
+    end
+  end
 end

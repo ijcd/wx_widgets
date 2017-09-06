@@ -2,33 +2,39 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxBitmapDataObject do
+defmodule WxWidgets.Generated.WxBitmapDataObject do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxBitmapDataObject_t :: :wxBitmapDataObject.wxBitmapDataObject()
+      @type wxBitmapDataObject_t :: :wxBitmapDataObject.wxBitmapDataObject()
 
-  # @spec destroy(this :: t()) :: :ok
-  def destroy(this) do
-    :wxBitmapDataObject.destroy(this)
+      # @spec destroy(this :: t()) :: :ok
+      def destroy(this) do
+        :wxBitmapDataObject.destroy(this)
+      end
+
+      # @spec getBitmap(this :: t()) :: :wxBitmap.wxBitmap()
+      def getBitmap(this) do
+        :wxBitmapDataObject.getBitmap(this)
+      end
+
+      # @spec new() :: t()
+      def new() do
+        :wxBitmapDataObject.new()
+      end
+
+      # @spec new(options :: [option]) :: t() when option: {:bitmap, :wxBitmap.wxBitmap()}
+      def new(options) do
+        :wxBitmapDataObject.new(options)
+      end
+
+    
+
+      # @spec setBitmap(this :: t(), bitmap :: :wxBitmap.wxBitmap()) :: :ok
+      def setBitmap(this, bitmap) do
+        :wxBitmapDataObject.setBitmap(this, bitmap)
+      end
+
+    end
   end
-
-  # @spec getBitmap(this :: t()) :: :wxBitmap.wxBitmap()
-  def getBitmap(this) do
-    :wxBitmapDataObject.getBitmap(this)
-  end
-
-  # @spec new() :: t()
-  def new() do
-    :wxBitmapDataObject.new()
-  end
-
-  # @spec new(options :: [option]) :: t() when option: {:bitmap, :wxBitmap.wxBitmap()}
-  def new(options) do
-    :wxBitmapDataObject.new(options)
-  end
-
-  # @spec setBitmap(this :: t(), bitmap :: :wxBitmap.wxBitmap()) :: :ok
-  def setBitmap(this, bitmap) do
-    :wxBitmapDataObject.setBitmap(this, bitmap)
-  end
-
 end

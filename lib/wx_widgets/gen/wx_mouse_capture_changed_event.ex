@@ -2,13 +2,37 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxMouseCaptureChangedEvent do
+defmodule WxWidgets.Generated.WxMouseCaptureChangedEvent do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxMouseCaptureChangedEvent_t :: :wxMouseCaptureChangedEvent.wxMouseCaptureChangedEvent()
+      @type wxMouseCaptureChangedEvent_t :: :wxMouseCaptureChangedEvent.wxMouseCaptureChangedEvent()
 
-  # @spec getCapturedWindow(this :: t()) :: :wxWindow.wxWindow()
-  def getCapturedWindow(this) do
-    :wxMouseCaptureChangedEvent.getCapturedWindow(this)
+      # @spec getCapturedWindow(this :: t()) :: :wxWindow.wxWindow()
+      def getCapturedWindow(this) do
+        :wxMouseCaptureChangedEvent.getCapturedWindow(this)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    end
   end
-
 end

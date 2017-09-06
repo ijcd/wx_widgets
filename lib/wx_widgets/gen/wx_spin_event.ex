@@ -2,18 +2,66 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxSpinEvent do
+defmodule WxWidgets.Generated.WxSpinEvent do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxSpinEvent_t :: :wxSpinEvent.wxSpinEvent()
+      @type wxSpinEvent_t :: :wxSpinEvent.wxSpinEvent()
 
-  # @spec getPosition(this :: t()) :: integer()
-  def getPosition(this) do
-    :wxSpinEvent.getPosition(this)
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec getPosition(this :: t()) :: integer()
+      def getPosition(this) do
+        :wxSpinEvent.getPosition(this)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec setPosition(this :: t(), pos :: integer()) :: :ok
+      def setPosition(this, pos) do
+        :wxSpinEvent.setPosition(this, pos)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    end
   end
-
-  # @spec setPosition(this :: t(), pos :: integer()) :: :ok
-  def setPosition(this, pos) do
-    :wxSpinEvent.setPosition(this, pos)
-  end
-
 end

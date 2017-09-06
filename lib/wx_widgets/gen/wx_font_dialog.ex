@@ -2,33 +2,475 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxFontDialog do
+defmodule WxWidgets.Generated.WxFontDialog do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxFontDialog_t :: :wxFontDialog.wxFontDialog()
+      @type wxFontDialog_t :: :wxFontDialog.wxFontDialog()
 
-  # @spec create(this :: t(), parent :: :wxWindow.wxWindow(), data :: :wxFontData.wxFontData()) :: boolean()
-  def create(this, parent, data) do
-    :wxFontDialog.create(this, parent, data)
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec create(this :: t(), parent :: :wxWindow.wxWindow(), data :: :wxFontData.wxFontData()) :: boolean()
+      def create(this, parent, data) do
+        :wxFontDialog.create(this, parent, data)
+      end
+
+    
+
+    
+
+      # @spec destroy(this :: t()) :: :ok
+      def destroy(this) do
+        :wxFontDialog.destroy(this)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec getFontData(this :: t()) :: :wxFontData.wxFontData()
+      def getFontData(this) do
+        :wxFontDialog.getFontData(this)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec new() :: t()
+      def new() do
+        :wxFontDialog.new()
+      end
+
+      # @spec new(parent :: :wxWindow.wxWindow(), data :: :wxFontData.wxFontData()) :: t()
+      def new(parent, data) do
+        :wxFontDialog.new(parent, data)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    end
   end
-
-  # @spec destroy(this :: t()) :: :ok
-  def destroy(this) do
-    :wxFontDialog.destroy(this)
-  end
-
-  # @spec getFontData(this :: t()) :: :wxFontData.wxFontData()
-  def getFontData(this) do
-    :wxFontDialog.getFontData(this)
-  end
-
-  # @spec new() :: t()
-  def new() do
-    :wxFontDialog.new()
-  end
-
-  # @spec new(parent :: :wxWindow.wxWindow(), data :: :wxFontData.wxFontData()) :: t()
-  def new(parent, data) do
-    :wxFontDialog.new(parent, data)
-  end
-
 end

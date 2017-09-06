@@ -2,8 +2,80 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxGBSizerItem do
+defmodule WxWidgets.Generated.WxGBSizerItem do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxGBSizerItem_t :: :wxGBSizerItem.wxGBSizerItem()
+      @type wxGBSizerItem_t :: :wxGBSizerItem.wxGBSizerItem()
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    end
+  end
 end

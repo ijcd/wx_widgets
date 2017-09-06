@@ -2,38 +2,416 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxMDIClientWindow do
+defmodule WxWidgets.Generated.WxMDIClientWindow do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxMDIClientWindow_t :: :wxMDIClientWindow.wxMDIClientWindow()
+      @type wxMDIClientWindow_t :: :wxMDIClientWindow.wxMDIClientWindow()
 
-  # @spec createClient(this :: t(), parent :: :wxMDIParentFrame.wxMDIParentFrame()) :: boolean()
-  def createClient(this, parent) do
-    :wxMDIClientWindow.createClient(this, parent)
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec createClient(this :: t(), parent :: :wxMDIParentFrame.wxMDIParentFrame()) :: boolean()
+      def createClient(this, parent) do
+        :wxMDIClientWindow.createClient(this, parent)
+      end
+
+      # @spec createClient(this :: t(), parent :: :wxMDIParentFrame.wxMDIParentFrame(), options :: [option]) :: boolean() when option: {:style, integer()}
+      def createClient(this, parent, options) do
+        :wxMDIClientWindow.createClient(this, parent, options)
+      end
+
+      # @spec destroy(this :: t()) :: :ok
+      def destroy(this) do
+        :wxMDIClientWindow.destroy(this)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      # @spec new() :: t()
+      def new() do
+        :wxMDIClientWindow.new()
+      end
+
+      # @spec new(parent :: :wxMDIParentFrame.wxMDIParentFrame()) :: t()
+      def new(parent) do
+        :wxMDIClientWindow.new(parent)
+      end
+
+      # @spec new(parent :: :wxMDIParentFrame.wxMDIParentFrame(), options :: [option]) :: t() when option: {:style, integer()}
+      def new(parent, options) do
+        :wxMDIClientWindow.new(parent, options)
+      end
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    end
   end
-
-  # @spec createClient(this :: t(), parent :: :wxMDIParentFrame.wxMDIParentFrame(), options :: [option]) :: boolean() when option: {:style, integer()}
-  def createClient(this, parent, options) do
-    :wxMDIClientWindow.createClient(this, parent, options)
-  end
-
-  # @spec destroy(this :: t()) :: :ok
-  def destroy(this) do
-    :wxMDIClientWindow.destroy(this)
-  end
-
-  # @spec new() :: t()
-  def new() do
-    :wxMDIClientWindow.new()
-  end
-
-  # @spec new(parent :: :wxMDIParentFrame.wxMDIParentFrame()) :: t()
-  def new(parent) do
-    :wxMDIClientWindow.new(parent)
-  end
-
-  # @spec new(parent :: :wxMDIParentFrame.wxMDIParentFrame(), options :: [option]) :: t() when option: {:style, integer()}
-  def new(parent, options) do
-    :wxMDIClientWindow.new(parent, options)
-  end
-
 end

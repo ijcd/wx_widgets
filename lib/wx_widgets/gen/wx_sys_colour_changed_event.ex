@@ -2,8 +2,32 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.WxSysColourChangedEvent do
+defmodule WxWidgets.Generated.WxSysColourChangedEvent do
+  defmacro __using__(_params) do
+    quote do
 
-  @type wxSysColourChangedEvent_t :: :wxSysColourChangedEvent.wxSysColourChangedEvent()
+      @type wxSysColourChangedEvent_t :: :wxSysColourChangedEvent.wxSysColourChangedEvent()
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    end
+  end
 end
