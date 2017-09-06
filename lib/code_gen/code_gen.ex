@@ -84,7 +84,7 @@ constant(const#{constant}) ->
 """
   end
 
-  def generate_module(specfile) do
+  def generate_wrapped_module(specfile) do
     mod = parse_specfile(specfile)
 
     # group by [name, arity] for proper placement adjacency in the generated file
@@ -95,13 +95,26 @@ constant(const#{constant}) ->
       |> Enum.sort_by(fn {[name, arity], _} -> [AST.erlang_to_elixir(name), arity] end)
 
     EEx.eval_file(
-      "lib/templates/module_template.eex",
+      "lib/templates/wrapped_module_template.eex",
       [
         assigns: [
           elixir_module_name: Macro.camelize(mod.name),
           mod: mod,
           types: mod.types,
           specs: specs,
+        ]
+      ]
+    )
+  end
+
+  def generate_wrapping_module(specfile) do
+    mod = parse_specfile(specfile)
+
+    EEx.eval_file(
+      "lib/templates/wrapping_module_template.eex",
+      [
+        assigns: [
+          elixir_module_name: Macro.camelize(mod.name),
         ]
       ]
     )

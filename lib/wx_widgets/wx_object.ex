@@ -31,6 +31,19 @@ defmodule WxWidgets.WxObject do
       # end
 
       @doc false
+      def init(config) do
+        config
+        |> WxWidgets.Wx.new()
+        |> build()
+      end
+
+      @doc false
+      def build(wx) do
+        win = :wxWindow.new()
+        {win, %{}}
+      end
+
+      @doc false
       def start_link() do
         WxWidgets.WxObject.start_link(__MODULE__, [], [])
       end
@@ -99,6 +112,13 @@ defmodule WxWidgets.WxObject do
       defoverridable :wx_object
     end
   end
+
+  @callback build(:wx.wx_object()) ::
+    {:wx.wx_object(), state} |
+    {:wx.wx_object(), state, timeout} |
+    :ignore |
+    {:stop, reason :: any} when state: any
+
 
 
   # @moduledoc """

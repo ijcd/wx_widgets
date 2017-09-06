@@ -10,36 +10,36 @@ defmodule WxWidgets.Examples.Elixir.Full do
   #################################
   # :wx_object behavior callbacks #
   #################################
-  def init(config) do
-    config
-    |> WxWidgets.Wx.new()
-    |> build()
-  end
+  # def init(config) do
+  #   config
+  #   |> WxWidgets.Wx.new()
+  #   |> build()
+  # end
 
-  def build(wx) do
-    frame = :wxFrame.new(wx, wx_const(:wxID_ANY), @title, [{:size, @size}])
-    :wxWindow.connect(frame, :close_window)
-    :wxFrame.show(frame)
+  # def build(wx) do
+  #   frame = :wxFrame.new(wx, wx_const(:wxID_ANY), @title, [{:size, @size}])
+  #   :wxWindow.connect(frame, :close_window)
+  #   :wxFrame.show(frame)
 
-    opts = [{:size, @size}]
-    gl_attrib = [{:attribList, [wx_const(:WX_GL_RGBA),
-                                wx_const(:WX_GL_DOUBLEBUFFER),
-                                wx_const(:WX_GL_MIN_RED), 8,
-                                wx_const(:WX_GL_MIN_GREEN), 8,
-                                wx_const(:WX_GL_MIN_BLUE), 8,
-                                wx_const(:WX_GL_DEPTH_SIZE), 24, 0]}]
-    canvas = :wxGLCanvas.new(frame, opts ++ gl_attrib)
+  #   opts = [{:size, @size}]
+  #   gl_attrib = [{:attribList, [wx_const(:WX_GL_RGBA),
+  #                               wx_const(:WX_GL_DOUBLEBUFFER),
+  #                               wx_const(:WX_GL_MIN_RED), 8,
+  #                               wx_const(:WX_GL_MIN_GREEN), 8,
+  #                               wx_const(:WX_GL_MIN_BLUE), 8,
+  #                               wx_const(:WX_GL_DEPTH_SIZE), 24, 0]}]
+  #   canvas = :wxGLCanvas.new(frame, opts ++ gl_attrib)
 
-    :wxGLCanvas.connect(canvas, :size)
-    :wxWindow.reparent(canvas, frame)
-    :wxGLCanvas.setCurrent(canvas)
-    setup_gl(canvas)
+  #   :wxGLCanvas.connect(canvas, :size)
+  #   :wxWindow.reparent(canvas, frame)
+  #   :wxGLCanvas.setCurrent(canvas)
+  #   setup_gl(canvas)
 
-    # Periodically send a message to trigger a redraw of the scene
-    timer = :timer.send_interval(20, self(), :update)
+  #   # Periodically send a message to trigger a redraw of the scene
+  #   timer = :timer.send_interval(20, self(), :update)
 
-    {frame, %{canvas: canvas, timer: timer}}
-  end
+  #   {frame, %{canvas: canvas, timer: timer}}
+  # end
 
   def code_change(_, _, state) do
     {:stop, :not_implemented, state}

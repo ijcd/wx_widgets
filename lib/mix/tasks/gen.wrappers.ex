@@ -22,7 +22,7 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
       # ]
       # if file in files, do: gen_wrapper(file)
 
-      gen_wrapper(file)
+      gen_wrappers(file)
     end
   end
 
@@ -40,8 +40,9 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
     end
   end
 
-  def gen_wrapper(src) do
-    module_dir = "lib/wx_widgets/gen"
+  def gen_wrappers(src) do
+    wrapper_module_dir = "lib/wx_widgets/gen"
+    wrapping_module_dir = "lib/wx_widgets"
 
     camel =
       src
@@ -49,20 +50,35 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
       |> String.trim_leading("specs_")
       |> Macro.camelize
 
-    target =
+    wrapper_target =
       camel
       |> Macro.underscore
-      |> (fn u -> Path.join([module_dir, "#{u}.ex"]) end).()
+      |> (fn u -> Path.join([wrapper_module_dir, "#{u}.ex"]) end).()
 
-    IO.puts("Generating module #{camel} for #{src} at #{target}")
-
-	content =
+    IO.puts("Generating wrapper module #{camel} for #{src} at #{wrapper_target}")
+	wrapper_content =
       src
-      |> WxWidgets.CodeGen.generate_module
+      |> WxWidgets.CodeGen.generate_wrapped_module
       |> String.replace(~r/\n{2,}/, "\n\n")
+    :ok = File.mkdir_p!(wrapper_module_dir)
+    File.write!(wrapper_target, wrapper_content)
 
-    :ok = File.mkdir_p!(module_dir)
-    File.write!(target, content)
+    wrapping_target =
+      camel
+      |> Macro.underscore
+      |> (fn u -> Path.join([wrapping_module_dir, "#{u}.ex"]) end).()
+
+    unless File.exists?(wrapping_target) do
+      IO.puts("Generating wrapping module #{camel} for #{src} at #{wrapping_target}")
+
+      # maybe gen
+	  wrapping_content =
+        src
+        |> WxWidgets.CodeGen.generate_wrapping_module
+        |> String.replace(~r/\n{2,}/, "\n\n")
+
+      File.write!(wrapping_target, wrapping_content)
+    end
   end
 
   def gen_hrlwrapper(src) do
