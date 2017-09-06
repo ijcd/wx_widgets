@@ -40,7 +40,6 @@ defmodule WxWidgets.WxObject do
 
       @doc false
       def start_link() do
-        IO.inspect(label: "START_LINK0")
         WxWidgets.WxObject.start_link(__MODULE__, [], [])
       end
 

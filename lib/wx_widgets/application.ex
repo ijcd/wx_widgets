@@ -12,7 +12,10 @@ defmodule WxWidgets.Application do
       # {WxWidgets.Worker, arg},
 
       # WxWidgets.Examples.Elixir.Simple,
-      {WxWidgets.WxObjectServer, [WxWidgets.Examples.Elixir.Full]},
+      %{
+        id: :full,
+        start: {WxWidgets.WxObjectServer, :start_link, [WxWidgets.Examples.Elixir.Full, [name: :full]]}
+      }
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
