@@ -58,7 +58,10 @@ defmodule WxWidgets.Generated.WxFontData do
         :wxFontData.new(data)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxFontData.parent_class(a)
+      end
 
       # @spec setAllowSymbols(this :: t(), flag :: boolean()) :: :ok
       def setAllowSymbols(this, flag) do

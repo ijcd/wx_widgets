@@ -18,7 +18,10 @@ defmodule WxWidgets.Generated.WxOverlay do
         :wxOverlay.new()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxOverlay.parent_class(a)
+      end
 
       # @spec reset(this :: t()) :: :ok
       def reset(this) do

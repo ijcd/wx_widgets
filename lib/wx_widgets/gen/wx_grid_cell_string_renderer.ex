@@ -13,16 +13,25 @@ defmodule WxWidgets.Generated.WxGridCellStringRenderer do
         :wxGridCellStringRenderer.destroy(this)
       end
 
-    
+      
+      def draw(a, b, c, d, e, f, g, h) do
+        :wxGridCellStringRenderer.draw(a, b, c, d, e, f, g, h)
+      end
 
-    
+      
+      def getBestSize(a, b, c, d, e, f) do
+        :wxGridCellStringRenderer.getBestSize(a, b, c, d, e, f)
+      end
 
       # @spec new() :: t()
       def new() do
         :wxGridCellStringRenderer.new()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGridCellStringRenderer.parent_class(a)
+      end
 
     end
   end

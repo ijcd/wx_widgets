@@ -88,7 +88,10 @@ defmodule WxWidgets.Generated.WxRegion do
         :wxRegion.offset(this, x, y)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxRegion.parent_class(a)
+      end
 
       # @spec subtract(this :: t(), region :: t()) :: boolean()
       def subtract(this, region) do

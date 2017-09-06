@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxPageSetupDialog do
         :wxPageSetupDialog.new(parent, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPageSetupDialog.parent_class(a)
+      end
 
       # @spec showModal(this :: t()) :: integer()
       def showModal(this) do

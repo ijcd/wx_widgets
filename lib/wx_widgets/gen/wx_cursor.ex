@@ -8,30 +8,60 @@ defmodule WxWidgets.Generated.WxCursor do
 
       @type wxCursor_t :: :wxCursor.wxCursor()
 
-    
+      
+      def convertToImage(a) do
+        :wxCursor.convertToImage(a)
+      end
 
-    
+      
+      def copyFromIcon(a, b) do
+        :wxCursor.copyFromIcon(a, b)
+      end
 
       # @spec destroy(this :: t()) :: :ok
       def destroy(this) do
         :wxCursor.destroy(this)
       end
 
-    
+      
+      def getDepth(a) do
+        :wxCursor.getDepth(a)
+      end
 
-    
+      
+      def getHeight(a) do
+        :wxCursor.getHeight(a)
+      end
 
-    
+      
+      def getMask(a) do
+        :wxCursor.getMask(a)
+      end
 
-    
+      
+      def getPalette(a) do
+        :wxCursor.getPalette(a)
+      end
 
-    
+      
+      def getSubBitmap(a, b) do
+        :wxCursor.getSubBitmap(a, b)
+      end
 
-    
+      
+      def getWidth(a) do
+        :wxCursor.getWidth(a)
+      end
 
-    
+      
+      def loadFile(a, b) do
+        :wxCursor.loadFile(a, b)
+      end
 
-    
+      
+      def loadFile(a, b, c) do
+        :wxCursor.loadFile(a, b, c)
+      end
 
       # @spec new() :: t()
       def new() do
@@ -58,21 +88,45 @@ defmodule WxWidgets.Generated.WxCursor do
         :wxCursor.ok(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxCursor.parent_class(a)
+      end
 
-    
+      
+      def saveFile(a, b, c) do
+        :wxCursor.saveFile(a, b, c)
+      end
 
-    
+      
+      def saveFile(a, b, c, d) do
+        :wxCursor.saveFile(a, b, c, d)
+      end
 
-    
+      
+      def setDepth(a, b) do
+        :wxCursor.setDepth(a, b)
+      end
 
-    
+      
+      def setHeight(a, b) do
+        :wxCursor.setHeight(a, b)
+      end
 
-    
+      
+      def setMask(a, b) do
+        :wxCursor.setMask(a, b)
+      end
 
-    
+      
+      def setPalette(a, b) do
+        :wxCursor.setPalette(a, b)
+      end
 
-    
+      
+      def setWidth(a, b) do
+        :wxCursor.setWidth(a, b)
+      end
 
     end
   end

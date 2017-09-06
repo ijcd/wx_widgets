@@ -83,7 +83,10 @@ defmodule WxWidgets.Generated.WxCalendarDateAttr do
         :wxCalendarDateAttr.new(border, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxCalendarDateAttr.parent_class(a)
+      end
 
       # @spec setBackgroundColour(this :: t(), colBack :: :wx.wx_colour()) :: :ok
       def setBackgroundColour(this, colBack) do

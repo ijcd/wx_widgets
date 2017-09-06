@@ -103,9 +103,15 @@ defmodule WxWidgets.Generated.WxGraphicsPath do
         :wxGraphicsPath.getCurrentPoint(this)
       end
 
-    
+      
+      def getRenderer(a) do
+        :wxGraphicsPath.getRenderer(a)
+      end
 
-    
+      
+      def isNull(a) do
+        :wxGraphicsPath.isNull(a)
+      end
 
       # @spec moveToPoint(this :: t(), p :: {x :: float(), y :: float()}) :: :ok
       def moveToPoint(this, p) do
@@ -117,7 +123,10 @@ defmodule WxWidgets.Generated.WxGraphicsPath do
         :wxGraphicsPath.moveToPoint(this, x, y)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsPath.parent_class(a)
+      end
 
       # @spec transform(this :: t(), matrix :: :wxGraphicsMatrix.wxGraphicsMatrix()) :: :ok
       def transform(this, matrix) do

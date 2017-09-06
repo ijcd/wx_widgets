@@ -48,7 +48,10 @@ defmodule WxWidgets.Generated.WxLayoutAlgorithm do
         :wxLayoutAlgorithm.new()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxLayoutAlgorithm.parent_class(a)
+      end
 
     end
   end

@@ -73,7 +73,10 @@ defmodule WxWidgets.Generated.WxMouseEvent do
         :wxMouseEvent.getButton(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxMouseEvent.getId(a)
+      end
 
       # @spec getLinesPerAction(this :: t()) :: integer()
       def getLinesPerAction(this) do
@@ -90,9 +93,15 @@ defmodule WxWidgets.Generated.WxMouseEvent do
         :wxMouseEvent.getPosition(this)
       end
 
-    
+      
+      def getSkipped(a) do
+        :wxMouseEvent.getSkipped(a)
+      end
 
-    
+      
+      def getTimestamp(a) do
+        :wxMouseEvent.getTimestamp(a)
+      end
 
       # @spec getWheelDelta(this :: t()) :: integer()
       def getWheelDelta(this) do
@@ -119,7 +128,10 @@ defmodule WxWidgets.Generated.WxMouseEvent do
         :wxMouseEvent.isButton(this)
       end
 
-    
+      
+      def isCommandEvent(a) do
+        :wxMouseEvent.isCommandEvent(a)
+      end
 
       # @spec isPageScroll(this :: t()) :: boolean()
       def isPageScroll(this) do
@@ -181,9 +193,15 @@ defmodule WxWidgets.Generated.WxMouseEvent do
         :wxMouseEvent.moving(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxMouseEvent.parent_class(a)
+      end
 
-    
+      
+      def resumePropagation(a, b) do
+        :wxMouseEvent.resumePropagation(a, b)
+      end
 
       # @spec rightDClick(this :: t()) :: boolean()
       def rightDClick(this) do
@@ -210,13 +228,25 @@ defmodule WxWidgets.Generated.WxMouseEvent do
         :wxMouseEvent.shiftDown(this)
       end
 
-    
+      
+      def shouldPropagate(a) do
+        :wxMouseEvent.shouldPropagate(a)
+      end
 
-    
+      
+      def skip(a) do
+        :wxMouseEvent.skip(a)
+      end
 
-    
+      
+      def skip(a, b) do
+        :wxMouseEvent.skip(a, b)
+      end
 
-    
+      
+      def stopPropagation(a) do
+        :wxMouseEvent.stopPropagation(a)
+      end
 
     end
   end

@@ -18,7 +18,10 @@ defmodule WxWidgets.Generated.WxLogNull do
         :wxLogNull.new()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxLogNull.parent_class(a)
+      end
 
     end
   end

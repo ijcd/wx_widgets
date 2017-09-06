@@ -38,7 +38,10 @@ defmodule WxWidgets.Generated.WxFindReplaceData do
         :wxFindReplaceData.new(flags)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxFindReplaceData.parent_class(a)
+      end
 
       # @spec setFindString(this :: t(), str :: :unicode.chardata()) :: :ok
       def setFindString(this, str) do

@@ -38,7 +38,10 @@ defmodule WxWidgets.Generated.WxAcceleratorEntry do
         :wxAcceleratorEntry.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxAcceleratorEntry.parent_class(a)
+      end
 
       # @spec set(this :: t(), flags :: integer(), keyCode :: integer(), cmd :: integer()) :: :ok
       def set(this, flags, keyCode, cmd) do

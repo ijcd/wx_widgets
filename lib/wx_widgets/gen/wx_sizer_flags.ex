@@ -63,7 +63,10 @@ defmodule WxWidgets.Generated.WxSizerFlags do
         :wxSizerFlags.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxSizerFlags.parent_class(a)
+      end
 
       # @spec proportion(this :: t(), proportion :: integer()) :: t()
       def proportion(this, proportion) do

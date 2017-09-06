@@ -63,7 +63,10 @@ defmodule WxWidgets.Generated.WxGraphicsRenderer do
         :wxGraphicsRenderer.getDefaultRenderer()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsRenderer.parent_class(a)
+      end
 
     end
   end

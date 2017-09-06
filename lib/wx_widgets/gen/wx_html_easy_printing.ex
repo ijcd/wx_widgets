@@ -38,7 +38,10 @@ defmodule WxWidgets.Generated.WxHtmlEasyPrinting do
         :wxHtmlEasyPrinting.pageSetup(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxHtmlEasyPrinting.parent_class(a)
+      end
 
       # @spec previewFile(this :: t(), htmlfile :: :unicode.chardata()) :: boolean()
       def previewFile(this, htmlfile) do

@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxSystemOptions do
         :wxSystemOptions.isFalse(name)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxSystemOptions.parent_class(a)
+      end
 
       # @spec setOption(name :: :unicode.chardata(), value :: integer()) :: :ok
       def setOption(name, value) do

@@ -48,7 +48,10 @@ defmodule WxWidgets.Generated.WxJoystickEvent do
         :wxJoystickEvent.getButtonState(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxJoystickEvent.getId(a)
+      end
 
       # @spec getJoystick(this :: t()) :: integer()
       def getJoystick(this) do
@@ -60,9 +63,15 @@ defmodule WxWidgets.Generated.WxJoystickEvent do
         :wxJoystickEvent.getPosition(this)
       end
 
-    
+      
+      def getSkipped(a) do
+        :wxJoystickEvent.getSkipped(a)
+      end
 
-    
+      
+      def getTimestamp(a) do
+        :wxJoystickEvent.getTimestamp(a)
+      end
 
       # @spec getZPosition(this :: t()) :: integer()
       def getZPosition(this) do
@@ -74,7 +83,10 @@ defmodule WxWidgets.Generated.WxJoystickEvent do
         :wxJoystickEvent.isButton(this)
       end
 
-    
+      
+      def isCommandEvent(a) do
+        :wxJoystickEvent.isCommandEvent(a)
+      end
 
       # @spec isMove(this :: t()) :: boolean()
       def isMove(this) do
@@ -86,17 +98,35 @@ defmodule WxWidgets.Generated.WxJoystickEvent do
         :wxJoystickEvent.isZMove(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxJoystickEvent.parent_class(a)
+      end
 
-    
+      
+      def resumePropagation(a, b) do
+        :wxJoystickEvent.resumePropagation(a, b)
+      end
 
-    
+      
+      def shouldPropagate(a) do
+        :wxJoystickEvent.shouldPropagate(a)
+      end
 
-    
+      
+      def skip(a) do
+        :wxJoystickEvent.skip(a)
+      end
 
-    
+      
+      def skip(a, b) do
+        :wxJoystickEvent.skip(a, b)
+      end
 
-    
+      
+      def stopPropagation(a) do
+        :wxJoystickEvent.stopPropagation(a)
+      end
 
     end
   end

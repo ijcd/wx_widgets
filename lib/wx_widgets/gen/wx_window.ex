@@ -88,9 +88,15 @@ defmodule WxWidgets.Generated.WxWindow do
         :wxWindow.close(this, options)
       end
 
-    
+      
+      def connect(a, b) do
+        :wxWindow.connect(a, b)
+      end
 
-    
+      
+      def connect(a, b, c) do
+        :wxWindow.connect(a, b, c)
+      end
 
       # @spec convertDialogToPixels(this :: t(), sz :: {w :: integer(), h :: integer()}) :: {w :: integer(), h :: integer()}
       def convertDialogToPixels(this, sz) do
@@ -117,11 +123,20 @@ defmodule WxWidgets.Generated.WxWindow do
         :wxWindow.disable(this)
       end
 
-    
+      
+      def disconnect(a) do
+        :wxWindow.disconnect(a)
+      end
 
-    
+      
+      def disconnect(a, b) do
+        :wxWindow.disconnect(a, b)
+      end
 
-    
+      
+      def disconnect(a, b, c) do
+        :wxWindow.disconnect(a, b, c)
+      end
 
       # @spec dragAcceptFiles(this :: t(), accept :: boolean()) :: :ok
       def dragAcceptFiles(this, accept) do
@@ -573,7 +588,10 @@ defmodule WxWidgets.Generated.WxWindow do
         :wxWindow.pageUp(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxWindow.parent_class(a)
+      end
 
       # @spec popEventHandler(this :: t()) :: :wxEvtHandler.wxEvtHandler()
       def popEventHandler(this) do

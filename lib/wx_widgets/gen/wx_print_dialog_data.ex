@@ -98,7 +98,10 @@ defmodule WxWidgets.Generated.WxPrintDialogData do
         :wxPrintDialogData.new(dialogData)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPrintDialogData.parent_class(a)
+      end
 
       # @spec setCollate(this :: t(), flag :: boolean()) :: :ok
       def setCollate(this, flag) do

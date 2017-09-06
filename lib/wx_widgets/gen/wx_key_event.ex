@@ -23,7 +23,10 @@ defmodule WxWidgets.Generated.WxKeyEvent do
         :wxKeyEvent.controlDown(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxKeyEvent.getId(a)
+      end
 
       # @spec getKeyCode(this :: t()) :: integer()
       def getKeyCode(this) do
@@ -50,9 +53,15 @@ defmodule WxWidgets.Generated.WxKeyEvent do
         :wxKeyEvent.getRawKeyFlags(this)
       end
 
-    
+      
+      def getSkipped(a) do
+        :wxKeyEvent.getSkipped(a)
+      end
 
-    
+      
+      def getTimestamp(a) do
+        :wxKeyEvent.getTimestamp(a)
+      end
 
       # @spec getUnicodeKey(this :: t()) :: integer()
       def getUnicodeKey(this) do
@@ -74,29 +83,50 @@ defmodule WxWidgets.Generated.WxKeyEvent do
         :wxKeyEvent.hasModifiers(this)
       end
 
-    
+      
+      def isCommandEvent(a) do
+        :wxKeyEvent.isCommandEvent(a)
+      end
 
       # @spec metaDown(this :: t()) :: boolean()
       def metaDown(this) do
         :wxKeyEvent.metaDown(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxKeyEvent.parent_class(a)
+      end
 
-    
+      
+      def resumePropagation(a, b) do
+        :wxKeyEvent.resumePropagation(a, b)
+      end
 
       # @spec shiftDown(this :: t()) :: boolean()
       def shiftDown(this) do
         :wxKeyEvent.shiftDown(this)
       end
 
-    
+      
+      def shouldPropagate(a) do
+        :wxKeyEvent.shouldPropagate(a)
+      end
 
-    
+      
+      def skip(a) do
+        :wxKeyEvent.skip(a)
+      end
 
-    
+      
+      def skip(a, b) do
+        :wxKeyEvent.skip(a, b)
+      end
 
-    
+      
+      def stopPropagation(a) do
+        :wxKeyEvent.stopPropagation(a)
+      end
 
     end
   end

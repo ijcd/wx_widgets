@@ -23,7 +23,10 @@ defmodule WxWidgets.Generated.WxGraphicsObject do
         :wxGraphicsObject.isNull(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsObject.parent_class(a)
+      end
 
     end
   end

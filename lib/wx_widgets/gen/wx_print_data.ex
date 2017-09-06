@@ -73,7 +73,10 @@ defmodule WxWidgets.Generated.WxPrintData do
         :wxPrintData.new(printData)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPrintData.parent_class(a)
+      end
 
       # @spec setBin(this :: t(), bin :: :wx.wx_enum()) :: :ok
       def setBin(this, bin) do

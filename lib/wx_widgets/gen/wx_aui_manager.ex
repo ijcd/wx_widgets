@@ -23,9 +23,15 @@ defmodule WxWidgets.Generated.WxAuiManager do
         :wxAuiManager.addPane(this, window, pane_info, drop_pos)
       end
 
-    
+      
+      def connect(a, b) do
+        :wxAuiManager.connect(a, b)
+      end
 
-    
+      
+      def connect(a, b, c) do
+        :wxAuiManager.connect(a, b, c)
+      end
 
       # @spec destroy(this :: t()) :: :ok
       def destroy(this) do
@@ -37,11 +43,20 @@ defmodule WxWidgets.Generated.WxAuiManager do
         :wxAuiManager.detachPane(this, window)
       end
 
-    
+      
+      def disconnect(a) do
+        :wxAuiManager.disconnect(a)
+      end
 
-    
+      
+      def disconnect(a, b) do
+        :wxAuiManager.disconnect(a, b)
+      end
 
-    
+      
+      def disconnect(a, b, c) do
+        :wxAuiManager.disconnect(a, b, c)
+      end
 
       # @spec getAllPanes(this :: t()) :: [:wxAuiPaneInfo.wxAuiPaneInfo()]
       def getAllPanes(this) do
@@ -118,7 +133,10 @@ defmodule WxWidgets.Generated.WxAuiManager do
         :wxAuiManager.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxAuiManager.parent_class(a)
+      end
 
       # @spec savePaneInfo(this :: t(), pane :: :wxAuiPaneInfo.wxAuiPaneInfo()) :: :unicode.charlist()
       def savePaneInfo(this, pane) do

@@ -109,7 +109,10 @@ defmodule WxWidgets.Generated.Wx do
         :wx.null()
       end
 
-    
+      
+      def parent_class(a) do
+        :wx.parent_class(a)
+      end
 
       # @spec release_memory(wx_mem :: wx_memory()) :: :ok
       def release_memory(wx_mem) do

@@ -63,9 +63,15 @@ defmodule WxWidgets.Generated.WxMenu do
         :wxMenu.check(this, itemid, check)
       end
 
-    
+      
+      def connect(a, b) do
+        :wxMenu.connect(a, b)
+      end
 
-    
+      
+      def connect(a, b, c) do
+        :wxMenu.connect(a, b, c)
+      end
 
       # @spec delete(this :: t(), itemid :: integer()) :: boolean()
       def delete(this, itemid) do
@@ -82,11 +88,20 @@ defmodule WxWidgets.Generated.WxMenu do
         :wxMenu.'Destroy'(this, itemid)
       end
 
-    
+      
+      def disconnect(a) do
+        :wxMenu.disconnect(a)
+      end
 
-    
+      
+      def disconnect(a, b) do
+        :wxMenu.disconnect(a, b)
+      end
 
-    
+      
+      def disconnect(a, b, c) do
+        :wxMenu.disconnect(a, b, c)
+      end
 
       # @spec enable(this :: t(), itemid :: integer(), enable :: boolean()) :: :ok
       def enable(this, itemid, enable) do
@@ -198,7 +213,10 @@ defmodule WxWidgets.Generated.WxMenu do
         :wxMenu.new(title, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxMenu.parent_class(a)
+      end
 
       # @spec prepend(this :: t(), itemid :: integer()) :: :wxMenuItem.wxMenuItem()
       def prepend(this, itemid) do

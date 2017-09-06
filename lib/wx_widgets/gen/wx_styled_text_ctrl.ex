@@ -198,7 +198,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.braceMatch(this, pos)
       end
 
-    
+      
+      def cacheBestSize(a, b) do
+        :wxStyledTextCtrl.cacheBestSize(a, b)
+      end
 
       # @spec callTipActive(this :: t()) :: boolean()
       def callTipActive(this) do
@@ -255,7 +258,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.canRedo(this)
       end
 
-    
+      
+      def canSetTransparent(a) do
+        :wxStyledTextCtrl.canSetTransparent(a)
+      end
 
       # @spec canUndo(this :: t()) :: boolean()
       def canUndo(this) do
@@ -267,23 +273,50 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.cancel(this)
       end
 
-    
+      
+      def captureMouse(a) do
+        :wxStyledTextCtrl.captureMouse(a)
+      end
 
-    
+      
+      def center(a) do
+        :wxStyledTextCtrl.center(a)
+      end
 
-    
+      
+      def center(a, b) do
+        :wxStyledTextCtrl.center(a, b)
+      end
 
-    
+      
+      def centerOnParent(a) do
+        :wxStyledTextCtrl.centerOnParent(a)
+      end
 
-    
+      
+      def centerOnParent(a, b) do
+        :wxStyledTextCtrl.centerOnParent(a, b)
+      end
 
-    
+      
+      def centre(a) do
+        :wxStyledTextCtrl.centre(a)
+      end
 
-    
+      
+      def centre(a, b) do
+        :wxStyledTextCtrl.centre(a, b)
+      end
 
-    
+      
+      def centreOnParent(a) do
+        :wxStyledTextCtrl.centreOnParent(a)
+      end
 
-    
+      
+      def centreOnParent(a, b) do
+        :wxStyledTextCtrl.centreOnParent(a, b)
+      end
 
       # @spec charLeft(this :: t()) :: :ok
       def charLeft(this) do
@@ -330,7 +363,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.clearAll(this)
       end
 
-    
+      
+      def clearBackground(a) do
+        :wxStyledTextCtrl.clearBackground(a)
+      end
 
       # @spec clearDocumentStyle(this :: t()) :: :ok
       def clearDocumentStyle(this) do
@@ -342,13 +378,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.clearRegisteredImages(this)
       end
 
-    
+      
+      def clientToScreen(a, b) do
+        :wxStyledTextCtrl.clientToScreen(a, b)
+      end
 
-    
+      
+      def clientToScreen(a, b, c) do
+        :wxStyledTextCtrl.clientToScreen(a, b, c)
+      end
 
-    
+      
+      def close(a) do
+        :wxStyledTextCtrl.close(a)
+      end
 
-    
+      
+      def close(a, b) do
+        :wxStyledTextCtrl.close(a, b)
+      end
 
       # @spec cmdKeyAssign(this :: t(), key :: integer(), modifiers :: integer(), cmd :: integer()) :: :ok
       def cmdKeyAssign(this, key, modifiers, cmd) do
@@ -375,18 +423,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.colourise(this, start, end_)
       end
 
-    
+      
+      def connect(a, b) do
+        :wxStyledTextCtrl.connect(a, b)
+      end
 
-    
+      
+      def connect(a, b, c) do
+        :wxStyledTextCtrl.connect(a, b, c)
+      end
 
-    
+      
+      def convertDialogToPixels(a, b) do
+        :wxStyledTextCtrl.convertDialogToPixels(a, b)
+      end
 
       # @spec convertEOLs(this :: t(), eolMode :: integer()) :: :ok
       def convertEOLs(this, eolMode) do
         :wxStyledTextCtrl.convertEOLs(this, eolMode)
       end
 
-    
+      
+      def convertPixelsToDialog(a, b) do
+        :wxStyledTextCtrl.convertPixelsToDialog(a, b)
+      end
 
       # @spec copy(this :: t()) :: :ok
       def copy(this) do
@@ -453,15 +513,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.destroy(this)
       end
 
-    
+      
+      def destroyChildren(a) do
+        :wxStyledTextCtrl.destroyChildren(a)
+      end
 
-    
+      
+      def disable(a) do
+        :wxStyledTextCtrl.disable(a)
+      end
 
-    
+      
+      def disconnect(a) do
+        :wxStyledTextCtrl.disconnect(a)
+      end
 
-    
+      
+      def disconnect(a, b) do
+        :wxStyledTextCtrl.disconnect(a, b)
+      end
 
-    
+      
+      def disconnect(a, b, c) do
+        :wxStyledTextCtrl.disconnect(a, b, c)
+      end
 
       # @spec doDragOver(this :: t(), x :: integer(), y :: integer(), def :: :wx.wx_enum()) :: :wx.wx_enum()
       def doDragOver(this, x, y, def) do
@@ -498,7 +573,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.documentStartExtend(this)
       end
 
-    
+      
+      def dragAcceptFiles(a, b) do
+        :wxStyledTextCtrl.dragAcceptFiles(a, b)
+      end
 
       # @spec editToggleOvertype(this :: t()) :: :ok
       def editToggleOvertype(this) do
@@ -510,9 +588,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.emptyUndoBuffer(this)
       end
 
-    
+      
+      def enable(a) do
+        :wxStyledTextCtrl.enable(a)
+      end
 
-    
+      
+      def enable(a, b) do
+        :wxStyledTextCtrl.enable(a, b)
+      end
 
       # @spec endUndoAction(this :: t()) :: :ok
       def endUndoAction(this) do
@@ -549,11 +633,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.findText(this, minPos, maxPos, text, options)
       end
 
-    
+      
+      def findWindow(a, b) do
+        :wxStyledTextCtrl.findWindow(a, b)
+      end
 
-    
+      
+      def fit(a) do
+        :wxStyledTextCtrl.fit(a)
+      end
 
-    
+      
+      def fitInside(a) do
+        :wxStyledTextCtrl.fitInside(a)
+      end
 
       # @spec formFeed(this :: t()) :: :ok
       def formFeed(this) do
@@ -565,9 +658,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.formatRange(this, doDraw, startPos, endPos, draw, target, renderRect, pageRect)
       end
 
-    
+      
+      def freeze(a) do
+        :wxStyledTextCtrl.freeze(a)
+      end
 
-    
+      
+      def getAcceleratorTable(a) do
+        :wxStyledTextCtrl.getAcceleratorTable(a)
+      end
 
       # @spec getAnchor(this :: t()) :: integer()
       def getAnchor(this) do
@@ -579,18 +678,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getBackSpaceUnIndents(this)
       end
 
-    
+      
+      def getBackgroundColour(a) do
+        :wxStyledTextCtrl.getBackgroundColour(a)
+      end
 
-    
+      
+      def getBackgroundStyle(a) do
+        :wxStyledTextCtrl.getBackgroundStyle(a)
+      end
 
-    
+      
+      def getBestSize(a) do
+        :wxStyledTextCtrl.getBestSize(a)
+      end
 
       # @spec getBufferedDraw(this :: t()) :: boolean()
       def getBufferedDraw(this) do
         :wxStyledTextCtrl.getBufferedDraw(this)
       end
 
-    
+      
+      def getCaret(a) do
+        :wxStyledTextCtrl.getCaret(a)
+      end
 
       # @spec getCaretForeground(this :: t()) :: :wx.wx_colour4()
       def getCaretForeground(this) do
@@ -632,13 +743,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getCharAt(this, pos)
       end
 
-    
+      
+      def getCharHeight(a) do
+        :wxStyledTextCtrl.getCharHeight(a)
+      end
 
-    
+      
+      def getCharWidth(a) do
+        :wxStyledTextCtrl.getCharWidth(a)
+      end
 
-    
+      
+      def getChildren(a) do
+        :wxStyledTextCtrl.getChildren(a)
+      end
 
-    
+      
+      def getClientSize(a) do
+        :wxStyledTextCtrl.getClientSize(a)
+      end
 
       # @spec getCodePage(this :: t()) :: integer()
       def getCodePage(this) do
@@ -650,9 +773,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getColumn(this, pos)
       end
 
-    
+      
+      def getContainingSizer(a) do
+        :wxStyledTextCtrl.getContainingSizer(a)
+      end
 
-    
+      
+      def getContentScaleFactor(a) do
+        :wxStyledTextCtrl.getContentScaleFactor(a)
+      end
 
       # @spec getControlCharSymbol(this :: t()) :: integer()
       def getControlCharSymbol(this) do
@@ -679,9 +808,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getCurrentPos(this)
       end
 
-    
+      
+      def getCursor(a) do
+        :wxStyledTextCtrl.getCursor(a)
+      end
 
-    
+      
+      def getDropTarget(a) do
+        :wxStyledTextCtrl.getDropTarget(a)
+      end
 
       # @spec getEOLMode(this :: t()) :: integer()
       def getEOLMode(this) do
@@ -713,9 +848,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getEndStyled(this)
       end
 
-    
+      
+      def getEventHandler(a) do
+        :wxStyledTextCtrl.getEventHandler(a)
+      end
 
-    
+      
+      def getExtraStyle(a) do
+        :wxStyledTextCtrl.getExtraStyle(a)
+      end
 
       # @spec getFirstVisibleLine(this :: t()) :: integer()
       def getFirstVisibleLine(this) do
@@ -737,22 +878,40 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getFoldParent(this, line)
       end
 
-    
+      
+      def getFont(a) do
+        :wxStyledTextCtrl.getFont(a)
+      end
 
-    
+      
+      def getForegroundColour(a) do
+        :wxStyledTextCtrl.getForegroundColour(a)
+      end
 
-    
+      
+      def getGrandParent(a) do
+        :wxStyledTextCtrl.getGrandParent(a)
+      end
 
-    
+      
+      def getHandle(a) do
+        :wxStyledTextCtrl.getHandle(a)
+      end
 
-    
+      
+      def getHelpText(a) do
+        :wxStyledTextCtrl.getHelpText(a)
+      end
 
       # @spec getHighlightGuide(this :: t()) :: integer()
       def getHighlightGuide(this) do
         :wxStyledTextCtrl.getHighlightGuide(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxStyledTextCtrl.getId(a)
+      end
 
       # @spec getIndent(this :: t()) :: integer()
       def getIndent(this) do
@@ -764,7 +923,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getIndentationGuides(this)
       end
 
-    
+      
+      def getLabel(a) do
+        :wxStyledTextCtrl.getLabel(a)
+      end
 
       # @spec getLastChild(this :: t(), line :: integer(), level :: integer()) :: integer()
       def getLastChild(this, line, level) do
@@ -866,9 +1028,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getMaxLineState(this)
       end
 
-    
+      
+      def getMaxSize(a) do
+        :wxStyledTextCtrl.getMaxSize(a)
+      end
 
-    
+      
+      def getMinSize(a) do
+        :wxStyledTextCtrl.getMinSize(a)
+      end
 
       # @spec getModEventMask(this :: t()) :: integer()
       def getModEventMask(this) do
@@ -890,21 +1058,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getMouseDwellTime(this)
       end
 
-    
+      
+      def getName(a) do
+        :wxStyledTextCtrl.getName(a)
+      end
 
       # @spec getOvertype(this :: t()) :: boolean()
       def getOvertype(this) do
         :wxStyledTextCtrl.getOvertype(this)
       end
 
-    
+      
+      def getParent(a) do
+        :wxStyledTextCtrl.getParent(a)
+      end
 
       # @spec getPasteConvertEndings(this :: t()) :: boolean()
       def getPasteConvertEndings(this) do
         :wxStyledTextCtrl.getPasteConvertEndings(this)
       end
 
-    
+      
+      def getPosition(a) do
+        :wxStyledTextCtrl.getPosition(a)
+      end
 
       # @spec getPrintColourMode(this :: t()) :: integer()
       def getPrintColourMode(this) do
@@ -931,7 +1108,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getReadOnly(this)
       end
 
-    
+      
+      def getRect(a) do
+        :wxStyledTextCtrl.getRect(a)
+      end
 
       # @spec getSTCCursor(this :: t()) :: integer()
       def getSTCCursor(this) do
@@ -943,15 +1123,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getSTCFocus(this)
       end
 
-    
+      
+      def getScreenPosition(a) do
+        :wxStyledTextCtrl.getScreenPosition(a)
+      end
 
-    
+      
+      def getScreenRect(a) do
+        :wxStyledTextCtrl.getScreenRect(a)
+      end
 
-    
+      
+      def getScrollPos(a, b) do
+        :wxStyledTextCtrl.getScrollPos(a, b)
+      end
 
-    
+      
+      def getScrollRange(a, b) do
+        :wxStyledTextCtrl.getScrollRange(a, b)
+      end
 
-    
+      
+      def getScrollThumb(a, b) do
+        :wxStyledTextCtrl.getScrollThumb(a, b)
+      end
 
       # @spec getScrollWidth(this :: t()) :: integer()
       def getScrollWidth(this) do
@@ -998,9 +1193,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getSelectionStart(this)
       end
 
-    
+      
+      def getSize(a) do
+        :wxStyledTextCtrl.getSize(a)
+      end
 
-    
+      
+      def getSizer(a) do
+        :wxStyledTextCtrl.getSizer(a)
+      end
 
       # @spec getStatus(this :: t()) :: integer()
       def getStatus(this) do
@@ -1052,9 +1253,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getText(this)
       end
 
-    
+      
+      def getTextExtent(a, b) do
+        :wxStyledTextCtrl.getTextExtent(a, b)
+      end
 
-    
+      
+      def getTextExtent(a, b, c) do
+        :wxStyledTextCtrl.getTextExtent(a, b, c)
+      end
 
       # @spec getTextLength(this :: t()) :: integer()
       def getTextLength(this) do
@@ -1076,7 +1283,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getTextRaw(this)
       end
 
-    
+      
+      def getToolTip(a) do
+        :wxStyledTextCtrl.getToolTip(a)
+      end
 
       # @spec getTwoPhaseDraw(this :: t()) :: boolean()
       def getTwoPhaseDraw(this) do
@@ -1088,7 +1298,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getUndoCollection(this)
       end
 
-    
+      
+      def getUpdateRegion(a) do
+        :wxStyledTextCtrl.getUpdateRegion(a)
+      end
 
       # @spec getUseAntiAliasing(this :: t()) :: boolean()
       def getUseAntiAliasing(this) do
@@ -1120,11 +1333,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.getViewWhiteSpace(this)
       end
 
-    
+      
+      def getVirtualSize(a) do
+        :wxStyledTextCtrl.getVirtualSize(a)
+      end
 
-    
+      
+      def getWindowStyleFlag(a) do
+        :wxStyledTextCtrl.getWindowStyleFlag(a)
+      end
 
-    
+      
+      def getWindowVariant(a) do
+        :wxStyledTextCtrl.getWindowVariant(a)
+      end
 
       # @spec getWrapMode(this :: t()) :: integer()
       def getWrapMode(this) do
@@ -1166,13 +1388,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.gotoPos(this, pos)
       end
 
-    
+      
+      def hasCapture(a) do
+        :wxStyledTextCtrl.hasCapture(a)
+      end
 
-    
+      
+      def hasScrollbar(a, b) do
+        :wxStyledTextCtrl.hasScrollbar(a, b)
+      end
 
-    
+      
+      def hasTransparentBackground(a) do
+        :wxStyledTextCtrl.hasTransparentBackground(a)
+      end
 
-    
+      
+      def hide(a) do
+        :wxStyledTextCtrl.hide(a)
+      end
 
       # @spec hideLines(this :: t(), lineStart :: integer(), lineEnd :: integer()) :: :ok
       def hideLines(this, lineStart, lineEnd) do
@@ -1234,9 +1468,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.indicatorSetStyle(this, indic, style)
       end
 
-    
+      
+      def inheritAttributes(a) do
+        :wxStyledTextCtrl.inheritAttributes(a)
+      end
 
-    
+      
+      def initDialog(a) do
+        :wxStyledTextCtrl.initDialog(a)
+      end
 
       # @spec insertText(this :: t(), pos :: integer(), text :: :unicode.chardata()) :: :ok
       def insertText(this, pos, text) do
@@ -1248,25 +1488,55 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.insertTextRaw(this, pos, text)
       end
 
-    
+      
+      def invalidateBestSize(a) do
+        :wxStyledTextCtrl.invalidateBestSize(a)
+      end
 
-    
+      
+      def isDoubleBuffered(a) do
+        :wxStyledTextCtrl.isDoubleBuffered(a)
+      end
 
-    
+      
+      def isEnabled(a) do
+        :wxStyledTextCtrl.isEnabled(a)
+      end
 
-    
+      
+      def isExposed(a, b) do
+        :wxStyledTextCtrl.isExposed(a, b)
+      end
 
-    
+      
+      def isExposed(a, b, c) do
+        :wxStyledTextCtrl.isExposed(a, b, c)
+      end
 
-    
+      
+      def isExposed(a, b, c, d, e) do
+        :wxStyledTextCtrl.isExposed(a, b, c, d, e)
+      end
 
-    
+      
+      def isRetained(a) do
+        :wxStyledTextCtrl.isRetained(a)
+      end
 
-    
+      
+      def isShown(a) do
+        :wxStyledTextCtrl.isShown(a)
+      end
 
-    
+      
+      def isTopLevel(a) do
+        :wxStyledTextCtrl.isTopLevel(a)
+      end
 
-    
+      
+      def layout(a) do
+        :wxStyledTextCtrl.layout(a)
+      end
 
       # @spec lineCopy(this :: t()) :: :ok
       def lineCopy(this) do
@@ -1403,16 +1673,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.loadFile(this, filename)
       end
 
-    
+      
+      def lower(a) do
+        :wxStyledTextCtrl.lower(a)
+      end
 
       # @spec lowerCase(this :: t()) :: :ok
       def lowerCase(this) do
         :wxStyledTextCtrl.lowerCase(this)
       end
 
-    
+      
+      def makeModal(a) do
+        :wxStyledTextCtrl.makeModal(a)
+      end
 
-    
+      
+      def makeModal(a, b) do
+        :wxStyledTextCtrl.makeModal(a, b)
+      end
 
       # @spec markerAdd(this :: t(), line :: integer(), markerNumber :: integer()) :: integer()
       def markerAdd(this, line, markerNumber) do
@@ -1489,24 +1768,45 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.markerSetForeground(this, markerNumber, fore)
       end
 
-    
+      
+      def move(a, b) do
+        :wxStyledTextCtrl.move(a, b)
+      end
 
-    
+      
+      def move(a, b, c) do
+        :wxStyledTextCtrl.move(a, b, c)
+      end
 
-    
+      
+      def move(a, b, c, d) do
+        :wxStyledTextCtrl.move(a, b, c, d)
+      end
 
-    
+      
+      def moveAfterInTabOrder(a, b) do
+        :wxStyledTextCtrl.moveAfterInTabOrder(a, b)
+      end
 
-    
+      
+      def moveBeforeInTabOrder(a, b) do
+        :wxStyledTextCtrl.moveBeforeInTabOrder(a, b)
+      end
 
       # @spec moveCaretInsideView(this :: t()) :: :ok
       def moveCaretInsideView(this) do
         :wxStyledTextCtrl.moveCaretInsideView(this)
       end
 
-    
+      
+      def navigate(a) do
+        :wxStyledTextCtrl.navigate(a)
+      end
 
-    
+      
+      def navigate(a, b) do
+        :wxStyledTextCtrl.navigate(a, b)
+      end
 
       # @spec new() :: t()
       def new() do
@@ -1573,7 +1873,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.paraUpExtend(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxStyledTextCtrl.parent_class(a)
+      end
 
       # @spec paste(this :: t()) :: :ok
       def paste(this) do
@@ -1585,15 +1888,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.pointFromPosition(this, pos)
       end
 
-    
+      
+      def popEventHandler(a) do
+        :wxStyledTextCtrl.popEventHandler(a)
+      end
 
-    
+      
+      def popEventHandler(a, b) do
+        :wxStyledTextCtrl.popEventHandler(a, b)
+      end
 
-    
+      
+      def popupMenu(a, b) do
+        :wxStyledTextCtrl.popupMenu(a, b)
+      end
 
-    
+      
+      def popupMenu(a, b, c) do
+        :wxStyledTextCtrl.popupMenu(a, b, c)
+      end
 
-    
+      
+      def popupMenu(a, b, c, d) do
+        :wxStyledTextCtrl.popupMenu(a, b, c, d)
+      end
 
       # @spec positionAfter(this :: t(), pos :: integer()) :: integer()
       def positionAfter(this, pos) do
@@ -1620,31 +1938,55 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.positionFromPointClose(this, x, y)
       end
 
-    
+      
+      def raise(a) do
+        :wxStyledTextCtrl.raise(a)
+      end
 
       # @spec redo(this :: t()) :: :ok
       def redo(this) do
         :wxStyledTextCtrl.redo(this)
       end
 
-    
+      
+      def refresh(a) do
+        :wxStyledTextCtrl.refresh(a)
+      end
 
-    
+      
+      def refresh(a, b) do
+        :wxStyledTextCtrl.refresh(a, b)
+      end
 
-    
+      
+      def refreshRect(a, b) do
+        :wxStyledTextCtrl.refreshRect(a, b)
+      end
 
-    
+      
+      def refreshRect(a, b, c) do
+        :wxStyledTextCtrl.refreshRect(a, b, c)
+      end
 
       # @spec registerImage(this :: t(), type :: integer(), bmp :: :wxBitmap.wxBitmap()) :: :ok
       def registerImage(this, type, bmp) do
         :wxStyledTextCtrl.registerImage(this, type, bmp)
       end
 
-    
+      
+      def releaseMouse(a) do
+        :wxStyledTextCtrl.releaseMouse(a)
+      end
 
-    
+      
+      def removeChild(a, b) do
+        :wxStyledTextCtrl.removeChild(a, b)
+      end
 
-    
+      
+      def reparent(a, b) do
+        :wxStyledTextCtrl.reparent(a, b)
+      end
 
       # @spec replaceSelection(this :: t(), text :: :unicode.chardata()) :: :ok
       def replaceSelection(this, text) do
@@ -1661,13 +2003,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.saveFile(this, filename)
       end
 
-    
+      
+      def screenToClient(a) do
+        :wxStyledTextCtrl.screenToClient(a)
+      end
 
-    
+      
+      def screenToClient(a, b) do
+        :wxStyledTextCtrl.screenToClient(a, b)
+      end
 
-    
+      
+      def scrollLines(a, b) do
+        :wxStyledTextCtrl.scrollLines(a, b)
+      end
 
-    
+      
+      def scrollPages(a, b) do
+        :wxStyledTextCtrl.scrollPages(a, b)
+      end
 
       # @spec scrollToColumn(this :: t(), column :: integer()) :: :ok
       def scrollToColumn(this, column) do
@@ -1679,9 +2033,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.scrollToLine(this, line)
       end
 
-    
+      
+      def scrollWindow(a, b, c) do
+        :wxStyledTextCtrl.scrollWindow(a, b, c)
+      end
 
-    
+      
+      def scrollWindow(a, b, c, d) do
+        :wxStyledTextCtrl.scrollWindow(a, b, c, d)
+      end
 
       # @spec searchAnchor(this :: t()) :: :ok
       def searchAnchor(this) do
@@ -1718,30 +2078,45 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.selectionIsRectangle(this)
       end
 
-    
+      
+      def setAcceleratorTable(a, b) do
+        :wxStyledTextCtrl.setAcceleratorTable(a, b)
+      end
 
       # @spec setAnchor(this :: t(), posAnchor :: integer()) :: :ok
       def setAnchor(this, posAnchor) do
         :wxStyledTextCtrl.setAnchor(this, posAnchor)
       end
 
-    
+      
+      def setAutoLayout(a, b) do
+        :wxStyledTextCtrl.setAutoLayout(a, b)
+      end
 
       # @spec setBackSpaceUnIndents(this :: t(), bsUnIndents :: boolean()) :: :ok
       def setBackSpaceUnIndents(this, bsUnIndents) do
         :wxStyledTextCtrl.setBackSpaceUnIndents(this, bsUnIndents)
       end
 
-    
+      
+      def setBackgroundColour(a, b) do
+        :wxStyledTextCtrl.setBackgroundColour(a, b)
+      end
 
-    
+      
+      def setBackgroundStyle(a, b) do
+        :wxStyledTextCtrl.setBackgroundStyle(a, b)
+      end
 
       # @spec setBufferedDraw(this :: t(), buffered :: boolean()) :: :ok
       def setBufferedDraw(this, buffered) do
         :wxStyledTextCtrl.setBufferedDraw(this, buffered)
       end
 
-    
+      
+      def setCaret(a, b) do
+        :wxStyledTextCtrl.setCaret(a, b)
+      end
 
       # @spec setCaretForeground(this :: t(), fore :: :wx.wx_colour()) :: :ok
       def setCaretForeground(this, fore) do
@@ -1783,16 +2158,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setCharsDefault(this)
       end
 
-    
+      
+      def setClientSize(a, b) do
+        :wxStyledTextCtrl.setClientSize(a, b)
+      end
 
-    
+      
+      def setClientSize(a, b, c) do
+        :wxStyledTextCtrl.setClientSize(a, b, c)
+      end
 
       # @spec setCodePage(this :: t(), codePage :: integer()) :: :ok
       def setCodePage(this, codePage) do
         :wxStyledTextCtrl.setCodePage(this, codePage)
       end
 
-    
+      
+      def setContainingSizer(a, b) do
+        :wxStyledTextCtrl.setContainingSizer(a, b)
+      end
 
       # @spec setControlCharSymbol(this :: t(), symbol :: integer()) :: :ok
       def setControlCharSymbol(this, symbol) do
@@ -1804,11 +2188,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setCurrentPos(this, pos)
       end
 
-    
+      
+      def setCursor(a, b) do
+        :wxStyledTextCtrl.setCursor(a, b)
+      end
 
-    
+      
+      def setDoubleBuffered(a, b) do
+        :wxStyledTextCtrl.setDoubleBuffered(a, b)
+      end
 
-    
+      
+      def setDropTarget(a, b) do
+        :wxStyledTextCtrl.setDropTarget(a, b)
+      end
 
       # @spec setEOLMode(this :: t(), eolMode :: integer()) :: :ok
       def setEOLMode(this, eolMode) do
@@ -1830,11 +2223,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setEdgeMode(this, mode)
       end
 
-    
+      
+      def setExtraStyle(a, b) do
+        :wxStyledTextCtrl.setExtraStyle(a, b)
+      end
 
-    
+      
+      def setFocus(a) do
+        :wxStyledTextCtrl.setFocus(a)
+      end
 
-    
+      
+      def setFocusFromKbd(a) do
+        :wxStyledTextCtrl.setFocusFromKbd(a)
+      end
 
       # @spec setFoldExpanded(this :: t(), line :: integer(), expanded :: boolean()) :: :ok
       def setFoldExpanded(this, line, expanded) do
@@ -1861,16 +2263,25 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setFoldMarginHiColour(this, useSetting, fore)
       end
 
-    
+      
+      def setFont(a, b) do
+        :wxStyledTextCtrl.setFont(a, b)
+      end
 
-    
+      
+      def setForegroundColour(a, b) do
+        :wxStyledTextCtrl.setForegroundColour(a, b)
+      end
 
       # @spec setHScrollBar(this :: t(), bar :: :wxScrollBar.wxScrollBar()) :: :ok
       def setHScrollBar(this, bar) do
         :wxStyledTextCtrl.setHScrollBar(this, bar)
       end
 
-    
+      
+      def setHelpText(a, b) do
+        :wxStyledTextCtrl.setHelpText(a, b)
+      end
 
       # @spec setHighlightGuide(this :: t(), column :: integer()) :: :ok
       def setHighlightGuide(this, column) do
@@ -1897,7 +2308,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setHotspotSingleLine(this, singleLine)
       end
 
-    
+      
+      def setId(a, b) do
+        :wxStyledTextCtrl.setId(a, b)
+      end
 
       # @spec setIndent(this :: t(), indentSize :: integer()) :: :ok
       def setIndent(this, indentSize) do
@@ -1914,7 +2328,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setKeyWords(this, keywordSet, keyWords)
       end
 
-    
+      
+      def setLabel(a, b) do
+        :wxStyledTextCtrl.setLabel(a, b)
+      end
 
       # @spec setLastKeydownProcessed(this :: t(), val :: boolean()) :: :ok
       def setLastKeydownProcessed(this, val) do
@@ -1981,9 +2398,15 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setMargins(this, left, right)
       end
 
-    
+      
+      def setMaxSize(a, b) do
+        :wxStyledTextCtrl.setMaxSize(a, b)
+      end
 
-    
+      
+      def setMinSize(a, b) do
+        :wxStyledTextCtrl.setMinSize(a, b)
+      end
 
       # @spec setModEventMask(this :: t(), mask :: integer()) :: :ok
       def setModEventMask(this, mask) do
@@ -2000,15 +2423,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setMouseDwellTime(this, periodMilliseconds)
       end
 
-    
+      
+      def setName(a, b) do
+        :wxStyledTextCtrl.setName(a, b)
+      end
 
-    
+      
+      def setOwnBackgroundColour(a, b) do
+        :wxStyledTextCtrl.setOwnBackgroundColour(a, b)
+      end
 
-    
+      
+      def setOwnFont(a, b) do
+        :wxStyledTextCtrl.setOwnFont(a, b)
+      end
 
-    
+      
+      def setOwnForegroundColour(a, b) do
+        :wxStyledTextCtrl.setOwnForegroundColour(a, b)
+      end
 
-    
+      
+      def setPalette(a, b) do
+        :wxStyledTextCtrl.setPalette(a, b)
+      end
 
       # @spec setPasteConvertEndings(this :: t(), convert :: boolean()) :: :ok
       def setPasteConvertEndings(this, convert) do
@@ -2050,18 +2488,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setSavePoint(this)
       end
 
-    
+      
+      def setScrollPos(a, b, c) do
+        :wxStyledTextCtrl.setScrollPos(a, b, c)
+      end
 
-    
+      
+      def setScrollPos(a, b, c, d) do
+        :wxStyledTextCtrl.setScrollPos(a, b, c, d)
+      end
 
       # @spec setScrollWidth(this :: t(), pixelWidth :: integer()) :: :ok
       def setScrollWidth(this, pixelWidth) do
         :wxStyledTextCtrl.setScrollWidth(this, pixelWidth)
       end
 
-    
+      
+      def setScrollbar(a, b, c, d, e) do
+        :wxStyledTextCtrl.setScrollbar(a, b, c, d, e)
+      end
 
-    
+      
+      def setScrollbar(a, b, c, d, e, f) do
+        :wxStyledTextCtrl.setScrollbar(a, b, c, d, e, f)
+      end
 
       # @spec setSearchFlags(this :: t(), flags :: integer()) :: :ok
       def setSearchFlags(this, flags) do
@@ -2103,27 +2553,60 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setSelectionStart(this, pos)
       end
 
-    
+      
+      def setSize(a, b) do
+        :wxStyledTextCtrl.setSize(a, b)
+      end
 
-    
+      
+      def setSize(a, b, c) do
+        :wxStyledTextCtrl.setSize(a, b, c)
+      end
 
-    
+      
+      def setSize(a, b, c, d, e) do
+        :wxStyledTextCtrl.setSize(a, b, c, d, e)
+      end
 
-    
+      
+      def setSize(a, b, c, d, e, f) do
+        :wxStyledTextCtrl.setSize(a, b, c, d, e, f)
+      end
 
-    
+      
+      def setSizeHints(a, b) do
+        :wxStyledTextCtrl.setSizeHints(a, b)
+      end
 
-    
+      
+      def setSizeHints(a, b, c) do
+        :wxStyledTextCtrl.setSizeHints(a, b, c)
+      end
 
-    
+      
+      def setSizeHints(a, b, c, d) do
+        :wxStyledTextCtrl.setSizeHints(a, b, c, d)
+      end
 
-    
+      
+      def setSizer(a, b) do
+        :wxStyledTextCtrl.setSizer(a, b)
+      end
 
-    
+      
+      def setSizer(a, b, c) do
+        :wxStyledTextCtrl.setSizer(a, b, c)
+      end
 
-    
+      
+      def setSizerAndFit(a, b) do
+        :wxStyledTextCtrl.setSizerAndFit(a, b)
+      end
 
-    
+      
+      def setSizerAndFit(a, b, c) do
+        :wxStyledTextCtrl.setSizerAndFit(a, b, c)
+      end
 
       # @spec setStatus(this :: t(), statusCode :: integer()) :: :ok
       def setStatus(this, statusCode) do
@@ -2170,11 +2653,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setTextRaw(this, text)
       end
 
-    
+      
+      def setThemeEnabled(a, b) do
+        :wxStyledTextCtrl.setThemeEnabled(a, b)
+      end
 
-    
+      
+      def setToolTip(a, b) do
+        :wxStyledTextCtrl.setToolTip(a, b)
+      end
 
-    
+      
+      def setTransparent(a, b) do
+        :wxStyledTextCtrl.setTransparent(a, b)
+      end
 
       # @spec setTwoPhaseDraw(this :: t(), twoPhase :: boolean()) :: :ok
       def setTwoPhaseDraw(this, twoPhase) do
@@ -2216,15 +2708,30 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setViewWhiteSpace(this, viewWS)
       end
 
-    
+      
+      def setVirtualSize(a, b) do
+        :wxStyledTextCtrl.setVirtualSize(a, b)
+      end
 
-    
+      
+      def setVirtualSize(a, b, c) do
+        :wxStyledTextCtrl.setVirtualSize(a, b, c)
+      end
 
-    
+      
+      def setVirtualSizeHints(a, b) do
+        :wxStyledTextCtrl.setVirtualSizeHints(a, b)
+      end
 
-    
+      
+      def setVirtualSizeHints(a, b, c) do
+        :wxStyledTextCtrl.setVirtualSizeHints(a, b, c)
+      end
 
-    
+      
+      def setVirtualSizeHints(a, b, c, d) do
+        :wxStyledTextCtrl.setVirtualSizeHints(a, b, c, d)
+      end
 
       # @spec setVisiblePolicy(this :: t(), visiblePolicy :: integer(), visibleSlop :: integer()) :: :ok
       def setVisiblePolicy(this, visiblePolicy, visibleSlop) do
@@ -2246,11 +2753,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setWhitespaceForeground(this, useSetting, fore)
       end
 
-    
+      
+      def setWindowStyle(a, b) do
+        :wxStyledTextCtrl.setWindowStyle(a, b)
+      end
 
-    
+      
+      def setWindowStyleFlag(a, b) do
+        :wxStyledTextCtrl.setWindowStyleFlag(a, b)
+      end
 
-    
+      
+      def setWindowVariant(a, b) do
+        :wxStyledTextCtrl.setWindowVariant(a, b)
+      end
 
       # @spec setWordChars(this :: t(), characters :: :unicode.chardata()) :: :ok
       def setWordChars(this, characters) do
@@ -2292,11 +2808,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.setZoom(this, zoom)
       end
 
-    
+      
+      def shouldInheritColours(a) do
+        :wxStyledTextCtrl.shouldInheritColours(a)
+      end
 
-    
+      
+      def show(a) do
+        :wxStyledTextCtrl.show(a)
+      end
 
-    
+      
+      def show(a, b) do
+        :wxStyledTextCtrl.show(a, b)
+      end
 
       # @spec showLines(this :: t(), lineStart :: integer(), lineEnd :: integer()) :: :ok
       def showLines(this, lineStart, lineEnd) do
@@ -2453,7 +2978,10 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.textWidth(this, style, text)
       end
 
-    
+      
+      def thaw(a) do
+        :wxStyledTextCtrl.thaw(a)
+      end
 
       # @spec toggleCaretSticky(this :: t()) :: :ok
       def toggleCaretSticky(this) do
@@ -2465,20 +2993,35 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.toggleFold(this, line)
       end
 
-    
+      
+      def transferDataFromWindow(a) do
+        :wxStyledTextCtrl.transferDataFromWindow(a)
+      end
 
-    
+      
+      def transferDataToWindow(a) do
+        :wxStyledTextCtrl.transferDataToWindow(a)
+      end
 
       # @spec undo(this :: t()) :: :ok
       def undo(this) do
         :wxStyledTextCtrl.undo(this)
       end
 
-    
+      
+      def update(a) do
+        :wxStyledTextCtrl.update(a)
+      end
 
-    
+      
+      def updateWindowUI(a) do
+        :wxStyledTextCtrl.updateWindowUI(a)
+      end
 
-    
+      
+      def updateWindowUI(a, b) do
+        :wxStyledTextCtrl.updateWindowUI(a, b)
+      end
 
       # @spec upperCase(this :: t()) :: :ok
       def upperCase(this) do
@@ -2520,14 +3063,20 @@ defmodule WxWidgets.Generated.WxStyledTextCtrl do
         :wxStyledTextCtrl.vCHomeWrapExtend(this)
       end
 
-    
+      
+      def validate(a) do
+        :wxStyledTextCtrl.validate(a)
+      end
 
       # @spec visibleFromDocLine(this :: t(), line :: integer()) :: integer()
       def visibleFromDocLine(this, line) do
         :wxStyledTextCtrl.visibleFromDocLine(this, line)
       end
 
-    
+      
+      def warpPointer(a, b, c) do
+        :wxStyledTextCtrl.warpPointer(a, b, c)
+      end
 
       # @spec wordEndPosition(this :: t(), pos :: integer(), onlyWordCharacters :: boolean()) :: integer()
       def wordEndPosition(this, pos, onlyWordCharacters) do

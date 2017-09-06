@@ -33,7 +33,10 @@ defmodule WxWidgets.Generated.WxToolTip do
         :wxToolTip.new(tip)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxToolTip.parent_class(a)
+      end
 
       # @spec setDelay(msecs :: integer()) :: :ok
       def setDelay(msecs) do

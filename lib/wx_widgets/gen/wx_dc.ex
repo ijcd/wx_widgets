@@ -378,7 +378,10 @@ defmodule WxWidgets.Generated.WxDC do
         :wxDC.minY(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxDC.parent_class(a)
+      end
 
       # @spec resetBoundingBox(this :: t()) :: :ok
       def resetBoundingBox(this) do

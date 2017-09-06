@@ -8,11 +8,20 @@ defmodule WxWidgets.Generated.WxGraphicsPen do
 
       @type wxGraphicsPen_t :: :wxGraphicsPen.wxGraphicsPen()
 
-    
+      
+      def getRenderer(a) do
+        :wxGraphicsPen.getRenderer(a)
+      end
 
-    
+      
+      def isNull(a) do
+        :wxGraphicsPen.isNull(a)
+      end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsPen.parent_class(a)
+      end
 
     end
   end

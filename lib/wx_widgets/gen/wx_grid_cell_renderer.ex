@@ -18,7 +18,10 @@ defmodule WxWidgets.Generated.WxGridCellRenderer do
         :wxGridCellRenderer.getBestSize(this, grid, attr, dc, row, col)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGridCellRenderer.parent_class(a)
+      end
 
     end
   end

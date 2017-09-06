@@ -13,7 +13,10 @@ defmodule WxWidgets.Generated.WxStyledTextEvent do
         :wxStyledTextEvent.getAlt(this)
       end
 
-    
+      
+      def getClientData(a) do
+        :wxStyledTextEvent.getClientData(a)
+      end
 
       # @spec getControl(this :: t()) :: boolean()
       def getControl(this) do
@@ -35,7 +38,10 @@ defmodule WxWidgets.Generated.WxStyledTextEvent do
         :wxStyledTextEvent.getDragText(this)
       end
 
-    
+      
+      def getExtraLong(a) do
+        :wxStyledTextEvent.getExtraLong(a)
+      end
 
       # @spec getFoldLevelNow(this :: t()) :: integer()
       def getFoldLevelNow(this) do
@@ -47,9 +53,15 @@ defmodule WxWidgets.Generated.WxStyledTextEvent do
         :wxStyledTextEvent.getFoldLevelPrev(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxStyledTextEvent.getId(a)
+      end
 
-    
+      
+      def getInt(a) do
+        :wxStyledTextEvent.getInt(a)
+      end
 
       # @spec getKey(this :: t()) :: integer()
       def getKey(this) do
@@ -106,23 +118,35 @@ defmodule WxWidgets.Generated.WxStyledTextEvent do
         :wxStyledTextEvent.getPosition(this)
       end
 
-    
+      
+      def getSelection(a) do
+        :wxStyledTextEvent.getSelection(a)
+      end
 
       # @spec getShift(this :: t()) :: boolean()
       def getShift(this) do
         :wxStyledTextEvent.getShift(this)
       end
 
-    
+      
+      def getSkipped(a) do
+        :wxStyledTextEvent.getSkipped(a)
+      end
 
-    
+      
+      def getString(a) do
+        :wxStyledTextEvent.getString(a)
+      end
 
       # @spec getText(this :: t()) :: :unicode.charlist()
       def getText(this) do
         :wxStyledTextEvent.getText(this)
       end
 
-    
+      
+      def getTimestamp(a) do
+        :wxStyledTextEvent.getTimestamp(a)
+      end
 
       # @spec getWParam(this :: t()) :: integer()
       def getWParam(this) do
@@ -139,27 +163,60 @@ defmodule WxWidgets.Generated.WxStyledTextEvent do
         :wxStyledTextEvent.getY(this)
       end
 
-    
+      
+      def isChecked(a) do
+        :wxStyledTextEvent.isChecked(a)
+      end
 
-    
+      
+      def isCommandEvent(a) do
+        :wxStyledTextEvent.isCommandEvent(a)
+      end
 
-    
+      
+      def isSelection(a) do
+        :wxStyledTextEvent.isSelection(a)
+      end
 
-    
+      
+      def parent_class(a) do
+        :wxStyledTextEvent.parent_class(a)
+      end
 
-    
+      
+      def resumePropagation(a, b) do
+        :wxStyledTextEvent.resumePropagation(a, b)
+      end
 
-    
+      
+      def setInt(a, b) do
+        :wxStyledTextEvent.setInt(a, b)
+      end
 
-    
+      
+      def setString(a, b) do
+        :wxStyledTextEvent.setString(a, b)
+      end
 
-    
+      
+      def shouldPropagate(a) do
+        :wxStyledTextEvent.shouldPropagate(a)
+      end
 
-    
+      
+      def skip(a) do
+        :wxStyledTextEvent.skip(a)
+      end
 
-    
+      
+      def skip(a, b) do
+        :wxStyledTextEvent.skip(a, b)
+      end
 
-    
+      
+      def stopPropagation(a) do
+        :wxStyledTextEvent.stopPropagation(a)
+      end
 
     end
   end

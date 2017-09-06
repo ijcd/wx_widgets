@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxBitmapDataObject do
         :wxBitmapDataObject.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxBitmapDataObject.parent_class(a)
+      end
 
       # @spec setBitmap(this :: t(), bitmap :: :wxBitmap.wxBitmap()) :: :ok
       def setBitmap(this, bitmap) do

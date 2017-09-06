@@ -38,7 +38,10 @@ defmodule WxWidgets.Generated.WxGridCellEditor do
         :wxGridCellEditor.paintBackground(this, rectCell, attr)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGridCellEditor.parent_class(a)
+      end
 
       # @spec reset(this :: t()) :: :ok
       def reset(this) do

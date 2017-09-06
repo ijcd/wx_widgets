@@ -48,7 +48,10 @@ defmodule WxWidgets.Generated.WxPalette do
         :wxPalette.new(red, green, blue)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPalette.parent_class(a)
+      end
 
     end
   end

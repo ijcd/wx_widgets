@@ -23,7 +23,10 @@ defmodule WxWidgets.Generated.WxAuiDockArt do
         :wxAuiDockArt.getMetric(this, id)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxAuiDockArt.parent_class(a)
+      end
 
       # @spec setColour(this :: t(), id :: integer(), colour :: :wx.wx_colour()) :: :ok
       def setColour(this, id, colour) do

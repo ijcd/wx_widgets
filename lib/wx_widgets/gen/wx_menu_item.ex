@@ -113,7 +113,10 @@ defmodule WxWidgets.Generated.WxMenuItem do
         :wxMenuItem.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxMenuItem.parent_class(a)
+      end
 
       # @spec setBitmap(this :: t(), bitmap :: :wxBitmap.wxBitmap()) :: :ok
       def setBitmap(this, bitmap) do

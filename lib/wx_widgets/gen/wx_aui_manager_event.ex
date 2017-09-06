@@ -23,7 +23,10 @@ defmodule WxWidgets.Generated.WxAuiManagerEvent do
         :wxAuiManagerEvent.getDC(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxAuiManagerEvent.getId(a)
+      end
 
       # @spec getManager(this :: t()) :: :wxAuiManager.wxAuiManager()
       def getManager(this) do
@@ -35,20 +38,35 @@ defmodule WxWidgets.Generated.WxAuiManagerEvent do
         :wxAuiManagerEvent.getPane(this)
       end
 
-    
+      
+      def getSkipped(a) do
+        :wxAuiManagerEvent.getSkipped(a)
+      end
 
-    
+      
+      def getTimestamp(a) do
+        :wxAuiManagerEvent.getTimestamp(a)
+      end
 
       # @spec getVeto(this :: t()) :: boolean()
       def getVeto(this) do
         :wxAuiManagerEvent.getVeto(this)
       end
 
-    
+      
+      def isCommandEvent(a) do
+        :wxAuiManagerEvent.isCommandEvent(a)
+      end
 
-    
+      
+      def parent_class(a) do
+        :wxAuiManagerEvent.parent_class(a)
+      end
 
-    
+      
+      def resumePropagation(a, b) do
+        :wxAuiManagerEvent.resumePropagation(a, b)
+      end
 
       # @spec setButton(this :: t(), b :: integer()) :: :ok
       def setButton(this, b) do
@@ -75,13 +93,25 @@ defmodule WxWidgets.Generated.WxAuiManagerEvent do
         :wxAuiManagerEvent.setPane(this, p)
       end
 
-    
+      
+      def shouldPropagate(a) do
+        :wxAuiManagerEvent.shouldPropagate(a)
+      end
 
-    
+      
+      def skip(a) do
+        :wxAuiManagerEvent.skip(a)
+      end
 
-    
+      
+      def skip(a, b) do
+        :wxAuiManagerEvent.skip(a, b)
+      end
 
-    
+      
+      def stopPropagation(a) do
+        :wxAuiManagerEvent.stopPropagation(a)
+      end
 
       # @spec veto(this :: t()) :: :ok
       def veto(this) do

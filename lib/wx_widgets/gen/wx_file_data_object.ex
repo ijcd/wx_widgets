@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxFileDataObject do
         :wxFileDataObject.new()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxFileDataObject.parent_class(a)
+      end
 
     end
   end

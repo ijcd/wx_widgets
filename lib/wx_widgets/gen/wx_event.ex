@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxEvent do
         :wxEvent.isCommandEvent(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxEvent.parent_class(a)
+      end
 
       # @spec resumePropagation(this :: t(), propagationLevel :: integer()) :: :ok
       def resumePropagation(this, propagationLevel) do

@@ -38,7 +38,10 @@ defmodule WxWidgets.Generated.WxColourData do
         :wxColourData.new(data)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxColourData.parent_class(a)
+      end
 
       # @spec setChooseFull(this :: t(), flag :: boolean()) :: :ok
       def setChooseFull(this, flag) do

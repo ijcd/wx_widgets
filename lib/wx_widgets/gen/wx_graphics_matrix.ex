@@ -18,7 +18,10 @@ defmodule WxWidgets.Generated.WxGraphicsMatrix do
         :wxGraphicsMatrix.get(this)
       end
 
-    
+      
+      def getRenderer(a) do
+        :wxGraphicsMatrix.getRenderer(a)
+      end
 
       # @spec invert(this :: t()) :: :ok
       def invert(this) do
@@ -35,9 +38,15 @@ defmodule WxWidgets.Generated.WxGraphicsMatrix do
         :wxGraphicsMatrix.isIdentity(this)
       end
 
-    
+      
+      def isNull(a) do
+        :wxGraphicsMatrix.isNull(a)
+      end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsMatrix.parent_class(a)
+      end
 
       # @spec rotate(this :: t(), angle :: number()) :: :ok
       def rotate(this, angle) do

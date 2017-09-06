@@ -13,16 +13,25 @@ defmodule WxWidgets.Generated.WxGridCellBoolRenderer do
         :wxGridCellBoolRenderer.destroy(this)
       end
 
-    
+      
+      def draw(a, b, c, d, e, f, g, h) do
+        :wxGridCellBoolRenderer.draw(a, b, c, d, e, f, g, h)
+      end
 
-    
+      
+      def getBestSize(a, b, c, d, e, f) do
+        :wxGridCellBoolRenderer.getBestSize(a, b, c, d, e, f)
+      end
 
       # @spec new() :: t()
       def new() do
         :wxGridCellBoolRenderer.new()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGridCellBoolRenderer.parent_class(a)
+      end
 
     end
   end

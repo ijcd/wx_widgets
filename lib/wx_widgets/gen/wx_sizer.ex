@@ -148,7 +148,10 @@ defmodule WxWidgets.Generated.WxSizer do
         :wxSizer.layout(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxSizer.parent_class(a)
+      end
 
       # @spec prepend(this :: t(), item :: :wxSizerItem.wxSizerItem()) :: :wxSizerItem.wxSizerItem()
       def prepend(this, item) do

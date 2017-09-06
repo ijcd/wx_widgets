@@ -38,7 +38,10 @@ defmodule WxWidgets.Generated.WxMask do
         :wxMask.new(bitmap, paletteIndex)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxMask.parent_class(a)
+      end
 
     end
   end

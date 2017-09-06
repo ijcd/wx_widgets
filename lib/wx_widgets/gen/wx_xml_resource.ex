@@ -143,7 +143,10 @@ defmodule WxWidgets.Generated.WxXmlResource do
         :wxXmlResource.new(filemask, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxXmlResource.parent_class(a)
+      end
 
       # @spec set(res :: t()) :: t()
       def set(res) do

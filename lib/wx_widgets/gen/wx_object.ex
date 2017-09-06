@@ -21,14 +21,20 @@ defmodule WxWidgets.Generated.WxObject do
         :wx_object.cast(obj, request)
       end
 
-    
+      
+      def format_status(a, b) do
+        :wx_object.format_status(a, b)
+      end
 
       # @spec get_pid(obj :: :wx.wx_object()) :: pid()
       def get_pid(obj) do
         :wx_object.get_pid(obj)
       end
 
-    
+      
+      def init_it(a, b, c, d, e, f) do
+        :wx_object.init_it(a, b, c, d, e, f)
+      end
 
       # @spec reply(x1 :: {pid(), tag :: term()}, reply :: term()) :: pid()
       def reply(x1, reply) do
@@ -70,9 +76,15 @@ defmodule WxWidgets.Generated.WxObject do
         :wx_object.stop(obj, reason, timeout)
       end
 
-    
+      
+      def system_code_change(a, b, c, d) do
+        :wx_object.system_code_change(a, b, c, d)
+      end
 
-    
+      
+      def system_continue(a, b, c) do
+        :wx_object.system_continue(a, b, c)
+      end
 
       # @spec system_terminate(reason :: term(), parent :: term(), debug :: term(), x4 :: [term()]) :: no_return()
       def system_terminate(reason, parent, debug, x4) do

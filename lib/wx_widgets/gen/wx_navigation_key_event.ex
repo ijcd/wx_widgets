@@ -18,13 +18,25 @@ defmodule WxWidgets.Generated.WxNavigationKeyEvent do
         :wxNavigationKeyEvent.getDirection(this)
       end
 
-    
+      
+      def getId(a) do
+        :wxNavigationKeyEvent.getId(a)
+      end
 
-    
+      
+      def getSkipped(a) do
+        :wxNavigationKeyEvent.getSkipped(a)
+      end
 
-    
+      
+      def getTimestamp(a) do
+        :wxNavigationKeyEvent.getTimestamp(a)
+      end
 
-    
+      
+      def isCommandEvent(a) do
+        :wxNavigationKeyEvent.isCommandEvent(a)
+      end
 
       # @spec isFromTab(this :: t()) :: boolean()
       def isFromTab(this) do
@@ -36,9 +48,15 @@ defmodule WxWidgets.Generated.WxNavigationKeyEvent do
         :wxNavigationKeyEvent.isWindowChange(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxNavigationKeyEvent.parent_class(a)
+      end
 
-    
+      
+      def resumePropagation(a, b) do
+        :wxNavigationKeyEvent.resumePropagation(a, b)
+      end
 
       # @spec setCurrentFocus(this :: t(), win :: :wxWindow.wxWindow()) :: :ok
       def setCurrentFocus(this, win) do
@@ -60,13 +78,25 @@ defmodule WxWidgets.Generated.WxNavigationKeyEvent do
         :wxNavigationKeyEvent.setWindowChange(this, bIs)
       end
 
-    
+      
+      def shouldPropagate(a) do
+        :wxNavigationKeyEvent.shouldPropagate(a)
+      end
 
-    
+      
+      def skip(a) do
+        :wxNavigationKeyEvent.skip(a)
+      end
 
-    
+      
+      def skip(a, b) do
+        :wxNavigationKeyEvent.skip(a, b)
+      end
 
-    
+      
+      def stopPropagation(a) do
+        :wxNavigationKeyEvent.stopPropagation(a)
+      end
 
     end
   end

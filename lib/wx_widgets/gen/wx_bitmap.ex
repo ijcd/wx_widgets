@@ -103,7 +103,10 @@ defmodule WxWidgets.Generated.WxBitmap do
         :wxBitmap.ok(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxBitmap.parent_class(a)
+      end
 
       # @spec saveFile(this :: t(), name :: :unicode.chardata(), type :: :wx.wx_enum()) :: boolean()
       def saveFile(this, name, type) do

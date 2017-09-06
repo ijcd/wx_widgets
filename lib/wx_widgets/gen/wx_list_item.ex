@@ -83,7 +83,10 @@ defmodule WxWidgets.Generated.WxListItem do
         :wxListItem.new(item)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxListItem.parent_class(a)
+      end
 
       # @spec setAlign(this :: t(), align :: :wx.wx_enum()) :: :ok
       def setAlign(this, align) do

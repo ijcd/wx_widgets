@@ -63,7 +63,10 @@ defmodule WxWidgets.Generated.WxClipboard do
         :wxClipboard.open(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxClipboard.parent_class(a)
+      end
 
       # @spec setData(this :: t(), data :: :wxDataObject.wxDataObject()) :: boolean()
       def setData(this, data) do

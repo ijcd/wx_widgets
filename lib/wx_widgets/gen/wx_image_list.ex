@@ -78,7 +78,10 @@ defmodule WxWidgets.Generated.WxImageList do
         :wxImageList.new(width, height, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxImageList.parent_class(a)
+      end
 
       # @spec remove(this :: t(), index :: integer()) :: boolean()
       def remove(this, index) do

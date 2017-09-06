@@ -123,7 +123,10 @@ defmodule WxWidgets.Generated.WxPageSetupDialogData do
         :wxPageSetupDialogData.new(printData)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPageSetupDialogData.parent_class(a)
+      end
 
       # @spec setDefaultInfo(this :: t(), flag :: boolean()) :: :ok
       def setDefaultInfo(this, flag) do

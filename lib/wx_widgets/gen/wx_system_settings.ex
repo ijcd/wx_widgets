@@ -33,7 +33,10 @@ defmodule WxWidgets.Generated.WxSystemSettings do
         :wxSystemSettings.getScreenType()
       end
 
-    
+      
+      def parent_class(a) do
+        :wxSystemSettings.parent_class(a)
+      end
 
     end
   end

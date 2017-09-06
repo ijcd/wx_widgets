@@ -133,7 +133,10 @@ defmodule WxWidgets.Generated.WxSizerItem do
         :wxSizerItem.new(width, height, proportion, flag, border, userData)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxSizerItem.parent_class(a)
+      end
 
       # @spec setBorder(this :: t(), border :: integer()) :: :ok
       def setBorder(this, border) do

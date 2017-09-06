@@ -103,16 +103,25 @@ defmodule WxWidgets.Generated.WxPrintout do
         :wxPrintout.mapScreenSizeToPaper(this)
       end
 
-    
+      
+      def new(a, b) do
+        :wxPrintout.new(a, b)
+      end
 
-    
+      
+      def new(a, b, c) do
+        :wxPrintout.new(a, b, c)
+      end
 
       # @spec offsetLogicalOrigin(this :: t(), xoff :: integer(), yoff :: integer()) :: :ok
       def offsetLogicalOrigin(this, xoff, yoff) do
         :wxPrintout.offsetLogicalOrigin(this, xoff, yoff)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPrintout.parent_class(a)
+      end
 
       # @spec setLogicalOrigin(this :: t(), x :: integer(), y :: integer()) :: :ok
       def setLogicalOrigin(this, x, y) do

@@ -278,7 +278,10 @@ defmodule WxWidgets.Generated.WxImage do
         :wxImage.ok(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxImage.parent_class(a)
+      end
 
       # @spec removeHandler(name :: :unicode.chardata()) :: boolean()
       def removeHandler(name) do

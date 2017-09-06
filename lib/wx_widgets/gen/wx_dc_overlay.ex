@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxDCOverlay do
         :wxDCOverlay.new(overlay, dc, x, y, width, height)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxDCOverlay.parent_class(a)
+      end
 
     end
   end

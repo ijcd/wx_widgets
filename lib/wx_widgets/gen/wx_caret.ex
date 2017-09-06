@@ -78,7 +78,10 @@ defmodule WxWidgets.Generated.WxCaret do
         :wxCaret.new(window, width, height)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxCaret.parent_class(a)
+      end
 
       # @spec setBlinkTime(milliseconds :: integer()) :: :ok
       def setBlinkTime(milliseconds) do

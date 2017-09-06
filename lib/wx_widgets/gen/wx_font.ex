@@ -88,7 +88,10 @@ defmodule WxWidgets.Generated.WxFont do
         :wxFont.ok(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxFont.parent_class(a)
+      end
 
       # @spec setDefaultEncoding(encoding :: :wx.wx_enum()) :: :ok
       def setDefaultEncoding(encoding) do

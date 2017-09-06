@@ -232,7 +232,10 @@ defmodule WxWidgets.Generated.WxEvtHandler do
         :wxEvtHandler.connect(this, eventType, options)
       end
 
-    
+      
+      def connect_impl(a, b) do
+        :wxEvtHandler.connect_impl(a, b)
+      end
 
       # @spec disconnect(this :: t()) :: boolean()
       def disconnect(this) do
@@ -249,7 +252,10 @@ defmodule WxWidgets.Generated.WxEvtHandler do
         :wxEvtHandler.disconnect(this, eventType, opts)
       end
 
-    
+      
+      def disconnect_impl(a, b) do
+        :wxEvtHandler.disconnect_impl(a, b)
+      end
 
     end
   end

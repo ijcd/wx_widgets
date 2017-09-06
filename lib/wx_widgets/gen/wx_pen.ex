@@ -58,7 +58,10 @@ defmodule WxWidgets.Generated.WxPen do
         :wxPen.new(colour, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPen.parent_class(a)
+      end
 
       # @spec setCap(this :: t(), capStyle :: :wx.wx_enum()) :: :ok
       def setCap(this, capStyle) do

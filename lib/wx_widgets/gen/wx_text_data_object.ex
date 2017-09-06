@@ -33,7 +33,10 @@ defmodule WxWidgets.Generated.WxTextDataObject do
         :wxTextDataObject.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxTextDataObject.parent_class(a)
+      end
 
       # @spec setText(this :: t(), text :: :unicode.chardata()) :: :ok
       def setText(this, text) do

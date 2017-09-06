@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxAcceleratorTable do
         :wxAcceleratorTable.ok(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxAcceleratorTable.parent_class(a)
+      end
 
     end
   end

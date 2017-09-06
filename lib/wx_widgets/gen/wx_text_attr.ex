@@ -93,7 +93,10 @@ defmodule WxWidgets.Generated.WxTextAttr do
         :wxTextAttr.new(colText, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxTextAttr.parent_class(a)
+      end
 
       # @spec setAlignment(this :: t(), alignment :: :wx.wx_enum()) :: :ok
       def setAlignment(this, alignment) do

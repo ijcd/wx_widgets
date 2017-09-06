@@ -48,7 +48,10 @@ defmodule WxWidgets.Generated.WxIconBundle do
         :wxIconBundle.new(file, type)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxIconBundle.parent_class(a)
+      end
 
     end
   end

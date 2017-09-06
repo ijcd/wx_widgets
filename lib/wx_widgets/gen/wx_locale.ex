@@ -138,7 +138,10 @@ defmodule WxWidgets.Generated.WxLocale do
         :wxLocale.new(language, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxLocale.parent_class(a)
+      end
 
     end
   end

@@ -418,7 +418,10 @@ defmodule WxWidgets.Generated.WxAuiPaneInfo do
         :wxAuiPaneInfo.paneBorder(this, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxAuiPaneInfo.parent_class(a)
+      end
 
       # @spec pinButton(this :: t()) :: t()
       def pinButton(this) do

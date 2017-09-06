@@ -73,7 +73,10 @@ defmodule WxWidgets.Generated.WxGridCellAttr do
         :wxGridCellAttr.isReadOnly(this)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGridCellAttr.parent_class(a)
+      end
 
       # @spec setAlignment(this :: t(), hAlign :: integer(), vAlign :: integer()) :: :ok
       def setAlignment(this, hAlign, vAlign) do

@@ -53,7 +53,10 @@ defmodule WxWidgets.Generated.WxBrush do
         :wxBrush.new(colour, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxBrush.parent_class(a)
+      end
 
       # @spec setColour(this :: t(), col :: :wx.wx_colour()) :: :ok
       def setColour(this, col) do

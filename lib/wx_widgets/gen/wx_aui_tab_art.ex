@@ -8,7 +8,10 @@ defmodule WxWidgets.Generated.WxAuiTabArt do
 
       @type wxAuiTabArt_t :: :wxAuiTabArt.wxAuiTabArt()
 
-    
+      
+      def parent_class(a) do
+        :wxAuiTabArt.parent_class(a)
+      end
 
       # @spec setActiveColour(this :: t(), colour :: :wx.wx_colour()) :: :ok
       def setActiveColour(this, colour) do

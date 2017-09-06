@@ -230,7 +230,10 @@ defmodule WxWidgets.Generated.Gl do
         :gl.bufferSubData(target, offset, size, data)
       end
 
-    
+      
+      def call(a, b) do
+        :gl.call(a, b)
+      end
 
       # @spec callList(list :: integer()) :: :ok
       def callList(list) do
@@ -242,7 +245,10 @@ defmodule WxWidgets.Generated.Gl do
         :gl.callLists(lists)
       end
 
-    
+      
+      def cast(a, b) do
+        :gl.cast(a, b)
+      end
 
       # @spec checkFramebufferStatus(target :: enum()) :: enum()
       def checkFramebufferStatus(target) do
@@ -3359,7 +3365,10 @@ defmodule WxWidgets.Generated.Gl do
         :gl.selectBuffer(size, buffer)
       end
 
-    
+      
+      def send_bin(a) do
+        :gl.send_bin(a)
+      end
 
       # @spec separableFilter2D(target :: enum(), internalformat :: enum(), width :: integer(), height :: integer(), format :: enum(), type :: enum(), row :: offset() | mem(), column :: offset() | mem()) :: :ok
       def separableFilter2D(target, internalformat, width, height, format, type, row, column) do

@@ -73,7 +73,10 @@ defmodule WxWidgets.Generated.WxPrintPreview do
         :wxPrintPreview.paintPage(this, canvas, dc)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPrintPreview.parent_class(a)
+      end
 
       # @spec print(this :: t(), interactive :: boolean()) :: boolean()
       def print(this, interactive) do

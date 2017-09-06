@@ -13,9 +13,15 @@ defmodule WxWidgets.Generated.WxGridCellFloatRenderer do
         :wxGridCellFloatRenderer.destroy(this)
       end
 
-    
+      
+      def draw(a, b, c, d, e, f, g, h) do
+        :wxGridCellFloatRenderer.draw(a, b, c, d, e, f, g, h)
+      end
 
-    
+      
+      def getBestSize(a, b, c, d, e, f) do
+        :wxGridCellFloatRenderer.getBestSize(a, b, c, d, e, f)
+      end
 
       # @spec getPrecision(this :: t()) :: integer()
       def getPrecision(this) do
@@ -37,7 +43,10 @@ defmodule WxWidgets.Generated.WxGridCellFloatRenderer do
         :wxGridCellFloatRenderer.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxGridCellFloatRenderer.parent_class(a)
+      end
 
       # @spec setParameters(this :: t(), params :: :unicode.chardata()) :: :ok
       def setParameters(this, params) do

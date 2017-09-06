@@ -8,11 +8,20 @@ defmodule WxWidgets.Generated.WxGraphicsBrush do
 
       @type wxGraphicsBrush_t :: :wxGraphicsBrush.wxGraphicsBrush()
 
-    
+      
+      def getRenderer(a) do
+        :wxGraphicsBrush.getRenderer(a)
+      end
 
-    
+      
+      def isNull(a) do
+        :wxGraphicsBrush.isNull(a)
+      end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsBrush.parent_class(a)
+      end
 
     end
   end

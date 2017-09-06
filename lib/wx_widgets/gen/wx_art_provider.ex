@@ -28,7 +28,10 @@ defmodule WxWidgets.Generated.WxArtProvider do
         :wxArtProvider.getIcon(id, options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxArtProvider.parent_class(a)
+      end
 
     end
   end

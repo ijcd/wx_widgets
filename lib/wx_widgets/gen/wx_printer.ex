@@ -43,7 +43,10 @@ defmodule WxWidgets.Generated.WxPrinter do
         :wxPrinter.new(options)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxPrinter.parent_class(a)
+      end
 
       # @spec print(this :: t(), parent :: :wxWindow.wxWindow(), printout :: :wxPrintout.wxPrintout()) :: boolean()
       def print(this, parent, printout) do

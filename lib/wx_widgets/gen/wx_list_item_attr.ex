@@ -53,7 +53,10 @@ defmodule WxWidgets.Generated.WxListItemAttr do
         :wxListItemAttr.new(colText, colBack, font)
       end
 
-    
+      
+      def parent_class(a) do
+        :wxListItemAttr.parent_class(a)
+      end
 
       # @spec setBackgroundColour(this :: t(), colBack :: :wx.wx_colour()) :: :ok
       def setBackgroundColour(this, colBack) do

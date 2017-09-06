@@ -158,7 +158,10 @@ defmodule WxWidgets.Generated.WxGraphicsContext do
         :wxGraphicsContext.getPartialTextExtents(this, text)
       end
 
-    
+      
+      def getRenderer(a) do
+        :wxGraphicsContext.getRenderer(a)
+      end
 
       # @spec getTextExtent(this :: t(), text :: :unicode.chardata()) :: result when result: {width :: number(), height :: number(), descent :: number(), externalLeading :: number()}
       def getTextExtent(this, text) do
@@ -170,9 +173,15 @@ defmodule WxWidgets.Generated.WxGraphicsContext do
         :wxGraphicsContext.getTransform(this)
       end
 
-    
+      
+      def isNull(a) do
+        :wxGraphicsContext.isNull(a)
+      end
 
-    
+      
+      def parent_class(a) do
+        :wxGraphicsContext.parent_class(a)
+      end
 
       # @spec resetClip(this :: t()) :: :ok
       def resetClip(this) do
