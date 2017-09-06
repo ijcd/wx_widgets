@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxToggleButton do
 
   @type wxToggleButton_t :: :wxToggleButton.wxToggleButton()

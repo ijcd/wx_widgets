@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTopLevelWindow do
 
   @type wxTopLevelWindow_t :: :wxTopLevelWindow.wxTopLevelWindow()

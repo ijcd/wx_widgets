@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCommandEvent do
 
   @type wxCommandEvent_t :: :wxCommandEvent.wxCommandEvent()

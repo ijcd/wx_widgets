@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSystemOptions do
 
   @type wxSystemOptions_t :: :wxSystemOptions.wxSystemOptions()

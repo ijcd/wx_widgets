@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxListBox do
 
   @type wxListBox_t :: :wxListBox.wxListBox()

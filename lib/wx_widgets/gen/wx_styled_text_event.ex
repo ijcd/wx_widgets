@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStyledTextEvent do
 
   @type wxStyledTextEvent_t :: :wxStyledTextEvent.wxStyledTextEvent()

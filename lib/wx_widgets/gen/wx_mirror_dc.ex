@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMirrorDC do
 
   @type wxMirrorDC_t :: :wxMirrorDC.wxMirrorDC()

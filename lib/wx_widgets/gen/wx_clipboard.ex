@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxClipboard do
 
   @type wxClipboard_t :: :wxClipboard.wxClipboard()

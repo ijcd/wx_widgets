@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxColourPickerCtrl do
 
   @type wxColourPickerCtrl_t :: :wxColourPickerCtrl.wxColourPickerCtrl()

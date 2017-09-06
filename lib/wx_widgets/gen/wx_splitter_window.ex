@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSplitterWindow do
 
   @type wxSplitterWindow_t :: :wxSplitterWindow.wxSplitterWindow()

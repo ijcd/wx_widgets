@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFindReplaceDialog do
 
   @type wxFindReplaceDialog_t :: :wxFindReplaceDialog.wxFindReplaceDialog()

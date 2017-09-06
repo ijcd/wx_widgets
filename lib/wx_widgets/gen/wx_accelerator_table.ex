@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAcceleratorTable do
 
   @type wxAcceleratorTable_t :: :wxAcceleratorTable.wxAcceleratorTable()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPrintPreview do
 
   @type wxPrintPreview_t :: :wxPrintPreview.wxPrintPreview()

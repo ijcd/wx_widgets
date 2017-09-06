@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxLocale do
 
   @type wxLocale_t :: :wxLocale.wxLocale()

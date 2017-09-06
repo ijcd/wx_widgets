@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCalendarCtrl do
 
   @type wxCalendarCtrl_t :: :wxCalendarCtrl.wxCalendarCtrl()

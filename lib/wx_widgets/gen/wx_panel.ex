@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPanel do
 
   @type wxPanel_t :: :wxPanel.wxPanel()

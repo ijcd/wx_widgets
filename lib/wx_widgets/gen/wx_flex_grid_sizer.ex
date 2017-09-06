@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFlexGridSizer do
 
   @type wxFlexGridSizer_t :: :wxFlexGridSizer.wxFlexGridSizer()

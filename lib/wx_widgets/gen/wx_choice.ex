@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxChoice do
 
   @type wxChoice_t :: :wxChoice.wxChoice()

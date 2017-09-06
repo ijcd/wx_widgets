@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFontPickerCtrl do
 
   @type wxFontPickerCtrl_t :: :wxFontPickerCtrl.wxFontPickerCtrl()

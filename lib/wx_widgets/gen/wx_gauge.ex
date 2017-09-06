@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGauge do
 
   @type wxGauge_t :: :wxGauge.wxGauge()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAuiDockArt do
 
   @type wxAuiDockArt_t :: :wxAuiDockArt.wxAuiDockArt()

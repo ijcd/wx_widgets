@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSizerFlags do
 
   @type wxSizerFlags_t :: :wxSizerFlags.wxSizerFlags()

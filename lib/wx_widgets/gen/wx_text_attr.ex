@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTextAttr do
 
   @type wxTextAttr_t :: :wxTextAttr.wxTextAttr()

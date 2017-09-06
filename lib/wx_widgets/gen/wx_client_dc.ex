@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxClientDC do
 
   @type wxClientDC_t :: :wxClientDC.wxClientDC()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxLayoutAlgorithm do
 
   @type wxLayoutAlgorithm_t :: :wxLayoutAlgorithm.wxLayoutAlgorithm()

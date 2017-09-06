@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCalendarDateAttr do
 
   @type wxCalendarDateAttr_t :: :wxCalendarDateAttr.wxCalendarDateAttr()

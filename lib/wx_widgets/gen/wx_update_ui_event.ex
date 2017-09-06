@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxUpdateUIEvent do
 
   @type wxUpdateUIEvent_t :: :wxUpdateUIEvent.wxUpdateUIEvent()

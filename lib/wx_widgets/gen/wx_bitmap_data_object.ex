@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxBitmapDataObject do
 
   @type wxBitmapDataObject_t :: :wxBitmapDataObject.wxBitmapDataObject()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFileDialog do
 
   @type wxFileDialog_t :: :wxFileDialog.wxFileDialog()

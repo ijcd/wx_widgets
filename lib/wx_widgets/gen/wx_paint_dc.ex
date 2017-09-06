@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPaintDC do
 
   @type wxPaintDC_t :: :wxPaintDC.wxPaintDC()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGraphicsObject do
 
   @type wxGraphicsObject_t :: :wxGraphicsObject.wxGraphicsObject()

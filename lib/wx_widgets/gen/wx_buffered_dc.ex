@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxBufferedDC do
 
   @type wxBufferedDC_t :: :wxBufferedDC.wxBufferedDC()

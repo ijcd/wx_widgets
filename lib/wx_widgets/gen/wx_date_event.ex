@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxDateEvent do
 
   @type wxDateEvent_t :: :wxDateEvent.wxDateEvent()

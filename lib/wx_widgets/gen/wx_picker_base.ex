@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPickerBase do
 
   @type wxPickerBase_t :: :wxPickerBase.wxPickerBase()

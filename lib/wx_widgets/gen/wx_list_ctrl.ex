@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxListCtrl do
 
   @type wxListCtrl_t :: :wxListCtrl.wxListCtrl()

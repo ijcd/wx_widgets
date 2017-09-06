@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTextEntryDialog do
 
   @type wxTextEntryDialog_t :: :wxTextEntryDialog.wxTextEntryDialog()

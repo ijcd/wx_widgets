@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxLogNull do
 
   @type wxLogNull_t :: :wxLogNull.wxLogNull()

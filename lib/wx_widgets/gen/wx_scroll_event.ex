@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxScrollEvent do
 
   @type wxScrollEvent_t :: :wxScrollEvent.wxScrollEvent()

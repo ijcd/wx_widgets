@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTextDataObject do
 
   @type wxTextDataObject_t :: :wxTextDataObject.wxTextDataObject()

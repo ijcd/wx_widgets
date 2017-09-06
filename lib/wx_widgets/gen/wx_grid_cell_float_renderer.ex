@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellFloatRenderer do
 
   @type wxGridCellFloatRenderer_t :: :wxGridCellFloatRenderer.wxGridCellFloatRenderer()

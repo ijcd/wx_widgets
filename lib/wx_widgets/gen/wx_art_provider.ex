@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxArtProvider do
 
   @type wxArtProvider_t :: :wxArtProvider.wxArtProvider()

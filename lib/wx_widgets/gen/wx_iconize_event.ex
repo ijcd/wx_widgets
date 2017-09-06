@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxIconizeEvent do
 
   @type wxIconizeEvent_t :: :wxIconizeEvent.wxIconizeEvent()

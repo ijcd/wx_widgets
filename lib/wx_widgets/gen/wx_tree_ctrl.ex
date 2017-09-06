@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTreeCtrl do
 
   @type wxTreeCtrl_t :: :wxTreeCtrl.wxTreeCtrl()

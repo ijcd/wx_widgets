@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxContextMenuEvent do
 
   @type wxContextMenuEvent_t :: :wxContextMenuEvent.wxContextMenuEvent()

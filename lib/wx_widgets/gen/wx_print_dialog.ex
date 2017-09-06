@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPrintDialog do
 
   @type wxPrintDialog_t :: :wxPrintDialog.wxPrintDialog()

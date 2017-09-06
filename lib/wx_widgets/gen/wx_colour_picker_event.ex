@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxColourPickerEvent do
 
   @type wxColourPickerEvent_t :: :wxColourPickerEvent.wxColourPickerEvent()

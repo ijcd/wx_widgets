@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGraphicsRenderer do
 
   @type wxGraphicsRenderer_t :: :wxGraphicsRenderer.wxGraphicsRenderer()

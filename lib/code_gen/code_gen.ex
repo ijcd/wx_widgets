@@ -60,7 +60,10 @@ defmodule WxWidgets.CodeGen do
       |> HRL.hrl_to_defs()
 
     module_name = Path.basename(hrl_file, ".hrl") <> "_const"
-    defines = for {:define, _} = d <- statements, do: d
+    defines = for {:define, _} = d <- statements do
+      d
+    end |> Enum.reject(fn d -> d == {:define, "wxEMPTY_PARAMETER_VALUE"} end)
+
 
     EEx.eval_file(
       "lib/templates/hrl_erl_template.eex",
@@ -75,10 +78,9 @@ defmodule WxWidgets.CodeGen do
   end
 
   def render_hrl_method({:define, constant}) do
-    method_name = Macro.underscore(constant)
 """
-#{method_name}() ->
-     ?#{constant}.
+constant(const#{constant}) ->
+     ?#{constant};
 """
   end
 

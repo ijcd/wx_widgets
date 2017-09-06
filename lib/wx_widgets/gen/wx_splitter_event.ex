@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSplitterEvent do
 
   @type wxSplitterEvent_t :: :wxSplitterEvent.wxSplitterEvent()

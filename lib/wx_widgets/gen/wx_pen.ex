@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPen do
 
   @type wxPen_t :: :wxPen.wxPen()

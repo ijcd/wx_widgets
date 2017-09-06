@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSplashScreen do
 
   @type wxSplashScreen_t :: :wxSplashScreen.wxSplashScreen()

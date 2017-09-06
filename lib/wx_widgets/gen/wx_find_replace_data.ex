@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFindReplaceData do
 
   @type wxFindReplaceData_t :: :wxFindReplaceData.wxFindReplaceData()

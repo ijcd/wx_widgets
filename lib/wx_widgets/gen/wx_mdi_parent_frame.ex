@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMDIParentFrame do
 
   @type wxMDIParentFrame_t :: :wxMDIParentFrame.wxMDIParentFrame()

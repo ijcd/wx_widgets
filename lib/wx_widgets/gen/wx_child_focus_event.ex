@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxChildFocusEvent do
 
   @type wxChildFocusEvent_t :: :wxChildFocusEvent.wxChildFocusEvent()

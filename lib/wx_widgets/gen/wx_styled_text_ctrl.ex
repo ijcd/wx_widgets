@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStyledTextCtrl do
 
   @type wxStyledTextCtrl_t :: :wxStyledTextCtrl.wxStyledTextCtrl()

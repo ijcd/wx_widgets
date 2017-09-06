@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridBagSizer do
 
   @type wxGridBagSizer_t :: :wxGridBagSizer.wxGridBagSizer()

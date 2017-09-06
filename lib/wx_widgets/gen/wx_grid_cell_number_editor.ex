@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellNumberEditor do
 
   @type wxGridCellNumberEditor_t :: :wxGridCellNumberEditor.wxGridCellNumberEditor()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellRenderer do
 
   @type wxGridCellRenderer_t :: :wxGridCellRenderer.wxGridCellRenderer()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxHtmlLinkEvent do
 
   @type wxHtmlLinkEvent_t :: :wxHtmlLinkEvent.wxHtmlLinkEvent()

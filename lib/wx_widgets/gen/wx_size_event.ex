@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSizeEvent do
 
   @type wxSizeEvent_t :: :wxSizeEvent.wxSizeEvent()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMemoryDC do
 
   @type wxMemoryDC_t :: :wxMemoryDC.wxMemoryDC()

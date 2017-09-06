@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStdDialogButtonSizer do
 
   @type wxStdDialogButtonSizer_t :: :wxStdDialogButtonSizer.wxStdDialogButtonSizer()

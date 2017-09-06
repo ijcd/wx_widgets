@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSashEvent do
 
   @type wxSashEvent_t :: :wxSashEvent.wxSashEvent()

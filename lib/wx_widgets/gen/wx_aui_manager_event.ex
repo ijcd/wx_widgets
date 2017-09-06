@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAuiManagerEvent do
 
   @type wxAuiManagerEvent_t :: :wxAuiManagerEvent.wxAuiManagerEvent()

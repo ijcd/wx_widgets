@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAuiPaneInfo do
 
   @type wxAuiPaneInfo_t :: :wxAuiPaneInfo.wxAuiPaneInfo()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStaticBox do
 
   @type wxStaticBox_t :: :wxStaticBox.wxStaticBox()

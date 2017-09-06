@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMouseEvent do
 
   @type wxMouseEvent_t :: :wxMouseEvent.wxMouseEvent()

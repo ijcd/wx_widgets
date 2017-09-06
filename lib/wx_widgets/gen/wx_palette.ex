@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPalette do
 
   @type wxPalette_t :: :wxPalette.wxPalette()

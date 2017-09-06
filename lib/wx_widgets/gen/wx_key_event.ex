@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxKeyEvent do
 
   @type wxKeyEvent_t :: :wxKeyEvent.wxKeyEvent()

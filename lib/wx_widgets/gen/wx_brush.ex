@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxBrush do
 
   @type wxBrush_t :: :wxBrush.wxBrush()

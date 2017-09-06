@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxColourDialog do
 
   @type wxColourDialog_t :: :wxColourDialog.wxColourDialog()

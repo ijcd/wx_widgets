@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSpinCtrl do
 
   @type wxSpinCtrl_t :: :wxSpinCtrl.wxSpinCtrl()

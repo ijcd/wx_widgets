@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellAttr do
 
   @type wxGridCellAttr_t :: :wxGridCellAttr.wxGridCellAttr()

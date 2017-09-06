@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxDCOverlay do
 
   @type wxDCOverlay_t :: :wxDCOverlay.wxDCOverlay()

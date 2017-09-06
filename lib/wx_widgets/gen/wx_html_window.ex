@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxHtmlWindow do
 
   @type wxHtmlWindow_t :: :wxHtmlWindow.wxHtmlWindow()

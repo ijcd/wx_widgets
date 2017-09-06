@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxBitmapButton do
 
   @type wxBitmapButton_t :: :wxBitmapButton.wxBitmapButton()

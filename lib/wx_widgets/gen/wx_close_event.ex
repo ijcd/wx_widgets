@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCloseEvent do
 
   @type wxCloseEvent_t :: :wxCloseEvent.wxCloseEvent()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGrid do
 
   @type wxGrid_t :: :wxGrid.wxGrid()

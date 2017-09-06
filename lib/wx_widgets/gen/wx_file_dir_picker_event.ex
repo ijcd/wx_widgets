@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFileDirPickerEvent do
 
   @type wxFileDirPickerEvent_t :: :wxFileDirPickerEvent.wxFileDirPickerEvent()

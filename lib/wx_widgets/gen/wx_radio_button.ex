@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxRadioButton do
 
   @type wxRadioButton_t :: :wxRadioButton.wxRadioButton()

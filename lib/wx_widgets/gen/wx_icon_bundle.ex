@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxIconBundle do
 
   @type wxIconBundle_t :: :wxIconBundle.wxIconBundle()

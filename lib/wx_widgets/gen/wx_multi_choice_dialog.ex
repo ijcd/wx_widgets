@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMultiChoiceDialog do
 
   @type wxMultiChoiceDialog_t :: :wxMultiChoiceDialog.wxMultiChoiceDialog()

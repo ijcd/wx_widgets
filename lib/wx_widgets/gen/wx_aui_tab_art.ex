@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAuiTabArt do
 
   @type wxAuiTabArt_t :: :wxAuiTabArt.wxAuiTabArt()

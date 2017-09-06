@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellBoolEditor do
 
   @type wxGridCellBoolEditor_t :: :wxGridCellBoolEditor.wxGridCellBoolEditor()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFontData do
 
   @type wxFontData_t :: :wxFontData.wxFontData()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFrame do
 
   @type wxFrame_t :: :wxFrame.wxFrame()

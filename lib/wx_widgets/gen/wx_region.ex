@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxRegion do
 
   @type wxRegion_t :: :wxRegion.wxRegion()

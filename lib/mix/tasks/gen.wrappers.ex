@@ -12,31 +12,6 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
   ```
   """
 
-  def run(_args) do
-    for file <- Path.wildcard("src/specs/*.xml") do
-      # files = [
-      #   "src/specs/specs_wxImage.xml",
-      #   "src/specs/specs_wxStyledTextCtrl.xml",
-      #   "src/specs/specs_wxRegion.xml",
-      #   "src/specs/specs_wxCheckListBox.xml",
-      # ]
-      # if file in files, do: gen_wrapper(file)
-
-      gen_wrapper(file)
-    end
-    for file <- Path.wildcard("src/include/*.hrl") do
-      # files = [
-      #   "src/specs/specs_wxImage.xml",
-      #   "src/specs/specs_wxStyledTextCtrl.xml",
-      #   "src/specs/specs_wxRegion.xml",
-      #   "src/specs/specs_wxCheckListBox.xml",
-      # ]
-      # if file in files, do: gen_wrapper(file)
-
-      gen_hrlwrapper(file)
-    end
-  end
-
   def run(["--erl"]) do
     for file <- Path.wildcard("src/specs/*.xml") do
       # files = [
@@ -101,6 +76,7 @@ defmodule Mix.Tasks.WxWidgets.Gen.Wrappers do
       src
       |> WxWidgets.CodeGen.generate_hrl_wrapper()
       |> String.replace(~r/\n{2,}/, "\n\n")
+      |> String.replace(~r/;\s*\./m, ".")
 
     File.write!(target, content)
   end

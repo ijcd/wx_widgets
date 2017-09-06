@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPostScriptDC do
 
   @type wxPostScriptDC_t :: :wxPostScriptDC.wxPostScriptDC()

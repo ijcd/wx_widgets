@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCheckListBox do
 
   @type wxCheckListBox_t :: :wxCheckListBox.wxCheckListBox()

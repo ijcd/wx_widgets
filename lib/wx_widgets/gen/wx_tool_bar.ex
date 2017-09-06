@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxToolBar do
 
   @type wxToolBar_t :: :wxToolBar.wxToolBar()

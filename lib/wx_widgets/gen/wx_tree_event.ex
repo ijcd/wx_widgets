@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTreeEvent do
 
   @type wxTreeEvent_t :: :wxTreeEvent.wxTreeEvent()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxColourData do
 
   @type wxColourData_t :: :wxColourData.wxColourData()

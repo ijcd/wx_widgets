@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxDirPickerCtrl do
 
   @type wxDirPickerCtrl_t :: :wxDirPickerCtrl.wxDirPickerCtrl()

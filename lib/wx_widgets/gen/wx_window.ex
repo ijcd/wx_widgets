@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxWindow do
 
   @type wxWindow_t :: :wxWindow.wxWindow()

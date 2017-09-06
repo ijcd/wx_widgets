@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMenuEvent do
 
   @type wxMenuEvent_t :: :wxMenuEvent.wxMenuEvent()

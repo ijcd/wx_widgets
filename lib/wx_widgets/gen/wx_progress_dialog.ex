@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxProgressDialog do
 
   @type wxProgressDialog_t :: :wxProgressDialog.wxProgressDialog()

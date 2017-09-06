@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMenuItem do
 
   @type wxMenuItem_t :: :wxMenuItem.wxMenuItem()

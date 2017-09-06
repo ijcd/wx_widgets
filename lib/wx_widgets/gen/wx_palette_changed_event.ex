@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPaletteChangedEvent do
 
   @type wxPaletteChangedEvent_t :: :wxPaletteChangedEvent.wxPaletteChangedEvent()

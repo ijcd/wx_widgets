@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPasswordEntryDialog do
 
   @type wxPasswordEntryDialog_t :: :wxPasswordEntryDialog.wxPasswordEntryDialog()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.Wx do
 
   @type wx_colour_t :: :wx_colour.wx_colour()

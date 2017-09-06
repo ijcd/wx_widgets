@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPrintout do
 
   @type wxPrintout_t :: :wxPrintout.wxPrintout()

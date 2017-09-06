@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.Glu do
 
   @type enum_t :: :enum.enum()

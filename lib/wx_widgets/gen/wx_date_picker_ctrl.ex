@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxDatePickerCtrl do
 
   @type wxDatePickerCtrl_t :: :wxDatePickerCtrl.wxDatePickerCtrl()

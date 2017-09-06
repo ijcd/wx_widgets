@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxWindowDC do
 
   @type wxWindowDC_t :: :wxWindowDC.wxWindowDC()

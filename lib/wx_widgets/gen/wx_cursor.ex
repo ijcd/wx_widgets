@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCursor do
 
   @type wxCursor_t :: :wxCursor.wxCursor()

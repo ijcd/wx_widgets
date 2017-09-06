@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.Gl do
 
   @type clamp_t :: :clamp.clamp()

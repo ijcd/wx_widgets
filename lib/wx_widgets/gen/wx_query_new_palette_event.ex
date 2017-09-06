@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxQueryNewPaletteEvent do
 
   @type wxQueryNewPaletteEvent_t :: :wxQueryNewPaletteEvent.wxQueryNewPaletteEvent()

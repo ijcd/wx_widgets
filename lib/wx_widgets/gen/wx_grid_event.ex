@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridEvent do
 
   @type wxGridEvent_t :: :wxGridEvent.wxGridEvent()

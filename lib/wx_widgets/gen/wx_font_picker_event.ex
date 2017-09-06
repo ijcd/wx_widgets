@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFontPickerEvent do
 
   @type wxFontPickerEvent_t :: :wxFontPickerEvent.wxFontPickerEvent()

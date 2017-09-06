@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellChoiceEditor do
 
   @type wxGridCellChoiceEditor_t :: :wxGridCellChoiceEditor.wxGridCellChoiceEditor()

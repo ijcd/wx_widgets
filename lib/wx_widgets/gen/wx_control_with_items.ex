@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxControlWithItems do
 
   @type wxControlWithItems_t :: :wxControlWithItems.wxControlWithItems()

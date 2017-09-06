@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxToolbook do
 
   @type wxToolbook_t :: :wxToolbook.wxToolbook()

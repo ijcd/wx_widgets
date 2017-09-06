@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxButton do
 
   @type wxButton_t :: :wxButton.wxButton()

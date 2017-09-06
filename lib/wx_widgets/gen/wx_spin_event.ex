@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSpinEvent do
 
   @type wxSpinEvent_t :: :wxSpinEvent.wxSpinEvent()

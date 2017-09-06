@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMessageDialog do
 
   @type wxMessageDialog_t :: :wxMessageDialog.wxMessageDialog()

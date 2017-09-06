@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPopupTransientWindow do
 
   @type wxPopupTransientWindow_t :: :wxPopupTransientWindow.wxPopupTransientWindow()

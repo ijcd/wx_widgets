@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSingleChoiceDialog do
 
   @type wxSingleChoiceDialog_t :: :wxSingleChoiceDialog.wxSingleChoiceDialog()

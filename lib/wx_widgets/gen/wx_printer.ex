@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPrinter do
 
   @type wxPrinter_t :: :wxPrinter.wxPrinter()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCalendarEvent do
 
   @type wxCalendarEvent_t :: :wxCalendarEvent.wxCalendarEvent()

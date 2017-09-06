@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxPageSetupDialogData do
 
   @type wxPageSetupDialogData_t :: :wxPageSetupDialogData.wxPageSetupDialogData()

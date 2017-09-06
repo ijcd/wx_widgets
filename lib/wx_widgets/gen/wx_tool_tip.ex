@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxToolTip do
 
   @type wxToolTip_t :: :wxToolTip.wxToolTip()

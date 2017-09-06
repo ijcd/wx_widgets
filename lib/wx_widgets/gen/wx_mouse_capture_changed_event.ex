@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMouseCaptureChangedEvent do
 
   @type wxMouseCaptureChangedEvent_t :: :wxMouseCaptureChangedEvent.wxMouseCaptureChangedEvent()

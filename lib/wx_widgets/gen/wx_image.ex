@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxImage do
 
   @type wxImage_t :: :wxImage.wxImage()

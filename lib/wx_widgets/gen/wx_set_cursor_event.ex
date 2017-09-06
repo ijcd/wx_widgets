@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSetCursorEvent do
 
   @type wxSetCursorEvent_t :: :wxSetCursorEvent.wxSetCursorEvent()

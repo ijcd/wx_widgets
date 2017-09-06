@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStaticBitmap do
 
   @type wxStaticBitmap_t :: :wxStaticBitmap.wxStaticBitmap()

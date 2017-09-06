@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMDIClientWindow do
 
   @type wxMDIClientWindow_t :: :wxMDIClientWindow.wxMDIClientWindow()

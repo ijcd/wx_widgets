@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStaticBoxSizer do
 
   @type wxStaticBoxSizer_t :: :wxStaticBoxSizer.wxStaticBoxSizer()

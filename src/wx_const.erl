@@ -1,10568 +1,10568 @@
+%%
+%% GENERATED, DO NOT EDIT
+%%
+
 -module(wx_const).
 -compile(export_all).
 
 -include_lib("src/include/wx.hrl").
 
-wx_default_size() ->
-     ?wxDefaultSize.
+constant(constwxDefaultSize) ->
+     ?wxDefaultSize;
 
-wx_default_position() ->
-     ?wxDefaultPosition.
+constant(constwxDefaultPosition) ->
+     ?wxDefaultPosition;
 
-wx_black() ->
-     ?wxBLACK.
+constant(constwxBLACK) ->
+     ?wxBLACK;
 
-wx_black_brush() ->
-     ?wxBLACK_BRUSH.
+constant(constwxBLACK_BRUSH) ->
+     ?wxBLACK_BRUSH;
 
-wx_black_dashed_pen() ->
-     ?wxBLACK_DASHED_PEN.
+constant(constwxBLACK_DASHED_PEN) ->
+     ?wxBLACK_DASHED_PEN;
 
-wx_black_pen() ->
-     ?wxBLACK_PEN.
+constant(constwxBLACK_PEN) ->
+     ?wxBLACK_PEN;
 
-wx_blue() ->
-     ?wxBLUE.
+constant(constwxBLUE) ->
+     ?wxBLUE;
 
-wx_blue_brush() ->
-     ?wxBLUE_BRUSH.
+constant(constwxBLUE_BRUSH) ->
+     ?wxBLUE_BRUSH;
 
-wx_cross_cursor() ->
-     ?wxCROSS_CURSOR.
+constant(constwxCROSS_CURSOR) ->
+     ?wxCROSS_CURSOR;
 
-wx_cyan() ->
-     ?wxCYAN.
+constant(constwxCYAN) ->
+     ?wxCYAN;
 
-wx_cyan_brush() ->
-     ?wxCYAN_BRUSH.
+constant(constwxCYAN_BRUSH) ->
+     ?wxCYAN_BRUSH;
 
-wx_cyan_pen() ->
-     ?wxCYAN_PEN.
+constant(constwxCYAN_PEN) ->
+     ?wxCYAN_PEN;
 
-wx_green() ->
-     ?wxGREEN.
+constant(constwxGREEN) ->
+     ?wxGREEN;
 
-wx_green_brush() ->
-     ?wxGREEN_BRUSH.
+constant(constwxGREEN_BRUSH) ->
+     ?wxGREEN_BRUSH;
 
-wx_green_pen() ->
-     ?wxGREEN_PEN.
+constant(constwxGREEN_PEN) ->
+     ?wxGREEN_PEN;
 
-wx_grey_brush() ->
-     ?wxGREY_BRUSH.
+constant(constwxGREY_BRUSH) ->
+     ?wxGREY_BRUSH;
 
-wx_grey_pen() ->
-     ?wxGREY_PEN.
+constant(constwxGREY_PEN) ->
+     ?wxGREY_PEN;
 
-wx_hourglass_cursor() ->
-     ?wxHOURGLASS_CURSOR.
+constant(constwxHOURGLASS_CURSOR) ->
+     ?wxHOURGLASS_CURSOR;
 
-wx_italic_font() ->
-     ?wxITALIC_FONT.
+constant(constwxITALIC_FONT) ->
+     ?wxITALIC_FONT;
 
-wx_light_grey() ->
-     ?wxLIGHT_GREY.
+constant(constwxLIGHT_GREY) ->
+     ?wxLIGHT_GREY;
 
-wx_light_grey_brush() ->
-     ?wxLIGHT_GREY_BRUSH.
+constant(constwxLIGHT_GREY_BRUSH) ->
+     ?wxLIGHT_GREY_BRUSH;
 
-wx_light_grey_pen() ->
-     ?wxLIGHT_GREY_PEN.
+constant(constwxLIGHT_GREY_PEN) ->
+     ?wxLIGHT_GREY_PEN;
 
-wx_medium_grey_brush() ->
-     ?wxMEDIUM_GREY_BRUSH.
+constant(constwxMEDIUM_GREY_BRUSH) ->
+     ?wxMEDIUM_GREY_BRUSH;
 
-wx_medium_grey_pen() ->
-     ?wxMEDIUM_GREY_PEN.
+constant(constwxMEDIUM_GREY_PEN) ->
+     ?wxMEDIUM_GREY_PEN;
 
-wx_normal_font() ->
-     ?wxNORMAL_FONT.
+constant(constwxNORMAL_FONT) ->
+     ?wxNORMAL_FONT;
 
-wx_null_bitmap() ->
-     ?wxNullBitmap.
+constant(constwxNullBitmap) ->
+     ?wxNullBitmap;
 
-wx_null_brush() ->
-     ?wxNullBrush.
+constant(constwxNullBrush) ->
+     ?wxNullBrush;
 
-wx_null_cursor() ->
-     ?wxNullCursor.
+constant(constwxNullCursor) ->
+     ?wxNullCursor;
 
-wx_null_font() ->
-     ?wxNullFont.
+constant(constwxNullFont) ->
+     ?wxNullFont;
 
-wx_null_icon() ->
-     ?wxNullIcon.
+constant(constwxNullIcon) ->
+     ?wxNullIcon;
 
-wx_null_palette() ->
-     ?wxNullPalette.
+constant(constwxNullPalette) ->
+     ?wxNullPalette;
 
-wx_null_pen() ->
-     ?wxNullPen.
+constant(constwxNullPen) ->
+     ?wxNullPen;
 
-wx_red() ->
-     ?wxRED.
+constant(constwxRED) ->
+     ?wxRED;
 
-wx_red_brush() ->
-     ?wxRED_BRUSH.
+constant(constwxRED_BRUSH) ->
+     ?wxRED_BRUSH;
 
-wx_red_pen() ->
-     ?wxRED_PEN.
+constant(constwxRED_PEN) ->
+     ?wxRED_PEN;
 
-wx_small_font() ->
-     ?wxSMALL_FONT.
+constant(constwxSMALL_FONT) ->
+     ?wxSMALL_FONT;
 
-wx_standard_cursor() ->
-     ?wxSTANDARD_CURSOR.
+constant(constwxSTANDARD_CURSOR) ->
+     ?wxSTANDARD_CURSOR;
 
-wx_swiss_font() ->
-     ?wxSWISS_FONT.
+constant(constwxSWISS_FONT) ->
+     ?wxSWISS_FONT;
 
-wx_transparent_brush() ->
-     ?wxTRANSPARENT_BRUSH.
+constant(constwxTRANSPARENT_BRUSH) ->
+     ?wxTRANSPARENT_BRUSH;
 
-wx_transparent_pen() ->
-     ?wxTRANSPARENT_PEN.
+constant(constwxTRANSPARENT_PEN) ->
+     ?wxTRANSPARENT_PEN;
 
-wx_white() ->
-     ?wxWHITE.
+constant(constwxWHITE) ->
+     ?wxWHITE;
 
-wx_white_brush() ->
-     ?wxWHITE_BRUSH.
+constant(constwxWHITE_BRUSH) ->
+     ?wxWHITE_BRUSH;
 
-wx_white_pen() ->
-     ?wxWHITE_PEN.
+constant(constwxWHITE_PEN) ->
+     ?wxWHITE_PEN;
 
-wx_aui_manager_action_none() ->
-     ?wxAuiManager_actionNone.
+constant(constwxAuiManager_actionNone) ->
+     ?wxAuiManager_actionNone;
 
-wx_aui_manager_action_resize() ->
-     ?wxAuiManager_actionResize.
+constant(constwxAuiManager_actionResize) ->
+     ?wxAuiManager_actionResize;
 
-wx_aui_manager_action_click_button() ->
-     ?wxAuiManager_actionClickButton.
+constant(constwxAuiManager_actionClickButton) ->
+     ?wxAuiManager_actionClickButton;
 
-wx_aui_manager_action_click_caption() ->
-     ?wxAuiManager_actionClickCaption.
+constant(constwxAuiManager_actionClickCaption) ->
+     ?wxAuiManager_actionClickCaption;
 
-wx_aui_manager_action_drag_toolbar_pane() ->
-     ?wxAuiManager_actionDragToolbarPane.
+constant(constwxAuiManager_actionDragToolbarPane) ->
+     ?wxAuiManager_actionDragToolbarPane;
 
-wx_aui_manager_action_drag_floating_pane() ->
-     ?wxAuiManager_actionDragFloatingPane.
+constant(constwxAuiManager_actionDragFloatingPane) ->
+     ?wxAuiManager_actionDragFloatingPane;
 
-wx_aui_pane_info_option_floating() ->
-     ?wxAuiPaneInfo_optionFloating.
+constant(constwxAuiPaneInfo_optionFloating) ->
+     ?wxAuiPaneInfo_optionFloating;
 
-wx_aui_pane_info_option_hidden() ->
-     ?wxAuiPaneInfo_optionHidden.
+constant(constwxAuiPaneInfo_optionHidden) ->
+     ?wxAuiPaneInfo_optionHidden;
 
-wx_aui_pane_info_option_left_dockable() ->
-     ?wxAuiPaneInfo_optionLeftDockable.
+constant(constwxAuiPaneInfo_optionLeftDockable) ->
+     ?wxAuiPaneInfo_optionLeftDockable;
 
-wx_aui_pane_info_option_right_dockable() ->
-     ?wxAuiPaneInfo_optionRightDockable.
+constant(constwxAuiPaneInfo_optionRightDockable) ->
+     ?wxAuiPaneInfo_optionRightDockable;
 
-wx_aui_pane_info_option_top_dockable() ->
-     ?wxAuiPaneInfo_optionTopDockable.
+constant(constwxAuiPaneInfo_optionTopDockable) ->
+     ?wxAuiPaneInfo_optionTopDockable;
 
-wx_aui_pane_info_option_bottom_dockable() ->
-     ?wxAuiPaneInfo_optionBottomDockable.
+constant(constwxAuiPaneInfo_optionBottomDockable) ->
+     ?wxAuiPaneInfo_optionBottomDockable;
 
-wx_aui_pane_info_option_floatable() ->
-     ?wxAuiPaneInfo_optionFloatable.
+constant(constwxAuiPaneInfo_optionFloatable) ->
+     ?wxAuiPaneInfo_optionFloatable;
 
-wx_aui_pane_info_option_movable() ->
-     ?wxAuiPaneInfo_optionMovable.
+constant(constwxAuiPaneInfo_optionMovable) ->
+     ?wxAuiPaneInfo_optionMovable;
 
-wx_aui_pane_info_option_resizable() ->
-     ?wxAuiPaneInfo_optionResizable.
+constant(constwxAuiPaneInfo_optionResizable) ->
+     ?wxAuiPaneInfo_optionResizable;
 
-wx_aui_pane_info_option_pane_border() ->
-     ?wxAuiPaneInfo_optionPaneBorder.
+constant(constwxAuiPaneInfo_optionPaneBorder) ->
+     ?wxAuiPaneInfo_optionPaneBorder;
 
-wx_aui_pane_info_option_caption() ->
-     ?wxAuiPaneInfo_optionCaption.
+constant(constwxAuiPaneInfo_optionCaption) ->
+     ?wxAuiPaneInfo_optionCaption;
 
-wx_aui_pane_info_option_gripper() ->
-     ?wxAuiPaneInfo_optionGripper.
+constant(constwxAuiPaneInfo_optionGripper) ->
+     ?wxAuiPaneInfo_optionGripper;
 
-wx_aui_pane_info_option_destroy_on_close() ->
-     ?wxAuiPaneInfo_optionDestroyOnClose.
+constant(constwxAuiPaneInfo_optionDestroyOnClose) ->
+     ?wxAuiPaneInfo_optionDestroyOnClose;
 
-wx_aui_pane_info_option_toolbar() ->
-     ?wxAuiPaneInfo_optionToolbar.
+constant(constwxAuiPaneInfo_optionToolbar) ->
+     ?wxAuiPaneInfo_optionToolbar;
 
-wx_aui_pane_info_option_active() ->
-     ?wxAuiPaneInfo_optionActive.
+constant(constwxAuiPaneInfo_optionActive) ->
+     ?wxAuiPaneInfo_optionActive;
 
-wx_aui_pane_info_option_gripper_top() ->
-     ?wxAuiPaneInfo_optionGripperTop.
+constant(constwxAuiPaneInfo_optionGripperTop) ->
+     ?wxAuiPaneInfo_optionGripperTop;
 
-wx_aui_pane_info_option_maximized() ->
-     ?wxAuiPaneInfo_optionMaximized.
+constant(constwxAuiPaneInfo_optionMaximized) ->
+     ?wxAuiPaneInfo_optionMaximized;
 
-wx_aui_pane_info_option_dock_fixed() ->
-     ?wxAuiPaneInfo_optionDockFixed.
+constant(constwxAuiPaneInfo_optionDockFixed) ->
+     ?wxAuiPaneInfo_optionDockFixed;
 
-wx_aui_pane_info_button_close() ->
-     ?wxAuiPaneInfo_buttonClose.
+constant(constwxAuiPaneInfo_buttonClose) ->
+     ?wxAuiPaneInfo_buttonClose;
 
-wx_aui_pane_info_button_maximize() ->
-     ?wxAuiPaneInfo_buttonMaximize.
+constant(constwxAuiPaneInfo_buttonMaximize) ->
+     ?wxAuiPaneInfo_buttonMaximize;
 
-wx_aui_pane_info_button_minimize() ->
-     ?wxAuiPaneInfo_buttonMinimize.
+constant(constwxAuiPaneInfo_buttonMinimize) ->
+     ?wxAuiPaneInfo_buttonMinimize;
 
-wx_aui_pane_info_button_pin() ->
-     ?wxAuiPaneInfo_buttonPin.
+constant(constwxAuiPaneInfo_buttonPin) ->
+     ?wxAuiPaneInfo_buttonPin;
 
-wx_aui_pane_info_button_custom1() ->
-     ?wxAuiPaneInfo_buttonCustom1.
+constant(constwxAuiPaneInfo_buttonCustom1) ->
+     ?wxAuiPaneInfo_buttonCustom1;
 
-wx_aui_pane_info_button_custom2() ->
-     ?wxAuiPaneInfo_buttonCustom2.
+constant(constwxAuiPaneInfo_buttonCustom2) ->
+     ?wxAuiPaneInfo_buttonCustom2;
 
-wx_aui_pane_info_button_custom3() ->
-     ?wxAuiPaneInfo_buttonCustom3.
+constant(constwxAuiPaneInfo_buttonCustom3) ->
+     ?wxAuiPaneInfo_buttonCustom3;
 
-wx_aui_pane_info_saved_hidden_state() ->
-     ?wxAuiPaneInfo_savedHiddenState.
+constant(constwxAuiPaneInfo_savedHiddenState) ->
+     ?wxAuiPaneInfo_savedHiddenState;
 
-wx_aui_pane_info_action_pane() ->
-     ?wxAuiPaneInfo_actionPane.
+constant(constwxAuiPaneInfo_actionPane) ->
+     ?wxAuiPaneInfo_actionPane;
 
-wx_bitmap__pixmap() ->
-     ?wxBitmap_Pixmap.
+constant(constwxBitmap_Pixmap) ->
+     ?wxBitmap_Pixmap;
 
-wx_bitmap__pixbuf() ->
-     ?wxBitmap_Pixbuf.
+constant(constwxBitmap_Pixbuf) ->
+     ?wxBitmap_Pixbuf;
 
-wx_choicebook__set_selection__send_event() ->
-     ?wxChoicebook_SetSelection_SendEvent.
+constant(constwxChoicebook_SetSelection_SendEvent) ->
+     ?wxChoicebook_SetSelection_SendEvent;
 
-wx_date_time__gregorian() ->
-     ?wxDateTime_Gregorian.
+constant(constwxDateTime_Gregorian) ->
+     ?wxDateTime_Gregorian;
 
-wx_date_time__julian() ->
-     ?wxDateTime_Julian.
+constant(constwxDateTime_Julian) ->
+     ?wxDateTime_Julian;
 
-wx_date_time__country__unknown() ->
-     ?wxDateTime_Country_Unknown.
+constant(constwxDateTime_Country_Unknown) ->
+     ?wxDateTime_Country_Unknown;
 
-wx_date_time__country__default() ->
-     ?wxDateTime_Country_Default.
+constant(constwxDateTime_Country_Default) ->
+     ?wxDateTime_Country_Default;
 
-wx_date_time__country__western_europe__start() ->
-     ?wxDateTime_Country_WesternEurope_Start.
+constant(constwxDateTime_Country_WesternEurope_Start) ->
+     ?wxDateTime_Country_WesternEurope_Start;
 
-wx_date_time__country_eec() ->
-     ?wxDateTime_Country_EEC.
+constant(constwxDateTime_Country_EEC) ->
+     ?wxDateTime_Country_EEC;
 
-wx_date_time__france() ->
-     ?wxDateTime_France.
+constant(constwxDateTime_France) ->
+     ?wxDateTime_France;
 
-wx_date_time__germany() ->
-     ?wxDateTime_Germany.
+constant(constwxDateTime_Germany) ->
+     ?wxDateTime_Germany;
 
-wx_date_time_uk() ->
-     ?wxDateTime_UK.
+constant(constwxDateTime_UK) ->
+     ?wxDateTime_UK;
 
-wx_date_time__country__western_europe__end() ->
-     ?wxDateTime_Country_WesternEurope_End.
+constant(constwxDateTime_Country_WesternEurope_End) ->
+     ?wxDateTime_Country_WesternEurope_End;
 
-wx_date_time__russia() ->
-     ?wxDateTime_Russia.
+constant(constwxDateTime_Russia) ->
+     ?wxDateTime_Russia;
 
-wx_date_time_usa() ->
-     ?wxDateTime_USA.
+constant(constwxDateTime_USA) ->
+     ?wxDateTime_USA;
 
-wx_date_time__gr__unknown() ->
-     ?wxDateTime_Gr_Unknown.
+constant(constwxDateTime_Gr_Unknown) ->
+     ?wxDateTime_Gr_Unknown;
 
-wx_date_time__gr__standard() ->
-     ?wxDateTime_Gr_Standard.
+constant(constwxDateTime_Gr_Standard) ->
+     ?wxDateTime_Gr_Standard;
 
-wx_date_time__gr__alaska() ->
-     ?wxDateTime_Gr_Alaska.
+constant(constwxDateTime_Gr_Alaska) ->
+     ?wxDateTime_Gr_Alaska;
 
-wx_date_time__gr__albania() ->
-     ?wxDateTime_Gr_Albania.
+constant(constwxDateTime_Gr_Albania) ->
+     ?wxDateTime_Gr_Albania;
 
-wx_date_time__gr__austria() ->
-     ?wxDateTime_Gr_Austria.
+constant(constwxDateTime_Gr_Austria) ->
+     ?wxDateTime_Gr_Austria;
 
-wx_date_time__gr__austria__brixen() ->
-     ?wxDateTime_Gr_Austria_Brixen.
+constant(constwxDateTime_Gr_Austria_Brixen) ->
+     ?wxDateTime_Gr_Austria_Brixen;
 
-wx_date_time__gr__austria__salzburg() ->
-     ?wxDateTime_Gr_Austria_Salzburg.
+constant(constwxDateTime_Gr_Austria_Salzburg) ->
+     ?wxDateTime_Gr_Austria_Salzburg;
 
-wx_date_time__gr__austria__tyrol() ->
-     ?wxDateTime_Gr_Austria_Tyrol.
+constant(constwxDateTime_Gr_Austria_Tyrol) ->
+     ?wxDateTime_Gr_Austria_Tyrol;
 
-wx_date_time__gr__austria__carinthia() ->
-     ?wxDateTime_Gr_Austria_Carinthia.
+constant(constwxDateTime_Gr_Austria_Carinthia) ->
+     ?wxDateTime_Gr_Austria_Carinthia;
 
-wx_date_time__gr__austria__styria() ->
-     ?wxDateTime_Gr_Austria_Styria.
+constant(constwxDateTime_Gr_Austria_Styria) ->
+     ?wxDateTime_Gr_Austria_Styria;
 
-wx_date_time__gr__belgium() ->
-     ?wxDateTime_Gr_Belgium.
+constant(constwxDateTime_Gr_Belgium) ->
+     ?wxDateTime_Gr_Belgium;
 
-wx_date_time__gr__bulgaria() ->
-     ?wxDateTime_Gr_Bulgaria.
+constant(constwxDateTime_Gr_Bulgaria) ->
+     ?wxDateTime_Gr_Bulgaria;
 
-wx_date_time__gr__bulgaria_1() ->
-     ?wxDateTime_Gr_Bulgaria_1.
+constant(constwxDateTime_Gr_Bulgaria_1) ->
+     ?wxDateTime_Gr_Bulgaria_1;
 
-wx_date_time__gr__bulgaria_2() ->
-     ?wxDateTime_Gr_Bulgaria_2.
+constant(constwxDateTime_Gr_Bulgaria_2) ->
+     ?wxDateTime_Gr_Bulgaria_2;
 
-wx_date_time__gr__bulgaria_3() ->
-     ?wxDateTime_Gr_Bulgaria_3.
+constant(constwxDateTime_Gr_Bulgaria_3) ->
+     ?wxDateTime_Gr_Bulgaria_3;
 
-wx_date_time__gr__canada() ->
-     ?wxDateTime_Gr_Canada.
+constant(constwxDateTime_Gr_Canada) ->
+     ?wxDateTime_Gr_Canada;
 
-wx_date_time__gr__china() ->
-     ?wxDateTime_Gr_China.
+constant(constwxDateTime_Gr_China) ->
+     ?wxDateTime_Gr_China;
 
-wx_date_time__gr__china_1() ->
-     ?wxDateTime_Gr_China_1.
+constant(constwxDateTime_Gr_China_1) ->
+     ?wxDateTime_Gr_China_1;
 
-wx_date_time__gr__china_2() ->
-     ?wxDateTime_Gr_China_2.
+constant(constwxDateTime_Gr_China_2) ->
+     ?wxDateTime_Gr_China_2;
 
-wx_date_time__gr__czechoslovakia() ->
-     ?wxDateTime_Gr_Czechoslovakia.
+constant(constwxDateTime_Gr_Czechoslovakia) ->
+     ?wxDateTime_Gr_Czechoslovakia;
 
-wx_date_time__gr__denmark() ->
-     ?wxDateTime_Gr_Denmark.
+constant(constwxDateTime_Gr_Denmark) ->
+     ?wxDateTime_Gr_Denmark;
 
-wx_date_time__gr__egypt() ->
-     ?wxDateTime_Gr_Egypt.
+constant(constwxDateTime_Gr_Egypt) ->
+     ?wxDateTime_Gr_Egypt;
 
-wx_date_time__gr__estonia() ->
-     ?wxDateTime_Gr_Estonia.
+constant(constwxDateTime_Gr_Estonia) ->
+     ?wxDateTime_Gr_Estonia;
 
-wx_date_time__gr__finland() ->
-     ?wxDateTime_Gr_Finland.
+constant(constwxDateTime_Gr_Finland) ->
+     ?wxDateTime_Gr_Finland;
 
-wx_date_time__gr__france() ->
-     ?wxDateTime_Gr_France.
+constant(constwxDateTime_Gr_France) ->
+     ?wxDateTime_Gr_France;
 
-wx_date_time__gr__france__alsace() ->
-     ?wxDateTime_Gr_France_Alsace.
+constant(constwxDateTime_Gr_France_Alsace) ->
+     ?wxDateTime_Gr_France_Alsace;
 
-wx_date_time__gr__france__lorraine() ->
-     ?wxDateTime_Gr_France_Lorraine.
+constant(constwxDateTime_Gr_France_Lorraine) ->
+     ?wxDateTime_Gr_France_Lorraine;
 
-wx_date_time__gr__france__strasbourg() ->
-     ?wxDateTime_Gr_France_Strasbourg.
+constant(constwxDateTime_Gr_France_Strasbourg) ->
+     ?wxDateTime_Gr_France_Strasbourg;
 
-wx_date_time__gr__germany() ->
-     ?wxDateTime_Gr_Germany.
+constant(constwxDateTime_Gr_Germany) ->
+     ?wxDateTime_Gr_Germany;
 
-wx_date_time__gr__germany__catholic() ->
-     ?wxDateTime_Gr_Germany_Catholic.
+constant(constwxDateTime_Gr_Germany_Catholic) ->
+     ?wxDateTime_Gr_Germany_Catholic;
 
-wx_date_time__gr__germany__prussia() ->
-     ?wxDateTime_Gr_Germany_Prussia.
+constant(constwxDateTime_Gr_Germany_Prussia) ->
+     ?wxDateTime_Gr_Germany_Prussia;
 
-wx_date_time__gr__germany__protestant() ->
-     ?wxDateTime_Gr_Germany_Protestant.
+constant(constwxDateTime_Gr_Germany_Protestant) ->
+     ?wxDateTime_Gr_Germany_Protestant;
 
-wx_date_time__gr__great_britain() ->
-     ?wxDateTime_Gr_GreatBritain.
+constant(constwxDateTime_Gr_GreatBritain) ->
+     ?wxDateTime_Gr_GreatBritain;
 
-wx_date_time__gr__greece() ->
-     ?wxDateTime_Gr_Greece.
+constant(constwxDateTime_Gr_Greece) ->
+     ?wxDateTime_Gr_Greece;
 
-wx_date_time__gr__hungary() ->
-     ?wxDateTime_Gr_Hungary.
+constant(constwxDateTime_Gr_Hungary) ->
+     ?wxDateTime_Gr_Hungary;
 
-wx_date_time__gr__ireland() ->
-     ?wxDateTime_Gr_Ireland.
+constant(constwxDateTime_Gr_Ireland) ->
+     ?wxDateTime_Gr_Ireland;
 
-wx_date_time__gr__italy() ->
-     ?wxDateTime_Gr_Italy.
+constant(constwxDateTime_Gr_Italy) ->
+     ?wxDateTime_Gr_Italy;
 
-wx_date_time__gr__japan() ->
-     ?wxDateTime_Gr_Japan.
+constant(constwxDateTime_Gr_Japan) ->
+     ?wxDateTime_Gr_Japan;
 
-wx_date_time__gr__japan_1() ->
-     ?wxDateTime_Gr_Japan_1.
+constant(constwxDateTime_Gr_Japan_1) ->
+     ?wxDateTime_Gr_Japan_1;
 
-wx_date_time__gr__japan_2() ->
-     ?wxDateTime_Gr_Japan_2.
+constant(constwxDateTime_Gr_Japan_2) ->
+     ?wxDateTime_Gr_Japan_2;
 
-wx_date_time__gr__japan_3() ->
-     ?wxDateTime_Gr_Japan_3.
+constant(constwxDateTime_Gr_Japan_3) ->
+     ?wxDateTime_Gr_Japan_3;
 
-wx_date_time__gr__latvia() ->
-     ?wxDateTime_Gr_Latvia.
+constant(constwxDateTime_Gr_Latvia) ->
+     ?wxDateTime_Gr_Latvia;
 
-wx_date_time__gr__lithuania() ->
-     ?wxDateTime_Gr_Lithuania.
+constant(constwxDateTime_Gr_Lithuania) ->
+     ?wxDateTime_Gr_Lithuania;
 
-wx_date_time__gr__luxemburg() ->
-     ?wxDateTime_Gr_Luxemburg.
+constant(constwxDateTime_Gr_Luxemburg) ->
+     ?wxDateTime_Gr_Luxemburg;
 
-wx_date_time__gr__netherlands() ->
-     ?wxDateTime_Gr_Netherlands.
+constant(constwxDateTime_Gr_Netherlands) ->
+     ?wxDateTime_Gr_Netherlands;
 
-wx_date_time__gr__netherlands__groningen() ->
-     ?wxDateTime_Gr_Netherlands_Groningen.
+constant(constwxDateTime_Gr_Netherlands_Groningen) ->
+     ?wxDateTime_Gr_Netherlands_Groningen;
 
-wx_date_time__gr__netherlands__gelderland() ->
-     ?wxDateTime_Gr_Netherlands_Gelderland.
+constant(constwxDateTime_Gr_Netherlands_Gelderland) ->
+     ?wxDateTime_Gr_Netherlands_Gelderland;
 
-wx_date_time__gr__netherlands__utrecht() ->
-     ?wxDateTime_Gr_Netherlands_Utrecht.
+constant(constwxDateTime_Gr_Netherlands_Utrecht) ->
+     ?wxDateTime_Gr_Netherlands_Utrecht;
 
-wx_date_time__gr__netherlands__friesland() ->
-     ?wxDateTime_Gr_Netherlands_Friesland.
+constant(constwxDateTime_Gr_Netherlands_Friesland) ->
+     ?wxDateTime_Gr_Netherlands_Friesland;
 
-wx_date_time__gr__norway() ->
-     ?wxDateTime_Gr_Norway.
+constant(constwxDateTime_Gr_Norway) ->
+     ?wxDateTime_Gr_Norway;
 
-wx_date_time__gr__poland() ->
-     ?wxDateTime_Gr_Poland.
+constant(constwxDateTime_Gr_Poland) ->
+     ?wxDateTime_Gr_Poland;
 
-wx_date_time__gr__portugal() ->
-     ?wxDateTime_Gr_Portugal.
+constant(constwxDateTime_Gr_Portugal) ->
+     ?wxDateTime_Gr_Portugal;
 
-wx_date_time__gr__romania() ->
-     ?wxDateTime_Gr_Romania.
+constant(constwxDateTime_Gr_Romania) ->
+     ?wxDateTime_Gr_Romania;
 
-wx_date_time__gr__russia() ->
-     ?wxDateTime_Gr_Russia.
+constant(constwxDateTime_Gr_Russia) ->
+     ?wxDateTime_Gr_Russia;
 
-wx_date_time__gr__scotland() ->
-     ?wxDateTime_Gr_Scotland.
+constant(constwxDateTime_Gr_Scotland) ->
+     ?wxDateTime_Gr_Scotland;
 
-wx_date_time__gr__spain() ->
-     ?wxDateTime_Gr_Spain.
+constant(constwxDateTime_Gr_Spain) ->
+     ?wxDateTime_Gr_Spain;
 
-wx_date_time__gr__sweden() ->
-     ?wxDateTime_Gr_Sweden.
+constant(constwxDateTime_Gr_Sweden) ->
+     ?wxDateTime_Gr_Sweden;
 
-wx_date_time__gr__switzerland() ->
-     ?wxDateTime_Gr_Switzerland.
+constant(constwxDateTime_Gr_Switzerland) ->
+     ?wxDateTime_Gr_Switzerland;
 
-wx_date_time__gr__switzerland__catholic() ->
-     ?wxDateTime_Gr_Switzerland_Catholic.
+constant(constwxDateTime_Gr_Switzerland_Catholic) ->
+     ?wxDateTime_Gr_Switzerland_Catholic;
 
-wx_date_time__gr__switzerland__protestant() ->
-     ?wxDateTime_Gr_Switzerland_Protestant.
+constant(constwxDateTime_Gr_Switzerland_Protestant) ->
+     ?wxDateTime_Gr_Switzerland_Protestant;
 
-wx_date_time__gr__turkey() ->
-     ?wxDateTime_Gr_Turkey.
+constant(constwxDateTime_Gr_Turkey) ->
+     ?wxDateTime_Gr_Turkey;
 
-wx_date_time__gr_usa() ->
-     ?wxDateTime_Gr_USA.
+constant(constwxDateTime_Gr_USA) ->
+     ?wxDateTime_Gr_USA;
 
-wx_date_time__gr__wales() ->
-     ?wxDateTime_Gr_Wales.
+constant(constwxDateTime_Gr_Wales) ->
+     ?wxDateTime_Gr_Wales;
 
-wx_date_time__gr__yugoslavia() ->
-     ?wxDateTime_Gr_Yugoslavia.
+constant(constwxDateTime_Gr_Yugoslavia) ->
+     ?wxDateTime_Gr_Yugoslavia;
 
-wx_date_time__jan() ->
-     ?wxDateTime_Jan.
+constant(constwxDateTime_Jan) ->
+     ?wxDateTime_Jan;
 
-wx_date_time__feb() ->
-     ?wxDateTime_Feb.
+constant(constwxDateTime_Feb) ->
+     ?wxDateTime_Feb;
 
-wx_date_time__mar() ->
-     ?wxDateTime_Mar.
+constant(constwxDateTime_Mar) ->
+     ?wxDateTime_Mar;
 
-wx_date_time__apr() ->
-     ?wxDateTime_Apr.
+constant(constwxDateTime_Apr) ->
+     ?wxDateTime_Apr;
 
-wx_date_time__may() ->
-     ?wxDateTime_May.
+constant(constwxDateTime_May) ->
+     ?wxDateTime_May;
 
-wx_date_time__jun() ->
-     ?wxDateTime_Jun.
+constant(constwxDateTime_Jun) ->
+     ?wxDateTime_Jun;
 
-wx_date_time__jul() ->
-     ?wxDateTime_Jul.
+constant(constwxDateTime_Jul) ->
+     ?wxDateTime_Jul;
 
-wx_date_time__aug() ->
-     ?wxDateTime_Aug.
+constant(constwxDateTime_Aug) ->
+     ?wxDateTime_Aug;
 
-wx_date_time__sep() ->
-     ?wxDateTime_Sep.
+constant(constwxDateTime_Sep) ->
+     ?wxDateTime_Sep;
 
-wx_date_time__oct() ->
-     ?wxDateTime_Oct.
+constant(constwxDateTime_Oct) ->
+     ?wxDateTime_Oct;
 
-wx_date_time__nov() ->
-     ?wxDateTime_Nov.
+constant(constwxDateTime_Nov) ->
+     ?wxDateTime_Nov;
 
-wx_date_time__dec() ->
-     ?wxDateTime_Dec.
+constant(constwxDateTime_Dec) ->
+     ?wxDateTime_Dec;
 
-wx_date_time__inv__month() ->
-     ?wxDateTime_Inv_Month.
+constant(constwxDateTime_Inv_Month) ->
+     ?wxDateTime_Inv_Month;
 
-wx_date_time__name__full() ->
-     ?wxDateTime_Name_Full.
+constant(constwxDateTime_Name_Full) ->
+     ?wxDateTime_Name_Full;
 
-wx_date_time__name__abbr() ->
-     ?wxDateTime_Name_Abbr.
+constant(constwxDateTime_Name_Abbr) ->
+     ?wxDateTime_Name_Abbr;
 
-wx_date_time__local() ->
-     ?wxDateTime_Local.
+constant(constwxDateTime_Local) ->
+     ?wxDateTime_Local;
 
-wx_date_time_gmt_12() ->
-     ?wxDateTime_GMT_12.
+constant(constwxDateTime_GMT_12) ->
+     ?wxDateTime_GMT_12;
 
-wx_date_time_gmt_11() ->
-     ?wxDateTime_GMT_11.
+constant(constwxDateTime_GMT_11) ->
+     ?wxDateTime_GMT_11;
 
-wx_date_time_gmt_10() ->
-     ?wxDateTime_GMT_10.
+constant(constwxDateTime_GMT_10) ->
+     ?wxDateTime_GMT_10;
 
-wx_date_time_gmt_9() ->
-     ?wxDateTime_GMT_9.
+constant(constwxDateTime_GMT_9) ->
+     ?wxDateTime_GMT_9;
 
-wx_date_time_gmt_8() ->
-     ?wxDateTime_GMT_8.
+constant(constwxDateTime_GMT_8) ->
+     ?wxDateTime_GMT_8;
 
-wx_date_time_gmt_7() ->
-     ?wxDateTime_GMT_7.
+constant(constwxDateTime_GMT_7) ->
+     ?wxDateTime_GMT_7;
 
-wx_date_time_gmt_6() ->
-     ?wxDateTime_GMT_6.
+constant(constwxDateTime_GMT_6) ->
+     ?wxDateTime_GMT_6;
 
-wx_date_time_gmt_5() ->
-     ?wxDateTime_GMT_5.
+constant(constwxDateTime_GMT_5) ->
+     ?wxDateTime_GMT_5;
 
-wx_date_time_gmt_4() ->
-     ?wxDateTime_GMT_4.
+constant(constwxDateTime_GMT_4) ->
+     ?wxDateTime_GMT_4;
 
-wx_date_time_gmt_3() ->
-     ?wxDateTime_GMT_3.
+constant(constwxDateTime_GMT_3) ->
+     ?wxDateTime_GMT_3;
 
-wx_date_time_gmt_2() ->
-     ?wxDateTime_GMT_2.
+constant(constwxDateTime_GMT_2) ->
+     ?wxDateTime_GMT_2;
 
-wx_date_time_gmt_1() ->
-     ?wxDateTime_GMT_1.
+constant(constwxDateTime_GMT_1) ->
+     ?wxDateTime_GMT_1;
 
-wx_date_time_gm_t0() ->
-     ?wxDateTime_GMT0.
+constant(constwxDateTime_GMT0) ->
+     ?wxDateTime_GMT0;
 
-wx_date_time_gm_t1() ->
-     ?wxDateTime_GMT1.
+constant(constwxDateTime_GMT1) ->
+     ?wxDateTime_GMT1;
 
-wx_date_time_gm_t2() ->
-     ?wxDateTime_GMT2.
+constant(constwxDateTime_GMT2) ->
+     ?wxDateTime_GMT2;
 
-wx_date_time_gm_t3() ->
-     ?wxDateTime_GMT3.
+constant(constwxDateTime_GMT3) ->
+     ?wxDateTime_GMT3;
 
-wx_date_time_gm_t4() ->
-     ?wxDateTime_GMT4.
+constant(constwxDateTime_GMT4) ->
+     ?wxDateTime_GMT4;
 
-wx_date_time_gm_t5() ->
-     ?wxDateTime_GMT5.
+constant(constwxDateTime_GMT5) ->
+     ?wxDateTime_GMT5;
 
-wx_date_time_gm_t6() ->
-     ?wxDateTime_GMT6.
+constant(constwxDateTime_GMT6) ->
+     ?wxDateTime_GMT6;
 
-wx_date_time_gm_t7() ->
-     ?wxDateTime_GMT7.
+constant(constwxDateTime_GMT7) ->
+     ?wxDateTime_GMT7;
 
-wx_date_time_gm_t8() ->
-     ?wxDateTime_GMT8.
+constant(constwxDateTime_GMT8) ->
+     ?wxDateTime_GMT8;
 
-wx_date_time_gm_t9() ->
-     ?wxDateTime_GMT9.
+constant(constwxDateTime_GMT9) ->
+     ?wxDateTime_GMT9;
 
-wx_date_time_gm_t10() ->
-     ?wxDateTime_GMT10.
+constant(constwxDateTime_GMT10) ->
+     ?wxDateTime_GMT10;
 
-wx_date_time_gm_t11() ->
-     ?wxDateTime_GMT11.
+constant(constwxDateTime_GMT11) ->
+     ?wxDateTime_GMT11;
 
-wx_date_time_gm_t12() ->
-     ?wxDateTime_GMT12.
+constant(constwxDateTime_GMT12) ->
+     ?wxDateTime_GMT12;
 
-wx_date_time_gm_t13() ->
-     ?wxDateTime_GMT13.
+constant(constwxDateTime_GMT13) ->
+     ?wxDateTime_GMT13;
 
-wx_date_time_wet() ->
-     ?wxDateTime_WET.
+constant(constwxDateTime_WET) ->
+     ?wxDateTime_WET;
 
-wx_date_time_west() ->
-     ?wxDateTime_WEST.
+constant(constwxDateTime_WEST) ->
+     ?wxDateTime_WEST;
 
-wx_date_time_cet() ->
-     ?wxDateTime_CET.
+constant(constwxDateTime_CET) ->
+     ?wxDateTime_CET;
 
-wx_date_time_cest() ->
-     ?wxDateTime_CEST.
+constant(constwxDateTime_CEST) ->
+     ?wxDateTime_CEST;
 
-wx_date_time_eet() ->
-     ?wxDateTime_EET.
+constant(constwxDateTime_EET) ->
+     ?wxDateTime_EET;
 
-wx_date_time_eest() ->
-     ?wxDateTime_EEST.
+constant(constwxDateTime_EEST) ->
+     ?wxDateTime_EEST;
 
-wx_date_time_msk() ->
-     ?wxDateTime_MSK.
+constant(constwxDateTime_MSK) ->
+     ?wxDateTime_MSK;
 
-wx_date_time_msd() ->
-     ?wxDateTime_MSD.
+constant(constwxDateTime_MSD) ->
+     ?wxDateTime_MSD;
 
-wx_date_time_ast() ->
-     ?wxDateTime_AST.
+constant(constwxDateTime_AST) ->
+     ?wxDateTime_AST;
 
-wx_date_time_adt() ->
-     ?wxDateTime_ADT.
+constant(constwxDateTime_ADT) ->
+     ?wxDateTime_ADT;
 
-wx_date_time_est() ->
-     ?wxDateTime_EST.
+constant(constwxDateTime_EST) ->
+     ?wxDateTime_EST;
 
-wx_date_time_edt() ->
-     ?wxDateTime_EDT.
+constant(constwxDateTime_EDT) ->
+     ?wxDateTime_EDT;
 
-wx_date_time_cst() ->
-     ?wxDateTime_CST.
+constant(constwxDateTime_CST) ->
+     ?wxDateTime_CST;
 
-wx_date_time_cdt() ->
-     ?wxDateTime_CDT.
+constant(constwxDateTime_CDT) ->
+     ?wxDateTime_CDT;
 
-wx_date_time_mst() ->
-     ?wxDateTime_MST.
+constant(constwxDateTime_MST) ->
+     ?wxDateTime_MST;
 
-wx_date_time_mdt() ->
-     ?wxDateTime_MDT.
+constant(constwxDateTime_MDT) ->
+     ?wxDateTime_MDT;
 
-wx_date_time_pst() ->
-     ?wxDateTime_PST.
+constant(constwxDateTime_PST) ->
+     ?wxDateTime_PST;
 
-wx_date_time_pdt() ->
-     ?wxDateTime_PDT.
+constant(constwxDateTime_PDT) ->
+     ?wxDateTime_PDT;
 
-wx_date_time_hst() ->
-     ?wxDateTime_HST.
+constant(constwxDateTime_HST) ->
+     ?wxDateTime_HST;
 
-wx_date_time_akst() ->
-     ?wxDateTime_AKST.
+constant(constwxDateTime_AKST) ->
+     ?wxDateTime_AKST;
 
-wx_date_time_akdt() ->
-     ?wxDateTime_AKDT.
+constant(constwxDateTime_AKDT) ->
+     ?wxDateTime_AKDT;
 
-wx_date_time_a_wst() ->
-     ?wxDateTime_A_WST.
+constant(constwxDateTime_A_WST) ->
+     ?wxDateTime_A_WST;
 
-wx_date_time_a_cst() ->
-     ?wxDateTime_A_CST.
+constant(constwxDateTime_A_CST) ->
+     ?wxDateTime_A_CST;
 
-wx_date_time_a_est() ->
-     ?wxDateTime_A_EST.
+constant(constwxDateTime_A_EST) ->
+     ?wxDateTime_A_EST;
 
-wx_date_time_a_esst() ->
-     ?wxDateTime_A_ESST.
+constant(constwxDateTime_A_ESST) ->
+     ?wxDateTime_A_ESST;
 
-wx_date_time_nzst() ->
-     ?wxDateTime_NZST.
+constant(constwxDateTime_NZST) ->
+     ?wxDateTime_NZST;
 
-wx_date_time_nzdt() ->
-     ?wxDateTime_NZDT.
+constant(constwxDateTime_NZDT) ->
+     ?wxDateTime_NZDT;
 
-wx_date_time_utc() ->
-     ?wxDateTime_UTC.
+constant(constwxDateTime_UTC) ->
+     ?wxDateTime_UTC;
 
-wx_date_time__sun() ->
-     ?wxDateTime_Sun.
+constant(constwxDateTime_Sun) ->
+     ?wxDateTime_Sun;
 
-wx_date_time__mon() ->
-     ?wxDateTime_Mon.
+constant(constwxDateTime_Mon) ->
+     ?wxDateTime_Mon;
 
-wx_date_time__tue() ->
-     ?wxDateTime_Tue.
+constant(constwxDateTime_Tue) ->
+     ?wxDateTime_Tue;
 
-wx_date_time__wed() ->
-     ?wxDateTime_Wed.
+constant(constwxDateTime_Wed) ->
+     ?wxDateTime_Wed;
 
-wx_date_time__thu() ->
-     ?wxDateTime_Thu.
+constant(constwxDateTime_Thu) ->
+     ?wxDateTime_Thu;
 
-wx_date_time__fri() ->
-     ?wxDateTime_Fri.
+constant(constwxDateTime_Fri) ->
+     ?wxDateTime_Fri;
 
-wx_date_time__sat() ->
-     ?wxDateTime_Sat.
+constant(constwxDateTime_Sat) ->
+     ?wxDateTime_Sat;
 
-wx_date_time__inv__week_day() ->
-     ?wxDateTime_Inv_WeekDay.
+constant(constwxDateTime_Inv_WeekDay) ->
+     ?wxDateTime_Inv_WeekDay;
 
-wx_date_time__default__first() ->
-     ?wxDateTime_Default_First.
+constant(constwxDateTime_Default_First) ->
+     ?wxDateTime_Default_First;
 
-wx_date_time__monday__first() ->
-     ?wxDateTime_Monday_First.
+constant(constwxDateTime_Monday_First) ->
+     ?wxDateTime_Monday_First;
 
-wx_date_time__sunday__first() ->
-     ?wxDateTime_Sunday_First.
+constant(constwxDateTime_Sunday_First) ->
+     ?wxDateTime_Sunday_First;
 
-wx_dialog__button_sizer_flags() ->
-     ?wxDialog_ButtonSizerFlags.
+constant(constwxDialog_ButtonSizerFlags) ->
+     ?wxDialog_ButtonSizerFlags;
 
-wx_grid_wx_grid_cellctrl() ->
-     ?wxGrid_wxGRID_CELLCTRL.
+constant(constwxGrid_wxGRID_CELLCTRL) ->
+     ?wxGrid_wxGRID_CELLCTRL;
 
-wx_grid_wx_grid_topctrl() ->
-     ?wxGrid_wxGRID_TOPCTRL.
+constant(constwxGrid_wxGRID_TOPCTRL) ->
+     ?wxGrid_wxGRID_TOPCTRL;
 
-wx_grid_wx_grid_textctrl() ->
-     ?wxGrid_wxGRID_TEXTCTRL.
+constant(constwxGrid_wxGRID_TEXTCTRL) ->
+     ?wxGrid_wxGRID_TEXTCTRL;
 
-wx_grid_wx_grid_checkbox() ->
-     ?wxGrid_wxGRID_CHECKBOX.
+constant(constwxGrid_wxGRID_CHECKBOX) ->
+     ?wxGrid_wxGRID_CHECKBOX;
 
-wx_grid_wx_grid_choice() ->
-     ?wxGrid_wxGRID_CHOICE.
+constant(constwxGrid_wxGRID_CHOICE) ->
+     ?wxGrid_wxGRID_CHOICE;
 
-wx_grid_wx_grid_combobox() ->
-     ?wxGrid_wxGRID_COMBOBOX.
+constant(constwxGrid_wxGRID_COMBOBOX) ->
+     ?wxGrid_wxGRID_COMBOBOX;
 
-wx_grid_wxgrid_cursor_select_cell() ->
-     ?wxGrid_WXGRID_CURSOR_SELECT_CELL.
+constant(constwxGrid_WXGRID_CURSOR_SELECT_CELL) ->
+     ?wxGrid_WXGRID_CURSOR_SELECT_CELL;
 
-wx_grid_wxgrid_cursor_resize_row() ->
-     ?wxGrid_WXGRID_CURSOR_RESIZE_ROW.
+constant(constwxGrid_WXGRID_CURSOR_RESIZE_ROW) ->
+     ?wxGrid_WXGRID_CURSOR_RESIZE_ROW;
 
-wx_grid_wxgrid_cursor_resize_col() ->
-     ?wxGrid_WXGRID_CURSOR_RESIZE_COL.
+constant(constwxGrid_WXGRID_CURSOR_RESIZE_COL) ->
+     ?wxGrid_WXGRID_CURSOR_RESIZE_COL;
 
-wx_grid_wxgrid_cursor_select_row() ->
-     ?wxGrid_WXGRID_CURSOR_SELECT_ROW.
+constant(constwxGrid_WXGRID_CURSOR_SELECT_ROW) ->
+     ?wxGrid_WXGRID_CURSOR_SELECT_ROW;
 
-wx_grid_wxgrid_cursor_select_col() ->
-     ?wxGrid_WXGRID_CURSOR_SELECT_COL.
+constant(constwxGrid_WXGRID_CURSOR_SELECT_COL) ->
+     ?wxGrid_WXGRID_CURSOR_SELECT_COL;
 
-wx_grid_wxgrid_cursor_move_col() ->
-     ?wxGrid_WXGRID_CURSOR_MOVE_COL.
+constant(constwxGrid_WXGRID_CURSOR_MOVE_COL) ->
+     ?wxGrid_WXGRID_CURSOR_MOVE_COL;
 
-wx_grid_wx_grid_select_cells() ->
-     ?wxGrid_wxGridSelectCells.
+constant(constwxGrid_wxGridSelectCells) ->
+     ?wxGrid_wxGridSelectCells;
 
-wx_grid_wx_grid_select_rows() ->
-     ?wxGrid_wxGridSelectRows.
+constant(constwxGrid_wxGridSelectRows) ->
+     ?wxGrid_wxGridSelectRows;
 
-wx_grid_wx_grid_select_columns() ->
-     ?wxGrid_wxGridSelectColumns.
+constant(constwxGrid_wxGridSelectColumns) ->
+     ?wxGrid_wxGridSelectColumns;
 
-wx_grid_cell_attr__any() ->
-     ?wxGridCellAttr_Any.
+constant(constwxGridCellAttr_Any) ->
+     ?wxGridCellAttr_Any;
 
-wx_grid_cell_attr__default() ->
-     ?wxGridCellAttr_Default.
+constant(constwxGridCellAttr_Default) ->
+     ?wxGridCellAttr_Default;
 
-wx_grid_cell_attr__cell() ->
-     ?wxGridCellAttr_Cell.
+constant(constwxGridCellAttr_Cell) ->
+     ?wxGridCellAttr_Cell;
 
-wx_grid_cell_attr__row() ->
-     ?wxGridCellAttr_Row.
+constant(constwxGridCellAttr_Row) ->
+     ?wxGridCellAttr_Row;
 
-wx_grid_cell_attr__col() ->
-     ?wxGridCellAttr_Col.
+constant(constwxGridCellAttr_Col) ->
+     ?wxGridCellAttr_Col;
 
-wx_grid_cell_attr__merged() ->
-     ?wxGridCellAttr_Merged.
+constant(constwxGridCellAttr_Merged) ->
+     ?wxGridCellAttr_Merged;
 
-wx_grid_cell_attr__unset_overflow() ->
-     ?wxGridCellAttr_UnsetOverflow.
+constant(constwxGridCellAttr_UnsetOverflow) ->
+     ?wxGridCellAttr_UnsetOverflow;
 
-wx_grid_cell_attr__overflow() ->
-     ?wxGridCellAttr_Overflow.
+constant(constwxGridCellAttr_Overflow) ->
+     ?wxGridCellAttr_Overflow;
 
-wx_grid_cell_attr__single_cell() ->
-     ?wxGridCellAttr_SingleCell.
+constant(constwxGridCellAttr_SingleCell) ->
+     ?wxGridCellAttr_SingleCell;
 
-wx_grid_cell_attr__unset() ->
-     ?wxGridCellAttr_Unset.
+constant(constwxGridCellAttr_Unset) ->
+     ?wxGridCellAttr_Unset;
 
-wx_grid_cell_attr__read_write() ->
-     ?wxGridCellAttr_ReadWrite.
+constant(constwxGridCellAttr_ReadWrite) ->
+     ?wxGridCellAttr_ReadWrite;
 
-wx_grid_cell_attr__read_only() ->
-     ?wxGridCellAttr_ReadOnly.
+constant(constwxGridCellAttr_ReadOnly) ->
+     ?wxGridCellAttr_ReadOnly;
 
-wx_help_event__origin__unknown() ->
-     ?wxHelpEvent_Origin_Unknown.
+constant(constwxHelpEvent_Origin_Unknown) ->
+     ?wxHelpEvent_Origin_Unknown;
 
-wx_help_event__origin__keyboard() ->
-     ?wxHelpEvent_Origin_Keyboard.
+constant(constwxHelpEvent_Origin_Keyboard) ->
+     ?wxHelpEvent_Origin_Keyboard;
 
-wx_help_event__origin__help_button() ->
-     ?wxHelpEvent_Origin_HelpButton.
+constant(constwxHelpEvent_Origin_HelpButton) ->
+     ?wxHelpEvent_Origin_HelpButton;
 
-wx_html_easy_printing__font_mode__explicit() ->
-     ?wxHtmlEasyPrinting_FontMode_Explicit.
+constant(constwxHtmlEasyPrinting_FontMode_Explicit) ->
+     ?wxHtmlEasyPrinting_FontMode_Explicit;
 
-wx_html_easy_printing__font_mode__standard() ->
-     ?wxHtmlEasyPrinting_FontMode_Standard.
+constant(constwxHtmlEasyPrinting_FontMode_Standard) ->
+     ?wxHtmlEasyPrinting_FontMode_Standard;
 
-wx_html_window__primary() ->
-     ?wxHtmlWindow_Primary.
+constant(constwxHtmlWindow_Primary) ->
+     ?wxHtmlWindow_Primary;
 
-wx_html_window__secondary() ->
-     ?wxHtmlWindow_Secondary.
+constant(constwxHtmlWindow_Secondary) ->
+     ?wxHtmlWindow_Secondary;
 
-wx_listbook__set_selection__send_event() ->
-     ?wxListbook_SetSelection_SendEvent.
+constant(constwxListbook_SetSelection_SendEvent) ->
+     ?wxListbook_SetSelection_SendEvent;
 
-wx_navigation_key_event__is_backward() ->
-     ?wxNavigationKeyEvent_IsBackward.
+constant(constwxNavigationKeyEvent_IsBackward) ->
+     ?wxNavigationKeyEvent_IsBackward;
 
-wx_navigation_key_event__is_forward() ->
-     ?wxNavigationKeyEvent_IsForward.
+constant(constwxNavigationKeyEvent_IsForward) ->
+     ?wxNavigationKeyEvent_IsForward;
 
-wx_navigation_key_event__win_change() ->
-     ?wxNavigationKeyEvent_WinChange.
+constant(constwxNavigationKeyEvent_WinChange) ->
+     ?wxNavigationKeyEvent_WinChange;
 
-wx_navigation_key_event__from_tab() ->
-     ?wxNavigationKeyEvent_FromTab.
+constant(constwxNavigationKeyEvent_FromTab) ->
+     ?wxNavigationKeyEvent_FromTab;
 
-wx_notebook__set_selection__send_event() ->
-     ?wxNotebook_SetSelection_SendEvent.
+constant(constwxNotebook_SetSelection_SendEvent) ->
+     ?wxNotebook_SetSelection_SendEvent;
 
-wx_progress_dialog__uncancelable() ->
-     ?wxProgressDialog_Uncancelable.
+constant(constwxProgressDialog_Uncancelable) ->
+     ?wxProgressDialog_Uncancelable;
 
-wx_progress_dialog__canceled() ->
-     ?wxProgressDialog_Canceled.
+constant(constwxProgressDialog_Canceled) ->
+     ?wxProgressDialog_Canceled;
 
-wx_progress_dialog__continue() ->
-     ?wxProgressDialog_Continue.
+constant(constwxProgressDialog_Continue) ->
+     ?wxProgressDialog_Continue;
 
-wx_progress_dialog__finished() ->
-     ?wxProgressDialog_Finished.
+constant(constwxProgressDialog_Finished) ->
+     ?wxProgressDialog_Finished;
 
-wx_sizer_item__item__none() ->
-     ?wxSizerItem_Item_None.
+constant(constwxSizerItem_Item_None) ->
+     ?wxSizerItem_Item_None;
 
-wx_sizer_item__item__window() ->
-     ?wxSizerItem_Item_Window.
+constant(constwxSizerItem_Item_Window) ->
+     ?wxSizerItem_Item_Window;
 
-wx_sizer_item__item__sizer() ->
-     ?wxSizerItem_Item_Sizer.
+constant(constwxSizerItem_Item_Sizer) ->
+     ?wxSizerItem_Item_Sizer;
 
-wx_sizer_item__item__spacer() ->
-     ?wxSizerItem_Item_Spacer.
+constant(constwxSizerItem_Item_Spacer) ->
+     ?wxSizerItem_Item_Spacer;
 
-wx_sizer_item__item__max() ->
-     ?wxSizerItem_Item_Max.
+constant(constwxSizerItem_Item_Max) ->
+     ?wxSizerItem_Item_Max;
 
-wx_text_ctrl__set_value__send_event() ->
-     ?wxTextCtrl_SetValue_SendEvent.
+constant(constwxTextCtrl_SetValue_SendEvent) ->
+     ?wxTextCtrl_SetValue_SendEvent;
 
-wx_text_ctrl__set_value__selection_only() ->
-     ?wxTextCtrl_SetValue_SelectionOnly.
+constant(constwxTextCtrl_SetValue_SelectionOnly) ->
+     ?wxTextCtrl_SetValue_SelectionOnly;
 
-wx_toolbook__set_selection__send_event() ->
-     ?wxToolbook_SetSelection_SendEvent.
+constant(constwxToolbook_SetSelection_SendEvent) ->
+     ?wxToolbook_SetSelection_SendEvent;
 
-wx_treebook__set_selection__send_event() ->
-     ?wxTreebook_SetSelection_SendEvent.
+constant(constwxTreebook_SetSelection_SendEvent) ->
+     ?wxTreebook_SetSelection_SendEvent;
 
-wx_window__move_before() ->
-     ?wxWindow_MoveBefore.
+constant(constwxWindow_MoveBefore) ->
+     ?wxWindow_MoveBefore;
 
-wx_window__move_after() ->
-     ?wxWindow_MoveAfter.
+constant(constwxWindow_MoveAfter) ->
+     ?wxWindow_MoveAfter;
 
-wx_window_gtk__scroll_dir__horz() ->
-     ?wxWindowGTK_ScrollDir_Horz.
+constant(constwxWindowGTK_ScrollDir_Horz) ->
+     ?wxWindowGTK_ScrollDir_Horz;
 
-wx_window_gtk__scroll_dir__vert() ->
-     ?wxWindowGTK_ScrollDir_Vert.
+constant(constwxWindowGTK_ScrollDir_Vert) ->
+     ?wxWindowGTK_ScrollDir_Vert;
 
-wx_window_gtk__scroll_dir__max() ->
-     ?wxWindowGTK_ScrollDir_Max.
+constant(constwxWindowGTK_ScrollDir_Max) ->
+     ?wxWindowGTK_ScrollDir_Max;
 
-wx_window_gtk__scroll_unit__line() ->
-     ?wxWindowGTK_ScrollUnit_Line.
+constant(constwxWindowGTK_ScrollUnit_Line) ->
+     ?wxWindowGTK_ScrollUnit_Line;
 
-wx_window_gtk__scroll_unit__page() ->
-     ?wxWindowGTK_ScrollUnit_Page.
+constant(constwxWindowGTK_ScrollUnit_Page) ->
+     ?wxWindowGTK_ScrollUnit_Page;
 
-wx_window_gtk__scroll_unit__max() ->
-     ?wxWindowGTK_ScrollUnit_Max.
+constant(constwxWindowGTK_ScrollUnit_Max) ->
+     ?wxWindowGTK_ScrollUnit_Max;
 
-wx_accel_normal() ->
-     ?wxACCEL_NORMAL.
+constant(constwxACCEL_NORMAL) ->
+     ?wxACCEL_NORMAL;
 
-wx_accel_alt() ->
-     ?wxACCEL_ALT.
+constant(constwxACCEL_ALT) ->
+     ?wxACCEL_ALT;
 
-wx_accel_ctrl() ->
-     ?wxACCEL_CTRL.
+constant(constwxACCEL_CTRL) ->
+     ?wxACCEL_CTRL;
 
-wx_accel_shift() ->
-     ?wxACCEL_SHIFT.
+constant(constwxACCEL_SHIFT) ->
+     ?wxACCEL_SHIFT;
 
-wx_accel_cmd() ->
-     ?wxACCEL_CMD.
+constant(constwxACCEL_CMD) ->
+     ?wxACCEL_CMD;
 
-wx_print_windows() ->
-     ?wxPRINT_WINDOWS.
+constant(constwxPRINT_WINDOWS) ->
+     ?wxPRINT_WINDOWS;
 
-wx_print_postscript() ->
-     ?wxPRINT_POSTSCRIPT.
+constant(constwxPRINT_POSTSCRIPT) ->
+     ?wxPRINT_POSTSCRIPT;
 
-wx_aui_nb_top() ->
-     ?wxAUI_NB_TOP.
+constant(constwxAUI_NB_TOP) ->
+     ?wxAUI_NB_TOP;
 
-wx_aui_nb_left() ->
-     ?wxAUI_NB_LEFT.
+constant(constwxAUI_NB_LEFT) ->
+     ?wxAUI_NB_LEFT;
 
-wx_aui_nb_right() ->
-     ?wxAUI_NB_RIGHT.
+constant(constwxAUI_NB_RIGHT) ->
+     ?wxAUI_NB_RIGHT;
 
-wx_aui_nb_bottom() ->
-     ?wxAUI_NB_BOTTOM.
+constant(constwxAUI_NB_BOTTOM) ->
+     ?wxAUI_NB_BOTTOM;
 
-wx_aui_nb_tab_split() ->
-     ?wxAUI_NB_TAB_SPLIT.
+constant(constwxAUI_NB_TAB_SPLIT) ->
+     ?wxAUI_NB_TAB_SPLIT;
 
-wx_aui_nb_tab_move() ->
-     ?wxAUI_NB_TAB_MOVE.
+constant(constwxAUI_NB_TAB_MOVE) ->
+     ?wxAUI_NB_TAB_MOVE;
 
-wx_aui_nb_tab_external_move() ->
-     ?wxAUI_NB_TAB_EXTERNAL_MOVE.
+constant(constwxAUI_NB_TAB_EXTERNAL_MOVE) ->
+     ?wxAUI_NB_TAB_EXTERNAL_MOVE;
 
-wx_aui_nb_tab_fixed_width() ->
-     ?wxAUI_NB_TAB_FIXED_WIDTH.
+constant(constwxAUI_NB_TAB_FIXED_WIDTH) ->
+     ?wxAUI_NB_TAB_FIXED_WIDTH;
 
-wx_aui_nb_scroll_buttons() ->
-     ?wxAUI_NB_SCROLL_BUTTONS.
+constant(constwxAUI_NB_SCROLL_BUTTONS) ->
+     ?wxAUI_NB_SCROLL_BUTTONS;
 
-wx_aui_nb_windowlist_button() ->
-     ?wxAUI_NB_WINDOWLIST_BUTTON.
+constant(constwxAUI_NB_WINDOWLIST_BUTTON) ->
+     ?wxAUI_NB_WINDOWLIST_BUTTON;
 
-wx_aui_nb_close_button() ->
-     ?wxAUI_NB_CLOSE_BUTTON.
+constant(constwxAUI_NB_CLOSE_BUTTON) ->
+     ?wxAUI_NB_CLOSE_BUTTON;
 
-wx_aui_nb_close_on_active_tab() ->
-     ?wxAUI_NB_CLOSE_ON_ACTIVE_TAB.
+constant(constwxAUI_NB_CLOSE_ON_ACTIVE_TAB) ->
+     ?wxAUI_NB_CLOSE_ON_ACTIVE_TAB;
 
-wx_aui_nb_close_on_all_tabs() ->
-     ?wxAUI_NB_CLOSE_ON_ALL_TABS.
+constant(constwxAUI_NB_CLOSE_ON_ALL_TABS) ->
+     ?wxAUI_NB_CLOSE_ON_ALL_TABS;
 
-wx_aui_nb_middle_click_close() ->
-     ?wxAUI_NB_MIDDLE_CLICK_CLOSE.
+constant(constwxAUI_NB_MIDDLE_CLICK_CLOSE) ->
+     ?wxAUI_NB_MIDDLE_CLICK_CLOSE;
 
-wx_aui_nb_default_style() ->
-     ?wxAUI_NB_DEFAULT_STYLE.
+constant(constwxAUI_NB_DEFAULT_STYLE) ->
+     ?wxAUI_NB_DEFAULT_STYLE;
 
-wx_bk_hittest_nowhere() ->
-     ?wxBK_HITTEST_NOWHERE.
+constant(constwxBK_HITTEST_NOWHERE) ->
+     ?wxBK_HITTEST_NOWHERE;
 
-wx_bk_hittest_onicon() ->
-     ?wxBK_HITTEST_ONICON.
+constant(constwxBK_HITTEST_ONICON) ->
+     ?wxBK_HITTEST_ONICON;
 
-wx_bk_hittest_onlabel() ->
-     ?wxBK_HITTEST_ONLABEL.
+constant(constwxBK_HITTEST_ONLABEL) ->
+     ?wxBK_HITTEST_ONLABEL;
 
-wx_bk_hittest_onitem() ->
-     ?wxBK_HITTEST_ONITEM.
+constant(constwxBK_HITTEST_ONITEM) ->
+     ?wxBK_HITTEST_ONITEM;
 
-wx_bk_hittest_onpage() ->
-     ?wxBK_HITTEST_ONPAGE.
+constant(constwxBK_HITTEST_ONPAGE) ->
+     ?wxBK_HITTEST_ONPAGE;
 
-wx_bk_align_mask() ->
-     ?wxBK_ALIGN_MASK.
+constant(constwxBK_ALIGN_MASK) ->
+     ?wxBK_ALIGN_MASK;
 
-wx_bk_right() ->
-     ?wxBK_RIGHT.
+constant(constwxBK_RIGHT) ->
+     ?wxBK_RIGHT;
 
-wx_bk_left() ->
-     ?wxBK_LEFT.
+constant(constwxBK_LEFT) ->
+     ?wxBK_LEFT;
 
-wx_bk_bottom() ->
-     ?wxBK_BOTTOM.
+constant(constwxBK_BOTTOM) ->
+     ?wxBK_BOTTOM;
 
-wx_bk_top() ->
-     ?wxBK_TOP.
+constant(constwxBK_TOP) ->
+     ?wxBK_TOP;
 
-wx_bk_default() ->
-     ?wxBK_DEFAULT.
+constant(constwxBK_DEFAULT) ->
+     ?wxBK_DEFAULT;
 
-wx_sash_status_ok() ->
-     ?wxSASH_STATUS_OK.
+constant(constwxSASH_STATUS_OK) ->
+     ?wxSASH_STATUS_OK;
 
-wx_sash_status_out_of_range() ->
-     ?wxSASH_STATUS_OUT_OF_RANGE.
+constant(constwxSASH_STATUS_OUT_OF_RANGE) ->
+     ?wxSASH_STATUS_OUT_OF_RANGE;
 
-wx_bu_exactfit() ->
-     ?wxBU_EXACTFIT.
+constant(constwxBU_EXACTFIT) ->
+     ?wxBU_EXACTFIT;
 
-wx_bu_autodraw() ->
-     ?wxBU_AUTODRAW.
+constant(constwxBU_AUTODRAW) ->
+     ?wxBU_AUTODRAW;
 
-wx_bu_noautodraw() ->
-     ?wxBU_NOAUTODRAW.
+constant(constwxBU_NOAUTODRAW) ->
+     ?wxBU_NOAUTODRAW;
 
-wx_bu_align_mask() ->
-     ?wxBU_ALIGN_MASK.
+constant(constwxBU_ALIGN_MASK) ->
+     ?wxBU_ALIGN_MASK;
 
-wx_bu_bottom() ->
-     ?wxBU_BOTTOM.
+constant(constwxBU_BOTTOM) ->
+     ?wxBU_BOTTOM;
 
-wx_bu_right() ->
-     ?wxBU_RIGHT.
+constant(constwxBU_RIGHT) ->
+     ?wxBU_RIGHT;
 
-wx_bu_top() ->
-     ?wxBU_TOP.
+constant(constwxBU_TOP) ->
+     ?wxBU_TOP;
 
-wx_bu_left() ->
-     ?wxBU_LEFT.
+constant(constwxBU_LEFT) ->
+     ?wxBU_LEFT;
 
-wx_cal_sunday_first() ->
-     ?wxCAL_SUNDAY_FIRST.
+constant(constwxCAL_SUNDAY_FIRST) ->
+     ?wxCAL_SUNDAY_FIRST;
 
-wx_cal_monday_first() ->
-     ?wxCAL_MONDAY_FIRST.
+constant(constwxCAL_MONDAY_FIRST) ->
+     ?wxCAL_MONDAY_FIRST;
 
-wx_cal_show_holidays() ->
-     ?wxCAL_SHOW_HOLIDAYS.
+constant(constwxCAL_SHOW_HOLIDAYS) ->
+     ?wxCAL_SHOW_HOLIDAYS;
 
-wx_cal_no_year_change() ->
-     ?wxCAL_NO_YEAR_CHANGE.
+constant(constwxCAL_NO_YEAR_CHANGE) ->
+     ?wxCAL_NO_YEAR_CHANGE;
 
-wx_cal_no_month_change() ->
-     ?wxCAL_NO_MONTH_CHANGE.
+constant(constwxCAL_NO_MONTH_CHANGE) ->
+     ?wxCAL_NO_MONTH_CHANGE;
 
-wx_cal_sequential_month_selection() ->
-     ?wxCAL_SEQUENTIAL_MONTH_SELECTION.
+constant(constwxCAL_SEQUENTIAL_MONTH_SELECTION) ->
+     ?wxCAL_SEQUENTIAL_MONTH_SELECTION;
 
-wx_cal_show_surrounding_weeks() ->
-     ?wxCAL_SHOW_SURROUNDING_WEEKS.
+constant(constwxCAL_SHOW_SURROUNDING_WEEKS) ->
+     ?wxCAL_SHOW_SURROUNDING_WEEKS;
 
-wx_cal_border_none() ->
-     ?wxCAL_BORDER_NONE.
+constant(constwxCAL_BORDER_NONE) ->
+     ?wxCAL_BORDER_NONE;
 
-wx_cal_border_square() ->
-     ?wxCAL_BORDER_SQUARE.
+constant(constwxCAL_BORDER_SQUARE) ->
+     ?wxCAL_BORDER_SQUARE;
 
-wx_cal_border_round() ->
-     ?wxCAL_BORDER_ROUND.
+constant(constwxCAL_BORDER_ROUND) ->
+     ?wxCAL_BORDER_ROUND;
 
-wx_cal_hittest_nowhere() ->
-     ?wxCAL_HITTEST_NOWHERE.
+constant(constwxCAL_HITTEST_NOWHERE) ->
+     ?wxCAL_HITTEST_NOWHERE;
 
-wx_cal_hittest_header() ->
-     ?wxCAL_HITTEST_HEADER.
+constant(constwxCAL_HITTEST_HEADER) ->
+     ?wxCAL_HITTEST_HEADER;
 
-wx_cal_hittest_day() ->
-     ?wxCAL_HITTEST_DAY.
+constant(constwxCAL_HITTEST_DAY) ->
+     ?wxCAL_HITTEST_DAY;
 
-wx_cal_hittest_incmonth() ->
-     ?wxCAL_HITTEST_INCMONTH.
+constant(constwxCAL_HITTEST_INCMONTH) ->
+     ?wxCAL_HITTEST_INCMONTH;
 
-wx_cal_hittest_decmonth() ->
-     ?wxCAL_HITTEST_DECMONTH.
+constant(constwxCAL_HITTEST_DECMONTH) ->
+     ?wxCAL_HITTEST_DECMONTH;
 
-wx_cal_hittest_surrounding_week() ->
-     ?wxCAL_HITTEST_SURROUNDING_WEEK.
+constant(constwxCAL_HITTEST_SURROUNDING_WEEK) ->
+     ?wxCAL_HITTEST_SURROUNDING_WEEK;
 
-wx_chk_allow_3_rd_state_for_user() ->
-     ?wxCHK_ALLOW_3RD_STATE_FOR_USER.
+constant(constwxCHK_ALLOW_3RD_STATE_FOR_USER) ->
+     ?wxCHK_ALLOW_3RD_STATE_FOR_USER;
 
-wx_chk_3_state() ->
-     ?wxCHK_3STATE.
+constant(constwxCHK_3STATE) ->
+     ?wxCHK_3STATE;
 
-wx_chk_2_state() ->
-     ?wxCHK_2STATE.
+constant(constwxCHK_2STATE) ->
+     ?wxCHK_2STATE;
 
-wx_chk_unchecked() ->
-     ?wxCHK_UNCHECKED.
+constant(constwxCHK_UNCHECKED) ->
+     ?wxCHK_UNCHECKED;
 
-wx_chk_checked() ->
-     ?wxCHK_CHECKED.
+constant(constwxCHK_CHECKED) ->
+     ?wxCHK_CHECKED;
 
-wx_chk_undetermined() ->
-     ?wxCHK_UNDETERMINED.
+constant(constwxCHK_UNDETERMINED) ->
+     ?wxCHK_UNDETERMINED;
 
-wx_choicedlg_style() ->
-     ?wxCHOICEDLG_STYLE.
+constant(constwxCHOICEDLG_STYLE) ->
+     ?wxCHOICEDLG_STYLE;
 
-wx_choice_width() ->
-     ?wxCHOICE_WIDTH.
+constant(constwxCHOICE_WIDTH) ->
+     ?wxCHOICE_WIDTH;
 
-wx_choice_height() ->
-     ?wxCHOICE_HEIGHT.
+constant(constwxCHOICE_HEIGHT) ->
+     ?wxCHOICE_HEIGHT;
 
-wx_chb_align_mask() ->
-     ?wxCHB_ALIGN_MASK.
+constant(constwxCHB_ALIGN_MASK) ->
+     ?wxCHB_ALIGN_MASK;
 
-wx_chb_right() ->
-     ?wxCHB_RIGHT.
+constant(constwxCHB_RIGHT) ->
+     ?wxCHB_RIGHT;
 
-wx_chb_left() ->
-     ?wxCHB_LEFT.
+constant(constwxCHB_LEFT) ->
+     ?wxCHB_LEFT;
 
-wx_chb_bottom() ->
-     ?wxCHB_BOTTOM.
+constant(constwxCHB_BOTTOM) ->
+     ?wxCHB_BOTTOM;
 
-wx_chb_top() ->
-     ?wxCHB_TOP.
+constant(constwxCHB_TOP) ->
+     ?wxCHB_TOP;
 
-wx_chb_default() ->
-     ?wxCHB_DEFAULT.
+constant(constwxCHB_DEFAULT) ->
+     ?wxCHB_DEFAULT;
 
-wx_client_data__none() ->
-     ?wxClientData_None.
+constant(constwxClientData_None) ->
+     ?wxClientData_None;
 
-wx_client_data__object() ->
-     ?wxClientData_Object.
+constant(constwxClientData_Object) ->
+     ?wxClientData_Object;
 
-wx_client_data__void() ->
-     ?wxClientData_Void.
+constant(constwxClientData_Void) ->
+     ?wxClientData_Void;
 
-wx_clrp_default_style() ->
-     ?wxCLRP_DEFAULT_STYLE.
+constant(constwxCLRP_DEFAULT_STYLE) ->
+     ?wxCLRP_DEFAULT_STYLE;
 
-wx_clrp_use_textctrl() ->
-     ?wxCLRP_USE_TEXTCTRL.
+constant(constwxCLRP_USE_TEXTCTRL) ->
+     ?wxCLRP_USE_TEXTCTRL;
 
-wx_clrp_show_label() ->
-     ?wxCLRP_SHOW_LABEL.
+constant(constwxCLRP_SHOW_LABEL) ->
+     ?wxCLRP_SHOW_LABEL;
 
-wx_printbin_default() ->
-     ?wxPRINTBIN_DEFAULT.
+constant(constwxPRINTBIN_DEFAULT) ->
+     ?wxPRINTBIN_DEFAULT;
 
-wx_printbin_onlyone() ->
-     ?wxPRINTBIN_ONLYONE.
+constant(constwxPRINTBIN_ONLYONE) ->
+     ?wxPRINTBIN_ONLYONE;
 
-wx_printbin_lower() ->
-     ?wxPRINTBIN_LOWER.
+constant(constwxPRINTBIN_LOWER) ->
+     ?wxPRINTBIN_LOWER;
 
-wx_printbin_middle() ->
-     ?wxPRINTBIN_MIDDLE.
+constant(constwxPRINTBIN_MIDDLE) ->
+     ?wxPRINTBIN_MIDDLE;
 
-wx_printbin_manual() ->
-     ?wxPRINTBIN_MANUAL.
+constant(constwxPRINTBIN_MANUAL) ->
+     ?wxPRINTBIN_MANUAL;
 
-wx_printbin_envelope() ->
-     ?wxPRINTBIN_ENVELOPE.
+constant(constwxPRINTBIN_ENVELOPE) ->
+     ?wxPRINTBIN_ENVELOPE;
 
-wx_printbin_envmanual() ->
-     ?wxPRINTBIN_ENVMANUAL.
+constant(constwxPRINTBIN_ENVMANUAL) ->
+     ?wxPRINTBIN_ENVMANUAL;
 
-wx_printbin_auto() ->
-     ?wxPRINTBIN_AUTO.
+constant(constwxPRINTBIN_AUTO) ->
+     ?wxPRINTBIN_AUTO;
 
-wx_printbin_tractor() ->
-     ?wxPRINTBIN_TRACTOR.
+constant(constwxPRINTBIN_TRACTOR) ->
+     ?wxPRINTBIN_TRACTOR;
 
-wx_printbin_smallfmt() ->
-     ?wxPRINTBIN_SMALLFMT.
+constant(constwxPRINTBIN_SMALLFMT) ->
+     ?wxPRINTBIN_SMALLFMT;
 
-wx_printbin_largefmt() ->
-     ?wxPRINTBIN_LARGEFMT.
+constant(constwxPRINTBIN_LARGEFMT) ->
+     ?wxPRINTBIN_LARGEFMT;
 
-wx_printbin_largecapacity() ->
-     ?wxPRINTBIN_LARGECAPACITY.
+constant(constwxPRINTBIN_LARGECAPACITY) ->
+     ?wxPRINTBIN_LARGECAPACITY;
 
-wx_printbin_cassette() ->
-     ?wxPRINTBIN_CASSETTE.
+constant(constwxPRINTBIN_CASSETTE) ->
+     ?wxPRINTBIN_CASSETTE;
 
-wx_printbin_formsource() ->
-     ?wxPRINTBIN_FORMSOURCE.
+constant(constwxPRINTBIN_FORMSOURCE) ->
+     ?wxPRINTBIN_FORMSOURCE;
 
-wx_printbin_user() ->
-     ?wxPRINTBIN_USER.
+constant(constwxPRINTBIN_USER) ->
+     ?wxPRINTBIN_USER;
 
-wx_c2_s_html_syntax() ->
-     ?wxC2S_HTML_SYNTAX.
+constant(constwxC2S_HTML_SYNTAX) ->
+     ?wxC2S_HTML_SYNTAX;
 
-wx_c2_s_css_syntax() ->
-     ?wxC2S_CSS_SYNTAX.
+constant(constwxC2S_CSS_SYNTAX) ->
+     ?wxC2S_CSS_SYNTAX;
 
-wx_c2_s_name() ->
-     ?wxC2S_NAME.
+constant(constwxC2S_NAME) ->
+     ?wxC2S_NAME;
 
-wx_config_case_sensitive() ->
-     ?wxCONFIG_CASE_SENSITIVE.
+constant(constwxCONFIG_CASE_SENSITIVE) ->
+     ?wxCONFIG_CASE_SENSITIVE;
 
-wx_empty_parameter_value() ->
-     ?wxEMPTY_PARAMETER_VALUE.
+constant(constwxDP_DEFAULT) ->
+     ?wxDP_DEFAULT;
 
-wx_dp_default() ->
-     ?wxDP_DEFAULT.
+constant(constwxDP_SPIN) ->
+     ?wxDP_SPIN;
 
-wx_dp_spin() ->
-     ?wxDP_SPIN.
+constant(constwxDP_DROPDOWN) ->
+     ?wxDP_DROPDOWN;
 
-wx_dp_dropdown() ->
-     ?wxDP_DROPDOWN.
+constant(constwxDP_SHOWCENTURY) ->
+     ?wxDP_SHOWCENTURY;
 
-wx_dp_showcentury() ->
-     ?wxDP_SHOWCENTURY.
+constant(constwxDP_ALLOWNONE) ->
+     ?wxDP_ALLOWNONE;
 
-wx_dp_allownone() ->
-     ?wxDP_ALLOWNONE.
+constant(constwxBUFFER_CLIENT_AREA) ->
+     ?wxBUFFER_CLIENT_AREA;
 
-wx_buffer_client_area() ->
-     ?wxBUFFER_CLIENT_AREA.
+constant(constwxBUFFER_VIRTUAL_AREA) ->
+     ?wxBUFFER_VIRTUAL_AREA;
 
-wx_buffer_virtual_area() ->
-     ?wxBUFFER_VIRTUAL_AREA.
+constant(constwxALWAYS_NATIVE_DOUBLE_BUFFER) ->
+     ?wxALWAYS_NATIVE_DOUBLE_BUFFER;
 
-wx_always_native_double_buffer() ->
-     ?wxALWAYS_NATIVE_DOUBLE_BUFFER.
+constant(constwxDefaultCoord) ->
+     ?wxDefaultCoord;
 
-wx_default_coord() ->
-     ?wxDefaultCoord.
+constant(constwxID_NONE) ->
+     ?wxID_NONE;
 
-wx_id_none() ->
-     ?wxID_NONE.
+constant(constwxID_SEPARATOR) ->
+     ?wxID_SEPARATOR;
 
-wx_id_separator() ->
-     ?wxID_SEPARATOR.
+constant(constwxID_ANY) ->
+     ?wxID_ANY;
 
-wx_id_any() ->
-     ?wxID_ANY.
+constant(constwxID_LOWEST) ->
+     ?wxID_LOWEST;
 
-wx_id_lowest() ->
-     ?wxID_LOWEST.
+constant(constwxID_OPEN) ->
+     ?wxID_OPEN;
 
-wx_id_open() ->
-     ?wxID_OPEN.
+constant(constwxID_CLOSE) ->
+     ?wxID_CLOSE;
 
-wx_id_close() ->
-     ?wxID_CLOSE.
+constant(constwxID_NEW) ->
+     ?wxID_NEW;
 
-wx_id_new() ->
-     ?wxID_NEW.
+constant(constwxID_SAVE) ->
+     ?wxID_SAVE;
 
-wx_id_save() ->
-     ?wxID_SAVE.
+constant(constwxID_SAVEAS) ->
+     ?wxID_SAVEAS;
 
-wx_id_saveas() ->
-     ?wxID_SAVEAS.
+constant(constwxID_REVERT) ->
+     ?wxID_REVERT;
 
-wx_id_revert() ->
-     ?wxID_REVERT.
+constant(constwxID_EXIT) ->
+     ?wxID_EXIT;
 
-wx_id_exit() ->
-     ?wxID_EXIT.
+constant(constwxID_UNDO) ->
+     ?wxID_UNDO;
 
-wx_id_undo() ->
-     ?wxID_UNDO.
+constant(constwxID_REDO) ->
+     ?wxID_REDO;
 
-wx_id_redo() ->
-     ?wxID_REDO.
+constant(constwxID_HELP) ->
+     ?wxID_HELP;
 
-wx_id_help() ->
-     ?wxID_HELP.
+constant(constwxID_PRINT) ->
+     ?wxID_PRINT;
 
-wx_id_print() ->
-     ?wxID_PRINT.
+constant(constwxID_PRINT_SETUP) ->
+     ?wxID_PRINT_SETUP;
 
-wx_id_print_setup() ->
-     ?wxID_PRINT_SETUP.
+constant(constwxID_PAGE_SETUP) ->
+     ?wxID_PAGE_SETUP;
 
-wx_id_page_setup() ->
-     ?wxID_PAGE_SETUP.
+constant(constwxID_PREVIEW) ->
+     ?wxID_PREVIEW;
 
-wx_id_preview() ->
-     ?wxID_PREVIEW.
+constant(constwxID_ABOUT) ->
+     ?wxID_ABOUT;
 
-wx_id_about() ->
-     ?wxID_ABOUT.
+constant(constwxID_HELP_CONTENTS) ->
+     ?wxID_HELP_CONTENTS;
 
-wx_id_help_contents() ->
-     ?wxID_HELP_CONTENTS.
+constant(constwxID_HELP_INDEX) ->
+     ?wxID_HELP_INDEX;
 
-wx_id_help_index() ->
-     ?wxID_HELP_INDEX.
+constant(constwxID_HELP_SEARCH) ->
+     ?wxID_HELP_SEARCH;
 
-wx_id_help_search() ->
-     ?wxID_HELP_SEARCH.
+constant(constwxID_HELP_COMMANDS) ->
+     ?wxID_HELP_COMMANDS;
 
-wx_id_help_commands() ->
-     ?wxID_HELP_COMMANDS.
+constant(constwxID_HELP_PROCEDURES) ->
+     ?wxID_HELP_PROCEDURES;
 
-wx_id_help_procedures() ->
-     ?wxID_HELP_PROCEDURES.
+constant(constwxID_HELP_CONTEXT) ->
+     ?wxID_HELP_CONTEXT;
 
-wx_id_help_context() ->
-     ?wxID_HELP_CONTEXT.
+constant(constwxID_CLOSE_ALL) ->
+     ?wxID_CLOSE_ALL;
 
-wx_id_close_all() ->
-     ?wxID_CLOSE_ALL.
+constant(constwxID_PREFERENCES) ->
+     ?wxID_PREFERENCES;
 
-wx_id_preferences() ->
-     ?wxID_PREFERENCES.
+constant(constwxID_EDIT) ->
+     ?wxID_EDIT;
 
-wx_id_edit() ->
-     ?wxID_EDIT.
+constant(constwxID_CUT) ->
+     ?wxID_CUT;
 
-wx_id_cut() ->
-     ?wxID_CUT.
+constant(constwxID_COPY) ->
+     ?wxID_COPY;
 
-wx_id_copy() ->
-     ?wxID_COPY.
+constant(constwxID_PASTE) ->
+     ?wxID_PASTE;
 
-wx_id_paste() ->
-     ?wxID_PASTE.
+constant(constwxID_CLEAR) ->
+     ?wxID_CLEAR;
 
-wx_id_clear() ->
-     ?wxID_CLEAR.
+constant(constwxID_FIND) ->
+     ?wxID_FIND;
 
-wx_id_find() ->
-     ?wxID_FIND.
+constant(constwxID_DUPLICATE) ->
+     ?wxID_DUPLICATE;
 
-wx_id_duplicate() ->
-     ?wxID_DUPLICATE.
+constant(constwxID_SELECTALL) ->
+     ?wxID_SELECTALL;
 
-wx_id_selectall() ->
-     ?wxID_SELECTALL.
+constant(constwxID_DELETE) ->
+     ?wxID_DELETE;
 
-wx_id_delete() ->
-     ?wxID_DELETE.
+constant(constwxID_REPLACE) ->
+     ?wxID_REPLACE;
 
-wx_id_replace() ->
-     ?wxID_REPLACE.
+constant(constwxID_REPLACE_ALL) ->
+     ?wxID_REPLACE_ALL;
 
-wx_id_replace_all() ->
-     ?wxID_REPLACE_ALL.
+constant(constwxID_PROPERTIES) ->
+     ?wxID_PROPERTIES;
 
-wx_id_properties() ->
-     ?wxID_PROPERTIES.
+constant(constwxID_VIEW_DETAILS) ->
+     ?wxID_VIEW_DETAILS;
 
-wx_id_view_details() ->
-     ?wxID_VIEW_DETAILS.
+constant(constwxID_VIEW_LARGEICONS) ->
+     ?wxID_VIEW_LARGEICONS;
 
-wx_id_view_largeicons() ->
-     ?wxID_VIEW_LARGEICONS.
+constant(constwxID_VIEW_SMALLICONS) ->
+     ?wxID_VIEW_SMALLICONS;
 
-wx_id_view_smallicons() ->
-     ?wxID_VIEW_SMALLICONS.
+constant(constwxID_VIEW_LIST) ->
+     ?wxID_VIEW_LIST;
 
-wx_id_view_list() ->
-     ?wxID_VIEW_LIST.
+constant(constwxID_VIEW_SORTDATE) ->
+     ?wxID_VIEW_SORTDATE;
 
-wx_id_view_sortdate() ->
-     ?wxID_VIEW_SORTDATE.
+constant(constwxID_VIEW_SORTNAME) ->
+     ?wxID_VIEW_SORTNAME;
 
-wx_id_view_sortname() ->
-     ?wxID_VIEW_SORTNAME.
+constant(constwxID_VIEW_SORTSIZE) ->
+     ?wxID_VIEW_SORTSIZE;
 
-wx_id_view_sortsize() ->
-     ?wxID_VIEW_SORTSIZE.
+constant(constwxID_VIEW_SORTTYPE) ->
+     ?wxID_VIEW_SORTTYPE;
 
-wx_id_view_sorttype() ->
-     ?wxID_VIEW_SORTTYPE.
+constant(constwxID_FILE) ->
+     ?wxID_FILE;
 
-wx_id_file() ->
-     ?wxID_FILE.
+constant(constwxID_FILE1) ->
+     ?wxID_FILE1;
 
-wx_id_fil_e1() ->
-     ?wxID_FILE1.
+constant(constwxID_FILE2) ->
+     ?wxID_FILE2;
 
-wx_id_fil_e2() ->
-     ?wxID_FILE2.
+constant(constwxID_FILE3) ->
+     ?wxID_FILE3;
 
-wx_id_fil_e3() ->
-     ?wxID_FILE3.
+constant(constwxID_FILE4) ->
+     ?wxID_FILE4;
 
-wx_id_fil_e4() ->
-     ?wxID_FILE4.
+constant(constwxID_FILE5) ->
+     ?wxID_FILE5;
 
-wx_id_fil_e5() ->
-     ?wxID_FILE5.
+constant(constwxID_FILE6) ->
+     ?wxID_FILE6;
 
-wx_id_fil_e6() ->
-     ?wxID_FILE6.
+constant(constwxID_FILE7) ->
+     ?wxID_FILE7;
 
-wx_id_fil_e7() ->
-     ?wxID_FILE7.
+constant(constwxID_FILE8) ->
+     ?wxID_FILE8;
 
-wx_id_fil_e8() ->
-     ?wxID_FILE8.
+constant(constwxID_FILE9) ->
+     ?wxID_FILE9;
 
-wx_id_fil_e9() ->
-     ?wxID_FILE9.
+constant(constwxID_OK) ->
+     ?wxID_OK;
 
-wx_id_ok() ->
-     ?wxID_OK.
+constant(constwxID_CANCEL) ->
+     ?wxID_CANCEL;
 
-wx_id_cancel() ->
-     ?wxID_CANCEL.
+constant(constwxID_APPLY) ->
+     ?wxID_APPLY;
 
-wx_id_apply() ->
-     ?wxID_APPLY.
+constant(constwxID_YES) ->
+     ?wxID_YES;
 
-wx_id_yes() ->
-     ?wxID_YES.
+constant(constwxID_NO) ->
+     ?wxID_NO;
 
-wx_id_no() ->
-     ?wxID_NO.
+constant(constwxID_STATIC) ->
+     ?wxID_STATIC;
 
-wx_id_static() ->
-     ?wxID_STATIC.
+constant(constwxID_FORWARD) ->
+     ?wxID_FORWARD;
 
-wx_id_forward() ->
-     ?wxID_FORWARD.
+constant(constwxID_BACKWARD) ->
+     ?wxID_BACKWARD;
 
-wx_id_backward() ->
-     ?wxID_BACKWARD.
+constant(constwxID_DEFAULT) ->
+     ?wxID_DEFAULT;
 
-wx_id_default() ->
-     ?wxID_DEFAULT.
+constant(constwxID_MORE) ->
+     ?wxID_MORE;
 
-wx_id_more() ->
-     ?wxID_MORE.
+constant(constwxID_SETUP) ->
+     ?wxID_SETUP;
 
-wx_id_setup() ->
-     ?wxID_SETUP.
+constant(constwxID_RESET) ->
+     ?wxID_RESET;
 
-wx_id_reset() ->
-     ?wxID_RESET.
+constant(constwxID_CONTEXT_HELP) ->
+     ?wxID_CONTEXT_HELP;
 
-wx_id_context_help() ->
-     ?wxID_CONTEXT_HELP.
+constant(constwxID_YESTOALL) ->
+     ?wxID_YESTOALL;
 
-wx_id_yestoall() ->
-     ?wxID_YESTOALL.
+constant(constwxID_NOTOALL) ->
+     ?wxID_NOTOALL;
 
-wx_id_notoall() ->
-     ?wxID_NOTOALL.
+constant(constwxID_ABORT) ->
+     ?wxID_ABORT;
 
-wx_id_abort() ->
-     ?wxID_ABORT.
+constant(constwxID_RETRY) ->
+     ?wxID_RETRY;
 
-wx_id_retry() ->
-     ?wxID_RETRY.
+constant(constwxID_IGNORE) ->
+     ?wxID_IGNORE;
 
-wx_id_ignore() ->
-     ?wxID_IGNORE.
+constant(constwxID_ADD) ->
+     ?wxID_ADD;
 
-wx_id_add() ->
-     ?wxID_ADD.
+constant(constwxID_REMOVE) ->
+     ?wxID_REMOVE;
 
-wx_id_remove() ->
-     ?wxID_REMOVE.
+constant(constwxID_UP) ->
+     ?wxID_UP;
 
-wx_id_up() ->
-     ?wxID_UP.
+constant(constwxID_DOWN) ->
+     ?wxID_DOWN;
 
-wx_id_down() ->
-     ?wxID_DOWN.
+constant(constwxID_HOME) ->
+     ?wxID_HOME;
 
-wx_id_home() ->
-     ?wxID_HOME.
+constant(constwxID_REFRESH) ->
+     ?wxID_REFRESH;
 
-wx_id_refresh() ->
-     ?wxID_REFRESH.
+constant(constwxID_STOP) ->
+     ?wxID_STOP;
 
-wx_id_stop() ->
-     ?wxID_STOP.
+constant(constwxID_INDEX) ->
+     ?wxID_INDEX;
 
-wx_id_index() ->
-     ?wxID_INDEX.
+constant(constwxID_BOLD) ->
+     ?wxID_BOLD;
 
-wx_id_bold() ->
-     ?wxID_BOLD.
+constant(constwxID_ITALIC) ->
+     ?wxID_ITALIC;
 
-wx_id_italic() ->
-     ?wxID_ITALIC.
+constant(constwxID_JUSTIFY_CENTER) ->
+     ?wxID_JUSTIFY_CENTER;
 
-wx_id_justify_center() ->
-     ?wxID_JUSTIFY_CENTER.
+constant(constwxID_JUSTIFY_FILL) ->
+     ?wxID_JUSTIFY_FILL;
 
-wx_id_justify_fill() ->
-     ?wxID_JUSTIFY_FILL.
+constant(constwxID_JUSTIFY_RIGHT) ->
+     ?wxID_JUSTIFY_RIGHT;
 
-wx_id_justify_right() ->
-     ?wxID_JUSTIFY_RIGHT.
+constant(constwxID_JUSTIFY_LEFT) ->
+     ?wxID_JUSTIFY_LEFT;
 
-wx_id_justify_left() ->
-     ?wxID_JUSTIFY_LEFT.
+constant(constwxID_UNDERLINE) ->
+     ?wxID_UNDERLINE;
 
-wx_id_underline() ->
-     ?wxID_UNDERLINE.
+constant(constwxID_INDENT) ->
+     ?wxID_INDENT;
 
-wx_id_indent() ->
-     ?wxID_INDENT.
+constant(constwxID_UNINDENT) ->
+     ?wxID_UNINDENT;
 
-wx_id_unindent() ->
-     ?wxID_UNINDENT.
+constant(constwxID_ZOOM_100) ->
+     ?wxID_ZOOM_100;
 
-wx_id_zoom_100() ->
-     ?wxID_ZOOM_100.
+constant(constwxID_ZOOM_FIT) ->
+     ?wxID_ZOOM_FIT;
 
-wx_id_zoom_fit() ->
-     ?wxID_ZOOM_FIT.
+constant(constwxID_ZOOM_IN) ->
+     ?wxID_ZOOM_IN;
 
-wx_id_zoom_in() ->
-     ?wxID_ZOOM_IN.
+constant(constwxID_ZOOM_OUT) ->
+     ?wxID_ZOOM_OUT;
 
-wx_id_zoom_out() ->
-     ?wxID_ZOOM_OUT.
+constant(constwxID_UNDELETE) ->
+     ?wxID_UNDELETE;
 
-wx_id_undelete() ->
-     ?wxID_UNDELETE.
+constant(constwxID_REVERT_TO_SAVED) ->
+     ?wxID_REVERT_TO_SAVED;
 
-wx_id_revert_to_saved() ->
-     ?wxID_REVERT_TO_SAVED.
+constant(constwxID_SYSTEM_MENU) ->
+     ?wxID_SYSTEM_MENU;
 
-wx_id_system_menu() ->
-     ?wxID_SYSTEM_MENU.
+constant(constwxID_CLOSE_FRAME) ->
+     ?wxID_CLOSE_FRAME;
 
-wx_id_close_frame() ->
-     ?wxID_CLOSE_FRAME.
+constant(constwxID_MOVE_FRAME) ->
+     ?wxID_MOVE_FRAME;
 
-wx_id_move_frame() ->
-     ?wxID_MOVE_FRAME.
+constant(constwxID_RESIZE_FRAME) ->
+     ?wxID_RESIZE_FRAME;
 
-wx_id_resize_frame() ->
-     ?wxID_RESIZE_FRAME.
+constant(constwxID_MAXIMIZE_FRAME) ->
+     ?wxID_MAXIMIZE_FRAME;
 
-wx_id_maximize_frame() ->
-     ?wxID_MAXIMIZE_FRAME.
+constant(constwxID_ICONIZE_FRAME) ->
+     ?wxID_ICONIZE_FRAME;
 
-wx_id_iconize_frame() ->
-     ?wxID_ICONIZE_FRAME.
+constant(constwxID_RESTORE_FRAME) ->
+     ?wxID_RESTORE_FRAME;
 
-wx_id_restore_frame() ->
-     ?wxID_RESTORE_FRAME.
+constant(constwxID_FILEDLGG) ->
+     ?wxID_FILEDLGG;
 
-wx_id_filedlgg() ->
-     ?wxID_FILEDLGG.
+constant(constwxID_HIGHEST) ->
+     ?wxID_HIGHEST;
 
-wx_id_highest() ->
-     ?wxID_HIGHEST.
+constant(constwxDEFAULT) ->
+     ?wxDEFAULT;
 
-wx_default() ->
-     ?wxDEFAULT.
+constant(constwxDECORATIVE) ->
+     ?wxDECORATIVE;
 
-wx_decorative() ->
-     ?wxDECORATIVE.
+constant(constwxROMAN) ->
+     ?wxROMAN;
 
-wx_roman() ->
-     ?wxROMAN.
+constant(constwxSCRIPT) ->
+     ?wxSCRIPT;
 
-wx_script() ->
-     ?wxSCRIPT.
+constant(constwxSWISS) ->
+     ?wxSWISS;
 
-wx_swiss() ->
-     ?wxSWISS.
+constant(constwxMODERN) ->
+     ?wxMODERN;
 
-wx_modern() ->
-     ?wxMODERN.
+constant(constwxTELETYPE) ->
+     ?wxTELETYPE;
 
-wx_teletype() ->
-     ?wxTELETYPE.
+constant(constwxVARIABLE) ->
+     ?wxVARIABLE;
 
-wx_variable() ->
-     ?wxVARIABLE.
+constant(constwxFIXED) ->
+     ?wxFIXED;
 
-wx_fixed() ->
-     ?wxFIXED.
+constant(constwxNORMAL) ->
+     ?wxNORMAL;
 
-wx_normal() ->
-     ?wxNORMAL.
+constant(constwxLIGHT) ->
+     ?wxLIGHT;
 
-wx_light() ->
-     ?wxLIGHT.
+constant(constwxBOLD) ->
+     ?wxBOLD;
 
-wx_bold() ->
-     ?wxBOLD.
+constant(constwxITALIC) ->
+     ?wxITALIC;
 
-wx_italic() ->
-     ?wxITALIC.
+constant(constwxSLANT) ->
+     ?wxSLANT;
 
-wx_slant() ->
-     ?wxSLANT.
+constant(constwxSOLID) ->
+     ?wxSOLID;
 
-wx_solid() ->
-     ?wxSOLID.
+constant(constwxDOT) ->
+     ?wxDOT;
 
-wx_dot() ->
-     ?wxDOT.
+constant(constwxLONG_DASH) ->
+     ?wxLONG_DASH;
 
-wx_long_dash() ->
-     ?wxLONG_DASH.
+constant(constwxSHORT_DASH) ->
+     ?wxSHORT_DASH;
 
-wx_short_dash() ->
-     ?wxSHORT_DASH.
+constant(constwxDOT_DASH) ->
+     ?wxDOT_DASH;
 
-wx_dot_dash() ->
-     ?wxDOT_DASH.
+constant(constwxUSER_DASH) ->
+     ?wxUSER_DASH;
 
-wx_user_dash() ->
-     ?wxUSER_DASH.
+constant(constwxTRANSPARENT) ->
+     ?wxTRANSPARENT;
 
-wx_transparent() ->
-     ?wxTRANSPARENT.
+constant(constwxSTIPPLE_MASK_OPAQUE) ->
+     ?wxSTIPPLE_MASK_OPAQUE;
 
-wx_stipple_mask_opaque() ->
-     ?wxSTIPPLE_MASK_OPAQUE.
+constant(constwxSTIPPLE_MASK) ->
+     ?wxSTIPPLE_MASK;
 
-wx_stipple_mask() ->
-     ?wxSTIPPLE_MASK.
+constant(constwxSTIPPLE) ->
+     ?wxSTIPPLE;
 
-wx_stipple() ->
-     ?wxSTIPPLE.
+constant(constwxBDIAGONAL_HATCH) ->
+     ?wxBDIAGONAL_HATCH;
 
-wx_bdiagonal_hatch() ->
-     ?wxBDIAGONAL_HATCH.
+constant(constwxCROSSDIAG_HATCH) ->
+     ?wxCROSSDIAG_HATCH;
 
-wx_crossdiag_hatch() ->
-     ?wxCROSSDIAG_HATCH.
+constant(constwxFDIAGONAL_HATCH) ->
+     ?wxFDIAGONAL_HATCH;
 
-wx_fdiagonal_hatch() ->
-     ?wxFDIAGONAL_HATCH.
+constant(constwxCROSS_HATCH) ->
+     ?wxCROSS_HATCH;
 
-wx_cross_hatch() ->
-     ?wxCROSS_HATCH.
+constant(constwxHORIZONTAL_HATCH) ->
+     ?wxHORIZONTAL_HATCH;
 
-wx_horizontal_hatch() ->
-     ?wxHORIZONTAL_HATCH.
+constant(constwxVERTICAL_HATCH) ->
+     ?wxVERTICAL_HATCH;
 
-wx_vertical_hatch() ->
-     ?wxVERTICAL_HATCH.
+constant(constwxFIRST_HATCH) ->
+     ?wxFIRST_HATCH;
 
-wx_first_hatch() ->
-     ?wxFIRST_HATCH.
+constant(constwxLAST_HATCH) ->
+     ?wxLAST_HATCH;
 
-wx_last_hatch() ->
-     ?wxLAST_HATCH.
+constant(constwxJOIN_BEVEL) ->
+     ?wxJOIN_BEVEL;
 
-wx_join_bevel() ->
-     ?wxJOIN_BEVEL.
+constant(constwxJOIN_MITER) ->
+     ?wxJOIN_MITER;
 
-wx_join_miter() ->
-     ?wxJOIN_MITER.
+constant(constwxJOIN_ROUND) ->
+     ?wxJOIN_ROUND;
 
-wx_join_round() ->
-     ?wxJOIN_ROUND.
+constant(constwxCAP_ROUND) ->
+     ?wxCAP_ROUND;
 
-wx_cap_round() ->
-     ?wxCAP_ROUND.
+constant(constwxCAP_PROJECTING) ->
+     ?wxCAP_PROJECTING;
 
-wx_cap_projecting() ->
-     ?wxCAP_PROJECTING.
+constant(constwxCAP_BUTT) ->
+     ?wxCAP_BUTT;
 
-wx_cap_butt() ->
-     ?wxCAP_BUTT.
+constant(constwxFLOOD_SURFACE) ->
+     ?wxFLOOD_SURFACE;
 
-wx_flood_surface() ->
-     ?wxFLOOD_SURFACE.
+constant(constwxFLOOD_BORDER) ->
+     ?wxFLOOD_BORDER;
 
-wx_flood_border() ->
-     ?wxFLOOD_BORDER.
+constant(constwxODDEVEN_RULE) ->
+     ?wxODDEVEN_RULE;
 
-wx_oddeven_rule() ->
-     ?wxODDEVEN_RULE.
+constant(constwxWINDING_RULE) ->
+     ?wxWINDING_RULE;
 
-wx_winding_rule() ->
-     ?wxWINDING_RULE.
+constant(constwxTOOL_TOP) ->
+     ?wxTOOL_TOP;
 
-wx_tool_top() ->
-     ?wxTOOL_TOP.
+constant(constwxTOOL_BOTTOM) ->
+     ?wxTOOL_BOTTOM;
 
-wx_tool_bottom() ->
-     ?wxTOOL_BOTTOM.
+constant(constwxTOOL_LEFT) ->
+     ?wxTOOL_LEFT;
 
-wx_tool_left() ->
-     ?wxTOOL_LEFT.
+constant(constwxTOOL_RIGHT) ->
+     ?wxTOOL_RIGHT;
 
-wx_tool_right() ->
-     ?wxTOOL_RIGHT.
+constant(constwxMM_TEXT) ->
+     ?wxMM_TEXT;
 
-wx_mm_text() ->
-     ?wxMM_TEXT.
+constant(constwxMM_LOMETRIC) ->
+     ?wxMM_LOMETRIC;
 
-wx_mm_lometric() ->
-     ?wxMM_LOMETRIC.
+constant(constwxMM_HIMETRIC) ->
+     ?wxMM_HIMETRIC;
 
-wx_mm_himetric() ->
-     ?wxMM_HIMETRIC.
+constant(constwxMM_LOENGLISH) ->
+     ?wxMM_LOENGLISH;
 
-wx_mm_loenglish() ->
-     ?wxMM_LOENGLISH.
+constant(constwxMM_HIENGLISH) ->
+     ?wxMM_HIENGLISH;
 
-wx_mm_hienglish() ->
-     ?wxMM_HIENGLISH.
+constant(constwxMM_TWIPS) ->
+     ?wxMM_TWIPS;
 
-wx_mm_twips() ->
-     ?wxMM_TWIPS.
+constant(constwxMM_ISOTROPIC) ->
+     ?wxMM_ISOTROPIC;
 
-wx_mm_isotropic() ->
-     ?wxMM_ISOTROPIC.
+constant(constwxMM_ANISOTROPIC) ->
+     ?wxMM_ANISOTROPIC;
 
-wx_mm_anisotropic() ->
-     ?wxMM_ANISOTROPIC.
+constant(constwxMM_POINTS) ->
+     ?wxMM_POINTS;
 
-wx_mm_points() ->
-     ?wxMM_POINTS.
+constant(constwxMM_METRIC) ->
+     ?wxMM_METRIC;
 
-wx_mm_metric() ->
-     ?wxMM_METRIC.
+constant(constwxPRINT_QUALITY_DRAFT) ->
+     ?wxPRINT_QUALITY_DRAFT;
 
-wx_print_quality_draft() ->
-     ?wxPRINT_QUALITY_DRAFT.
+constant(constwxPRINT_QUALITY_LOW) ->
+     ?wxPRINT_QUALITY_LOW;
 
-wx_print_quality_low() ->
-     ?wxPRINT_QUALITY_LOW.
+constant(constwxPRINT_QUALITY_MEDIUM) ->
+     ?wxPRINT_QUALITY_MEDIUM;
 
-wx_print_quality_medium() ->
-     ?wxPRINT_QUALITY_MEDIUM.
+constant(constwxPRINT_QUALITY_HIGH) ->
+     ?wxPRINT_QUALITY_HIGH;
 
-wx_print_quality_high() ->
-     ?wxPRINT_QUALITY_HIGH.
+constant(constwxLANDSCAPE) ->
+     ?wxLANDSCAPE;
 
-wx_landscape() ->
-     ?wxLANDSCAPE.
+constant(constwxPORTRAIT) ->
+     ?wxPORTRAIT;
 
-wx_portrait() ->
-     ?wxPORTRAIT.
+constant(constwxSIZE_FORCE) ->
+     ?wxSIZE_FORCE;
 
-wx_size_force() ->
-     ?wxSIZE_FORCE.
+constant(constwxSIZE_NO_ADJUSTMENTS) ->
+     ?wxSIZE_NO_ADJUSTMENTS;
 
-wx_size_no_adjustments() ->
-     ?wxSIZE_NO_ADJUSTMENTS.
+constant(constwxSIZE_ALLOW_MINUS_ONE) ->
+     ?wxSIZE_ALLOW_MINUS_ONE;
 
-wx_size_allow_minus_one() ->
-     ?wxSIZE_ALLOW_MINUS_ONE.
+constant(constwxSIZE_USE_EXISTING) ->
+     ?wxSIZE_USE_EXISTING;
 
-wx_size_use_existing() ->
-     ?wxSIZE_USE_EXISTING.
+constant(constwxSIZE_AUTO) ->
+     ?wxSIZE_AUTO;
 
-wx_size_auto() ->
-     ?wxSIZE_AUTO.
+constant(constwxSIZE_AUTO_HEIGHT) ->
+     ?wxSIZE_AUTO_HEIGHT;
 
-wx_size_auto_height() ->
-     ?wxSIZE_AUTO_HEIGHT.
+constant(constwxSIZE_AUTO_WIDTH) ->
+     ?wxSIZE_AUTO_WIDTH;
 
-wx_size_auto_width() ->
-     ?wxSIZE_AUTO_WIDTH.
+constant(constwxSETUP) ->
+     ?wxSETUP;
 
-wx_setup() ->
-     ?wxSETUP.
+constant(constwxMORE) ->
+     ?wxMORE;
 
-wx_more() ->
-     ?wxMORE.
+constant(constwxHELP) ->
+     ?wxHELP;
 
-wx_help() ->
-     ?wxHELP.
+constant(constwxRESET) ->
+     ?wxRESET;
 
-wx_reset() ->
-     ?wxRESET.
+constant(constwxBACKWARD) ->
+     ?wxBACKWARD;
 
-wx_backward() ->
-     ?wxBACKWARD.
+constant(constwxFORWARD) ->
+     ?wxFORWARD;
 
-wx_forward() ->
-     ?wxFORWARD.
+constant(constwxICON_MASK) ->
+     ?wxICON_MASK;
 
-wx_icon_mask() ->
-     ?wxICON_MASK.
+constant(constwxICON_ASTERISK) ->
+     ?wxICON_ASTERISK;
 
-wx_icon_asterisk() ->
-     ?wxICON_ASTERISK.
+constant(constwxICON_STOP) ->
+     ?wxICON_STOP;
 
-wx_icon_stop() ->
-     ?wxICON_STOP.
+constant(constwxICON_INFORMATION) ->
+     ?wxICON_INFORMATION;
 
-wx_icon_information() ->
-     ?wxICON_INFORMATION.
+constant(constwxICON_QUESTION) ->
+     ?wxICON_QUESTION;
 
-wx_icon_question() ->
-     ?wxICON_QUESTION.
+constant(constwxICON_ERROR) ->
+     ?wxICON_ERROR;
 
-wx_icon_error() ->
-     ?wxICON_ERROR.
+constant(constwxICON_WARNING) ->
+     ?wxICON_WARNING;
 
-wx_icon_warning() ->
-     ?wxICON_WARNING.
+constant(constwxICON_HAND) ->
+     ?wxICON_HAND;
 
-wx_icon_hand() ->
-     ?wxICON_HAND.
+constant(constwxICON_EXCLAMATION) ->
+     ?wxICON_EXCLAMATION;
 
-wx_icon_exclamation() ->
-     ?wxICON_EXCLAMATION.
+constant(constwxNO_DEFAULT) ->
+     ?wxNO_DEFAULT;
 
-wx_no_default() ->
-     ?wxNO_DEFAULT.
+constant(constwxYES_DEFAULT) ->
+     ?wxYES_DEFAULT;
 
-wx_yes_default() ->
-     ?wxYES_DEFAULT.
+constant(constwxCANCEL) ->
+     ?wxCANCEL;
 
-wx_cancel() ->
-     ?wxCANCEL.
+constant(constwxYES_NO) ->
+     ?wxYES_NO;
 
-wx_yes_no() ->
-     ?wxYES_NO.
+constant(constwxNO) ->
+     ?wxNO;
 
-wx_no() ->
-     ?wxNO.
+constant(constwxOK) ->
+     ?wxOK;
 
-wx_ok() ->
-     ?wxOK.
+constant(constwxYES) ->
+     ?wxYES;
 
-wx_yes() ->
-     ?wxYES.
+constant(constwxLI_VERTICAL) ->
+     ?wxLI_VERTICAL;
 
-wx_li_vertical() ->
-     ?wxLI_VERTICAL.
+constant(constwxLI_HORIZONTAL) ->
+     ?wxLI_HORIZONTAL;
 
-wx_li_horizontal() ->
-     ?wxLI_HORIZONTAL.
+constant(constwxBI_EXPAND) ->
+     ?wxBI_EXPAND;
 
-wx_bi_expand() ->
-     ?wxBI_EXPAND.
+constant(constwxST_DOTS_END) ->
+     ?wxST_DOTS_END;
 
-wx_st_dots_end() ->
-     ?wxST_DOTS_END.
+constant(constwxST_DOTS_MIDDLE) ->
+     ?wxST_DOTS_MIDDLE;
 
-wx_st_dots_middle() ->
-     ?wxST_DOTS_MIDDLE.
+constant(constwxST_NO_AUTORESIZE) ->
+     ?wxST_NO_AUTORESIZE;
 
-wx_st_no_autoresize() ->
-     ?wxST_NO_AUTORESIZE.
+constant(constwxST_SIZEGRIP) ->
+     ?wxST_SIZEGRIP;
 
-wx_st_sizegrip() ->
-     ?wxST_SIZEGRIP.
+constant(constwxTC_OWNERDRAW) ->
+     ?wxTC_OWNERDRAW;
 
-wx_tc_ownerdraw() ->
-     ?wxTC_OWNERDRAW.
+constant(constwxTC_MULTILINE) ->
+     ?wxTC_MULTILINE;
 
-wx_tc_multiline() ->
-     ?wxTC_MULTILINE.
+constant(constwxTC_BOTTOM) ->
+     ?wxTC_BOTTOM;
 
-wx_tc_bottom() ->
-     ?wxTC_BOTTOM.
+constant(constwxTC_RIGHT) ->
+     ?wxTC_RIGHT;
 
-wx_tc_right() ->
-     ?wxTC_RIGHT.
+constant(constwxTC_LEFT) ->
+     ?wxTC_LEFT;
 
-wx_tc_left() ->
-     ?wxTC_LEFT.
+constant(constwxTC_TOP) ->
+     ?wxTC_TOP;
 
-wx_tc_top() ->
-     ?wxTC_TOP.
+constant(constwxTC_FIXEDWIDTH) ->
+     ?wxTC_FIXEDWIDTH;
 
-wx_tc_fixedwidth() ->
-     ?wxTC_FIXEDWIDTH.
+constant(constwxTC_RIGHTJUSTIFY) ->
+     ?wxTC_RIGHTJUSTIFY;
 
-wx_tc_rightjustify() ->
-     ?wxTC_RIGHTJUSTIFY.
+constant(constwxSP_WRAP) ->
+     ?wxSP_WRAP;
 
-wx_sp_wrap() ->
-     ?wxSP_WRAP.
+constant(constwxSP_ARROW_KEYS) ->
+     ?wxSP_ARROW_KEYS;
 
-wx_sp_arrow_keys() ->
-     ?wxSP_ARROW_KEYS.
+constant(constwxSP_VERTICAL) ->
+     ?wxSP_VERTICAL;
 
-wx_sp_vertical() ->
-     ?wxSP_VERTICAL.
+constant(constwxSP_HORIZONTAL) ->
+     ?wxSP_HORIZONTAL;
 
-wx_sp_horizontal() ->
-     ?wxSP_HORIZONTAL.
+constant(constwxSB_VERTICAL) ->
+     ?wxSB_VERTICAL;
 
-wx_sb_vertical() ->
-     ?wxSB_VERTICAL.
+constant(constwxSB_HORIZONTAL) ->
+     ?wxSB_HORIZONTAL;
 
-wx_sb_horizontal() ->
-     ?wxSB_HORIZONTAL.
+constant(constwxRB_USE_CHECKBOX) ->
+     ?wxRB_USE_CHECKBOX;
 
-wx_rb_use_checkbox() ->
-     ?wxRB_USE_CHECKBOX.
+constant(constwxRB_SINGLE) ->
+     ?wxRB_SINGLE;
 
-wx_rb_single() ->
-     ?wxRB_SINGLE.
+constant(constwxRB_GROUP) ->
+     ?wxRB_GROUP;
 
-wx_rb_group() ->
-     ?wxRB_GROUP.
+constant(constwxRA_USE_CHECKBOX) ->
+     ?wxRA_USE_CHECKBOX;
 
-wx_ra_use_checkbox() ->
-     ?wxRA_USE_CHECKBOX.
+constant(constwxRA_VERTICAL) ->
+     ?wxRA_VERTICAL;
 
-wx_ra_vertical() ->
-     ?wxRA_VERTICAL.
+constant(constwxRA_HORIZONTAL) ->
+     ?wxRA_HORIZONTAL;
 
-wx_ra_horizontal() ->
-     ?wxRA_HORIZONTAL.
+constant(constwxRA_SPECIFY_ROWS) ->
+     ?wxRA_SPECIFY_ROWS;
 
-wx_ra_specify_rows() ->
-     ?wxRA_SPECIFY_ROWS.
+constant(constwxRA_SPECIFY_COLS) ->
+     ?wxRA_SPECIFY_COLS;
 
-wx_ra_specify_cols() ->
-     ?wxRA_SPECIFY_COLS.
+constant(constwxRA_TOPTOBOTTOM) ->
+     ?wxRA_TOPTOBOTTOM;
 
-wx_ra_toptobottom() ->
-     ?wxRA_TOPTOBOTTOM.
+constant(constwxRA_LEFTTORIGHT) ->
+     ?wxRA_LEFTTORIGHT;
 
-wx_ra_lefttoright() ->
-     ?wxRA_LEFTTORIGHT.
+constant(constwxCB_DROPDOWN) ->
+     ?wxCB_DROPDOWN;
 
-wx_cb_dropdown() ->
-     ?wxCB_DROPDOWN.
+constant(constwxCB_READONLY) ->
+     ?wxCB_READONLY;
 
-wx_cb_readonly() ->
-     ?wxCB_READONLY.
+constant(constwxCB_SORT) ->
+     ?wxCB_SORT;
 
-wx_cb_sort() ->
-     ?wxCB_SORT.
+constant(constwxCB_SIMPLE) ->
+     ?wxCB_SIMPLE;
 
-wx_cb_simple() ->
-     ?wxCB_SIMPLE.
+constant(constwxLB_INT_HEIGHT) ->
+     ?wxLB_INT_HEIGHT;
 
-wx_lb_int_height() ->
-     ?wxLB_INT_HEIGHT.
+constant(constwxLB_HSCROLL) ->
+     ?wxLB_HSCROLL;
 
-wx_lb_hscroll() ->
-     ?wxLB_HSCROLL.
+constant(constwxLB_ALWAYS_SB) ->
+     ?wxLB_ALWAYS_SB;
 
-wx_lb_always_sb() ->
-     ?wxLB_ALWAYS_SB.
+constant(constwxLB_NEEDED_SB) ->
+     ?wxLB_NEEDED_SB;
 
-wx_lb_needed_sb() ->
-     ?wxLB_NEEDED_SB.
+constant(constwxLB_OWNERDRAW) ->
+     ?wxLB_OWNERDRAW;
 
-wx_lb_ownerdraw() ->
-     ?wxLB_OWNERDRAW.
+constant(constwxLB_EXTENDED) ->
+     ?wxLB_EXTENDED;
 
-wx_lb_extended() ->
-     ?wxLB_EXTENDED.
+constant(constwxLB_MULTIPLE) ->
+     ?wxLB_MULTIPLE;
 
-wx_lb_multiple() ->
-     ?wxLB_MULTIPLE.
+constant(constwxLB_SINGLE) ->
+     ?wxLB_SINGLE;
 
-wx_lb_single() ->
-     ?wxLB_SINGLE.
+constant(constwxLB_SORT) ->
+     ?wxLB_SORT;
 
-wx_lb_sort() ->
-     ?wxLB_SORT.
+constant(constwxFIXED_LENGTH) ->
+     ?wxFIXED_LENGTH;
 
-wx_fixed_length() ->
-     ?wxFIXED_LENGTH.
+constant(constwxCOLOURED) ->
+     ?wxCOLOURED;
 
-wx_coloured() ->
-     ?wxCOLOURED.
+constant(constwxMENU_TEAROFF) ->
+     ?wxMENU_TEAROFF;
 
-wx_menu_tearoff() ->
-     ?wxMENU_TEAROFF.
+constant(constwxMB_DOCKABLE) ->
+     ?wxMB_DOCKABLE;
 
-wx_mb_dockable() ->
-     ?wxMB_DOCKABLE.
+constant(constwxFRAME_NO_WINDOW_MENU) ->
+     ?wxFRAME_NO_WINDOW_MENU;
 
-wx_frame_no_window_menu() ->
-     ?wxFRAME_NO_WINDOW_MENU.
+constant(constwxFRAME_DRAWER) ->
+     ?wxFRAME_DRAWER;
 
-wx_frame_drawer() ->
-     ?wxFRAME_DRAWER.
+constant(constwxDIALOG_EX_CONTEXTHELP) ->
+     ?wxDIALOG_EX_CONTEXTHELP;
 
-wx_dialog_ex_contexthelp() ->
-     ?wxDIALOG_EX_CONTEXTHELP.
+constant(constwxFRAME_EX_CONTEXTHELP) ->
+     ?wxFRAME_EX_CONTEXTHELP;
 
-wx_frame_ex_contexthelp() ->
-     ?wxFRAME_EX_CONTEXTHELP.
+constant(constwxWS_EX_CONTEXTHELP) ->
+     ?wxWS_EX_CONTEXTHELP;
 
-wx_ws_ex_contexthelp() ->
-     ?wxWS_EX_CONTEXTHELP.
+constant(constwxDIALOG_EX_METAL) ->
+     ?wxDIALOG_EX_METAL;
 
-wx_dialog_ex_metal() ->
-     ?wxDIALOG_EX_METAL.
+constant(constwxFRAME_EX_METAL) ->
+     ?wxFRAME_EX_METAL;
 
-wx_frame_ex_metal() ->
-     ?wxFRAME_EX_METAL.
+constant(constwxWS_EX_PROCESS_UI_UPDATES) ->
+     ?wxWS_EX_PROCESS_UI_UPDATES;
 
-wx_ws_ex_process_ui_updates() ->
-     ?wxWS_EX_PROCESS_UI_UPDATES.
+constant(constwxWS_EX_PROCESS_IDLE) ->
+     ?wxWS_EX_PROCESS_IDLE;
 
-wx_ws_ex_process_idle() ->
-     ?wxWS_EX_PROCESS_IDLE.
+constant(constwxWS_EX_THEMED_BACKGROUND) ->
+     ?wxWS_EX_THEMED_BACKGROUND;
 
-wx_ws_ex_themed_background() ->
-     ?wxWS_EX_THEMED_BACKGROUND.
+constant(constwxWS_EX_TRANSIENT) ->
+     ?wxWS_EX_TRANSIENT;
 
-wx_ws_ex_transient() ->
-     ?wxWS_EX_TRANSIENT.
+constant(constwxWS_EX_BLOCK_EVENTS) ->
+     ?wxWS_EX_BLOCK_EVENTS;
 
-wx_ws_ex_block_events() ->
-     ?wxWS_EX_BLOCK_EVENTS.
+constant(constwxWS_EX_VALIDATE_RECURSIVELY) ->
+     ?wxWS_EX_VALIDATE_RECURSIVELY;
 
-wx_ws_ex_validate_recursively() ->
-     ?wxWS_EX_VALIDATE_RECURSIVELY.
+constant(constwxWINDOW_STYLE_MASK) ->
+     ?wxWINDOW_STYLE_MASK;
 
-wx_window_style_mask() ->
-     ?wxWINDOW_STYLE_MASK.
+constant(constwxNO_FULL_REPAINT_ON_RESIZE) ->
+     ?wxNO_FULL_REPAINT_ON_RESIZE;
 
-wx_no_full_repaint_on_resize() ->
-     ?wxNO_FULL_REPAINT_ON_RESIZE.
+constant(constwxFULL_REPAINT_ON_RESIZE) ->
+     ?wxFULL_REPAINT_ON_RESIZE;
 
-wx_full_repaint_on_resize() ->
-     ?wxFULL_REPAINT_ON_RESIZE.
+constant(constwxPOPUP_WINDOW) ->
+     ?wxPOPUP_WINDOW;
 
-wx_popup_window() ->
-     ?wxPOPUP_WINDOW.
+constant(constwxBACKINGSTORE) ->
+     ?wxBACKINGSTORE;
 
-wx_backingstore() ->
-     ?wxBACKINGSTORE.
+constant(constwxRETAINED) ->
+     ?wxRETAINED;
 
-wx_retained() ->
-     ?wxRETAINED.
+constant(constwxWANTS_CHARS) ->
+     ?wxWANTS_CHARS;
 
-wx_wants_chars() ->
-     ?wxWANTS_CHARS.
+constant(constwxTAB_TRAVERSAL) ->
+     ?wxTAB_TRAVERSAL;
 
-wx_tab_traversal() ->
-     ?wxTAB_TRAVERSAL.
+constant(constwxTRANSPARENT_WINDOW) ->
+     ?wxTRANSPARENT_WINDOW;
 
-wx_transparent_window() ->
-     ?wxTRANSPARENT_WINDOW.
+constant(constwxCLIP_SIBLINGS) ->
+     ?wxCLIP_SIBLINGS;
 
-wx_clip_siblings() ->
-     ?wxCLIP_SIBLINGS.
+constant(constwxCLIP_CHILDREN) ->
+     ?wxCLIP_CHILDREN;
 
-wx_clip_children() ->
-     ?wxCLIP_CHILDREN.
+constant(constwxALWAYS_SHOW_SB) ->
+     ?wxALWAYS_SHOW_SB;
 
-wx_always_show_sb() ->
-     ?wxALWAYS_SHOW_SB.
+constant(constwxNO_BORDER) ->
+     ?wxNO_BORDER;
 
-wx_no_border() ->
-     ?wxNO_BORDER.
+constant(constwxSTATIC_BORDER) ->
+     ?wxSTATIC_BORDER;
 
-wx_static_border() ->
-     ?wxSTATIC_BORDER.
+constant(constwxSIMPLE_BORDER) ->
+     ?wxSIMPLE_BORDER;
 
-wx_simple_border() ->
-     ?wxSIMPLE_BORDER.
+constant(constwxBORDER) ->
+     ?wxBORDER;
 
-wx_border() ->
-     ?wxBORDER.
+constant(constwxRAISED_BORDER) ->
+     ?wxRAISED_BORDER;
 
-wx_raised_border() ->
-     ?wxRAISED_BORDER.
+constant(constwxSUNKEN_BORDER) ->
+     ?wxSUNKEN_BORDER;
 
-wx_sunken_border() ->
-     ?wxSUNKEN_BORDER.
+constant(constwxDOUBLE_BORDER) ->
+     ?wxDOUBLE_BORDER;
 
-wx_double_border() ->
-     ?wxDOUBLE_BORDER.
+constant(constwxCAPTION) ->
+     ?wxCAPTION;
 
-wx_caption() ->
-     ?wxCAPTION.
+constant(constwxHSCROLL) ->
+     ?wxHSCROLL;
 
-wx_hscroll() ->
-     ?wxHSCROLL.
+constant(constwxVSCROLL) ->
+     ?wxVSCROLL;
 
-wx_vscroll() ->
-     ?wxVSCROLL.
+constant(constwxDEFAULT_CONTROL_BORDER) ->
+     ?wxDEFAULT_CONTROL_BORDER;
 
-wx_default_control_border() ->
-     ?wxDEFAULT_CONTROL_BORDER.
+constant(constwxCENTER_ON_SCREEN) ->
+     ?wxCENTER_ON_SCREEN;
 
-wx_center_on_screen() ->
-     ?wxCENTER_ON_SCREEN.
+constant(constwxCENTRE_ON_SCREEN) ->
+     ?wxCENTRE_ON_SCREEN;
 
-wx_centre_on_screen() ->
-     ?wxCENTRE_ON_SCREEN.
+constant(constwxCENTER_FRAME) ->
+     ?wxCENTER_FRAME;
 
-wx_center_frame() ->
-     ?wxCENTER_FRAME.
+constant(constwxBYTE_ORDER) ->
+     ?wxBYTE_ORDER;
 
-wx_byte_order() ->
-     ?wxBYTE_ORDER.
+constant(constwxPDP_ENDIAN) ->
+     ?wxPDP_ENDIAN;
 
-wx_pdp_endian() ->
-     ?wxPDP_ENDIAN.
+constant(constwxLITTLE_ENDIAN) ->
+     ?wxLITTLE_ENDIAN;
 
-wx_little_endian() ->
-     ?wxLITTLE_ENDIAN.
+constant(constwxBIG_ENDIAN) ->
+     ?wxBIG_ENDIAN;
 
-wx_big_endian() ->
-     ?wxBIG_ENDIAN.
+constant(constwxHAS_INT64) ->
+     ?wxHAS_INT64;
 
-wx_has_in_t64() ->
-     ?wxHAS_INT64.
+constant(constwxNOT_FOUND) ->
+     ?wxNOT_FOUND;
 
-wx_not_found() ->
-     ?wxNOT_FOUND.
+constant(constwxCLEAR) ->
+     ?wxCLEAR;
 
-wx_clear() ->
-     ?wxCLEAR.
+constant(constwxROP_BLACK) ->
+     ?wxROP_BLACK;
 
-wx_rop_black() ->
-     ?wxROP_BLACK.
+constant(constwxBLIT_BLACKNESS) ->
+     ?wxBLIT_BLACKNESS;
 
-wx_blit_blackness() ->
-     ?wxBLIT_BLACKNESS.
+constant(constwxXOR) ->
+     ?wxXOR;
 
-wx_xor() ->
-     ?wxXOR.
+constant(constwxROP_XORPEN) ->
+     ?wxROP_XORPEN;
 
-wx_rop_xorpen() ->
-     ?wxROP_XORPEN.
+constant(constwxBLIT_SRCINVERT) ->
+     ?wxBLIT_SRCINVERT;
 
-wx_blit_srcinvert() ->
-     ?wxBLIT_SRCINVERT.
+constant(constwxINVERT) ->
+     ?wxINVERT;
 
-wx_invert() ->
-     ?wxINVERT.
+constant(constwxROP_NOT) ->
+     ?wxROP_NOT;
 
-wx_rop_not() ->
-     ?wxROP_NOT.
+constant(constwxBLIT_DSTINVERT) ->
+     ?wxBLIT_DSTINVERT;
 
-wx_blit_dstinvert() ->
-     ?wxBLIT_DSTINVERT.
+constant(constwxOR_REVERSE) ->
+     ?wxOR_REVERSE;
 
-wx_or_reverse() ->
-     ?wxOR_REVERSE.
+constant(constwxROP_MERGEPENNOT) ->
+     ?wxROP_MERGEPENNOT;
 
-wx_rop_mergepennot() ->
-     ?wxROP_MERGEPENNOT.
+constant(constwxBLIT_00DD0228) ->
+     ?wxBLIT_00DD0228;
 
-wx_blit_00_d_d0228() ->
-     ?wxBLIT_00DD0228.
+constant(constwxAND_REVERSE) ->
+     ?wxAND_REVERSE;
 
-wx_and_reverse() ->
-     ?wxAND_REVERSE.
+constant(constwxROP_MASKPENNOT) ->
+     ?wxROP_MASKPENNOT;
 
-wx_rop_maskpennot() ->
-     ?wxROP_MASKPENNOT.
+constant(constwxBLIT_SRCERASE) ->
+     ?wxBLIT_SRCERASE;
 
-wx_blit_srcerase() ->
-     ?wxBLIT_SRCERASE.
+constant(constwxCOPY) ->
+     ?wxCOPY;
 
-wx_copy() ->
-     ?wxCOPY.
+constant(constwxROP_COPYPEN) ->
+     ?wxROP_COPYPEN;
 
-wx_rop_copypen() ->
-     ?wxROP_COPYPEN.
+constant(constwxBLIT_SRCCOPY) ->
+     ?wxBLIT_SRCCOPY;
 
-wx_blit_srccopy() ->
-     ?wxBLIT_SRCCOPY.
+constant(constwxAND) ->
+     ?wxAND;
 
-wx_and() ->
-     ?wxAND.
+constant(constwxROP_MASKPEN) ->
+     ?wxROP_MASKPEN;
 
-wx_rop_maskpen() ->
-     ?wxROP_MASKPEN.
+constant(constwxBLIT_SRCAND) ->
+     ?wxBLIT_SRCAND;
 
-wx_blit_srcand() ->
-     ?wxBLIT_SRCAND.
+constant(constwxAND_INVERT) ->
+     ?wxAND_INVERT;
 
-wx_and_invert() ->
-     ?wxAND_INVERT.
+constant(constwxROP_MASKNOTPEN) ->
+     ?wxROP_MASKNOTPEN;
 
-wx_rop_masknotpen() ->
-     ?wxROP_MASKNOTPEN.
+constant(constwxBLIT_00220326) ->
+     ?wxBLIT_00220326;
 
-wx_blit_00220326() ->
-     ?wxBLIT_00220326.
+constant(constwxNO_OP) ->
+     ?wxNO_OP;
 
-wx_no_op() ->
-     ?wxNO_OP.
+constant(constwxROP_NOP) ->
+     ?wxROP_NOP;
 
-wx_rop_nop() ->
-     ?wxROP_NOP.
+constant(constwxBLIT_00AA0029) ->
+     ?wxBLIT_00AA0029;
 
-wx_blit_00_a_a0029() ->
-     ?wxBLIT_00AA0029.
+constant(constwxNOR) ->
+     ?wxNOR;
 
-wx_nor() ->
-     ?wxNOR.
+constant(constwxROP_NOTMERGEPEN) ->
+     ?wxROP_NOTMERGEPEN;
 
-wx_rop_notmergepen() ->
-     ?wxROP_NOTMERGEPEN.
+constant(constwxBLIT_NOTSRCERASE) ->
+     ?wxBLIT_NOTSRCERASE;
 
-wx_blit_notsrcerase() ->
-     ?wxBLIT_NOTSRCERASE.
+constant(constwxEQUIV) ->
+     ?wxEQUIV;
 
-wx_equiv() ->
-     ?wxEQUIV.
+constant(constwxROP_NOTXORPEN) ->
+     ?wxROP_NOTXORPEN;
 
-wx_rop_notxorpen() ->
-     ?wxROP_NOTXORPEN.
+constant(constwxBLIT_00990066) ->
+     ?wxBLIT_00990066;
 
-wx_blit_00990066() ->
-     ?wxBLIT_00990066.
+constant(constwxSRC_INVERT) ->
+     ?wxSRC_INVERT;
 
-wx_src_invert() ->
-     ?wxSRC_INVERT.
+constant(constwxROP_NOTCOPYPEN) ->
+     ?wxROP_NOTCOPYPEN;
 
-wx_rop_notcopypen() ->
-     ?wxROP_NOTCOPYPEN.
+constant(constwxBLIT_NOTSCRCOPY) ->
+     ?wxBLIT_NOTSCRCOPY;
 
-wx_blit_notscrcopy() ->
-     ?wxBLIT_NOTSCRCOPY.
+constant(constwxOR_INVERT) ->
+     ?wxOR_INVERT;
 
-wx_or_invert() ->
-     ?wxOR_INVERT.
+constant(constwxROP_MERGENOTPEN) ->
+     ?wxROP_MERGENOTPEN;
 
-wx_rop_mergenotpen() ->
-     ?wxROP_MERGENOTPEN.
+constant(constwxBLIT_MERGEPAINT) ->
+     ?wxBLIT_MERGEPAINT;
 
-wx_blit_mergepaint() ->
-     ?wxBLIT_MERGEPAINT.
+constant(constwxNAND) ->
+     ?wxNAND;
 
-wx_nand() ->
-     ?wxNAND.
+constant(constwxROP_NOTMASKPEN) ->
+     ?wxROP_NOTMASKPEN;
 
-wx_rop_notmaskpen() ->
-     ?wxROP_NOTMASKPEN.
+constant(constwxBLIT_007700E6) ->
+     ?wxBLIT_007700E6;
 
-wx_blit_007700_e6() ->
-     ?wxBLIT_007700E6.
+constant(constwxOR) ->
+     ?wxOR;
 
-wx_or() ->
-     ?wxOR.
+constant(constwxROP_MERGEPEN) ->
+     ?wxROP_MERGEPEN;
 
-wx_rop_mergepen() ->
-     ?wxROP_MERGEPEN.
+constant(constwxBLIT_SRCPAINT) ->
+     ?wxBLIT_SRCPAINT;
 
-wx_blit_srcpaint() ->
-     ?wxBLIT_SRCPAINT.
+constant(constwxSET) ->
+     ?wxSET;
 
-wx_set() ->
-     ?wxSET.
+constant(constwxROP_WHITE) ->
+     ?wxROP_WHITE;
 
-wx_rop_white() ->
-     ?wxROP_WHITE.
+constant(constwxBLIT_WHITENESS) ->
+     ?wxBLIT_WHITENESS;
 
-wx_blit_whiteness() ->
-     ?wxBLIT_WHITENESS.
+constant(constwxALIGN_NOT) ->
+     ?wxALIGN_NOT;
 
-wx_align_not() ->
-     ?wxALIGN_NOT.
+constant(constwxALIGN_CENTER_HORIZONTAL) ->
+     ?wxALIGN_CENTER_HORIZONTAL;
 
-wx_align_center_horizontal() ->
-     ?wxALIGN_CENTER_HORIZONTAL.
+constant(constwxALIGN_CENTRE_HORIZONTAL) ->
+     ?wxALIGN_CENTRE_HORIZONTAL;
 
-wx_align_centre_horizontal() ->
-     ?wxALIGN_CENTRE_HORIZONTAL.
+constant(constwxALIGN_LEFT) ->
+     ?wxALIGN_LEFT;
 
-wx_align_left() ->
-     ?wxALIGN_LEFT.
+constant(constwxALIGN_TOP) ->
+     ?wxALIGN_TOP;
 
-wx_align_top() ->
-     ?wxALIGN_TOP.
+constant(constwxALIGN_RIGHT) ->
+     ?wxALIGN_RIGHT;
 
-wx_align_right() ->
-     ?wxALIGN_RIGHT.
+constant(constwxALIGN_BOTTOM) ->
+     ?wxALIGN_BOTTOM;
 
-wx_align_bottom() ->
-     ?wxALIGN_BOTTOM.
+constant(constwxALIGN_CENTER_VERTICAL) ->
+     ?wxALIGN_CENTER_VERTICAL;
 
-wx_align_center_vertical() ->
-     ?wxALIGN_CENTER_VERTICAL.
+constant(constwxALIGN_CENTRE_VERTICAL) ->
+     ?wxALIGN_CENTRE_VERTICAL;
 
-wx_align_centre_vertical() ->
-     ?wxALIGN_CENTRE_VERTICAL.
+constant(constwxALIGN_CENTER) ->
+     ?wxALIGN_CENTER;
 
-wx_align_center() ->
-     ?wxALIGN_CENTER.
+constant(constwxALIGN_CENTRE) ->
+     ?wxALIGN_CENTRE;
 
-wx_align_centre() ->
-     ?wxALIGN_CENTRE.
+constant(constwxALIGN_MASK) ->
+     ?wxALIGN_MASK;
 
-wx_align_mask() ->
-     ?wxALIGN_MASK.
+constant(constwxBG_STYLE_SYSTEM) ->
+     ?wxBG_STYLE_SYSTEM;
 
-wx_bg_style_system() ->
-     ?wxBG_STYLE_SYSTEM.
+constant(constwxBG_STYLE_COLOUR) ->
+     ?wxBG_STYLE_COLOUR;
 
-wx_bg_style_colour() ->
-     ?wxBG_STYLE_COLOUR.
+constant(constwxBG_STYLE_CUSTOM) ->
+     ?wxBG_STYLE_CUSTOM;
 
-wx_bg_style_custom() ->
-     ?wxBG_STYLE_CUSTOM.
+constant(constwxBORDER_DEFAULT) ->
+     ?wxBORDER_DEFAULT;
 
-wx_border_default() ->
-     ?wxBORDER_DEFAULT.
+constant(constwxBORDER_NONE) ->
+     ?wxBORDER_NONE;
 
-wx_border_none() ->
-     ?wxBORDER_NONE.
+constant(constwxBORDER_STATIC) ->
+     ?wxBORDER_STATIC;
 
-wx_border_static() ->
-     ?wxBORDER_STATIC.
+constant(constwxBORDER_SIMPLE) ->
+     ?wxBORDER_SIMPLE;
 
-wx_border_simple() ->
-     ?wxBORDER_SIMPLE.
+constant(constwxBORDER_RAISED) ->
+     ?wxBORDER_RAISED;
 
-wx_border_raised() ->
-     ?wxBORDER_RAISED.
+constant(constwxBORDER_SUNKEN) ->
+     ?wxBORDER_SUNKEN;
 
-wx_border_sunken() ->
-     ?wxBORDER_SUNKEN.
+constant(constwxBORDER_DOUBLE) ->
+     ?wxBORDER_DOUBLE;
 
-wx_border_double() ->
-     ?wxBORDER_DOUBLE.
+constant(constwxBORDER_THEME) ->
+     ?wxBORDER_THEME;
 
-wx_border_theme() ->
-     ?wxBORDER_THEME.
+constant(constwxBORDER_MASK) ->
+     ?wxBORDER_MASK;
 
-wx_border_mask() ->
-     ?wxBORDER_MASK.
+constant(constwxDF_INVALID) ->
+     ?wxDF_INVALID;
 
-wx_df_invalid() ->
-     ?wxDF_INVALID.
+constant(constwxDF_TEXT) ->
+     ?wxDF_TEXT;
 
-wx_df_text() ->
-     ?wxDF_TEXT.
+constant(constwxDF_BITMAP) ->
+     ?wxDF_BITMAP;
 
-wx_df_bitmap() ->
-     ?wxDF_BITMAP.
+constant(constwxDF_METAFILE) ->
+     ?wxDF_METAFILE;
 
-wx_df_metafile() ->
-     ?wxDF_METAFILE.
+constant(constwxDF_SYLK) ->
+     ?wxDF_SYLK;
 
-wx_df_sylk() ->
-     ?wxDF_SYLK.
+constant(constwxDF_DIF) ->
+     ?wxDF_DIF;
 
-wx_df_dif() ->
-     ?wxDF_DIF.
+constant(constwxDF_TIFF) ->
+     ?wxDF_TIFF;
 
-wx_df_tiff() ->
-     ?wxDF_TIFF.
+constant(constwxDF_OEMTEXT) ->
+     ?wxDF_OEMTEXT;
 
-wx_df_oemtext() ->
-     ?wxDF_OEMTEXT.
+constant(constwxDF_DIB) ->
+     ?wxDF_DIB;
 
-wx_df_dib() ->
-     ?wxDF_DIB.
+constant(constwxDF_PALETTE) ->
+     ?wxDF_PALETTE;
 
-wx_df_palette() ->
-     ?wxDF_PALETTE.
+constant(constwxDF_PENDATA) ->
+     ?wxDF_PENDATA;
 
-wx_df_pendata() ->
-     ?wxDF_PENDATA.
+constant(constwxDF_RIFF) ->
+     ?wxDF_RIFF;
 
-wx_df_riff() ->
-     ?wxDF_RIFF.
+constant(constwxDF_WAVE) ->
+     ?wxDF_WAVE;
 
-wx_df_wave() ->
-     ?wxDF_WAVE.
+constant(constwxDF_UNICODETEXT) ->
+     ?wxDF_UNICODETEXT;
 
-wx_df_unicodetext() ->
-     ?wxDF_UNICODETEXT.
+constant(constwxDF_ENHMETAFILE) ->
+     ?wxDF_ENHMETAFILE;
 
-wx_df_enhmetafile() ->
-     ?wxDF_ENHMETAFILE.
+constant(constwxDF_FILENAME) ->
+     ?wxDF_FILENAME;
 
-wx_df_filename() ->
-     ?wxDF_FILENAME.
+constant(constwxDF_LOCALE) ->
+     ?wxDF_LOCALE;
 
-wx_df_locale() ->
-     ?wxDF_LOCALE.
+constant(constwxDF_PRIVATE) ->
+     ?wxDF_PRIVATE;
 
-wx_df_private() ->
-     ?wxDF_PRIVATE.
+constant(constwxDF_HTML) ->
+     ?wxDF_HTML;
 
-wx_df_html() ->
-     ?wxDF_HTML.
+constant(constwxDF_MAX) ->
+     ?wxDF_MAX;
 
-wx_df_max() ->
-     ?wxDF_MAX.
+constant(constwxLEFT) ->
+     ?wxLEFT;
 
-wx_left() ->
-     ?wxLEFT.
+constant(constwxRIGHT) ->
+     ?wxRIGHT;
 
-wx_right() ->
-     ?wxRIGHT.
+constant(constwxUP) ->
+     ?wxUP;
 
-wx_up() ->
-     ?wxUP.
+constant(constwxDOWN) ->
+     ?wxDOWN;
 
-wx_down() ->
-     ?wxDOWN.
+constant(constwxTOP) ->
+     ?wxTOP;
 
-wx_top() ->
-     ?wxTOP.
+constant(constwxBOTTOM) ->
+     ?wxBOTTOM;
 
-wx_bottom() ->
-     ?wxBOTTOM.
+constant(constwxNORTH) ->
+     ?wxNORTH;
 
-wx_north() ->
-     ?wxNORTH.
+constant(constwxSOUTH) ->
+     ?wxSOUTH;
 
-wx_south() ->
-     ?wxSOUTH.
+constant(constwxWEST) ->
+     ?wxWEST;
 
-wx_west() ->
-     ?wxWEST.
+constant(constwxEAST) ->
+     ?wxEAST;
 
-wx_east() ->
-     ?wxEAST.
+constant(constwxALL) ->
+     ?wxALL;
 
-wx_all() ->
-     ?wxALL.
+constant(constwxDUPLEX_SIMPLEX) ->
+     ?wxDUPLEX_SIMPLEX;
 
-wx_duplex_simplex() ->
-     ?wxDUPLEX_SIMPLEX.
+constant(constwxDUPLEX_HORIZONTAL) ->
+     ?wxDUPLEX_HORIZONTAL;
 
-wx_duplex_horizontal() ->
-     ?wxDUPLEX_HORIZONTAL.
+constant(constwxDUPLEX_VERTICAL) ->
+     ?wxDUPLEX_VERTICAL;
 
-wx_duplex_vertical() ->
-     ?wxDUPLEX_VERTICAL.
+constant(constwxCENTRE) ->
+     ?wxCENTRE;
 
-wx_centre() ->
-     ?wxCENTRE.
+constant(constwxCENTER) ->
+     ?wxCENTER;
 
-wx_center() ->
-     ?wxCENTER.
+constant(constwxHT_NOWHERE) ->
+     ?wxHT_NOWHERE;
 
-wx_ht_nowhere() ->
-     ?wxHT_NOWHERE.
+constant(constwxHT_SCROLLBAR_FIRST) ->
+     ?wxHT_SCROLLBAR_FIRST;
 
-wx_ht_scrollbar_first() ->
-     ?wxHT_SCROLLBAR_FIRST.
+constant(constwxHT_SCROLLBAR_ARROW_LINE_1) ->
+     ?wxHT_SCROLLBAR_ARROW_LINE_1;
 
-wx_ht_scrollbar_arrow_line_1() ->
-     ?wxHT_SCROLLBAR_ARROW_LINE_1.
+constant(constwxHT_SCROLLBAR_ARROW_LINE_2) ->
+     ?wxHT_SCROLLBAR_ARROW_LINE_2;
 
-wx_ht_scrollbar_arrow_line_2() ->
-     ?wxHT_SCROLLBAR_ARROW_LINE_2.
+constant(constwxHT_SCROLLBAR_ARROW_PAGE_1) ->
+     ?wxHT_SCROLLBAR_ARROW_PAGE_1;
 
-wx_ht_scrollbar_arrow_page_1() ->
-     ?wxHT_SCROLLBAR_ARROW_PAGE_1.
+constant(constwxHT_SCROLLBAR_ARROW_PAGE_2) ->
+     ?wxHT_SCROLLBAR_ARROW_PAGE_2;
 
-wx_ht_scrollbar_arrow_page_2() ->
-     ?wxHT_SCROLLBAR_ARROW_PAGE_2.
+constant(constwxHT_SCROLLBAR_THUMB) ->
+     ?wxHT_SCROLLBAR_THUMB;
 
-wx_ht_scrollbar_thumb() ->
-     ?wxHT_SCROLLBAR_THUMB.
+constant(constwxHT_SCROLLBAR_BAR_1) ->
+     ?wxHT_SCROLLBAR_BAR_1;
 
-wx_ht_scrollbar_bar_1() ->
-     ?wxHT_SCROLLBAR_BAR_1.
+constant(constwxHT_SCROLLBAR_BAR_2) ->
+     ?wxHT_SCROLLBAR_BAR_2;
 
-wx_ht_scrollbar_bar_2() ->
-     ?wxHT_SCROLLBAR_BAR_2.
+constant(constwxHT_SCROLLBAR_LAST) ->
+     ?wxHT_SCROLLBAR_LAST;
 
-wx_ht_scrollbar_last() ->
-     ?wxHT_SCROLLBAR_LAST.
+constant(constwxHT_WINDOW_OUTSIDE) ->
+     ?wxHT_WINDOW_OUTSIDE;
 
-wx_ht_window_outside() ->
-     ?wxHT_WINDOW_OUTSIDE.
+constant(constwxHT_WINDOW_INSIDE) ->
+     ?wxHT_WINDOW_INSIDE;
 
-wx_ht_window_inside() ->
-     ?wxHT_WINDOW_INSIDE.
+constant(constwxHT_WINDOW_VERT_SCROLLBAR) ->
+     ?wxHT_WINDOW_VERT_SCROLLBAR;
 
-wx_ht_window_vert_scrollbar() ->
-     ?wxHT_WINDOW_VERT_SCROLLBAR.
+constant(constwxHT_WINDOW_HORZ_SCROLLBAR) ->
+     ?wxHT_WINDOW_HORZ_SCROLLBAR;
 
-wx_ht_window_horz_scrollbar() ->
-     ?wxHT_WINDOW_HORZ_SCROLLBAR.
+constant(constwxHT_WINDOW_CORNER) ->
+     ?wxHT_WINDOW_CORNER;
 
-wx_ht_window_corner() ->
-     ?wxHT_WINDOW_CORNER.
+constant(constwxHT_MAX) ->
+     ?wxHT_MAX;
 
-wx_ht_max() ->
-     ?wxHT_MAX.
+constant(constwxITEM_SEPARATOR) ->
+     ?wxITEM_SEPARATOR;
 
-wx_item_separator() ->
-     ?wxITEM_SEPARATOR.
+constant(constwxITEM_NORMAL) ->
+     ?wxITEM_NORMAL;
 
-wx_item_normal() ->
-     ?wxITEM_NORMAL.
+constant(constwxITEM_CHECK) ->
+     ?wxITEM_CHECK;
 
-wx_item_check() ->
-     ?wxITEM_CHECK.
+constant(constwxITEM_RADIO) ->
+     ?wxITEM_RADIO;
 
-wx_item_radio() ->
-     ?wxITEM_RADIO.
+constant(constwxITEM_MAX) ->
+     ?wxITEM_MAX;
 
-wx_item_max() ->
-     ?wxITEM_MAX.
+constant(constWXK_BACK) ->
+     ?WXK_BACK;
 
-wxk_back() ->
-     ?WXK_BACK.
+constant(constWXK_TAB) ->
+     ?WXK_TAB;
 
-wxk_tab() ->
-     ?WXK_TAB.
+constant(constWXK_RETURN) ->
+     ?WXK_RETURN;
 
-wxk_return() ->
-     ?WXK_RETURN.
+constant(constWXK_ESCAPE) ->
+     ?WXK_ESCAPE;
 
-wxk_escape() ->
-     ?WXK_ESCAPE.
+constant(constWXK_SPACE) ->
+     ?WXK_SPACE;
 
-wxk_space() ->
-     ?WXK_SPACE.
+constant(constWXK_DELETE) ->
+     ?WXK_DELETE;
 
-wxk_delete() ->
-     ?WXK_DELETE.
+constant(constWXK_START) ->
+     ?WXK_START;
 
-wxk_start() ->
-     ?WXK_START.
+constant(constWXK_LBUTTON) ->
+     ?WXK_LBUTTON;
 
-wxk_lbutton() ->
-     ?WXK_LBUTTON.
+constant(constWXK_RBUTTON) ->
+     ?WXK_RBUTTON;
 
-wxk_rbutton() ->
-     ?WXK_RBUTTON.
+constant(constWXK_CANCEL) ->
+     ?WXK_CANCEL;
 
-wxk_cancel() ->
-     ?WXK_CANCEL.
+constant(constWXK_MBUTTON) ->
+     ?WXK_MBUTTON;
 
-wxk_mbutton() ->
-     ?WXK_MBUTTON.
+constant(constWXK_CLEAR) ->
+     ?WXK_CLEAR;
 
-wxk_clear() ->
-     ?WXK_CLEAR.
+constant(constWXK_SHIFT) ->
+     ?WXK_SHIFT;
 
-wxk_shift() ->
-     ?WXK_SHIFT.
+constant(constWXK_ALT) ->
+     ?WXK_ALT;
 
-wxk_alt() ->
-     ?WXK_ALT.
+constant(constWXK_CONTROL) ->
+     ?WXK_CONTROL;
 
-wxk_control() ->
-     ?WXK_CONTROL.
+constant(constWXK_MENU) ->
+     ?WXK_MENU;
 
-wxk_menu() ->
-     ?WXK_MENU.
+constant(constWXK_PAUSE) ->
+     ?WXK_PAUSE;
 
-wxk_pause() ->
-     ?WXK_PAUSE.
+constant(constWXK_CAPITAL) ->
+     ?WXK_CAPITAL;
 
-wxk_capital() ->
-     ?WXK_CAPITAL.
+constant(constWXK_END) ->
+     ?WXK_END;
 
-wxk_end() ->
-     ?WXK_END.
+constant(constWXK_HOME) ->
+     ?WXK_HOME;
 
-wxk_home() ->
-     ?WXK_HOME.
+constant(constWXK_LEFT) ->
+     ?WXK_LEFT;
 
-wxk_left() ->
-     ?WXK_LEFT.
+constant(constWXK_UP) ->
+     ?WXK_UP;
 
-wxk_up() ->
-     ?WXK_UP.
+constant(constWXK_RIGHT) ->
+     ?WXK_RIGHT;
 
-wxk_right() ->
-     ?WXK_RIGHT.
+constant(constWXK_DOWN) ->
+     ?WXK_DOWN;
 
-wxk_down() ->
-     ?WXK_DOWN.
+constant(constWXK_SELECT) ->
+     ?WXK_SELECT;
 
-wxk_select() ->
-     ?WXK_SELECT.
+constant(constWXK_PRINT) ->
+     ?WXK_PRINT;
 
-wxk_print() ->
-     ?WXK_PRINT.
+constant(constWXK_EXECUTE) ->
+     ?WXK_EXECUTE;
 
-wxk_execute() ->
-     ?WXK_EXECUTE.
+constant(constWXK_SNAPSHOT) ->
+     ?WXK_SNAPSHOT;
 
-wxk_snapshot() ->
-     ?WXK_SNAPSHOT.
+constant(constWXK_INSERT) ->
+     ?WXK_INSERT;
 
-wxk_insert() ->
-     ?WXK_INSERT.
+constant(constWXK_HELP) ->
+     ?WXK_HELP;
 
-wxk_help() ->
-     ?WXK_HELP.
+constant(constWXK_NUMPAD0) ->
+     ?WXK_NUMPAD0;
 
-wxk_numpa_d0() ->
-     ?WXK_NUMPAD0.
+constant(constWXK_NUMPAD1) ->
+     ?WXK_NUMPAD1;
 
-wxk_numpa_d1() ->
-     ?WXK_NUMPAD1.
+constant(constWXK_NUMPAD2) ->
+     ?WXK_NUMPAD2;
 
-wxk_numpa_d2() ->
-     ?WXK_NUMPAD2.
+constant(constWXK_NUMPAD3) ->
+     ?WXK_NUMPAD3;
 
-wxk_numpa_d3() ->
-     ?WXK_NUMPAD3.
+constant(constWXK_NUMPAD4) ->
+     ?WXK_NUMPAD4;
 
-wxk_numpa_d4() ->
-     ?WXK_NUMPAD4.
+constant(constWXK_NUMPAD5) ->
+     ?WXK_NUMPAD5;
 
-wxk_numpa_d5() ->
-     ?WXK_NUMPAD5.
+constant(constWXK_NUMPAD6) ->
+     ?WXK_NUMPAD6;
 
-wxk_numpa_d6() ->
-     ?WXK_NUMPAD6.
+constant(constWXK_NUMPAD7) ->
+     ?WXK_NUMPAD7;
 
-wxk_numpa_d7() ->
-     ?WXK_NUMPAD7.
+constant(constWXK_NUMPAD8) ->
+     ?WXK_NUMPAD8;
 
-wxk_numpa_d8() ->
-     ?WXK_NUMPAD8.
+constant(constWXK_NUMPAD9) ->
+     ?WXK_NUMPAD9;
 
-wxk_numpa_d9() ->
-     ?WXK_NUMPAD9.
+constant(constWXK_MULTIPLY) ->
+     ?WXK_MULTIPLY;
 
-wxk_multiply() ->
-     ?WXK_MULTIPLY.
+constant(constWXK_ADD) ->
+     ?WXK_ADD;
 
-wxk_add() ->
-     ?WXK_ADD.
+constant(constWXK_SEPARATOR) ->
+     ?WXK_SEPARATOR;
 
-wxk_separator() ->
-     ?WXK_SEPARATOR.
+constant(constWXK_SUBTRACT) ->
+     ?WXK_SUBTRACT;
 
-wxk_subtract() ->
-     ?WXK_SUBTRACT.
+constant(constWXK_DECIMAL) ->
+     ?WXK_DECIMAL;
 
-wxk_decimal() ->
-     ?WXK_DECIMAL.
+constant(constWXK_DIVIDE) ->
+     ?WXK_DIVIDE;
 
-wxk_divide() ->
-     ?WXK_DIVIDE.
+constant(constWXK_F1) ->
+     ?WXK_F1;
 
-wxk__f1() ->
-     ?WXK_F1.
+constant(constWXK_F2) ->
+     ?WXK_F2;
 
-wxk__f2() ->
-     ?WXK_F2.
+constant(constWXK_F3) ->
+     ?WXK_F3;
 
-wxk__f3() ->
-     ?WXK_F3.
+constant(constWXK_F4) ->
+     ?WXK_F4;
 
-wxk__f4() ->
-     ?WXK_F4.
+constant(constWXK_F5) ->
+     ?WXK_F5;
 
-wxk__f5() ->
-     ?WXK_F5.
+constant(constWXK_F6) ->
+     ?WXK_F6;
 
-wxk__f6() ->
-     ?WXK_F6.
+constant(constWXK_F7) ->
+     ?WXK_F7;
 
-wxk__f7() ->
-     ?WXK_F7.
+constant(constWXK_F8) ->
+     ?WXK_F8;
 
-wxk__f8() ->
-     ?WXK_F8.
+constant(constWXK_F9) ->
+     ?WXK_F9;
 
-wxk__f9() ->
-     ?WXK_F9.
+constant(constWXK_F10) ->
+     ?WXK_F10;
 
-wxk__f10() ->
-     ?WXK_F10.
+constant(constWXK_F11) ->
+     ?WXK_F11;
 
-wxk__f11() ->
-     ?WXK_F11.
+constant(constWXK_F12) ->
+     ?WXK_F12;
 
-wxk__f12() ->
-     ?WXK_F12.
+constant(constWXK_F13) ->
+     ?WXK_F13;
 
-wxk__f13() ->
-     ?WXK_F13.
+constant(constWXK_F14) ->
+     ?WXK_F14;
 
-wxk__f14() ->
-     ?WXK_F14.
+constant(constWXK_F15) ->
+     ?WXK_F15;
 
-wxk__f15() ->
-     ?WXK_F15.
+constant(constWXK_F16) ->
+     ?WXK_F16;
 
-wxk__f16() ->
-     ?WXK_F16.
+constant(constWXK_F17) ->
+     ?WXK_F17;
 
-wxk__f17() ->
-     ?WXK_F17.
+constant(constWXK_F18) ->
+     ?WXK_F18;
 
-wxk__f18() ->
-     ?WXK_F18.
+constant(constWXK_F19) ->
+     ?WXK_F19;
 
-wxk__f19() ->
-     ?WXK_F19.
+constant(constWXK_F20) ->
+     ?WXK_F20;
 
-wxk__f20() ->
-     ?WXK_F20.
+constant(constWXK_F21) ->
+     ?WXK_F21;
 
-wxk__f21() ->
-     ?WXK_F21.
+constant(constWXK_F22) ->
+     ?WXK_F22;
 
-wxk__f22() ->
-     ?WXK_F22.
+constant(constWXK_F23) ->
+     ?WXK_F23;
 
-wxk__f23() ->
-     ?WXK_F23.
+constant(constWXK_F24) ->
+     ?WXK_F24;
 
-wxk__f24() ->
-     ?WXK_F24.
+constant(constWXK_NUMLOCK) ->
+     ?WXK_NUMLOCK;
 
-wxk_numlock() ->
-     ?WXK_NUMLOCK.
+constant(constWXK_SCROLL) ->
+     ?WXK_SCROLL;
 
-wxk_scroll() ->
-     ?WXK_SCROLL.
+constant(constWXK_PAGEUP) ->
+     ?WXK_PAGEUP;
 
-wxk_pageup() ->
-     ?WXK_PAGEUP.
+constant(constWXK_PAGEDOWN) ->
+     ?WXK_PAGEDOWN;
 
-wxk_pagedown() ->
-     ?WXK_PAGEDOWN.
+constant(constWXK_NUMPAD_SPACE) ->
+     ?WXK_NUMPAD_SPACE;
 
-wxk_numpad_space() ->
-     ?WXK_NUMPAD_SPACE.
+constant(constWXK_NUMPAD_TAB) ->
+     ?WXK_NUMPAD_TAB;
 
-wxk_numpad_tab() ->
-     ?WXK_NUMPAD_TAB.
+constant(constWXK_NUMPAD_ENTER) ->
+     ?WXK_NUMPAD_ENTER;
 
-wxk_numpad_enter() ->
-     ?WXK_NUMPAD_ENTER.
+constant(constWXK_NUMPAD_F1) ->
+     ?WXK_NUMPAD_F1;
 
-wxk_numpad__f1() ->
-     ?WXK_NUMPAD_F1.
+constant(constWXK_NUMPAD_F2) ->
+     ?WXK_NUMPAD_F2;
 
-wxk_numpad__f2() ->
-     ?WXK_NUMPAD_F2.
+constant(constWXK_NUMPAD_F3) ->
+     ?WXK_NUMPAD_F3;
 
-wxk_numpad__f3() ->
-     ?WXK_NUMPAD_F3.
+constant(constWXK_NUMPAD_F4) ->
+     ?WXK_NUMPAD_F4;
 
-wxk_numpad__f4() ->
-     ?WXK_NUMPAD_F4.
+constant(constWXK_NUMPAD_HOME) ->
+     ?WXK_NUMPAD_HOME;
 
-wxk_numpad_home() ->
-     ?WXK_NUMPAD_HOME.
+constant(constWXK_NUMPAD_LEFT) ->
+     ?WXK_NUMPAD_LEFT;
 
-wxk_numpad_left() ->
-     ?WXK_NUMPAD_LEFT.
+constant(constWXK_NUMPAD_UP) ->
+     ?WXK_NUMPAD_UP;
 
-wxk_numpad_up() ->
-     ?WXK_NUMPAD_UP.
+constant(constWXK_NUMPAD_RIGHT) ->
+     ?WXK_NUMPAD_RIGHT;
 
-wxk_numpad_right() ->
-     ?WXK_NUMPAD_RIGHT.
+constant(constWXK_NUMPAD_DOWN) ->
+     ?WXK_NUMPAD_DOWN;
 
-wxk_numpad_down() ->
-     ?WXK_NUMPAD_DOWN.
+constant(constWXK_NUMPAD_PAGEUP) ->
+     ?WXK_NUMPAD_PAGEUP;
 
-wxk_numpad_pageup() ->
-     ?WXK_NUMPAD_PAGEUP.
+constant(constWXK_NUMPAD_PAGEDOWN) ->
+     ?WXK_NUMPAD_PAGEDOWN;
 
-wxk_numpad_pagedown() ->
-     ?WXK_NUMPAD_PAGEDOWN.
+constant(constWXK_NUMPAD_END) ->
+     ?WXK_NUMPAD_END;
 
-wxk_numpad_end() ->
-     ?WXK_NUMPAD_END.
+constant(constWXK_NUMPAD_BEGIN) ->
+     ?WXK_NUMPAD_BEGIN;
 
-wxk_numpad_begin() ->
-     ?WXK_NUMPAD_BEGIN.
+constant(constWXK_NUMPAD_INSERT) ->
+     ?WXK_NUMPAD_INSERT;
 
-wxk_numpad_insert() ->
-     ?WXK_NUMPAD_INSERT.
+constant(constWXK_NUMPAD_DELETE) ->
+     ?WXK_NUMPAD_DELETE;
 
-wxk_numpad_delete() ->
-     ?WXK_NUMPAD_DELETE.
+constant(constWXK_NUMPAD_EQUAL) ->
+     ?WXK_NUMPAD_EQUAL;
 
-wxk_numpad_equal() ->
-     ?WXK_NUMPAD_EQUAL.
+constant(constWXK_NUMPAD_MULTIPLY) ->
+     ?WXK_NUMPAD_MULTIPLY;
 
-wxk_numpad_multiply() ->
-     ?WXK_NUMPAD_MULTIPLY.
+constant(constWXK_NUMPAD_ADD) ->
+     ?WXK_NUMPAD_ADD;
 
-wxk_numpad_add() ->
-     ?WXK_NUMPAD_ADD.
+constant(constWXK_NUMPAD_SEPARATOR) ->
+     ?WXK_NUMPAD_SEPARATOR;
 
-wxk_numpad_separator() ->
-     ?WXK_NUMPAD_SEPARATOR.
+constant(constWXK_NUMPAD_SUBTRACT) ->
+     ?WXK_NUMPAD_SUBTRACT;
 
-wxk_numpad_subtract() ->
-     ?WXK_NUMPAD_SUBTRACT.
+constant(constWXK_NUMPAD_DECIMAL) ->
+     ?WXK_NUMPAD_DECIMAL;
 
-wxk_numpad_decimal() ->
-     ?WXK_NUMPAD_DECIMAL.
+constant(constWXK_NUMPAD_DIVIDE) ->
+     ?WXK_NUMPAD_DIVIDE;
 
-wxk_numpad_divide() ->
-     ?WXK_NUMPAD_DIVIDE.
+constant(constWXK_WINDOWS_LEFT) ->
+     ?WXK_WINDOWS_LEFT;
 
-wxk_windows_left() ->
-     ?WXK_WINDOWS_LEFT.
+constant(constWXK_WINDOWS_RIGHT) ->
+     ?WXK_WINDOWS_RIGHT;
 
-wxk_windows_right() ->
-     ?WXK_WINDOWS_RIGHT.
+constant(constWXK_WINDOWS_MENU) ->
+     ?WXK_WINDOWS_MENU;
 
-wxk_windows_menu() ->
-     ?WXK_WINDOWS_MENU.
+constant(constWXK_COMMAND) ->
+     ?WXK_COMMAND;
 
-wxk_command() ->
-     ?WXK_COMMAND.
+constant(constWXK_SPECIAL1) ->
+     ?WXK_SPECIAL1;
 
-wxk_specia_l1() ->
-     ?WXK_SPECIAL1.
+constant(constWXK_SPECIAL2) ->
+     ?WXK_SPECIAL2;
 
-wxk_specia_l2() ->
-     ?WXK_SPECIAL2.
+constant(constWXK_SPECIAL3) ->
+     ?WXK_SPECIAL3;
 
-wxk_specia_l3() ->
-     ?WXK_SPECIAL3.
+constant(constWXK_SPECIAL4) ->
+     ?WXK_SPECIAL4;
 
-wxk_specia_l4() ->
-     ?WXK_SPECIAL4.
+constant(constWXK_SPECIAL5) ->
+     ?WXK_SPECIAL5;
 
-wxk_specia_l5() ->
-     ?WXK_SPECIAL5.
+constant(constWXK_SPECIAL6) ->
+     ?WXK_SPECIAL6;
 
-wxk_specia_l6() ->
-     ?WXK_SPECIAL6.
+constant(constWXK_SPECIAL7) ->
+     ?WXK_SPECIAL7;
 
-wxk_specia_l7() ->
-     ?WXK_SPECIAL7.
+constant(constWXK_SPECIAL8) ->
+     ?WXK_SPECIAL8;
 
-wxk_specia_l8() ->
-     ?WXK_SPECIAL8.
+constant(constWXK_SPECIAL9) ->
+     ?WXK_SPECIAL9;
 
-wxk_specia_l9() ->
-     ?WXK_SPECIAL9.
+constant(constWXK_SPECIAL10) ->
+     ?WXK_SPECIAL10;
 
-wxk_specia_l10() ->
-     ?WXK_SPECIAL10.
+constant(constWXK_SPECIAL11) ->
+     ?WXK_SPECIAL11;
 
-wxk_specia_l11() ->
-     ?WXK_SPECIAL11.
+constant(constWXK_SPECIAL12) ->
+     ?WXK_SPECIAL12;
 
-wxk_specia_l12() ->
-     ?WXK_SPECIAL12.
+constant(constWXK_SPECIAL13) ->
+     ?WXK_SPECIAL13;
 
-wxk_specia_l13() ->
-     ?WXK_SPECIAL13.
+constant(constWXK_SPECIAL14) ->
+     ?WXK_SPECIAL14;
 
-wxk_specia_l14() ->
-     ?WXK_SPECIAL14.
+constant(constWXK_SPECIAL15) ->
+     ?WXK_SPECIAL15;
 
-wxk_specia_l15() ->
-     ?WXK_SPECIAL15.
+constant(constWXK_SPECIAL16) ->
+     ?WXK_SPECIAL16;
 
-wxk_specia_l16() ->
-     ?WXK_SPECIAL16.
+constant(constWXK_SPECIAL17) ->
+     ?WXK_SPECIAL17;
 
-wxk_specia_l17() ->
-     ?WXK_SPECIAL17.
+constant(constWXK_SPECIAL18) ->
+     ?WXK_SPECIAL18;
 
-wxk_specia_l18() ->
-     ?WXK_SPECIAL18.
+constant(constWXK_SPECIAL19) ->
+     ?WXK_SPECIAL19;
 
-wxk_specia_l19() ->
-     ?WXK_SPECIAL19.
+constant(constWXK_SPECIAL20) ->
+     ?WXK_SPECIAL20;
 
-wxk_specia_l20() ->
-     ?WXK_SPECIAL20.
+constant(constwxMOD_NONE) ->
+     ?wxMOD_NONE;
 
-wx_mod_none() ->
-     ?wxMOD_NONE.
+constant(constwxMOD_ALT) ->
+     ?wxMOD_ALT;
 
-wx_mod_alt() ->
-     ?wxMOD_ALT.
+constant(constwxMOD_CONTROL) ->
+     ?wxMOD_CONTROL;
 
-wx_mod_control() ->
-     ?wxMOD_CONTROL.
+constant(constwxMOD_ALTGR) ->
+     ?wxMOD_ALTGR;
 
-wx_mod_altgr() ->
-     ?wxMOD_ALTGR.
+constant(constwxMOD_SHIFT) ->
+     ?wxMOD_SHIFT;
 
-wx_mod_shift() ->
-     ?wxMOD_SHIFT.
+constant(constwxMOD_META) ->
+     ?wxMOD_META;
 
-wx_mod_meta() ->
-     ?wxMOD_META.
+constant(constwxMOD_WIN) ->
+     ?wxMOD_WIN;
 
-wx_mod_win() ->
-     ?wxMOD_WIN.
+constant(constwxMOD_CMD) ->
+     ?wxMOD_CMD;
 
-wx_mod_cmd() ->
-     ?wxMOD_CMD.
+constant(constwxMOD_ALL) ->
+     ?wxMOD_ALL;
 
-wx_mod_all() ->
-     ?wxMOD_ALL.
+constant(constwxNOTIFY_NONE) ->
+     ?wxNOTIFY_NONE;
 
-wx_notify_none() ->
-     ?wxNOTIFY_NONE.
+constant(constwxNOTIFY_ONCE) ->
+     ?wxNOTIFY_ONCE;
 
-wx_notify_once() ->
-     ?wxNOTIFY_ONCE.
+constant(constwxNOTIFY_REPEAT) ->
+     ?wxNOTIFY_REPEAT;
 
-wx_notify_repeat() ->
-     ?wxNOTIFY_REPEAT.
+constant(constwxHORIZONTAL) ->
+     ?wxHORIZONTAL;
 
-wx_horizontal() ->
-     ?wxHORIZONTAL.
+constant(constwxVERTICAL) ->
+     ?wxVERTICAL;
 
-wx_vertical() ->
-     ?wxVERTICAL.
+constant(constwxBOTH) ->
+     ?wxBOTH;
 
-wx_both() ->
-     ?wxBOTH.
+constant(constwxPAPER_NONE) ->
+     ?wxPAPER_NONE;
 
-wx_paper_none() ->
-     ?wxPAPER_NONE.
+constant(constwxPAPER_LETTER) ->
+     ?wxPAPER_LETTER;
 
-wx_paper_letter() ->
-     ?wxPAPER_LETTER.
+constant(constwxPAPER_LEGAL) ->
+     ?wxPAPER_LEGAL;
 
-wx_paper_legal() ->
-     ?wxPAPER_LEGAL.
+constant(constwxPAPER_A4) ->
+     ?wxPAPER_A4;
 
-wx_paper__a4() ->
-     ?wxPAPER_A4.
+constant(constwxPAPER_CSHEET) ->
+     ?wxPAPER_CSHEET;
 
-wx_paper_csheet() ->
-     ?wxPAPER_CSHEET.
+constant(constwxPAPER_DSHEET) ->
+     ?wxPAPER_DSHEET;
 
-wx_paper_dsheet() ->
-     ?wxPAPER_DSHEET.
+constant(constwxPAPER_ESHEET) ->
+     ?wxPAPER_ESHEET;
 
-wx_paper_esheet() ->
-     ?wxPAPER_ESHEET.
+constant(constwxPAPER_LETTERSMALL) ->
+     ?wxPAPER_LETTERSMALL;
 
-wx_paper_lettersmall() ->
-     ?wxPAPER_LETTERSMALL.
+constant(constwxPAPER_TABLOID) ->
+     ?wxPAPER_TABLOID;
 
-wx_paper_tabloid() ->
-     ?wxPAPER_TABLOID.
+constant(constwxPAPER_LEDGER) ->
+     ?wxPAPER_LEDGER;
 
-wx_paper_ledger() ->
-     ?wxPAPER_LEDGER.
+constant(constwxPAPER_STATEMENT) ->
+     ?wxPAPER_STATEMENT;
 
-wx_paper_statement() ->
-     ?wxPAPER_STATEMENT.
+constant(constwxPAPER_EXECUTIVE) ->
+     ?wxPAPER_EXECUTIVE;
 
-wx_paper_executive() ->
-     ?wxPAPER_EXECUTIVE.
+constant(constwxPAPER_A3) ->
+     ?wxPAPER_A3;
 
-wx_paper__a3() ->
-     ?wxPAPER_A3.
+constant(constwxPAPER_A4SMALL) ->
+     ?wxPAPER_A4SMALL;
 
-wx_paper__a4_small() ->
-     ?wxPAPER_A4SMALL.
+constant(constwxPAPER_A5) ->
+     ?wxPAPER_A5;
 
-wx_paper__a5() ->
-     ?wxPAPER_A5.
+constant(constwxPAPER_B4) ->
+     ?wxPAPER_B4;
 
-wx_paper__b4() ->
-     ?wxPAPER_B4.
+constant(constwxPAPER_B5) ->
+     ?wxPAPER_B5;
 
-wx_paper__b5() ->
-     ?wxPAPER_B5.
+constant(constwxPAPER_FOLIO) ->
+     ?wxPAPER_FOLIO;
 
-wx_paper_folio() ->
-     ?wxPAPER_FOLIO.
+constant(constwxPAPER_QUARTO) ->
+     ?wxPAPER_QUARTO;
 
-wx_paper_quarto() ->
-     ?wxPAPER_QUARTO.
+constant(constwxPAPER_10X14) ->
+     ?wxPAPER_10X14;
 
-wx_paper_10_x14() ->
-     ?wxPAPER_10X14.
+constant(constwxPAPER_11X17) ->
+     ?wxPAPER_11X17;
 
-wx_paper_11_x17() ->
-     ?wxPAPER_11X17.
+constant(constwxPAPER_NOTE) ->
+     ?wxPAPER_NOTE;
 
-wx_paper_note() ->
-     ?wxPAPER_NOTE.
+constant(constwxPAPER_ENV_9) ->
+     ?wxPAPER_ENV_9;
 
-wx_paper_env_9() ->
-     ?wxPAPER_ENV_9.
+constant(constwxPAPER_ENV_10) ->
+     ?wxPAPER_ENV_10;
 
-wx_paper_env_10() ->
-     ?wxPAPER_ENV_10.
+constant(constwxPAPER_ENV_11) ->
+     ?wxPAPER_ENV_11;
 
-wx_paper_env_11() ->
-     ?wxPAPER_ENV_11.
+constant(constwxPAPER_ENV_12) ->
+     ?wxPAPER_ENV_12;
 
-wx_paper_env_12() ->
-     ?wxPAPER_ENV_12.
+constant(constwxPAPER_ENV_14) ->
+     ?wxPAPER_ENV_14;
 
-wx_paper_env_14() ->
-     ?wxPAPER_ENV_14.
+constant(constwxPAPER_ENV_DL) ->
+     ?wxPAPER_ENV_DL;
 
-wx_paper_env_dl() ->
-     ?wxPAPER_ENV_DL.
+constant(constwxPAPER_ENV_C5) ->
+     ?wxPAPER_ENV_C5;
 
-wx_paper_env__c5() ->
-     ?wxPAPER_ENV_C5.
+constant(constwxPAPER_ENV_C3) ->
+     ?wxPAPER_ENV_C3;
 
-wx_paper_env__c3() ->
-     ?wxPAPER_ENV_C3.
+constant(constwxPAPER_ENV_C4) ->
+     ?wxPAPER_ENV_C4;
 
-wx_paper_env__c4() ->
-     ?wxPAPER_ENV_C4.
+constant(constwxPAPER_ENV_C6) ->
+     ?wxPAPER_ENV_C6;
 
-wx_paper_env__c6() ->
-     ?wxPAPER_ENV_C6.
+constant(constwxPAPER_ENV_C65) ->
+     ?wxPAPER_ENV_C65;
 
-wx_paper_env__c65() ->
-     ?wxPAPER_ENV_C65.
+constant(constwxPAPER_ENV_B4) ->
+     ?wxPAPER_ENV_B4;
 
-wx_paper_env__b4() ->
-     ?wxPAPER_ENV_B4.
+constant(constwxPAPER_ENV_B5) ->
+     ?wxPAPER_ENV_B5;
 
-wx_paper_env__b5() ->
-     ?wxPAPER_ENV_B5.
+constant(constwxPAPER_ENV_B6) ->
+     ?wxPAPER_ENV_B6;
 
-wx_paper_env__b6() ->
-     ?wxPAPER_ENV_B6.
+constant(constwxPAPER_ENV_ITALY) ->
+     ?wxPAPER_ENV_ITALY;
 
-wx_paper_env_italy() ->
-     ?wxPAPER_ENV_ITALY.
+constant(constwxPAPER_ENV_MONARCH) ->
+     ?wxPAPER_ENV_MONARCH;
 
-wx_paper_env_monarch() ->
-     ?wxPAPER_ENV_MONARCH.
+constant(constwxPAPER_ENV_PERSONAL) ->
+     ?wxPAPER_ENV_PERSONAL;
 
-wx_paper_env_personal() ->
-     ?wxPAPER_ENV_PERSONAL.
+constant(constwxPAPER_FANFOLD_US) ->
+     ?wxPAPER_FANFOLD_US;
 
-wx_paper_fanfold_us() ->
-     ?wxPAPER_FANFOLD_US.
+constant(constwxPAPER_FANFOLD_STD_GERMAN) ->
+     ?wxPAPER_FANFOLD_STD_GERMAN;
 
-wx_paper_fanfold_std_german() ->
-     ?wxPAPER_FANFOLD_STD_GERMAN.
+constant(constwxPAPER_FANFOLD_LGL_GERMAN) ->
+     ?wxPAPER_FANFOLD_LGL_GERMAN;
 
-wx_paper_fanfold_lgl_german() ->
-     ?wxPAPER_FANFOLD_LGL_GERMAN.
+constant(constwxPAPER_ISO_B4) ->
+     ?wxPAPER_ISO_B4;
 
-wx_paper_iso__b4() ->
-     ?wxPAPER_ISO_B4.
+constant(constwxPAPER_JAPANESE_POSTCARD) ->
+     ?wxPAPER_JAPANESE_POSTCARD;
 
-wx_paper_japanese_postcard() ->
-     ?wxPAPER_JAPANESE_POSTCARD.
+constant(constwxPAPER_9X11) ->
+     ?wxPAPER_9X11;
 
-wx_paper_9_x11() ->
-     ?wxPAPER_9X11.
+constant(constwxPAPER_10X11) ->
+     ?wxPAPER_10X11;
 
-wx_paper_10_x11() ->
-     ?wxPAPER_10X11.
+constant(constwxPAPER_15X11) ->
+     ?wxPAPER_15X11;
 
-wx_paper_15_x11() ->
-     ?wxPAPER_15X11.
+constant(constwxPAPER_ENV_INVITE) ->
+     ?wxPAPER_ENV_INVITE;
 
-wx_paper_env_invite() ->
-     ?wxPAPER_ENV_INVITE.
+constant(constwxPAPER_LETTER_EXTRA) ->
+     ?wxPAPER_LETTER_EXTRA;
 
-wx_paper_letter_extra() ->
-     ?wxPAPER_LETTER_EXTRA.
+constant(constwxPAPER_LEGAL_EXTRA) ->
+     ?wxPAPER_LEGAL_EXTRA;
 
-wx_paper_legal_extra() ->
-     ?wxPAPER_LEGAL_EXTRA.
+constant(constwxPAPER_TABLOID_EXTRA) ->
+     ?wxPAPER_TABLOID_EXTRA;
 
-wx_paper_tabloid_extra() ->
-     ?wxPAPER_TABLOID_EXTRA.
+constant(constwxPAPER_A4_EXTRA) ->
+     ?wxPAPER_A4_EXTRA;
 
-wx_paper__a4_extra() ->
-     ?wxPAPER_A4_EXTRA.
+constant(constwxPAPER_LETTER_TRANSVERSE) ->
+     ?wxPAPER_LETTER_TRANSVERSE;
 
-wx_paper_letter_transverse() ->
-     ?wxPAPER_LETTER_TRANSVERSE.
+constant(constwxPAPER_A4_TRANSVERSE) ->
+     ?wxPAPER_A4_TRANSVERSE;
 
-wx_paper__a4_transverse() ->
-     ?wxPAPER_A4_TRANSVERSE.
+constant(constwxPAPER_LETTER_EXTRA_TRANSVERSE) ->
+     ?wxPAPER_LETTER_EXTRA_TRANSVERSE;
 
-wx_paper_letter_extra_transverse() ->
-     ?wxPAPER_LETTER_EXTRA_TRANSVERSE.
+constant(constwxPAPER_A_PLUS) ->
+     ?wxPAPER_A_PLUS;
 
-wx_paper_a_plus() ->
-     ?wxPAPER_A_PLUS.
+constant(constwxPAPER_B_PLUS) ->
+     ?wxPAPER_B_PLUS;
 
-wx_paper_b_plus() ->
-     ?wxPAPER_B_PLUS.
+constant(constwxPAPER_LETTER_PLUS) ->
+     ?wxPAPER_LETTER_PLUS;
 
-wx_paper_letter_plus() ->
-     ?wxPAPER_LETTER_PLUS.
+constant(constwxPAPER_A4_PLUS) ->
+     ?wxPAPER_A4_PLUS;
 
-wx_paper__a4_plus() ->
-     ?wxPAPER_A4_PLUS.
+constant(constwxPAPER_A5_TRANSVERSE) ->
+     ?wxPAPER_A5_TRANSVERSE;
 
-wx_paper__a5_transverse() ->
-     ?wxPAPER_A5_TRANSVERSE.
+constant(constwxPAPER_B5_TRANSVERSE) ->
+     ?wxPAPER_B5_TRANSVERSE;
 
-wx_paper__b5_transverse() ->
-     ?wxPAPER_B5_TRANSVERSE.
+constant(constwxPAPER_A3_EXTRA) ->
+     ?wxPAPER_A3_EXTRA;
 
-wx_paper__a3_extra() ->
-     ?wxPAPER_A3_EXTRA.
+constant(constwxPAPER_A5_EXTRA) ->
+     ?wxPAPER_A5_EXTRA;
 
-wx_paper__a5_extra() ->
-     ?wxPAPER_A5_EXTRA.
+constant(constwxPAPER_B5_EXTRA) ->
+     ?wxPAPER_B5_EXTRA;
 
-wx_paper__b5_extra() ->
-     ?wxPAPER_B5_EXTRA.
+constant(constwxPAPER_A2) ->
+     ?wxPAPER_A2;
 
-wx_paper__a2() ->
-     ?wxPAPER_A2.
+constant(constwxPAPER_A3_TRANSVERSE) ->
+     ?wxPAPER_A3_TRANSVERSE;
 
-wx_paper__a3_transverse() ->
-     ?wxPAPER_A3_TRANSVERSE.
+constant(constwxPAPER_A3_EXTRA_TRANSVERSE) ->
+     ?wxPAPER_A3_EXTRA_TRANSVERSE;
 
-wx_paper__a3_extra_transverse() ->
-     ?wxPAPER_A3_EXTRA_TRANSVERSE.
+constant(constwxPAPER_DBL_JAPANESE_POSTCARD) ->
+     ?wxPAPER_DBL_JAPANESE_POSTCARD;
 
-wx_paper_dbl_japanese_postcard() ->
-     ?wxPAPER_DBL_JAPANESE_POSTCARD.
+constant(constwxPAPER_A6) ->
+     ?wxPAPER_A6;
 
-wx_paper__a6() ->
-     ?wxPAPER_A6.
+constant(constwxPAPER_JENV_KAKU2) ->
+     ?wxPAPER_JENV_KAKU2;
 
-wx_paper_jenv_kak_u2() ->
-     ?wxPAPER_JENV_KAKU2.
+constant(constwxPAPER_JENV_KAKU3) ->
+     ?wxPAPER_JENV_KAKU3;
 
-wx_paper_jenv_kak_u3() ->
-     ?wxPAPER_JENV_KAKU3.
+constant(constwxPAPER_JENV_CHOU3) ->
+     ?wxPAPER_JENV_CHOU3;
 
-wx_paper_jenv_cho_u3() ->
-     ?wxPAPER_JENV_CHOU3.
+constant(constwxPAPER_JENV_CHOU4) ->
+     ?wxPAPER_JENV_CHOU4;
 
-wx_paper_jenv_cho_u4() ->
-     ?wxPAPER_JENV_CHOU4.
+constant(constwxPAPER_LETTER_ROTATED) ->
+     ?wxPAPER_LETTER_ROTATED;
 
-wx_paper_letter_rotated() ->
-     ?wxPAPER_LETTER_ROTATED.
+constant(constwxPAPER_A3_ROTATED) ->
+     ?wxPAPER_A3_ROTATED;
 
-wx_paper__a3_rotated() ->
-     ?wxPAPER_A3_ROTATED.
+constant(constwxPAPER_A4_ROTATED) ->
+     ?wxPAPER_A4_ROTATED;
 
-wx_paper__a4_rotated() ->
-     ?wxPAPER_A4_ROTATED.
+constant(constwxPAPER_A5_ROTATED) ->
+     ?wxPAPER_A5_ROTATED;
 
-wx_paper__a5_rotated() ->
-     ?wxPAPER_A5_ROTATED.
+constant(constwxPAPER_B4_JIS_ROTATED) ->
+     ?wxPAPER_B4_JIS_ROTATED;
 
-wx_paper__b4_jis_rotated() ->
-     ?wxPAPER_B4_JIS_ROTATED.
+constant(constwxPAPER_B5_JIS_ROTATED) ->
+     ?wxPAPER_B5_JIS_ROTATED;
 
-wx_paper__b5_jis_rotated() ->
-     ?wxPAPER_B5_JIS_ROTATED.
+constant(constwxPAPER_JAPANESE_POSTCARD_ROTATED) ->
+     ?wxPAPER_JAPANESE_POSTCARD_ROTATED;
 
-wx_paper_japanese_postcard_rotated() ->
-     ?wxPAPER_JAPANESE_POSTCARD_ROTATED.
+constant(constwxPAPER_DBL_JAPANESE_POSTCARD_ROTATED) ->
+     ?wxPAPER_DBL_JAPANESE_POSTCARD_ROTATED;
 
-wx_paper_dbl_japanese_postcard_rotated() ->
-     ?wxPAPER_DBL_JAPANESE_POSTCARD_ROTATED.
+constant(constwxPAPER_A6_ROTATED) ->
+     ?wxPAPER_A6_ROTATED;
 
-wx_paper__a6_rotated() ->
-     ?wxPAPER_A6_ROTATED.
+constant(constwxPAPER_JENV_KAKU2_ROTATED) ->
+     ?wxPAPER_JENV_KAKU2_ROTATED;
 
-wx_paper_jenv_kak_u2_rotated() ->
-     ?wxPAPER_JENV_KAKU2_ROTATED.
+constant(constwxPAPER_JENV_KAKU3_ROTATED) ->
+     ?wxPAPER_JENV_KAKU3_ROTATED;
 
-wx_paper_jenv_kak_u3_rotated() ->
-     ?wxPAPER_JENV_KAKU3_ROTATED.
+constant(constwxPAPER_JENV_CHOU3_ROTATED) ->
+     ?wxPAPER_JENV_CHOU3_ROTATED;
 
-wx_paper_jenv_cho_u3_rotated() ->
-     ?wxPAPER_JENV_CHOU3_ROTATED.
+constant(constwxPAPER_JENV_CHOU4_ROTATED) ->
+     ?wxPAPER_JENV_CHOU4_ROTATED;
 
-wx_paper_jenv_cho_u4_rotated() ->
-     ?wxPAPER_JENV_CHOU4_ROTATED.
+constant(constwxPAPER_B6_JIS) ->
+     ?wxPAPER_B6_JIS;
 
-wx_paper__b6_jis() ->
-     ?wxPAPER_B6_JIS.
+constant(constwxPAPER_B6_JIS_ROTATED) ->
+     ?wxPAPER_B6_JIS_ROTATED;
 
-wx_paper__b6_jis_rotated() ->
-     ?wxPAPER_B6_JIS_ROTATED.
+constant(constwxPAPER_12X11) ->
+     ?wxPAPER_12X11;
 
-wx_paper_12_x11() ->
-     ?wxPAPER_12X11.
+constant(constwxPAPER_JENV_YOU4) ->
+     ?wxPAPER_JENV_YOU4;
 
-wx_paper_jenv_yo_u4() ->
-     ?wxPAPER_JENV_YOU4.
+constant(constwxPAPER_JENV_YOU4_ROTATED) ->
+     ?wxPAPER_JENV_YOU4_ROTATED;
 
-wx_paper_jenv_yo_u4_rotated() ->
-     ?wxPAPER_JENV_YOU4_ROTATED.
+constant(constwxPAPER_P16K) ->
+     ?wxPAPER_P16K;
 
-wx_paper__p16_k() ->
-     ?wxPAPER_P16K.
+constant(constwxPAPER_P32K) ->
+     ?wxPAPER_P32K;
 
-wx_paper__p32_k() ->
-     ?wxPAPER_P32K.
+constant(constwxPAPER_P32KBIG) ->
+     ?wxPAPER_P32KBIG;
 
-wx_paper__p32_kbig() ->
-     ?wxPAPER_P32KBIG.
+constant(constwxPAPER_PENV_1) ->
+     ?wxPAPER_PENV_1;
 
-wx_paper_penv_1() ->
-     ?wxPAPER_PENV_1.
+constant(constwxPAPER_PENV_2) ->
+     ?wxPAPER_PENV_2;
 
-wx_paper_penv_2() ->
-     ?wxPAPER_PENV_2.
+constant(constwxPAPER_PENV_3) ->
+     ?wxPAPER_PENV_3;
 
-wx_paper_penv_3() ->
-     ?wxPAPER_PENV_3.
+constant(constwxPAPER_PENV_4) ->
+     ?wxPAPER_PENV_4;
 
-wx_paper_penv_4() ->
-     ?wxPAPER_PENV_4.
+constant(constwxPAPER_PENV_5) ->
+     ?wxPAPER_PENV_5;
 
-wx_paper_penv_5() ->
-     ?wxPAPER_PENV_5.
+constant(constwxPAPER_PENV_6) ->
+     ?wxPAPER_PENV_6;
 
-wx_paper_penv_6() ->
-     ?wxPAPER_PENV_6.
+constant(constwxPAPER_PENV_7) ->
+     ?wxPAPER_PENV_7;
 
-wx_paper_penv_7() ->
-     ?wxPAPER_PENV_7.
+constant(constwxPAPER_PENV_8) ->
+     ?wxPAPER_PENV_8;
 
-wx_paper_penv_8() ->
-     ?wxPAPER_PENV_8.
+constant(constwxPAPER_PENV_9) ->
+     ?wxPAPER_PENV_9;
 
-wx_paper_penv_9() ->
-     ?wxPAPER_PENV_9.
+constant(constwxPAPER_PENV_10) ->
+     ?wxPAPER_PENV_10;
 
-wx_paper_penv_10() ->
-     ?wxPAPER_PENV_10.
+constant(constwxPAPER_P16K_ROTATED) ->
+     ?wxPAPER_P16K_ROTATED;
 
-wx_paper__p16_k_rotated() ->
-     ?wxPAPER_P16K_ROTATED.
+constant(constwxPAPER_P32K_ROTATED) ->
+     ?wxPAPER_P32K_ROTATED;
 
-wx_paper__p32_k_rotated() ->
-     ?wxPAPER_P32K_ROTATED.
+constant(constwxPAPER_P32KBIG_ROTATED) ->
+     ?wxPAPER_P32KBIG_ROTATED;
 
-wx_paper__p32_kbig_rotated() ->
-     ?wxPAPER_P32KBIG_ROTATED.
+constant(constwxPAPER_PENV_1_ROTATED) ->
+     ?wxPAPER_PENV_1_ROTATED;
 
-wx_paper_penv_1_rotated() ->
-     ?wxPAPER_PENV_1_ROTATED.
+constant(constwxPAPER_PENV_2_ROTATED) ->
+     ?wxPAPER_PENV_2_ROTATED;
 
-wx_paper_penv_2_rotated() ->
-     ?wxPAPER_PENV_2_ROTATED.
+constant(constwxPAPER_PENV_3_ROTATED) ->
+     ?wxPAPER_PENV_3_ROTATED;
 
-wx_paper_penv_3_rotated() ->
-     ?wxPAPER_PENV_3_ROTATED.
+constant(constwxPAPER_PENV_4_ROTATED) ->
+     ?wxPAPER_PENV_4_ROTATED;
 
-wx_paper_penv_4_rotated() ->
-     ?wxPAPER_PENV_4_ROTATED.
+constant(constwxPAPER_PENV_5_ROTATED) ->
+     ?wxPAPER_PENV_5_ROTATED;
 
-wx_paper_penv_5_rotated() ->
-     ?wxPAPER_PENV_5_ROTATED.
+constant(constwxPAPER_PENV_6_ROTATED) ->
+     ?wxPAPER_PENV_6_ROTATED;
 
-wx_paper_penv_6_rotated() ->
-     ?wxPAPER_PENV_6_ROTATED.
+constant(constwxPAPER_PENV_7_ROTATED) ->
+     ?wxPAPER_PENV_7_ROTATED;
 
-wx_paper_penv_7_rotated() ->
-     ?wxPAPER_PENV_7_ROTATED.
+constant(constwxPAPER_PENV_8_ROTATED) ->
+     ?wxPAPER_PENV_8_ROTATED;
 
-wx_paper_penv_8_rotated() ->
-     ?wxPAPER_PENV_8_ROTATED.
+constant(constwxPAPER_PENV_9_ROTATED) ->
+     ?wxPAPER_PENV_9_ROTATED;
 
-wx_paper_penv_9_rotated() ->
-     ?wxPAPER_PENV_9_ROTATED.
+constant(constwxPAPER_PENV_10_ROTATED) ->
+     ?wxPAPER_PENV_10_ROTATED;
 
-wx_paper_penv_10_rotated() ->
-     ?wxPAPER_PENV_10_ROTATED.
+constant(constwxPRINT_MODE_NONE) ->
+     ?wxPRINT_MODE_NONE;
 
-wx_print_mode_none() ->
-     ?wxPRINT_MODE_NONE.
+constant(constwxPRINT_MODE_PREVIEW) ->
+     ?wxPRINT_MODE_PREVIEW;
 
-wx_print_mode_preview() ->
-     ?wxPRINT_MODE_PREVIEW.
+constant(constwxPRINT_MODE_FILE) ->
+     ?wxPRINT_MODE_FILE;
 
-wx_print_mode_file() ->
-     ?wxPRINT_MODE_FILE.
+constant(constwxPRINT_MODE_PRINTER) ->
+     ?wxPRINT_MODE_PRINTER;
 
-wx_print_mode_printer() ->
-     ?wxPRINT_MODE_PRINTER.
+constant(constwxPRINT_MODE_STREAM) ->
+     ?wxPRINT_MODE_STREAM;
 
-wx_print_mode_stream() ->
-     ?wxPRINT_MODE_STREAM.
+constant(constwxSTRETCH_NOT) ->
+     ?wxSTRETCH_NOT;
 
-wx_stretch_not() ->
-     ?wxSTRETCH_NOT.
+constant(constwxSHRINK) ->
+     ?wxSHRINK;
 
-wx_shrink() ->
-     ?wxSHRINK.
+constant(constwxGROW) ->
+     ?wxGROW;
 
-wx_grow() ->
-     ?wxGROW.
+constant(constwxEXPAND) ->
+     ?wxEXPAND;
 
-wx_expand() ->
-     ?wxEXPAND.
+constant(constwxSHAPED) ->
+     ?wxSHAPED;
 
-wx_shaped() ->
-     ?wxSHAPED.
+constant(constwxFIXED_MINSIZE) ->
+     ?wxFIXED_MINSIZE;
 
-wx_fixed_minsize() ->
-     ?wxFIXED_MINSIZE.
+constant(constwxRESERVE_SPACE_EVEN_IF_HIDDEN) ->
+     ?wxRESERVE_SPACE_EVEN_IF_HIDDEN;
 
-wx_reserve_space_even_if_hidden() ->
-     ?wxRESERVE_SPACE_EVEN_IF_HIDDEN.
+constant(constwxTILE) ->
+     ?wxTILE;
 
-wx_tile() ->
-     ?wxTILE.
+constant(constwxADJUST_MINSIZE) ->
+     ?wxADJUST_MINSIZE;
 
-wx_adjust_minsize() ->
-     ?wxADJUST_MINSIZE.
+constant(constwxUPDATE_UI_NONE) ->
+     ?wxUPDATE_UI_NONE;
 
-wx_update_ui_none() ->
-     ?wxUPDATE_UI_NONE.
+constant(constwxUPDATE_UI_RECURSE) ->
+     ?wxUPDATE_UI_RECURSE;
 
-wx_update_ui_recurse() ->
-     ?wxUPDATE_UI_RECURSE.
+constant(constwxUPDATE_UI_FROMIDLE) ->
+     ?wxUPDATE_UI_FROMIDLE;
 
-wx_update_ui_fromidle() ->
-     ?wxUPDATE_UI_FROMIDLE.
+constant(constwxDEFAULT_DIALOG_STYLE) ->
+     ?wxDEFAULT_DIALOG_STYLE;
 
-wx_default_dialog_style() ->
-     ?wxDEFAULT_DIALOG_STYLE.
+constant(constwxDIALOG_NO_PARENT) ->
+     ?wxDIALOG_NO_PARENT;
 
-wx_dialog_no_parent() ->
-     ?wxDIALOG_NO_PARENT.
+constant(constwxDIRCTRL_DIR_ONLY) ->
+     ?wxDIRCTRL_DIR_ONLY;
 
-wx_dirctrl_dir_only() ->
-     ?wxDIRCTRL_DIR_ONLY.
+constant(constwxDIRCTRL_SELECT_FIRST) ->
+     ?wxDIRCTRL_SELECT_FIRST;
 
-wx_dirctrl_select_first() ->
-     ?wxDIRCTRL_SELECT_FIRST.
+constant(constwxDIRCTRL_SHOW_FILTERS) ->
+     ?wxDIRCTRL_SHOW_FILTERS;
 
-wx_dirctrl_show_filters() ->
-     ?wxDIRCTRL_SHOW_FILTERS.
+constant(constwxDIRCTRL_3D_INTERNAL) ->
+     ?wxDIRCTRL_3D_INTERNAL;
 
-wx_dirctrl_3_d_internal() ->
-     ?wxDIRCTRL_3D_INTERNAL.
+constant(constwxDIRCTRL_EDIT_LABELS) ->
+     ?wxDIRCTRL_EDIT_LABELS;
 
-wx_dirctrl_edit_labels() ->
-     ?wxDIRCTRL_EDIT_LABELS.
+constant(constwxID_FILTERLISTCTRL) ->
+     ?wxID_FILTERLISTCTRL;
 
-wx_id_filterlistctrl() ->
-     ?wxID_FILTERLISTCTRL.
+constant(constwxID_TREECTRL) ->
+     ?wxID_TREECTRL;
 
-wx_id_treectrl() ->
-     ?wxID_TREECTRL.
+constant(constwxDD_DEFAULT_STYLE) ->
+     ?wxDD_DEFAULT_STYLE;
 
-wx_dd_default_style() ->
-     ?wxDD_DEFAULT_STYLE.
+constant(constwxDD_NEW_DIR_BUTTON) ->
+     ?wxDD_NEW_DIR_BUTTON;
 
-wx_dd_new_dir_button() ->
-     ?wxDD_NEW_DIR_BUTTON.
+constant(constwxDD_DIR_MUST_EXIST) ->
+     ?wxDD_DIR_MUST_EXIST;
 
-wx_dd_dir_must_exist() ->
-     ?wxDD_DIR_MUST_EXIST.
+constant(constwxDD_CHANGE_DIR) ->
+     ?wxDD_CHANGE_DIR;
 
-wx_dd_change_dir() ->
-     ?wxDD_CHANGE_DIR.
+constant(constwxDrag_CopyOnly) ->
+     ?wxDrag_CopyOnly;
 
-wx_drag__copy_only() ->
-     ?wxDrag_CopyOnly.
+constant(constwxDrag_AllowMove) ->
+     ?wxDrag_AllowMove;
 
-wx_drag__allow_move() ->
-     ?wxDrag_AllowMove.
+constant(constwxDrag_DefaultMove) ->
+     ?wxDrag_DefaultMove;
 
-wx_drag__default_move() ->
-     ?wxDrag_DefaultMove.
+constant(constwxDragError) ->
+     ?wxDragError;
 
-wx_drag_error() ->
-     ?wxDragError.
+constant(constwxDragNone) ->
+     ?wxDragNone;
 
-wx_drag_none() ->
-     ?wxDragNone.
+constant(constwxDragCopy) ->
+     ?wxDragCopy;
 
-wx_drag_copy() ->
-     ?wxDragCopy.
+constant(constwxDragMove) ->
+     ?wxDragMove;
 
-wx_drag_move() ->
-     ?wxDragMove.
+constant(constwxDragLink) ->
+     ?wxDragLink;
 
-wx_drag_link() ->
-     ?wxDragLink.
+constant(constwxDragCancel) ->
+     ?wxDragCancel;
 
-wx_drag_cancel() ->
-     ?wxDragCancel.
+constant(constwxMOUSE_BTN_ANY) ->
+     ?wxMOUSE_BTN_ANY;
 
-wx_mouse_btn_any() ->
-     ?wxMOUSE_BTN_ANY.
+constant(constwxMOUSE_BTN_NONE) ->
+     ?wxMOUSE_BTN_NONE;
 
-wx_mouse_btn_none() ->
-     ?wxMOUSE_BTN_NONE.
+constant(constwxMOUSE_BTN_LEFT) ->
+     ?wxMOUSE_BTN_LEFT;
 
-wx_mouse_btn_left() ->
-     ?wxMOUSE_BTN_LEFT.
+constant(constwxMOUSE_BTN_MIDDLE) ->
+     ?wxMOUSE_BTN_MIDDLE;
 
-wx_mouse_btn_middle() ->
-     ?wxMOUSE_BTN_MIDDLE.
+constant(constwxMOUSE_BTN_RIGHT) ->
+     ?wxMOUSE_BTN_RIGHT;
 
-wx_mouse_btn_right() ->
-     ?wxMOUSE_BTN_RIGHT.
+constant(constwxJOYSTICK1) ->
+     ?wxJOYSTICK1;
 
-wx_joystic_k1() ->
-     ?wxJOYSTICK1.
+constant(constwxJOYSTICK2) ->
+     ?wxJOYSTICK2;
 
-wx_joystic_k2() ->
-     ?wxJOYSTICK2.
+constant(constwxJOY_BUTTON_ANY) ->
+     ?wxJOY_BUTTON_ANY;
 
-wx_joy_button_any() ->
-     ?wxJOY_BUTTON_ANY.
+constant(constwxJOY_BUTTON1) ->
+     ?wxJOY_BUTTON1;
 
-wx_joy_butto_n1() ->
-     ?wxJOY_BUTTON1.
+constant(constwxJOY_BUTTON2) ->
+     ?wxJOY_BUTTON2;
 
-wx_joy_butto_n2() ->
-     ?wxJOY_BUTTON2.
+constant(constwxJOY_BUTTON3) ->
+     ?wxJOY_BUTTON3;
 
-wx_joy_butto_n3() ->
-     ?wxJOY_BUTTON3.
+constant(constwxJOY_BUTTON4) ->
+     ?wxJOY_BUTTON4;
 
-wx_joy_butto_n4() ->
-     ?wxJOY_BUTTON4.
+constant(constwxEVENT_PROPAGATE_NONE) ->
+     ?wxEVENT_PROPAGATE_NONE;
 
-wx_event_propagate_none() ->
-     ?wxEVENT_PROPAGATE_NONE.
+constant(constwxIDLE_PROCESS_ALL) ->
+     ?wxIDLE_PROCESS_ALL;
 
-wx_idle_process_all() ->
-     ?wxIDLE_PROCESS_ALL.
+constant(constwxIDLE_PROCESS_SPECIFIED) ->
+     ?wxIDLE_PROCESS_SPECIFIED;
 
-wx_idle_process_specified() ->
-     ?wxIDLE_PROCESS_SPECIFIED.
+constant(constwxUPDATE_UI_PROCESS_ALL) ->
+     ?wxUPDATE_UI_PROCESS_ALL;
 
-wx_update_ui_process_all() ->
-     ?wxUPDATE_UI_PROCESS_ALL.
+constant(constwxUPDATE_UI_PROCESS_SPECIFIED) ->
+     ?wxUPDATE_UI_PROCESS_SPECIFIED;
 
-wx_update_ui_process_specified() ->
-     ?wxUPDATE_UI_PROCESS_SPECIFIED.
+constant(constwxFR_REPLACEDIALOG) ->
+     ?wxFR_REPLACEDIALOG;
 
-wx_fr_replacedialog() ->
-     ?wxFR_REPLACEDIALOG.
+constant(constwxFR_NOUPDOWN) ->
+     ?wxFR_NOUPDOWN;
 
-wx_fr_noupdown() ->
-     ?wxFR_NOUPDOWN.
+constant(constwxFR_NOMATCHCASE) ->
+     ?wxFR_NOMATCHCASE;
 
-wx_fr_nomatchcase() ->
-     ?wxFR_NOMATCHCASE.
+constant(constwxFR_NOWHOLEWORD) ->
+     ?wxFR_NOWHOLEWORD;
 
-wx_fr_nowholeword() ->
-     ?wxFR_NOWHOLEWORD.
+constant(constwxFR_DOWN) ->
+     ?wxFR_DOWN;
 
-wx_fr_down() ->
-     ?wxFR_DOWN.
+constant(constwxFR_WHOLEWORD) ->
+     ?wxFR_WHOLEWORD;
 
-wx_fr_wholeword() ->
-     ?wxFR_WHOLEWORD.
+constant(constwxFR_MATCHCASE) ->
+     ?wxFR_MATCHCASE;
 
-wx_fr_matchcase() ->
-     ?wxFR_MATCHCASE.
+constant(constwxFD_OPEN) ->
+     ?wxFD_OPEN;
 
-wx_fd_open() ->
-     ?wxFD_OPEN.
+constant(constwxFD_SAVE) ->
+     ?wxFD_SAVE;
 
-wx_fd_save() ->
-     ?wxFD_SAVE.
+constant(constwxFD_OVERWRITE_PROMPT) ->
+     ?wxFD_OVERWRITE_PROMPT;
 
-wx_fd_overwrite_prompt() ->
-     ?wxFD_OVERWRITE_PROMPT.
+constant(constwxFD_FILE_MUST_EXIST) ->
+     ?wxFD_FILE_MUST_EXIST;
 
-wx_fd_file_must_exist() ->
-     ?wxFD_FILE_MUST_EXIST.
+constant(constwxFD_MULTIPLE) ->
+     ?wxFD_MULTIPLE;
 
-wx_fd_multiple() ->
-     ?wxFD_MULTIPLE.
+constant(constwxFD_CHANGE_DIR) ->
+     ?wxFD_CHANGE_DIR;
 
-wx_fd_change_dir() ->
-     ?wxFD_CHANGE_DIR.
+constant(constwxFD_PREVIEW) ->
+     ?wxFD_PREVIEW;
 
-wx_fd_preview() ->
-     ?wxFD_PREVIEW.
+constant(constwxFD_DEFAULT_STYLE) ->
+     ?wxFD_DEFAULT_STYLE;
 
-wx_fd_default_style() ->
-     ?wxFD_DEFAULT_STYLE.
+constant(constwxDIRP_DEFAULT_STYLE) ->
+     ?wxDIRP_DEFAULT_STYLE;
 
-wx_dirp_default_style() ->
-     ?wxDIRP_DEFAULT_STYLE.
+constant(constwxDIRP_USE_TEXTCTRL) ->
+     ?wxDIRP_USE_TEXTCTRL;
 
-wx_dirp_use_textctrl() ->
-     ?wxDIRP_USE_TEXTCTRL.
+constant(constwxFLP_DEFAULT_STYLE) ->
+     ?wxFLP_DEFAULT_STYLE;
 
-wx_flp_default_style() ->
-     ?wxFLP_DEFAULT_STYLE.
+constant(constwxFLP_USE_TEXTCTRL) ->
+     ?wxFLP_USE_TEXTCTRL;
 
-wx_flp_use_textctrl() ->
-     ?wxFLP_USE_TEXTCTRL.
+constant(constwxDIRP_CHANGE_DIR) ->
+     ?wxDIRP_CHANGE_DIR;
 
-wx_dirp_change_dir() ->
-     ?wxDIRP_CHANGE_DIR.
+constant(constwxDIRP_DIR_MUST_EXIST) ->
+     ?wxDIRP_DIR_MUST_EXIST;
 
-wx_dirp_dir_must_exist() ->
-     ?wxDIRP_DIR_MUST_EXIST.
+constant(constwxFLP_CHANGE_DIR) ->
+     ?wxFLP_CHANGE_DIR;
 
-wx_flp_change_dir() ->
-     ?wxFLP_CHANGE_DIR.
+constant(constwxFLP_FILE_MUST_EXIST) ->
+     ?wxFLP_FILE_MUST_EXIST;
 
-wx_flp_file_must_exist() ->
-     ?wxFLP_FILE_MUST_EXIST.
+constant(constwxFLP_OVERWRITE_PROMPT) ->
+     ?wxFLP_OVERWRITE_PROMPT;
 
-wx_flp_overwrite_prompt() ->
-     ?wxFLP_OVERWRITE_PROMPT.
+constant(constwxFLP_SAVE) ->
+     ?wxFLP_SAVE;
 
-wx_flp_save() ->
-     ?wxFLP_SAVE.
+constant(constwxFLP_OPEN) ->
+     ?wxFLP_OPEN;
 
-wx_flp_open() ->
-     ?wxFLP_OPEN.
+constant(constwxFONTFLAG_DEFAULT) ->
+     ?wxFONTFLAG_DEFAULT;
 
-wx_fontflag_default() ->
-     ?wxFONTFLAG_DEFAULT.
+constant(constwxFONTFLAG_ITALIC) ->
+     ?wxFONTFLAG_ITALIC;
 
-wx_fontflag_italic() ->
-     ?wxFONTFLAG_ITALIC.
+constant(constwxFONTFLAG_SLANT) ->
+     ?wxFONTFLAG_SLANT;
 
-wx_fontflag_slant() ->
-     ?wxFONTFLAG_SLANT.
+constant(constwxFONTFLAG_LIGHT) ->
+     ?wxFONTFLAG_LIGHT;
 
-wx_fontflag_light() ->
-     ?wxFONTFLAG_LIGHT.
+constant(constwxFONTFLAG_BOLD) ->
+     ?wxFONTFLAG_BOLD;
 
-wx_fontflag_bold() ->
-     ?wxFONTFLAG_BOLD.
+constant(constwxFONTFLAG_ANTIALIASED) ->
+     ?wxFONTFLAG_ANTIALIASED;
 
-wx_fontflag_antialiased() ->
-     ?wxFONTFLAG_ANTIALIASED.
+constant(constwxFONTFLAG_NOT_ANTIALIASED) ->
+     ?wxFONTFLAG_NOT_ANTIALIASED;
 
-wx_fontflag_not_antialiased() ->
-     ?wxFONTFLAG_NOT_ANTIALIASED.
+constant(constwxFONTFLAG_UNDERLINED) ->
+     ?wxFONTFLAG_UNDERLINED;
 
-wx_fontflag_underlined() ->
-     ?wxFONTFLAG_UNDERLINED.
+constant(constwxFONTFLAG_STRIKETHROUGH) ->
+     ?wxFONTFLAG_STRIKETHROUGH;
 
-wx_fontflag_strikethrough() ->
-     ?wxFONTFLAG_STRIKETHROUGH.
+constant(constwxFONTFLAG_MASK) ->
+     ?wxFONTFLAG_MASK;
 
-wx_fontflag_mask() ->
-     ?wxFONTFLAG_MASK.
+constant(constwxFONTFAMILY_DEFAULT) ->
+     ?wxFONTFAMILY_DEFAULT;
 
-wx_fontfamily_default() ->
-     ?wxFONTFAMILY_DEFAULT.
+constant(constwxFONTFAMILY_DECORATIVE) ->
+     ?wxFONTFAMILY_DECORATIVE;
 
-wx_fontfamily_decorative() ->
-     ?wxFONTFAMILY_DECORATIVE.
+constant(constwxFONTFAMILY_ROMAN) ->
+     ?wxFONTFAMILY_ROMAN;
 
-wx_fontfamily_roman() ->
-     ?wxFONTFAMILY_ROMAN.
+constant(constwxFONTFAMILY_SCRIPT) ->
+     ?wxFONTFAMILY_SCRIPT;
 
-wx_fontfamily_script() ->
-     ?wxFONTFAMILY_SCRIPT.
+constant(constwxFONTFAMILY_SWISS) ->
+     ?wxFONTFAMILY_SWISS;
 
-wx_fontfamily_swiss() ->
-     ?wxFONTFAMILY_SWISS.
+constant(constwxFONTFAMILY_MODERN) ->
+     ?wxFONTFAMILY_MODERN;
 
-wx_fontfamily_modern() ->
-     ?wxFONTFAMILY_MODERN.
+constant(constwxFONTFAMILY_TELETYPE) ->
+     ?wxFONTFAMILY_TELETYPE;
 
-wx_fontfamily_teletype() ->
-     ?wxFONTFAMILY_TELETYPE.
+constant(constwxFONTFAMILY_MAX) ->
+     ?wxFONTFAMILY_MAX;
 
-wx_fontfamily_max() ->
-     ?wxFONTFAMILY_MAX.
+constant(constwxFONTFAMILY_UNKNOWN) ->
+     ?wxFONTFAMILY_UNKNOWN;
 
-wx_fontfamily_unknown() ->
-     ?wxFONTFAMILY_UNKNOWN.
+constant(constwxFONTSTYLE_NORMAL) ->
+     ?wxFONTSTYLE_NORMAL;
 
-wx_fontstyle_normal() ->
-     ?wxFONTSTYLE_NORMAL.
+constant(constwxFONTSTYLE_ITALIC) ->
+     ?wxFONTSTYLE_ITALIC;
 
-wx_fontstyle_italic() ->
-     ?wxFONTSTYLE_ITALIC.
+constant(constwxFONTSTYLE_SLANT) ->
+     ?wxFONTSTYLE_SLANT;
 
-wx_fontstyle_slant() ->
-     ?wxFONTSTYLE_SLANT.
+constant(constwxFONTSTYLE_MAX) ->
+     ?wxFONTSTYLE_MAX;
 
-wx_fontstyle_max() ->
-     ?wxFONTSTYLE_MAX.
+constant(constwxFONTWEIGHT_NORMAL) ->
+     ?wxFONTWEIGHT_NORMAL;
 
-wx_fontweight_normal() ->
-     ?wxFONTWEIGHT_NORMAL.
+constant(constwxFONTWEIGHT_LIGHT) ->
+     ?wxFONTWEIGHT_LIGHT;
 
-wx_fontweight_light() ->
-     ?wxFONTWEIGHT_LIGHT.
+constant(constwxFONTWEIGHT_BOLD) ->
+     ?wxFONTWEIGHT_BOLD;
 
-wx_fontweight_bold() ->
-     ?wxFONTWEIGHT_BOLD.
+constant(constwxFONTWEIGHT_MAX) ->
+     ?wxFONTWEIGHT_MAX;
 
-wx_fontweight_max() ->
-     ?wxFONTWEIGHT_MAX.
+constant(constwxFONTENCODING_SYSTEM) ->
+     ?wxFONTENCODING_SYSTEM;
 
-wx_fontencoding_system() ->
-     ?wxFONTENCODING_SYSTEM.
+constant(constwxFONTENCODING_DEFAULT) ->
+     ?wxFONTENCODING_DEFAULT;
 
-wx_fontencoding_default() ->
-     ?wxFONTENCODING_DEFAULT.
+constant(constwxFONTENCODING_ISO8859_1) ->
+     ?wxFONTENCODING_ISO8859_1;
 
-wx_fontencoding_is_o8859_1() ->
-     ?wxFONTENCODING_ISO8859_1.
+constant(constwxFONTENCODING_ISO8859_2) ->
+     ?wxFONTENCODING_ISO8859_2;
 
-wx_fontencoding_is_o8859_2() ->
-     ?wxFONTENCODING_ISO8859_2.
+constant(constwxFONTENCODING_ISO8859_3) ->
+     ?wxFONTENCODING_ISO8859_3;
 
-wx_fontencoding_is_o8859_3() ->
-     ?wxFONTENCODING_ISO8859_3.
+constant(constwxFONTENCODING_ISO8859_4) ->
+     ?wxFONTENCODING_ISO8859_4;
 
-wx_fontencoding_is_o8859_4() ->
-     ?wxFONTENCODING_ISO8859_4.
+constant(constwxFONTENCODING_ISO8859_5) ->
+     ?wxFONTENCODING_ISO8859_5;
 
-wx_fontencoding_is_o8859_5() ->
-     ?wxFONTENCODING_ISO8859_5.
+constant(constwxFONTENCODING_ISO8859_6) ->
+     ?wxFONTENCODING_ISO8859_6;
 
-wx_fontencoding_is_o8859_6() ->
-     ?wxFONTENCODING_ISO8859_6.
+constant(constwxFONTENCODING_ISO8859_7) ->
+     ?wxFONTENCODING_ISO8859_7;
 
-wx_fontencoding_is_o8859_7() ->
-     ?wxFONTENCODING_ISO8859_7.
+constant(constwxFONTENCODING_ISO8859_8) ->
+     ?wxFONTENCODING_ISO8859_8;
 
-wx_fontencoding_is_o8859_8() ->
-     ?wxFONTENCODING_ISO8859_8.
+constant(constwxFONTENCODING_ISO8859_9) ->
+     ?wxFONTENCODING_ISO8859_9;
 
-wx_fontencoding_is_o8859_9() ->
-     ?wxFONTENCODING_ISO8859_9.
+constant(constwxFONTENCODING_ISO8859_10) ->
+     ?wxFONTENCODING_ISO8859_10;
 
-wx_fontencoding_is_o8859_10() ->
-     ?wxFONTENCODING_ISO8859_10.
+constant(constwxFONTENCODING_ISO8859_11) ->
+     ?wxFONTENCODING_ISO8859_11;
 
-wx_fontencoding_is_o8859_11() ->
-     ?wxFONTENCODING_ISO8859_11.
+constant(constwxFONTENCODING_ISO8859_12) ->
+     ?wxFONTENCODING_ISO8859_12;
 
-wx_fontencoding_is_o8859_12() ->
-     ?wxFONTENCODING_ISO8859_12.
+constant(constwxFONTENCODING_ISO8859_13) ->
+     ?wxFONTENCODING_ISO8859_13;
 
-wx_fontencoding_is_o8859_13() ->
-     ?wxFONTENCODING_ISO8859_13.
+constant(constwxFONTENCODING_ISO8859_14) ->
+     ?wxFONTENCODING_ISO8859_14;
 
-wx_fontencoding_is_o8859_14() ->
-     ?wxFONTENCODING_ISO8859_14.
+constant(constwxFONTENCODING_ISO8859_15) ->
+     ?wxFONTENCODING_ISO8859_15;
 
-wx_fontencoding_is_o8859_15() ->
-     ?wxFONTENCODING_ISO8859_15.
+constant(constwxFONTENCODING_ISO8859_MAX) ->
+     ?wxFONTENCODING_ISO8859_MAX;
 
-wx_fontencoding_is_o8859_max() ->
-     ?wxFONTENCODING_ISO8859_MAX.
+constant(constwxFONTENCODING_KOI8) ->
+     ?wxFONTENCODING_KOI8;
 
-wx_fontencoding_ko_i8() ->
-     ?wxFONTENCODING_KOI8.
+constant(constwxFONTENCODING_KOI8_U) ->
+     ?wxFONTENCODING_KOI8_U;
 
-wx_fontencoding_ko_i8_u() ->
-     ?wxFONTENCODING_KOI8_U.
+constant(constwxFONTENCODING_ALTERNATIVE) ->
+     ?wxFONTENCODING_ALTERNATIVE;
 
-wx_fontencoding_alternative() ->
-     ?wxFONTENCODING_ALTERNATIVE.
+constant(constwxFONTENCODING_BULGARIAN) ->
+     ?wxFONTENCODING_BULGARIAN;
 
-wx_fontencoding_bulgarian() ->
-     ?wxFONTENCODING_BULGARIAN.
+constant(constwxFONTENCODING_CP437) ->
+     ?wxFONTENCODING_CP437;
 
-wx_fontencoding_c_p437() ->
-     ?wxFONTENCODING_CP437.
+constant(constwxFONTENCODING_CP850) ->
+     ?wxFONTENCODING_CP850;
 
-wx_fontencoding_c_p850() ->
-     ?wxFONTENCODING_CP850.
+constant(constwxFONTENCODING_CP852) ->
+     ?wxFONTENCODING_CP852;
 
-wx_fontencoding_c_p852() ->
-     ?wxFONTENCODING_CP852.
+constant(constwxFONTENCODING_CP855) ->
+     ?wxFONTENCODING_CP855;
 
-wx_fontencoding_c_p855() ->
-     ?wxFONTENCODING_CP855.
+constant(constwxFONTENCODING_CP866) ->
+     ?wxFONTENCODING_CP866;
 
-wx_fontencoding_c_p866() ->
-     ?wxFONTENCODING_CP866.
+constant(constwxFONTENCODING_CP874) ->
+     ?wxFONTENCODING_CP874;
 
-wx_fontencoding_c_p874() ->
-     ?wxFONTENCODING_CP874.
+constant(constwxFONTENCODING_CP932) ->
+     ?wxFONTENCODING_CP932;
 
-wx_fontencoding_c_p932() ->
-     ?wxFONTENCODING_CP932.
+constant(constwxFONTENCODING_CP936) ->
+     ?wxFONTENCODING_CP936;
 
-wx_fontencoding_c_p936() ->
-     ?wxFONTENCODING_CP936.
+constant(constwxFONTENCODING_CP949) ->
+     ?wxFONTENCODING_CP949;
 
-wx_fontencoding_c_p949() ->
-     ?wxFONTENCODING_CP949.
+constant(constwxFONTENCODING_CP950) ->
+     ?wxFONTENCODING_CP950;
 
-wx_fontencoding_c_p950() ->
-     ?wxFONTENCODING_CP950.
+constant(constwxFONTENCODING_CP1250) ->
+     ?wxFONTENCODING_CP1250;
 
-wx_fontencoding_c_p1250() ->
-     ?wxFONTENCODING_CP1250.
+constant(constwxFONTENCODING_CP1251) ->
+     ?wxFONTENCODING_CP1251;
 
-wx_fontencoding_c_p1251() ->
-     ?wxFONTENCODING_CP1251.
+constant(constwxFONTENCODING_CP1252) ->
+     ?wxFONTENCODING_CP1252;
 
-wx_fontencoding_c_p1252() ->
-     ?wxFONTENCODING_CP1252.
+constant(constwxFONTENCODING_CP1253) ->
+     ?wxFONTENCODING_CP1253;
 
-wx_fontencoding_c_p1253() ->
-     ?wxFONTENCODING_CP1253.
+constant(constwxFONTENCODING_CP1254) ->
+     ?wxFONTENCODING_CP1254;
 
-wx_fontencoding_c_p1254() ->
-     ?wxFONTENCODING_CP1254.
+constant(constwxFONTENCODING_CP1255) ->
+     ?wxFONTENCODING_CP1255;
 
-wx_fontencoding_c_p1255() ->
-     ?wxFONTENCODING_CP1255.
+constant(constwxFONTENCODING_CP1256) ->
+     ?wxFONTENCODING_CP1256;
 
-wx_fontencoding_c_p1256() ->
-     ?wxFONTENCODING_CP1256.
+constant(constwxFONTENCODING_CP1257) ->
+     ?wxFONTENCODING_CP1257;
 
-wx_fontencoding_c_p1257() ->
-     ?wxFONTENCODING_CP1257.
+constant(constwxFONTENCODING_CP12_MAX) ->
+     ?wxFONTENCODING_CP12_MAX;
 
-wx_fontencoding_c_p12_max() ->
-     ?wxFONTENCODING_CP12_MAX.
+constant(constwxFONTENCODING_UTF7) ->
+     ?wxFONTENCODING_UTF7;
 
-wx_fontencoding_ut_f7() ->
-     ?wxFONTENCODING_UTF7.
+constant(constwxFONTENCODING_UTF8) ->
+     ?wxFONTENCODING_UTF8;
 
-wx_fontencoding_ut_f8() ->
-     ?wxFONTENCODING_UTF8.
+constant(constwxFONTENCODING_EUC_JP) ->
+     ?wxFONTENCODING_EUC_JP;
 
-wx_fontencoding_euc_jp() ->
-     ?wxFONTENCODING_EUC_JP.
+constant(constwxFONTENCODING_UTF16BE) ->
+     ?wxFONTENCODING_UTF16BE;
 
-wx_fontencoding_ut_f16_be() ->
-     ?wxFONTENCODING_UTF16BE.
+constant(constwxFONTENCODING_UTF16LE) ->
+     ?wxFONTENCODING_UTF16LE;
 
-wx_fontencoding_ut_f16_le() ->
-     ?wxFONTENCODING_UTF16LE.
+constant(constwxFONTENCODING_UTF32BE) ->
+     ?wxFONTENCODING_UTF32BE;
 
-wx_fontencoding_ut_f32_be() ->
-     ?wxFONTENCODING_UTF32BE.
+constant(constwxFONTENCODING_UTF32LE) ->
+     ?wxFONTENCODING_UTF32LE;
 
-wx_fontencoding_ut_f32_le() ->
-     ?wxFONTENCODING_UTF32LE.
+constant(constwxFONTENCODING_MACROMAN) ->
+     ?wxFONTENCODING_MACROMAN;
 
-wx_fontencoding_macroman() ->
-     ?wxFONTENCODING_MACROMAN.
+constant(constwxFONTENCODING_MACJAPANESE) ->
+     ?wxFONTENCODING_MACJAPANESE;
 
-wx_fontencoding_macjapanese() ->
-     ?wxFONTENCODING_MACJAPANESE.
+constant(constwxFONTENCODING_MACCHINESETRAD) ->
+     ?wxFONTENCODING_MACCHINESETRAD;
 
-wx_fontencoding_macchinesetrad() ->
-     ?wxFONTENCODING_MACCHINESETRAD.
+constant(constwxFONTENCODING_MACKOREAN) ->
+     ?wxFONTENCODING_MACKOREAN;
 
-wx_fontencoding_mackorean() ->
-     ?wxFONTENCODING_MACKOREAN.
+constant(constwxFONTENCODING_MACARABIC) ->
+     ?wxFONTENCODING_MACARABIC;
 
-wx_fontencoding_macarabic() ->
-     ?wxFONTENCODING_MACARABIC.
+constant(constwxFONTENCODING_MACHEBREW) ->
+     ?wxFONTENCODING_MACHEBREW;
 
-wx_fontencoding_machebrew() ->
-     ?wxFONTENCODING_MACHEBREW.
+constant(constwxFONTENCODING_MACGREEK) ->
+     ?wxFONTENCODING_MACGREEK;
 
-wx_fontencoding_macgreek() ->
-     ?wxFONTENCODING_MACGREEK.
+constant(constwxFONTENCODING_MACCYRILLIC) ->
+     ?wxFONTENCODING_MACCYRILLIC;
 
-wx_fontencoding_maccyrillic() ->
-     ?wxFONTENCODING_MACCYRILLIC.
+constant(constwxFONTENCODING_MACDEVANAGARI) ->
+     ?wxFONTENCODING_MACDEVANAGARI;
 
-wx_fontencoding_macdevanagari() ->
-     ?wxFONTENCODING_MACDEVANAGARI.
+constant(constwxFONTENCODING_MACGURMUKHI) ->
+     ?wxFONTENCODING_MACGURMUKHI;
 
-wx_fontencoding_macgurmukhi() ->
-     ?wxFONTENCODING_MACGURMUKHI.
+constant(constwxFONTENCODING_MACGUJARATI) ->
+     ?wxFONTENCODING_MACGUJARATI;
 
-wx_fontencoding_macgujarati() ->
-     ?wxFONTENCODING_MACGUJARATI.
+constant(constwxFONTENCODING_MACORIYA) ->
+     ?wxFONTENCODING_MACORIYA;
 
-wx_fontencoding_macoriya() ->
-     ?wxFONTENCODING_MACORIYA.
+constant(constwxFONTENCODING_MACBENGALI) ->
+     ?wxFONTENCODING_MACBENGALI;
 
-wx_fontencoding_macbengali() ->
-     ?wxFONTENCODING_MACBENGALI.
+constant(constwxFONTENCODING_MACTAMIL) ->
+     ?wxFONTENCODING_MACTAMIL;
 
-wx_fontencoding_mactamil() ->
-     ?wxFONTENCODING_MACTAMIL.
+constant(constwxFONTENCODING_MACTELUGU) ->
+     ?wxFONTENCODING_MACTELUGU;
 
-wx_fontencoding_mactelugu() ->
-     ?wxFONTENCODING_MACTELUGU.
+constant(constwxFONTENCODING_MACKANNADA) ->
+     ?wxFONTENCODING_MACKANNADA;
 
-wx_fontencoding_mackannada() ->
-     ?wxFONTENCODING_MACKANNADA.
+constant(constwxFONTENCODING_MACMALAJALAM) ->
+     ?wxFONTENCODING_MACMALAJALAM;
 
-wx_fontencoding_macmalajalam() ->
-     ?wxFONTENCODING_MACMALAJALAM.
+constant(constwxFONTENCODING_MACSINHALESE) ->
+     ?wxFONTENCODING_MACSINHALESE;
 
-wx_fontencoding_macsinhalese() ->
-     ?wxFONTENCODING_MACSINHALESE.
+constant(constwxFONTENCODING_MACBURMESE) ->
+     ?wxFONTENCODING_MACBURMESE;
 
-wx_fontencoding_macburmese() ->
-     ?wxFONTENCODING_MACBURMESE.
+constant(constwxFONTENCODING_MACKHMER) ->
+     ?wxFONTENCODING_MACKHMER;
 
-wx_fontencoding_mackhmer() ->
-     ?wxFONTENCODING_MACKHMER.
+constant(constwxFONTENCODING_MACTHAI) ->
+     ?wxFONTENCODING_MACTHAI;
 
-wx_fontencoding_macthai() ->
-     ?wxFONTENCODING_MACTHAI.
+constant(constwxFONTENCODING_MACLAOTIAN) ->
+     ?wxFONTENCODING_MACLAOTIAN;
 
-wx_fontencoding_maclaotian() ->
-     ?wxFONTENCODING_MACLAOTIAN.
+constant(constwxFONTENCODING_MACGEORGIAN) ->
+     ?wxFONTENCODING_MACGEORGIAN;
 
-wx_fontencoding_macgeorgian() ->
-     ?wxFONTENCODING_MACGEORGIAN.
+constant(constwxFONTENCODING_MACARMENIAN) ->
+     ?wxFONTENCODING_MACARMENIAN;
 
-wx_fontencoding_macarmenian() ->
-     ?wxFONTENCODING_MACARMENIAN.
+constant(constwxFONTENCODING_MACCHINESESIMP) ->
+     ?wxFONTENCODING_MACCHINESESIMP;
 
-wx_fontencoding_macchinesesimp() ->
-     ?wxFONTENCODING_MACCHINESESIMP.
+constant(constwxFONTENCODING_MACTIBETAN) ->
+     ?wxFONTENCODING_MACTIBETAN;
 
-wx_fontencoding_mactibetan() ->
-     ?wxFONTENCODING_MACTIBETAN.
+constant(constwxFONTENCODING_MACMONGOLIAN) ->
+     ?wxFONTENCODING_MACMONGOLIAN;
 
-wx_fontencoding_macmongolian() ->
-     ?wxFONTENCODING_MACMONGOLIAN.
+constant(constwxFONTENCODING_MACETHIOPIC) ->
+     ?wxFONTENCODING_MACETHIOPIC;
 
-wx_fontencoding_macethiopic() ->
-     ?wxFONTENCODING_MACETHIOPIC.
+constant(constwxFONTENCODING_MACCENTRALEUR) ->
+     ?wxFONTENCODING_MACCENTRALEUR;
 
-wx_fontencoding_maccentraleur() ->
-     ?wxFONTENCODING_MACCENTRALEUR.
+constant(constwxFONTENCODING_MACVIATNAMESE) ->
+     ?wxFONTENCODING_MACVIATNAMESE;
 
-wx_fontencoding_macviatnamese() ->
-     ?wxFONTENCODING_MACVIATNAMESE.
+constant(constwxFONTENCODING_MACARABICEXT) ->
+     ?wxFONTENCODING_MACARABICEXT;
 
-wx_fontencoding_macarabicext() ->
-     ?wxFONTENCODING_MACARABICEXT.
+constant(constwxFONTENCODING_MACSYMBOL) ->
+     ?wxFONTENCODING_MACSYMBOL;
 
-wx_fontencoding_macsymbol() ->
-     ?wxFONTENCODING_MACSYMBOL.
+constant(constwxFONTENCODING_MACDINGBATS) ->
+     ?wxFONTENCODING_MACDINGBATS;
 
-wx_fontencoding_macdingbats() ->
-     ?wxFONTENCODING_MACDINGBATS.
+constant(constwxFONTENCODING_MACTURKISH) ->
+     ?wxFONTENCODING_MACTURKISH;
 
-wx_fontencoding_macturkish() ->
-     ?wxFONTENCODING_MACTURKISH.
+constant(constwxFONTENCODING_MACCROATIAN) ->
+     ?wxFONTENCODING_MACCROATIAN;
 
-wx_fontencoding_maccroatian() ->
-     ?wxFONTENCODING_MACCROATIAN.
+constant(constwxFONTENCODING_MACICELANDIC) ->
+     ?wxFONTENCODING_MACICELANDIC;
 
-wx_fontencoding_macicelandic() ->
-     ?wxFONTENCODING_MACICELANDIC.
+constant(constwxFONTENCODING_MACROMANIAN) ->
+     ?wxFONTENCODING_MACROMANIAN;
 
-wx_fontencoding_macromanian() ->
-     ?wxFONTENCODING_MACROMANIAN.
+constant(constwxFONTENCODING_MACCELTIC) ->
+     ?wxFONTENCODING_MACCELTIC;
 
-wx_fontencoding_macceltic() ->
-     ?wxFONTENCODING_MACCELTIC.
+constant(constwxFONTENCODING_MACGAELIC) ->
+     ?wxFONTENCODING_MACGAELIC;
 
-wx_fontencoding_macgaelic() ->
-     ?wxFONTENCODING_MACGAELIC.
+constant(constwxFONTENCODING_MACKEYBOARD) ->
+     ?wxFONTENCODING_MACKEYBOARD;
 
-wx_fontencoding_mackeyboard() ->
-     ?wxFONTENCODING_MACKEYBOARD.
+constant(constwxFONTENCODING_MAX) ->
+     ?wxFONTENCODING_MAX;
 
-wx_fontencoding_max() ->
-     ?wxFONTENCODING_MAX.
+constant(constwxFONTENCODING_MACMIN) ->
+     ?wxFONTENCODING_MACMIN;
 
-wx_fontencoding_macmin() ->
-     ?wxFONTENCODING_MACMIN.
+constant(constwxFONTENCODING_MACMAX) ->
+     ?wxFONTENCODING_MACMAX;
 
-wx_fontencoding_macmax() ->
-     ?wxFONTENCODING_MACMAX.
+constant(constwxFONTENCODING_UTF16) ->
+     ?wxFONTENCODING_UTF16;
 
-wx_fontencoding_ut_f16() ->
-     ?wxFONTENCODING_UTF16.
+constant(constwxFONTENCODING_UTF32) ->
+     ?wxFONTENCODING_UTF32;
 
-wx_fontencoding_ut_f32() ->
-     ?wxFONTENCODING_UTF32.
+constant(constwxFONTENCODING_UNICODE) ->
+     ?wxFONTENCODING_UNICODE;
 
-wx_fontencoding_unicode() ->
-     ?wxFONTENCODING_UNICODE.
+constant(constwxFONTENCODING_GB2312) ->
+     ?wxFONTENCODING_GB2312;
 
-wx_fontencoding_g_b2312() ->
-     ?wxFONTENCODING_GB2312.
+constant(constwxFONTENCODING_BIG5) ->
+     ?wxFONTENCODING_BIG5;
 
-wx_fontencoding_bi_g5() ->
-     ?wxFONTENCODING_BIG5.
+constant(constwxFONTENCODING_SHIFT_JIS) ->
+     ?wxFONTENCODING_SHIFT_JIS;
 
-wx_fontencoding_shift_jis() ->
-     ?wxFONTENCODING_SHIFT_JIS.
+constant(constwxFNTP_MAXPOINT_SIZE) ->
+     ?wxFNTP_MAXPOINT_SIZE;
 
-wx_fntp_maxpoint_size() ->
-     ?wxFNTP_MAXPOINT_SIZE.
+constant(constwxFNTP_DEFAULT_STYLE) ->
+     ?wxFNTP_DEFAULT_STYLE;
 
-wx_fntp_default_style() ->
-     ?wxFNTP_DEFAULT_STYLE.
+constant(constwxFNTP_USE_TEXTCTRL) ->
+     ?wxFNTP_USE_TEXTCTRL;
 
-wx_fntp_use_textctrl() ->
-     ?wxFNTP_USE_TEXTCTRL.
+constant(constwxFNTP_USEFONT_FOR_LABEL) ->
+     ?wxFNTP_USEFONT_FOR_LABEL;
 
-wx_fntp_usefont_for_label() ->
-     ?wxFNTP_USEFONT_FOR_LABEL.
+constant(constwxFNTP_FONTDESC_AS_LABEL) ->
+     ?wxFNTP_FONTDESC_AS_LABEL;
 
-wx_fntp_fontdesc_as_label() ->
-     ?wxFNTP_FONTDESC_AS_LABEL.
+constant(constwxFRAME_SHAPED) ->
+     ?wxFRAME_SHAPED;
 
-wx_frame_shaped() ->
-     ?wxFRAME_SHAPED.
+constant(constwxFRAME_FLOAT_ON_PARENT) ->
+     ?wxFRAME_FLOAT_ON_PARENT;
 
-wx_frame_float_on_parent() ->
-     ?wxFRAME_FLOAT_ON_PARENT.
+constant(constwxFRAME_TOOL_WINDOW) ->
+     ?wxFRAME_TOOL_WINDOW;
 
-wx_frame_tool_window() ->
-     ?wxFRAME_TOOL_WINDOW.
+constant(constwxFRAME_NO_TASKBAR) ->
+     ?wxFRAME_NO_TASKBAR;
 
-wx_frame_no_taskbar() ->
-     ?wxFRAME_NO_TASKBAR.
+constant(constwxAUI_BUTTON_CLOSE) ->
+     ?wxAUI_BUTTON_CLOSE;
 
-wx_aui_button_close() ->
-     ?wxAUI_BUTTON_CLOSE.
+constant(constwxAUI_BUTTON_MAXIMIZE_RESTORE) ->
+     ?wxAUI_BUTTON_MAXIMIZE_RESTORE;
 
-wx_aui_button_maximize_restore() ->
-     ?wxAUI_BUTTON_MAXIMIZE_RESTORE.
+constant(constwxAUI_BUTTON_MINIMIZE) ->
+     ?wxAUI_BUTTON_MINIMIZE;
 
-wx_aui_button_minimize() ->
-     ?wxAUI_BUTTON_MINIMIZE.
+constant(constwxAUI_BUTTON_PIN) ->
+     ?wxAUI_BUTTON_PIN;
 
-wx_aui_button_pin() ->
-     ?wxAUI_BUTTON_PIN.
+constant(constwxAUI_BUTTON_OPTIONS) ->
+     ?wxAUI_BUTTON_OPTIONS;
 
-wx_aui_button_options() ->
-     ?wxAUI_BUTTON_OPTIONS.
+constant(constwxAUI_BUTTON_WINDOWLIST) ->
+     ?wxAUI_BUTTON_WINDOWLIST;
 
-wx_aui_button_windowlist() ->
-     ?wxAUI_BUTTON_WINDOWLIST.
+constant(constwxAUI_BUTTON_LEFT) ->
+     ?wxAUI_BUTTON_LEFT;
 
-wx_aui_button_left() ->
-     ?wxAUI_BUTTON_LEFT.
+constant(constwxAUI_BUTTON_RIGHT) ->
+     ?wxAUI_BUTTON_RIGHT;
 
-wx_aui_button_right() ->
-     ?wxAUI_BUTTON_RIGHT.
+constant(constwxAUI_BUTTON_UP) ->
+     ?wxAUI_BUTTON_UP;
 
-wx_aui_button_up() ->
-     ?wxAUI_BUTTON_UP.
+constant(constwxAUI_BUTTON_DOWN) ->
+     ?wxAUI_BUTTON_DOWN;
 
-wx_aui_button_down() ->
-     ?wxAUI_BUTTON_DOWN.
+constant(constwxAUI_BUTTON_CUSTOM1) ->
+     ?wxAUI_BUTTON_CUSTOM1;
 
-wx_aui_button_custo_m1() ->
-     ?wxAUI_BUTTON_CUSTOM1.
+constant(constwxAUI_BUTTON_CUSTOM2) ->
+     ?wxAUI_BUTTON_CUSTOM2;
 
-wx_aui_button_custo_m2() ->
-     ?wxAUI_BUTTON_CUSTOM2.
+constant(constwxAUI_BUTTON_CUSTOM3) ->
+     ?wxAUI_BUTTON_CUSTOM3;
 
-wx_aui_button_custo_m3() ->
-     ?wxAUI_BUTTON_CUSTOM3.
+constant(constwxAUI_DOCK_NONE) ->
+     ?wxAUI_DOCK_NONE;
 
-wx_aui_dock_none() ->
-     ?wxAUI_DOCK_NONE.
+constant(constwxAUI_DOCK_TOP) ->
+     ?wxAUI_DOCK_TOP;
 
-wx_aui_dock_top() ->
-     ?wxAUI_DOCK_TOP.
+constant(constwxAUI_DOCK_RIGHT) ->
+     ?wxAUI_DOCK_RIGHT;
 
-wx_aui_dock_right() ->
-     ?wxAUI_DOCK_RIGHT.
+constant(constwxAUI_DOCK_BOTTOM) ->
+     ?wxAUI_DOCK_BOTTOM;
 
-wx_aui_dock_bottom() ->
-     ?wxAUI_DOCK_BOTTOM.
+constant(constwxAUI_DOCK_LEFT) ->
+     ?wxAUI_DOCK_LEFT;
 
-wx_aui_dock_left() ->
-     ?wxAUI_DOCK_LEFT.
+constant(constwxAUI_DOCK_CENTER) ->
+     ?wxAUI_DOCK_CENTER;
 
-wx_aui_dock_center() ->
-     ?wxAUI_DOCK_CENTER.
+constant(constwxAUI_DOCK_CENTRE) ->
+     ?wxAUI_DOCK_CENTRE;
 
-wx_aui_dock_centre() ->
-     ?wxAUI_DOCK_CENTRE.
+constant(constwxAUI_MGR_ALLOW_FLOATING) ->
+     ?wxAUI_MGR_ALLOW_FLOATING;
 
-wx_aui_mgr_allow_floating() ->
-     ?wxAUI_MGR_ALLOW_FLOATING.
+constant(constwxAUI_MGR_ALLOW_ACTIVE_PANE) ->
+     ?wxAUI_MGR_ALLOW_ACTIVE_PANE;
 
-wx_aui_mgr_allow_active_pane() ->
-     ?wxAUI_MGR_ALLOW_ACTIVE_PANE.
+constant(constwxAUI_MGR_TRANSPARENT_DRAG) ->
+     ?wxAUI_MGR_TRANSPARENT_DRAG;
 
-wx_aui_mgr_transparent_drag() ->
-     ?wxAUI_MGR_TRANSPARENT_DRAG.
+constant(constwxAUI_MGR_TRANSPARENT_HINT) ->
+     ?wxAUI_MGR_TRANSPARENT_HINT;
 
-wx_aui_mgr_transparent_hint() ->
-     ?wxAUI_MGR_TRANSPARENT_HINT.
+constant(constwxAUI_MGR_VENETIAN_BLINDS_HINT) ->
+     ?wxAUI_MGR_VENETIAN_BLINDS_HINT;
 
-wx_aui_mgr_venetian_blinds_hint() ->
-     ?wxAUI_MGR_VENETIAN_BLINDS_HINT.
+constant(constwxAUI_MGR_RECTANGLE_HINT) ->
+     ?wxAUI_MGR_RECTANGLE_HINT;
 
-wx_aui_mgr_rectangle_hint() ->
-     ?wxAUI_MGR_RECTANGLE_HINT.
+constant(constwxAUI_MGR_HINT_FADE) ->
+     ?wxAUI_MGR_HINT_FADE;
 
-wx_aui_mgr_hint_fade() ->
-     ?wxAUI_MGR_HINT_FADE.
+constant(constwxAUI_MGR_NO_VENETIAN_BLINDS_FADE) ->
+     ?wxAUI_MGR_NO_VENETIAN_BLINDS_FADE;
 
-wx_aui_mgr_no_venetian_blinds_fade() ->
-     ?wxAUI_MGR_NO_VENETIAN_BLINDS_FADE.
+constant(constwxAUI_MGR_LIVE_RESIZE) ->
+     ?wxAUI_MGR_LIVE_RESIZE;
 
-wx_aui_mgr_live_resize() ->
-     ?wxAUI_MGR_LIVE_RESIZE.
+constant(constwxAUI_MGR_DEFAULT) ->
+     ?wxAUI_MGR_DEFAULT;
 
-wx_aui_mgr_default() ->
-     ?wxAUI_MGR_DEFAULT.
+constant(constwxAUI_BUTTON_STATE_NORMAL) ->
+     ?wxAUI_BUTTON_STATE_NORMAL;
 
-wx_aui_button_state_normal() ->
-     ?wxAUI_BUTTON_STATE_NORMAL.
+constant(constwxAUI_BUTTON_STATE_HOVER) ->
+     ?wxAUI_BUTTON_STATE_HOVER;
 
-wx_aui_button_state_hover() ->
-     ?wxAUI_BUTTON_STATE_HOVER.
+constant(constwxAUI_BUTTON_STATE_PRESSED) ->
+     ?wxAUI_BUTTON_STATE_PRESSED;
 
-wx_aui_button_state_pressed() ->
-     ?wxAUI_BUTTON_STATE_PRESSED.
+constant(constwxAUI_BUTTON_STATE_DISABLED) ->
+     ?wxAUI_BUTTON_STATE_DISABLED;
 
-wx_aui_button_state_disabled() ->
-     ?wxAUI_BUTTON_STATE_DISABLED.
+constant(constwxAUI_BUTTON_STATE_HIDDEN) ->
+     ?wxAUI_BUTTON_STATE_HIDDEN;
 
-wx_aui_button_state_hidden() ->
-     ?wxAUI_BUTTON_STATE_HIDDEN.
+constant(constwxAUI_BUTTON_STATE_CHECKED) ->
+     ?wxAUI_BUTTON_STATE_CHECKED;
 
-wx_aui_button_state_checked() ->
-     ?wxAUI_BUTTON_STATE_CHECKED.
+constant(constwxAUI_GRADIENT_NONE) ->
+     ?wxAUI_GRADIENT_NONE;
 
-wx_aui_gradient_none() ->
-     ?wxAUI_GRADIENT_NONE.
+constant(constwxAUI_GRADIENT_VERTICAL) ->
+     ?wxAUI_GRADIENT_VERTICAL;
 
-wx_aui_gradient_vertical() ->
-     ?wxAUI_GRADIENT_VERTICAL.
+constant(constwxAUI_GRADIENT_HORIZONTAL) ->
+     ?wxAUI_GRADIENT_HORIZONTAL;
 
-wx_aui_gradient_horizontal() ->
-     ?wxAUI_GRADIENT_HORIZONTAL.
+constant(constwxAUI_DOCKART_SASH_SIZE) ->
+     ?wxAUI_DOCKART_SASH_SIZE;
 
-wx_aui_dockart_sash_size() ->
-     ?wxAUI_DOCKART_SASH_SIZE.
+constant(constwxAUI_DOCKART_CAPTION_SIZE) ->
+     ?wxAUI_DOCKART_CAPTION_SIZE;
 
-wx_aui_dockart_caption_size() ->
-     ?wxAUI_DOCKART_CAPTION_SIZE.
+constant(constwxAUI_DOCKART_GRIPPER_SIZE) ->
+     ?wxAUI_DOCKART_GRIPPER_SIZE;
 
-wx_aui_dockart_gripper_size() ->
-     ?wxAUI_DOCKART_GRIPPER_SIZE.
+constant(constwxAUI_DOCKART_PANE_BORDER_SIZE) ->
+     ?wxAUI_DOCKART_PANE_BORDER_SIZE;
 
-wx_aui_dockart_pane_border_size() ->
-     ?wxAUI_DOCKART_PANE_BORDER_SIZE.
+constant(constwxAUI_DOCKART_PANE_BUTTON_SIZE) ->
+     ?wxAUI_DOCKART_PANE_BUTTON_SIZE;
 
-wx_aui_dockart_pane_button_size() ->
-     ?wxAUI_DOCKART_PANE_BUTTON_SIZE.
+constant(constwxAUI_DOCKART_BACKGROUND_COLOUR) ->
+     ?wxAUI_DOCKART_BACKGROUND_COLOUR;
 
-wx_aui_dockart_background_colour() ->
-     ?wxAUI_DOCKART_BACKGROUND_COLOUR.
+constant(constwxAUI_DOCKART_SASH_COLOUR) ->
+     ?wxAUI_DOCKART_SASH_COLOUR;
 
-wx_aui_dockart_sash_colour() ->
-     ?wxAUI_DOCKART_SASH_COLOUR.
+constant(constwxAUI_DOCKART_ACTIVE_CAPTION_COLOUR) ->
+     ?wxAUI_DOCKART_ACTIVE_CAPTION_COLOUR;
 
-wx_aui_dockart_active_caption_colour() ->
-     ?wxAUI_DOCKART_ACTIVE_CAPTION_COLOUR.
+constant(constwxAUI_DOCKART_ACTIVE_CAPTION_GRADIENT_COLOUR) ->
+     ?wxAUI_DOCKART_ACTIVE_CAPTION_GRADIENT_COLOUR;
 
-wx_aui_dockart_active_caption_gradient_colour() ->
-     ?wxAUI_DOCKART_ACTIVE_CAPTION_GRADIENT_COLOUR.
+constant(constwxAUI_DOCKART_INACTIVE_CAPTION_COLOUR) ->
+     ?wxAUI_DOCKART_INACTIVE_CAPTION_COLOUR;
 
-wx_aui_dockart_inactive_caption_colour() ->
-     ?wxAUI_DOCKART_INACTIVE_CAPTION_COLOUR.
+constant(constwxAUI_DOCKART_INACTIVE_CAPTION_GRADIENT_COLOUR) ->
+     ?wxAUI_DOCKART_INACTIVE_CAPTION_GRADIENT_COLOUR;
 
-wx_aui_dockart_inactive_caption_gradient_colour() ->
-     ?wxAUI_DOCKART_INACTIVE_CAPTION_GRADIENT_COLOUR.
+constant(constwxAUI_DOCKART_ACTIVE_CAPTION_TEXT_COLOUR) ->
+     ?wxAUI_DOCKART_ACTIVE_CAPTION_TEXT_COLOUR;
 
-wx_aui_dockart_active_caption_text_colour() ->
-     ?wxAUI_DOCKART_ACTIVE_CAPTION_TEXT_COLOUR.
+constant(constwxAUI_DOCKART_INACTIVE_CAPTION_TEXT_COLOUR) ->
+     ?wxAUI_DOCKART_INACTIVE_CAPTION_TEXT_COLOUR;
 
-wx_aui_dockart_inactive_caption_text_colour() ->
-     ?wxAUI_DOCKART_INACTIVE_CAPTION_TEXT_COLOUR.
+constant(constwxAUI_DOCKART_BORDER_COLOUR) ->
+     ?wxAUI_DOCKART_BORDER_COLOUR;
 
-wx_aui_dockart_border_colour() ->
-     ?wxAUI_DOCKART_BORDER_COLOUR.
+constant(constwxAUI_DOCKART_GRIPPER_COLOUR) ->
+     ?wxAUI_DOCKART_GRIPPER_COLOUR;
 
-wx_aui_dockart_gripper_colour() ->
-     ?wxAUI_DOCKART_GRIPPER_COLOUR.
+constant(constwxAUI_DOCKART_CAPTION_FONT) ->
+     ?wxAUI_DOCKART_CAPTION_FONT;
 
-wx_aui_dockart_caption_font() ->
-     ?wxAUI_DOCKART_CAPTION_FONT.
+constant(constwxAUI_DOCKART_GRADIENT_TYPE) ->
+     ?wxAUI_DOCKART_GRADIENT_TYPE;
 
-wx_aui_dockart_gradient_type() ->
-     ?wxAUI_DOCKART_GRADIENT_TYPE.
+constant(constwxAUI_INSERT_PANE) ->
+     ?wxAUI_INSERT_PANE;
 
-wx_aui_insert_pane() ->
-     ?wxAUI_INSERT_PANE.
+constant(constwxAUI_INSERT_ROW) ->
+     ?wxAUI_INSERT_ROW;
 
-wx_aui_insert_row() ->
-     ?wxAUI_INSERT_ROW.
+constant(constwxAUI_INSERT_DOCK) ->
+     ?wxAUI_INSERT_DOCK;
 
-wx_aui_insert_dock() ->
-     ?wxAUI_INSERT_DOCK.
+constant(constwxGAUGE_EMULATE_INDETERMINATE_MODE) ->
+     ?wxGAUGE_EMULATE_INDETERMINATE_MODE;
 
-wx_gauge_emulate_indeterminate_mode() ->
-     ?wxGAUGE_EMULATE_INDETERMINATE_MODE.
+constant(constwxGA_SMOOTH) ->
+     ?wxGA_SMOOTH;
 
-wx_ga_smooth() ->
-     ?wxGA_SMOOTH.
+constant(constwxGA_VERTICAL) ->
+     ?wxGA_VERTICAL;
 
-wx_ga_vertical() ->
-     ?wxGA_VERTICAL.
+constant(constwxGA_HORIZONTAL) ->
+     ?wxGA_HORIZONTAL;
 
-wx_ga_horizontal() ->
-     ?wxGA_HORIZONTAL.
+constant(constwxBITMAP_TYPE_INVALID) ->
+     ?wxBITMAP_TYPE_INVALID;
 
-wx_bitmap_type_invalid() ->
-     ?wxBITMAP_TYPE_INVALID.
+constant(constwxBITMAP_TYPE_BMP) ->
+     ?wxBITMAP_TYPE_BMP;
 
-wx_bitmap_type_bmp() ->
-     ?wxBITMAP_TYPE_BMP.
+constant(constwxBITMAP_TYPE_BMP_RESOURCE) ->
+     ?wxBITMAP_TYPE_BMP_RESOURCE;
 
-wx_bitmap_type_bmp_resource() ->
-     ?wxBITMAP_TYPE_BMP_RESOURCE.
+constant(constwxBITMAP_TYPE_RESOURCE) ->
+     ?wxBITMAP_TYPE_RESOURCE;
 
-wx_bitmap_type_resource() ->
-     ?wxBITMAP_TYPE_RESOURCE.
+constant(constwxBITMAP_TYPE_ICO) ->
+     ?wxBITMAP_TYPE_ICO;
 
-wx_bitmap_type_ico() ->
-     ?wxBITMAP_TYPE_ICO.
+constant(constwxBITMAP_TYPE_ICO_RESOURCE) ->
+     ?wxBITMAP_TYPE_ICO_RESOURCE;
 
-wx_bitmap_type_ico_resource() ->
-     ?wxBITMAP_TYPE_ICO_RESOURCE.
+constant(constwxBITMAP_TYPE_CUR) ->
+     ?wxBITMAP_TYPE_CUR;
 
-wx_bitmap_type_cur() ->
-     ?wxBITMAP_TYPE_CUR.
+constant(constwxBITMAP_TYPE_CUR_RESOURCE) ->
+     ?wxBITMAP_TYPE_CUR_RESOURCE;
 
-wx_bitmap_type_cur_resource() ->
-     ?wxBITMAP_TYPE_CUR_RESOURCE.
+constant(constwxBITMAP_TYPE_XBM) ->
+     ?wxBITMAP_TYPE_XBM;
 
-wx_bitmap_type_xbm() ->
-     ?wxBITMAP_TYPE_XBM.
+constant(constwxBITMAP_TYPE_XBM_DATA) ->
+     ?wxBITMAP_TYPE_XBM_DATA;
 
-wx_bitmap_type_xbm_data() ->
-     ?wxBITMAP_TYPE_XBM_DATA.
+constant(constwxBITMAP_TYPE_XPM) ->
+     ?wxBITMAP_TYPE_XPM;
 
-wx_bitmap_type_xpm() ->
-     ?wxBITMAP_TYPE_XPM.
+constant(constwxBITMAP_TYPE_XPM_DATA) ->
+     ?wxBITMAP_TYPE_XPM_DATA;
 
-wx_bitmap_type_xpm_data() ->
-     ?wxBITMAP_TYPE_XPM_DATA.
+constant(constwxBITMAP_TYPE_TIF) ->
+     ?wxBITMAP_TYPE_TIF;
 
-wx_bitmap_type_tif() ->
-     ?wxBITMAP_TYPE_TIF.
+constant(constwxBITMAP_TYPE_TIF_RESOURCE) ->
+     ?wxBITMAP_TYPE_TIF_RESOURCE;
 
-wx_bitmap_type_tif_resource() ->
-     ?wxBITMAP_TYPE_TIF_RESOURCE.
+constant(constwxBITMAP_TYPE_GIF) ->
+     ?wxBITMAP_TYPE_GIF;
 
-wx_bitmap_type_gif() ->
-     ?wxBITMAP_TYPE_GIF.
+constant(constwxBITMAP_TYPE_GIF_RESOURCE) ->
+     ?wxBITMAP_TYPE_GIF_RESOURCE;
 
-wx_bitmap_type_gif_resource() ->
-     ?wxBITMAP_TYPE_GIF_RESOURCE.
+constant(constwxBITMAP_TYPE_PNG) ->
+     ?wxBITMAP_TYPE_PNG;
 
-wx_bitmap_type_png() ->
-     ?wxBITMAP_TYPE_PNG.
+constant(constwxBITMAP_TYPE_PNG_RESOURCE) ->
+     ?wxBITMAP_TYPE_PNG_RESOURCE;
 
-wx_bitmap_type_png_resource() ->
-     ?wxBITMAP_TYPE_PNG_RESOURCE.
+constant(constwxBITMAP_TYPE_JPEG) ->
+     ?wxBITMAP_TYPE_JPEG;
 
-wx_bitmap_type_jpeg() ->
-     ?wxBITMAP_TYPE_JPEG.
+constant(constwxBITMAP_TYPE_JPEG_RESOURCE) ->
+     ?wxBITMAP_TYPE_JPEG_RESOURCE;
 
-wx_bitmap_type_jpeg_resource() ->
-     ?wxBITMAP_TYPE_JPEG_RESOURCE.
+constant(constwxBITMAP_TYPE_PNM) ->
+     ?wxBITMAP_TYPE_PNM;
 
-wx_bitmap_type_pnm() ->
-     ?wxBITMAP_TYPE_PNM.
+constant(constwxBITMAP_TYPE_PNM_RESOURCE) ->
+     ?wxBITMAP_TYPE_PNM_RESOURCE;
 
-wx_bitmap_type_pnm_resource() ->
-     ?wxBITMAP_TYPE_PNM_RESOURCE.
+constant(constwxBITMAP_TYPE_PCX) ->
+     ?wxBITMAP_TYPE_PCX;
 
-wx_bitmap_type_pcx() ->
-     ?wxBITMAP_TYPE_PCX.
+constant(constwxBITMAP_TYPE_PCX_RESOURCE) ->
+     ?wxBITMAP_TYPE_PCX_RESOURCE;
 
-wx_bitmap_type_pcx_resource() ->
-     ?wxBITMAP_TYPE_PCX_RESOURCE.
+constant(constwxBITMAP_TYPE_PICT) ->
+     ?wxBITMAP_TYPE_PICT;
 
-wx_bitmap_type_pict() ->
-     ?wxBITMAP_TYPE_PICT.
+constant(constwxBITMAP_TYPE_PICT_RESOURCE) ->
+     ?wxBITMAP_TYPE_PICT_RESOURCE;
 
-wx_bitmap_type_pict_resource() ->
-     ?wxBITMAP_TYPE_PICT_RESOURCE.
+constant(constwxBITMAP_TYPE_ICON) ->
+     ?wxBITMAP_TYPE_ICON;
 
-wx_bitmap_type_icon() ->
-     ?wxBITMAP_TYPE_ICON.
+constant(constwxBITMAP_TYPE_ICON_RESOURCE) ->
+     ?wxBITMAP_TYPE_ICON_RESOURCE;
 
-wx_bitmap_type_icon_resource() ->
-     ?wxBITMAP_TYPE_ICON_RESOURCE.
+constant(constwxBITMAP_TYPE_ANI) ->
+     ?wxBITMAP_TYPE_ANI;
 
-wx_bitmap_type_ani() ->
-     ?wxBITMAP_TYPE_ANI.
+constant(constwxBITMAP_TYPE_IFF) ->
+     ?wxBITMAP_TYPE_IFF;
 
-wx_bitmap_type_iff() ->
-     ?wxBITMAP_TYPE_IFF.
+constant(constwxBITMAP_TYPE_TGA) ->
+     ?wxBITMAP_TYPE_TGA;
 
-wx_bitmap_type_tga() ->
-     ?wxBITMAP_TYPE_TGA.
+constant(constwxBITMAP_TYPE_MACCURSOR) ->
+     ?wxBITMAP_TYPE_MACCURSOR;
 
-wx_bitmap_type_maccursor() ->
-     ?wxBITMAP_TYPE_MACCURSOR.
+constant(constwxBITMAP_TYPE_MACCURSOR_RESOURCE) ->
+     ?wxBITMAP_TYPE_MACCURSOR_RESOURCE;
 
-wx_bitmap_type_maccursor_resource() ->
-     ?wxBITMAP_TYPE_MACCURSOR_RESOURCE.
+constant(constwxBITMAP_TYPE_ANY) ->
+     ?wxBITMAP_TYPE_ANY;
 
-wx_bitmap_type_any() ->
-     ?wxBITMAP_TYPE_ANY.
+constant(constwxCURSOR_NONE) ->
+     ?wxCURSOR_NONE;
 
-wx_cursor_none() ->
-     ?wxCURSOR_NONE.
+constant(constwxCURSOR_ARROW) ->
+     ?wxCURSOR_ARROW;
 
-wx_cursor_arrow() ->
-     ?wxCURSOR_ARROW.
+constant(constwxCURSOR_RIGHT_ARROW) ->
+     ?wxCURSOR_RIGHT_ARROW;
 
-wx_cursor_right_arrow() ->
-     ?wxCURSOR_RIGHT_ARROW.
+constant(constwxCURSOR_BULLSEYE) ->
+     ?wxCURSOR_BULLSEYE;
 
-wx_cursor_bullseye() ->
-     ?wxCURSOR_BULLSEYE.
+constant(constwxCURSOR_CHAR) ->
+     ?wxCURSOR_CHAR;
 
-wx_cursor_char() ->
-     ?wxCURSOR_CHAR.
+constant(constwxCURSOR_CROSS) ->
+     ?wxCURSOR_CROSS;
 
-wx_cursor_cross() ->
-     ?wxCURSOR_CROSS.
+constant(constwxCURSOR_HAND) ->
+     ?wxCURSOR_HAND;
 
-wx_cursor_hand() ->
-     ?wxCURSOR_HAND.
+constant(constwxCURSOR_IBEAM) ->
+     ?wxCURSOR_IBEAM;
 
-wx_cursor_ibeam() ->
-     ?wxCURSOR_IBEAM.
+constant(constwxCURSOR_LEFT_BUTTON) ->
+     ?wxCURSOR_LEFT_BUTTON;
 
-wx_cursor_left_button() ->
-     ?wxCURSOR_LEFT_BUTTON.
+constant(constwxCURSOR_MAGNIFIER) ->
+     ?wxCURSOR_MAGNIFIER;
 
-wx_cursor_magnifier() ->
-     ?wxCURSOR_MAGNIFIER.
+constant(constwxCURSOR_MIDDLE_BUTTON) ->
+     ?wxCURSOR_MIDDLE_BUTTON;
 
-wx_cursor_middle_button() ->
-     ?wxCURSOR_MIDDLE_BUTTON.
+constant(constwxCURSOR_NO_ENTRY) ->
+     ?wxCURSOR_NO_ENTRY;
 
-wx_cursor_no_entry() ->
-     ?wxCURSOR_NO_ENTRY.
+constant(constwxCURSOR_PAINT_BRUSH) ->
+     ?wxCURSOR_PAINT_BRUSH;
 
-wx_cursor_paint_brush() ->
-     ?wxCURSOR_PAINT_BRUSH.
+constant(constwxCURSOR_PENCIL) ->
+     ?wxCURSOR_PENCIL;
 
-wx_cursor_pencil() ->
-     ?wxCURSOR_PENCIL.
+constant(constwxCURSOR_POINT_LEFT) ->
+     ?wxCURSOR_POINT_LEFT;
 
-wx_cursor_point_left() ->
-     ?wxCURSOR_POINT_LEFT.
+constant(constwxCURSOR_POINT_RIGHT) ->
+     ?wxCURSOR_POINT_RIGHT;
 
-wx_cursor_point_right() ->
-     ?wxCURSOR_POINT_RIGHT.
+constant(constwxCURSOR_QUESTION_ARROW) ->
+     ?wxCURSOR_QUESTION_ARROW;
 
-wx_cursor_question_arrow() ->
-     ?wxCURSOR_QUESTION_ARROW.
+constant(constwxCURSOR_RIGHT_BUTTON) ->
+     ?wxCURSOR_RIGHT_BUTTON;
 
-wx_cursor_right_button() ->
-     ?wxCURSOR_RIGHT_BUTTON.
+constant(constwxCURSOR_SIZENESW) ->
+     ?wxCURSOR_SIZENESW;
 
-wx_cursor_sizenesw() ->
-     ?wxCURSOR_SIZENESW.
+constant(constwxCURSOR_SIZENS) ->
+     ?wxCURSOR_SIZENS;
 
-wx_cursor_sizens() ->
-     ?wxCURSOR_SIZENS.
+constant(constwxCURSOR_SIZENWSE) ->
+     ?wxCURSOR_SIZENWSE;
 
-wx_cursor_sizenwse() ->
-     ?wxCURSOR_SIZENWSE.
+constant(constwxCURSOR_SIZEWE) ->
+     ?wxCURSOR_SIZEWE;
 
-wx_cursor_sizewe() ->
-     ?wxCURSOR_SIZEWE.
+constant(constwxCURSOR_SIZING) ->
+     ?wxCURSOR_SIZING;
 
-wx_cursor_sizing() ->
-     ?wxCURSOR_SIZING.
+constant(constwxCURSOR_SPRAYCAN) ->
+     ?wxCURSOR_SPRAYCAN;
 
-wx_cursor_spraycan() ->
-     ?wxCURSOR_SPRAYCAN.
+constant(constwxCURSOR_WAIT) ->
+     ?wxCURSOR_WAIT;
 
-wx_cursor_wait() ->
-     ?wxCURSOR_WAIT.
+constant(constwxCURSOR_WATCH) ->
+     ?wxCURSOR_WATCH;
 
-wx_cursor_watch() ->
-     ?wxCURSOR_WATCH.
+constant(constwxCURSOR_BLANK) ->
+     ?wxCURSOR_BLANK;
 
-wx_cursor_blank() ->
-     ?wxCURSOR_BLANK.
+constant(constwxCURSOR_DEFAULT) ->
+     ?wxCURSOR_DEFAULT;
 
-wx_cursor_default() ->
-     ?wxCURSOR_DEFAULT.
+constant(constwxCURSOR_ARROWWAIT) ->
+     ?wxCURSOR_ARROWWAIT;
 
-wx_cursor_arrowwait() ->
-     ?wxCURSOR_ARROWWAIT.
+constant(constwxCURSOR_MAX) ->
+     ?wxCURSOR_MAX;
 
-wx_cursor_max() ->
-     ?wxCURSOR_MAX.
+constant(constwxLAYOUT_QUERY) ->
+     ?wxLAYOUT_QUERY;
 
-wx_layout_query() ->
-     ?wxLAYOUT_QUERY.
+constant(constwxLAYOUT_MRU_LENGTH) ->
+     ?wxLAYOUT_MRU_LENGTH;
 
-wx_layout_mru_length() ->
-     ?wxLAYOUT_MRU_LENGTH.
+constant(constwxLAYOUT_LENGTH_X) ->
+     ?wxLAYOUT_LENGTH_X;
 
-wx_layout_length_x() ->
-     ?wxLAYOUT_LENGTH_X.
+constant(constwxLAYOUT_LENGTH_Y) ->
+     ?wxLAYOUT_LENGTH_Y;
 
-wx_layout_length_y() ->
-     ?wxLAYOUT_LENGTH_Y.
+constant(constwxLAYOUT_NONE) ->
+     ?wxLAYOUT_NONE;
 
-wx_layout_none() ->
-     ?wxLAYOUT_NONE.
+constant(constwxLAYOUT_TOP) ->
+     ?wxLAYOUT_TOP;
 
-wx_layout_top() ->
-     ?wxLAYOUT_TOP.
+constant(constwxLAYOUT_LEFT) ->
+     ?wxLAYOUT_LEFT;
 
-wx_layout_left() ->
-     ?wxLAYOUT_LEFT.
+constant(constwxLAYOUT_RIGHT) ->
+     ?wxLAYOUT_RIGHT;
 
-wx_layout_right() ->
-     ?wxLAYOUT_RIGHT.
+constant(constwxLAYOUT_BOTTOM) ->
+     ?wxLAYOUT_BOTTOM;
 
-wx_layout_bottom() ->
-     ?wxLAYOUT_BOTTOM.
+constant(constwxLAYOUT_HORIZONTAL) ->
+     ?wxLAYOUT_HORIZONTAL;
 
-wx_layout_horizontal() ->
-     ?wxLAYOUT_HORIZONTAL.
+constant(constwxLAYOUT_VERTICAL) ->
+     ?wxLAYOUT_VERTICAL;
 
-wx_layout_vertical() ->
-     ?wxLAYOUT_VERTICAL.
+constant(constwxSW_3D) ->
+     ?wxSW_3D;
 
-wx_sw_3_d() ->
-     ?wxSW_3D.
+constant(constwxSW_3DBORDER) ->
+     ?wxSW_3DBORDER;
 
-wx_sw_3_dborder() ->
-     ?wxSW_3DBORDER.
+constant(constwxSW_3DSASH) ->
+     ?wxSW_3DSASH;
 
-wx_sw_3_dsash() ->
-     ?wxSW_3DSASH.
+constant(constwxSW_BORDER) ->
+     ?wxSW_BORDER;
 
-wx_sw_border() ->
-     ?wxSW_BORDER.
+constant(constwxSW_NOBORDER) ->
+     ?wxSW_NOBORDER;
 
-wx_sw_noborder() ->
-     ?wxSW_NOBORDER.
+constant(constwxSASH_DRAG_LEFT_DOWN) ->
+     ?wxSASH_DRAG_LEFT_DOWN;
 
-wx_sash_drag_left_down() ->
-     ?wxSASH_DRAG_LEFT_DOWN.
+constant(constwxSASH_DRAG_DRAGGING) ->
+     ?wxSASH_DRAG_DRAGGING;
 
-wx_sash_drag_dragging() ->
-     ?wxSASH_DRAG_DRAGGING.
+constant(constwxSASH_DRAG_NONE) ->
+     ?wxSASH_DRAG_NONE;
 
-wx_sash_drag_none() ->
-     ?wxSASH_DRAG_NONE.
+constant(constwxSASH_TOP) ->
+     ?wxSASH_TOP;
 
-wx_sash_top() ->
-     ?wxSASH_TOP.
+constant(constwxSASH_RIGHT) ->
+     ?wxSASH_RIGHT;
 
-wx_sash_right() ->
-     ?wxSASH_RIGHT.
+constant(constwxSASH_BOTTOM) ->
+     ?wxSASH_BOTTOM;
 
-wx_sash_bottom() ->
-     ?wxSASH_BOTTOM.
+constant(constwxSASH_LEFT) ->
+     ?wxSASH_LEFT;
 
-wx_sash_left() ->
-     ?wxSASH_LEFT.
+constant(constwxSASH_NONE) ->
+     ?wxSASH_NONE;
 
-wx_sash_none() ->
-     ?wxSASH_NONE.
+constant(constwxSPLASH_NO_TIMEOUT) ->
+     ?wxSPLASH_NO_TIMEOUT;
 
-wx_splash_no_timeout() ->
-     ?wxSPLASH_NO_TIMEOUT.
+constant(constwxSPLASH_TIMEOUT) ->
+     ?wxSPLASH_TIMEOUT;
 
-wx_splash_timeout() ->
-     ?wxSPLASH_TIMEOUT.
+constant(constwxSPLASH_NO_CENTRE) ->
+     ?wxSPLASH_NO_CENTRE;
 
-wx_splash_no_centre() ->
-     ?wxSPLASH_NO_CENTRE.
+constant(constwxSPLASH_CENTRE_ON_SCREEN) ->
+     ?wxSPLASH_CENTRE_ON_SCREEN;
 
-wx_splash_centre_on_screen() ->
-     ?wxSPLASH_CENTRE_ON_SCREEN.
+constant(constwxSPLASH_CENTRE_ON_PARENT) ->
+     ?wxSPLASH_CENTRE_ON_PARENT;
 
-wx_splash_centre_on_parent() ->
-     ?wxSPLASH_CENTRE_ON_PARENT.
+constant(constwxSPLIT_DRAG_NONE) ->
+     ?wxSPLIT_DRAG_NONE;
 
-wx_split_drag_none() ->
-     ?wxSPLIT_DRAG_NONE.
+constant(constwxSPLIT_DRAG_DRAGGING) ->
+     ?wxSPLIT_DRAG_DRAGGING;
 
-wx_split_drag_dragging() ->
-     ?wxSPLIT_DRAG_DRAGGING.
+constant(constwxSPLIT_DRAG_LEFT_DOWN) ->
+     ?wxSPLIT_DRAG_LEFT_DOWN;
 
-wx_split_drag_left_down() ->
-     ?wxSPLIT_DRAG_LEFT_DOWN.
+constant(constwxSPLIT_HORIZONTAL) ->
+     ?wxSPLIT_HORIZONTAL;
 
-wx_split_horizontal() ->
-     ?wxSPLIT_HORIZONTAL.
+constant(constwxSPLIT_VERTICAL) ->
+     ?wxSPLIT_VERTICAL;
 
-wx_split_vertical() ->
-     ?wxSPLIT_VERTICAL.
+constant(constWX_GL_RGBA) ->
+     ?WX_GL_RGBA;
 
-wx_gl_rgba() ->
-     ?WX_GL_RGBA.
+constant(constWX_GL_BUFFER_SIZE) ->
+     ?WX_GL_BUFFER_SIZE;
 
-wx_gl_buffer_size() ->
-     ?WX_GL_BUFFER_SIZE.
+constant(constWX_GL_LEVEL) ->
+     ?WX_GL_LEVEL;
 
-wx_gl_level() ->
-     ?WX_GL_LEVEL.
+constant(constWX_GL_DOUBLEBUFFER) ->
+     ?WX_GL_DOUBLEBUFFER;
 
-wx_gl_doublebuffer() ->
-     ?WX_GL_DOUBLEBUFFER.
+constant(constWX_GL_STEREO) ->
+     ?WX_GL_STEREO;
 
-wx_gl_stereo() ->
-     ?WX_GL_STEREO.
+constant(constWX_GL_AUX_BUFFERS) ->
+     ?WX_GL_AUX_BUFFERS;
 
-wx_gl_aux_buffers() ->
-     ?WX_GL_AUX_BUFFERS.
+constant(constWX_GL_MIN_RED) ->
+     ?WX_GL_MIN_RED;
 
-wx_gl_min_red() ->
-     ?WX_GL_MIN_RED.
+constant(constWX_GL_MIN_GREEN) ->
+     ?WX_GL_MIN_GREEN;
 
-wx_gl_min_green() ->
-     ?WX_GL_MIN_GREEN.
+constant(constWX_GL_MIN_BLUE) ->
+     ?WX_GL_MIN_BLUE;
 
-wx_gl_min_blue() ->
-     ?WX_GL_MIN_BLUE.
+constant(constWX_GL_MIN_ALPHA) ->
+     ?WX_GL_MIN_ALPHA;
 
-wx_gl_min_alpha() ->
-     ?WX_GL_MIN_ALPHA.
+constant(constWX_GL_DEPTH_SIZE) ->
+     ?WX_GL_DEPTH_SIZE;
 
-wx_gl_depth_size() ->
-     ?WX_GL_DEPTH_SIZE.
+constant(constWX_GL_STENCIL_SIZE) ->
+     ?WX_GL_STENCIL_SIZE;
 
-wx_gl_stencil_size() ->
-     ?WX_GL_STENCIL_SIZE.
+constant(constWX_GL_MIN_ACCUM_RED) ->
+     ?WX_GL_MIN_ACCUM_RED;
 
-wx_gl_min_accum_red() ->
-     ?WX_GL_MIN_ACCUM_RED.
+constant(constWX_GL_MIN_ACCUM_GREEN) ->
+     ?WX_GL_MIN_ACCUM_GREEN;
 
-wx_gl_min_accum_green() ->
-     ?WX_GL_MIN_ACCUM_GREEN.
+constant(constWX_GL_MIN_ACCUM_BLUE) ->
+     ?WX_GL_MIN_ACCUM_BLUE;
 
-wx_gl_min_accum_blue() ->
-     ?WX_GL_MIN_ACCUM_BLUE.
+constant(constWX_GL_MIN_ACCUM_ALPHA) ->
+     ?WX_GL_MIN_ACCUM_ALPHA;
 
-wx_gl_min_accum_alpha() ->
-     ?WX_GL_MIN_ACCUM_ALPHA.
+constant(constwxHASH_SIZE_DEFAULT) ->
+     ?wxHASH_SIZE_DEFAULT;
 
-wx_hash_size_default() ->
-     ?wxHASH_SIZE_DEFAULT.
+constant(constwxHW_DEFAULT_STYLE) ->
+     ?wxHW_DEFAULT_STYLE;
 
-wx_hw_default_style() ->
-     ?wxHW_DEFAULT_STYLE.
+constant(constwxHW_NO_SELECTION) ->
+     ?wxHW_NO_SELECTION;
 
-wx_hw_no_selection() ->
-     ?wxHW_NO_SELECTION.
+constant(constwxHW_SCROLLBAR_AUTO) ->
+     ?wxHW_SCROLLBAR_AUTO;
 
-wx_hw_scrollbar_auto() ->
-     ?wxHW_SCROLLBAR_AUTO.
+constant(constwxHW_SCROLLBAR_NEVER) ->
+     ?wxHW_SCROLLBAR_NEVER;
 
-wx_hw_scrollbar_never() ->
-     ?wxHW_SCROLLBAR_NEVER.
+constant(constwxHTML_OPEN) ->
+     ?wxHTML_OPEN;
 
-wx_html_open() ->
-     ?wxHTML_OPEN.
+constant(constwxHTML_BLOCK) ->
+     ?wxHTML_BLOCK;
 
-wx_html_block() ->
-     ?wxHTML_BLOCK.
+constant(constwxHTML_REDIRECT) ->
+     ?wxHTML_REDIRECT;
 
-wx_html_redirect() ->
-     ?wxHTML_REDIRECT.
+constant(constwxPAGE_ODD) ->
+     ?wxPAGE_ODD;
 
-wx_page_odd() ->
-     ?wxPAGE_ODD.
+constant(constwxPAGE_EVEN) ->
+     ?wxPAGE_EVEN;
 
-wx_page_even() ->
-     ?wxPAGE_EVEN.
+constant(constwxPAGE_ALL) ->
+     ?wxPAGE_ALL;
 
-wx_page_all() ->
-     ?wxPAGE_ALL.
+constant(constwxBMP_24BPP) ->
+     ?wxBMP_24BPP;
 
-wx_bmp_24_bpp() ->
-     ?wxBMP_24BPP.
+constant(constwxBMP_8BPP) ->
+     ?wxBMP_8BPP;
 
-wx_bmp_8_bpp() ->
-     ?wxBMP_8BPP.
+constant(constwxBMP_8BPP_GREY) ->
+     ?wxBMP_8BPP_GREY;
 
-wx_bmp_8_bpp_grey() ->
-     ?wxBMP_8BPP_GREY.
+constant(constwxBMP_8BPP_GRAY) ->
+     ?wxBMP_8BPP_GRAY;
 
-wx_bmp_8_bpp_gray() ->
-     ?wxBMP_8BPP_GRAY.
+constant(constwxBMP_8BPP_RED) ->
+     ?wxBMP_8BPP_RED;
 
-wx_bmp_8_bpp_red() ->
-     ?wxBMP_8BPP_RED.
+constant(constwxBMP_8BPP_PALETTE) ->
+     ?wxBMP_8BPP_PALETTE;
 
-wx_bmp_8_bpp_palette() ->
-     ?wxBMP_8BPP_PALETTE.
+constant(constwxBMP_4BPP) ->
+     ?wxBMP_4BPP;
 
-wx_bmp_4_bpp() ->
-     ?wxBMP_4BPP.
+constant(constwxBMP_1BPP) ->
+     ?wxBMP_1BPP;
 
-wx_bmp_1_bpp() ->
-     ?wxBMP_1BPP.
+constant(constwxBMP_1BPP_BW) ->
+     ?wxBMP_1BPP_BW;
 
-wx_bmp_1_bpp_bw() ->
-     ?wxBMP_1BPP_BW.
+constant(constwxIMAGE_RESOLUTION_INCHES) ->
+     ?wxIMAGE_RESOLUTION_INCHES;
 
-wx_image_resolution_inches() ->
-     ?wxIMAGE_RESOLUTION_INCHES.
+constant(constwxIMAGE_RESOLUTION_CM) ->
+     ?wxIMAGE_RESOLUTION_CM;
 
-wx_image_resolution_cm() ->
-     ?wxIMAGE_RESOLUTION_CM.
+constant(constwxIMAGE_QUALITY_NORMAL) ->
+     ?wxIMAGE_QUALITY_NORMAL;
 
-wx_image_quality_normal() ->
-     ?wxIMAGE_QUALITY_NORMAL.
+constant(constwxIMAGE_QUALITY_HIGH) ->
+     ?wxIMAGE_QUALITY_HIGH;
 
-wx_image_quality_high() ->
-     ?wxIMAGE_QUALITY_HIGH.
+constant(constwxIMAGE_LIST_NORMAL) ->
+     ?wxIMAGE_LIST_NORMAL;
 
-wx_image_list_normal() ->
-     ?wxIMAGE_LIST_NORMAL.
+constant(constwxIMAGE_LIST_SMALL) ->
+     ?wxIMAGE_LIST_SMALL;
 
-wx_image_list_small() ->
-     ?wxIMAGE_LIST_SMALL.
+constant(constwxIMAGE_LIST_STATE) ->
+     ?wxIMAGE_LIST_STATE;
 
-wx_image_list_state() ->
-     ?wxIMAGE_LIST_STATE.
+constant(constwxIMAGELIST_DRAW_FOCUSED) ->
+     ?wxIMAGELIST_DRAW_FOCUSED;
 
-wx_imagelist_draw_focused() ->
-     ?wxIMAGELIST_DRAW_FOCUSED.
+constant(constwxIMAGELIST_DRAW_SELECTED) ->
+     ?wxIMAGELIST_DRAW_SELECTED;
 
-wx_imagelist_draw_selected() ->
-     ?wxIMAGELIST_DRAW_SELECTED.
+constant(constwxIMAGELIST_DRAW_TRANSPARENT) ->
+     ?wxIMAGELIST_DRAW_TRANSPARENT;
 
-wx_imagelist_draw_transparent() ->
-     ?wxIMAGELIST_DRAW_TRANSPARENT.
+constant(constwxIMAGELIST_DRAW_NORMAL) ->
+     ?wxIMAGELIST_DRAW_NORMAL;
 
-wx_imagelist_draw_normal() ->
-     ?wxIMAGELIST_DRAW_NORMAL.
+constant(constwxLANGUAGE_DEFAULT) ->
+     ?wxLANGUAGE_DEFAULT;
 
-wx_language_default() ->
-     ?wxLANGUAGE_DEFAULT.
+constant(constwxLANGUAGE_UNKNOWN) ->
+     ?wxLANGUAGE_UNKNOWN;
 
-wx_language_unknown() ->
-     ?wxLANGUAGE_UNKNOWN.
+constant(constwxLANGUAGE_ABKHAZIAN) ->
+     ?wxLANGUAGE_ABKHAZIAN;
 
-wx_language_abkhazian() ->
-     ?wxLANGUAGE_ABKHAZIAN.
+constant(constwxLANGUAGE_AFAR) ->
+     ?wxLANGUAGE_AFAR;
 
-wx_language_afar() ->
-     ?wxLANGUAGE_AFAR.
+constant(constwxLANGUAGE_AFRIKAANS) ->
+     ?wxLANGUAGE_AFRIKAANS;
 
-wx_language_afrikaans() ->
-     ?wxLANGUAGE_AFRIKAANS.
+constant(constwxLANGUAGE_ALBANIAN) ->
+     ?wxLANGUAGE_ALBANIAN;
 
-wx_language_albanian() ->
-     ?wxLANGUAGE_ALBANIAN.
+constant(constwxLANGUAGE_AMHARIC) ->
+     ?wxLANGUAGE_AMHARIC;
 
-wx_language_amharic() ->
-     ?wxLANGUAGE_AMHARIC.
+constant(constwxLANGUAGE_ARABIC) ->
+     ?wxLANGUAGE_ARABIC;
 
-wx_language_arabic() ->
-     ?wxLANGUAGE_ARABIC.
+constant(constwxLANGUAGE_ARABIC_ALGERIA) ->
+     ?wxLANGUAGE_ARABIC_ALGERIA;
 
-wx_language_arabic_algeria() ->
-     ?wxLANGUAGE_ARABIC_ALGERIA.
+constant(constwxLANGUAGE_ARABIC_BAHRAIN) ->
+     ?wxLANGUAGE_ARABIC_BAHRAIN;
 
-wx_language_arabic_bahrain() ->
-     ?wxLANGUAGE_ARABIC_BAHRAIN.
+constant(constwxLANGUAGE_ARABIC_EGYPT) ->
+     ?wxLANGUAGE_ARABIC_EGYPT;
 
-wx_language_arabic_egypt() ->
-     ?wxLANGUAGE_ARABIC_EGYPT.
+constant(constwxLANGUAGE_ARABIC_IRAQ) ->
+     ?wxLANGUAGE_ARABIC_IRAQ;
 
-wx_language_arabic_iraq() ->
-     ?wxLANGUAGE_ARABIC_IRAQ.
+constant(constwxLANGUAGE_ARABIC_JORDAN) ->
+     ?wxLANGUAGE_ARABIC_JORDAN;
 
-wx_language_arabic_jordan() ->
-     ?wxLANGUAGE_ARABIC_JORDAN.
+constant(constwxLANGUAGE_ARABIC_KUWAIT) ->
+     ?wxLANGUAGE_ARABIC_KUWAIT;
 
-wx_language_arabic_kuwait() ->
-     ?wxLANGUAGE_ARABIC_KUWAIT.
+constant(constwxLANGUAGE_ARABIC_LEBANON) ->
+     ?wxLANGUAGE_ARABIC_LEBANON;
 
-wx_language_arabic_lebanon() ->
-     ?wxLANGUAGE_ARABIC_LEBANON.
+constant(constwxLANGUAGE_ARABIC_LIBYA) ->
+     ?wxLANGUAGE_ARABIC_LIBYA;
 
-wx_language_arabic_libya() ->
-     ?wxLANGUAGE_ARABIC_LIBYA.
+constant(constwxLANGUAGE_ARABIC_MOROCCO) ->
+     ?wxLANGUAGE_ARABIC_MOROCCO;
 
-wx_language_arabic_morocco() ->
-     ?wxLANGUAGE_ARABIC_MOROCCO.
+constant(constwxLANGUAGE_ARABIC_OMAN) ->
+     ?wxLANGUAGE_ARABIC_OMAN;
 
-wx_language_arabic_oman() ->
-     ?wxLANGUAGE_ARABIC_OMAN.
+constant(constwxLANGUAGE_ARABIC_QATAR) ->
+     ?wxLANGUAGE_ARABIC_QATAR;
 
-wx_language_arabic_qatar() ->
-     ?wxLANGUAGE_ARABIC_QATAR.
+constant(constwxLANGUAGE_ARABIC_SAUDI_ARABIA) ->
+     ?wxLANGUAGE_ARABIC_SAUDI_ARABIA;
 
-wx_language_arabic_saudi_arabia() ->
-     ?wxLANGUAGE_ARABIC_SAUDI_ARABIA.
+constant(constwxLANGUAGE_ARABIC_SUDAN) ->
+     ?wxLANGUAGE_ARABIC_SUDAN;
 
-wx_language_arabic_sudan() ->
-     ?wxLANGUAGE_ARABIC_SUDAN.
+constant(constwxLANGUAGE_ARABIC_SYRIA) ->
+     ?wxLANGUAGE_ARABIC_SYRIA;
 
-wx_language_arabic_syria() ->
-     ?wxLANGUAGE_ARABIC_SYRIA.
+constant(constwxLANGUAGE_ARABIC_TUNISIA) ->
+     ?wxLANGUAGE_ARABIC_TUNISIA;
 
-wx_language_arabic_tunisia() ->
-     ?wxLANGUAGE_ARABIC_TUNISIA.
+constant(constwxLANGUAGE_ARABIC_UAE) ->
+     ?wxLANGUAGE_ARABIC_UAE;
 
-wx_language_arabic_uae() ->
-     ?wxLANGUAGE_ARABIC_UAE.
+constant(constwxLANGUAGE_ARABIC_YEMEN) ->
+     ?wxLANGUAGE_ARABIC_YEMEN;
 
-wx_language_arabic_yemen() ->
-     ?wxLANGUAGE_ARABIC_YEMEN.
+constant(constwxLANGUAGE_ARMENIAN) ->
+     ?wxLANGUAGE_ARMENIAN;
 
-wx_language_armenian() ->
-     ?wxLANGUAGE_ARMENIAN.
+constant(constwxLANGUAGE_ASSAMESE) ->
+     ?wxLANGUAGE_ASSAMESE;
 
-wx_language_assamese() ->
-     ?wxLANGUAGE_ASSAMESE.
+constant(constwxLANGUAGE_AYMARA) ->
+     ?wxLANGUAGE_AYMARA;
 
-wx_language_aymara() ->
-     ?wxLANGUAGE_AYMARA.
+constant(constwxLANGUAGE_AZERI) ->
+     ?wxLANGUAGE_AZERI;
 
-wx_language_azeri() ->
-     ?wxLANGUAGE_AZERI.
+constant(constwxLANGUAGE_AZERI_CYRILLIC) ->
+     ?wxLANGUAGE_AZERI_CYRILLIC;
 
-wx_language_azeri_cyrillic() ->
-     ?wxLANGUAGE_AZERI_CYRILLIC.
+constant(constwxLANGUAGE_AZERI_LATIN) ->
+     ?wxLANGUAGE_AZERI_LATIN;
 
-wx_language_azeri_latin() ->
-     ?wxLANGUAGE_AZERI_LATIN.
+constant(constwxLANGUAGE_BASHKIR) ->
+     ?wxLANGUAGE_BASHKIR;
 
-wx_language_bashkir() ->
-     ?wxLANGUAGE_BASHKIR.
+constant(constwxLANGUAGE_BASQUE) ->
+     ?wxLANGUAGE_BASQUE;
 
-wx_language_basque() ->
-     ?wxLANGUAGE_BASQUE.
+constant(constwxLANGUAGE_BELARUSIAN) ->
+     ?wxLANGUAGE_BELARUSIAN;
 
-wx_language_belarusian() ->
-     ?wxLANGUAGE_BELARUSIAN.
+constant(constwxLANGUAGE_BENGALI) ->
+     ?wxLANGUAGE_BENGALI;
 
-wx_language_bengali() ->
-     ?wxLANGUAGE_BENGALI.
+constant(constwxLANGUAGE_BHUTANI) ->
+     ?wxLANGUAGE_BHUTANI;
 
-wx_language_bhutani() ->
-     ?wxLANGUAGE_BHUTANI.
+constant(constwxLANGUAGE_BIHARI) ->
+     ?wxLANGUAGE_BIHARI;
 
-wx_language_bihari() ->
-     ?wxLANGUAGE_BIHARI.
+constant(constwxLANGUAGE_BISLAMA) ->
+     ?wxLANGUAGE_BISLAMA;
 
-wx_language_bislama() ->
-     ?wxLANGUAGE_BISLAMA.
+constant(constwxLANGUAGE_BRETON) ->
+     ?wxLANGUAGE_BRETON;
 
-wx_language_breton() ->
-     ?wxLANGUAGE_BRETON.
+constant(constwxLANGUAGE_BULGARIAN) ->
+     ?wxLANGUAGE_BULGARIAN;
 
-wx_language_bulgarian() ->
-     ?wxLANGUAGE_BULGARIAN.
+constant(constwxLANGUAGE_BURMESE) ->
+     ?wxLANGUAGE_BURMESE;
 
-wx_language_burmese() ->
-     ?wxLANGUAGE_BURMESE.
+constant(constwxLANGUAGE_CAMBODIAN) ->
+     ?wxLANGUAGE_CAMBODIAN;
 
-wx_language_cambodian() ->
-     ?wxLANGUAGE_CAMBODIAN.
+constant(constwxLANGUAGE_CATALAN) ->
+     ?wxLANGUAGE_CATALAN;
 
-wx_language_catalan() ->
-     ?wxLANGUAGE_CATALAN.
+constant(constwxLANGUAGE_CHINESE) ->
+     ?wxLANGUAGE_CHINESE;
 
-wx_language_chinese() ->
-     ?wxLANGUAGE_CHINESE.
+constant(constwxLANGUAGE_CHINESE_SIMPLIFIED) ->
+     ?wxLANGUAGE_CHINESE_SIMPLIFIED;
 
-wx_language_chinese_simplified() ->
-     ?wxLANGUAGE_CHINESE_SIMPLIFIED.
+constant(constwxLANGUAGE_CHINESE_TRADITIONAL) ->
+     ?wxLANGUAGE_CHINESE_TRADITIONAL;
 
-wx_language_chinese_traditional() ->
-     ?wxLANGUAGE_CHINESE_TRADITIONAL.
+constant(constwxLANGUAGE_CHINESE_HONGKONG) ->
+     ?wxLANGUAGE_CHINESE_HONGKONG;
 
-wx_language_chinese_hongkong() ->
-     ?wxLANGUAGE_CHINESE_HONGKONG.
+constant(constwxLANGUAGE_CHINESE_MACAU) ->
+     ?wxLANGUAGE_CHINESE_MACAU;
 
-wx_language_chinese_macau() ->
-     ?wxLANGUAGE_CHINESE_MACAU.
+constant(constwxLANGUAGE_CHINESE_SINGAPORE) ->
+     ?wxLANGUAGE_CHINESE_SINGAPORE;
 
-wx_language_chinese_singapore() ->
-     ?wxLANGUAGE_CHINESE_SINGAPORE.
+constant(constwxLANGUAGE_CHINESE_TAIWAN) ->
+     ?wxLANGUAGE_CHINESE_TAIWAN;
 
-wx_language_chinese_taiwan() ->
-     ?wxLANGUAGE_CHINESE_TAIWAN.
+constant(constwxLANGUAGE_CORSICAN) ->
+     ?wxLANGUAGE_CORSICAN;
 
-wx_language_corsican() ->
-     ?wxLANGUAGE_CORSICAN.
+constant(constwxLANGUAGE_CROATIAN) ->
+     ?wxLANGUAGE_CROATIAN;
 
-wx_language_croatian() ->
-     ?wxLANGUAGE_CROATIAN.
+constant(constwxLANGUAGE_CZECH) ->
+     ?wxLANGUAGE_CZECH;
 
-wx_language_czech() ->
-     ?wxLANGUAGE_CZECH.
+constant(constwxLANGUAGE_DANISH) ->
+     ?wxLANGUAGE_DANISH;
 
-wx_language_danish() ->
-     ?wxLANGUAGE_DANISH.
+constant(constwxLANGUAGE_DUTCH) ->
+     ?wxLANGUAGE_DUTCH;
 
-wx_language_dutch() ->
-     ?wxLANGUAGE_DUTCH.
+constant(constwxLANGUAGE_DUTCH_BELGIAN) ->
+     ?wxLANGUAGE_DUTCH_BELGIAN;
 
-wx_language_dutch_belgian() ->
-     ?wxLANGUAGE_DUTCH_BELGIAN.
+constant(constwxLANGUAGE_ENGLISH) ->
+     ?wxLANGUAGE_ENGLISH;
 
-wx_language_english() ->
-     ?wxLANGUAGE_ENGLISH.
+constant(constwxLANGUAGE_ENGLISH_UK) ->
+     ?wxLANGUAGE_ENGLISH_UK;
 
-wx_language_english_uk() ->
-     ?wxLANGUAGE_ENGLISH_UK.
+constant(constwxLANGUAGE_ENGLISH_US) ->
+     ?wxLANGUAGE_ENGLISH_US;
 
-wx_language_english_us() ->
-     ?wxLANGUAGE_ENGLISH_US.
+constant(constwxLANGUAGE_ENGLISH_AUSTRALIA) ->
+     ?wxLANGUAGE_ENGLISH_AUSTRALIA;
 
-wx_language_english_australia() ->
-     ?wxLANGUAGE_ENGLISH_AUSTRALIA.
+constant(constwxLANGUAGE_ENGLISH_BELIZE) ->
+     ?wxLANGUAGE_ENGLISH_BELIZE;
 
-wx_language_english_belize() ->
-     ?wxLANGUAGE_ENGLISH_BELIZE.
+constant(constwxLANGUAGE_ENGLISH_BOTSWANA) ->
+     ?wxLANGUAGE_ENGLISH_BOTSWANA;
 
-wx_language_english_botswana() ->
-     ?wxLANGUAGE_ENGLISH_BOTSWANA.
+constant(constwxLANGUAGE_ENGLISH_CANADA) ->
+     ?wxLANGUAGE_ENGLISH_CANADA;
 
-wx_language_english_canada() ->
-     ?wxLANGUAGE_ENGLISH_CANADA.
+constant(constwxLANGUAGE_ENGLISH_CARIBBEAN) ->
+     ?wxLANGUAGE_ENGLISH_CARIBBEAN;
 
-wx_language_english_caribbean() ->
-     ?wxLANGUAGE_ENGLISH_CARIBBEAN.
+constant(constwxLANGUAGE_ENGLISH_DENMARK) ->
+     ?wxLANGUAGE_ENGLISH_DENMARK;
 
-wx_language_english_denmark() ->
-     ?wxLANGUAGE_ENGLISH_DENMARK.
+constant(constwxLANGUAGE_ENGLISH_EIRE) ->
+     ?wxLANGUAGE_ENGLISH_EIRE;
 
-wx_language_english_eire() ->
-     ?wxLANGUAGE_ENGLISH_EIRE.
+constant(constwxLANGUAGE_ENGLISH_JAMAICA) ->
+     ?wxLANGUAGE_ENGLISH_JAMAICA;
 
-wx_language_english_jamaica() ->
-     ?wxLANGUAGE_ENGLISH_JAMAICA.
+constant(constwxLANGUAGE_ENGLISH_NEW_ZEALAND) ->
+     ?wxLANGUAGE_ENGLISH_NEW_ZEALAND;
 
-wx_language_english_new_zealand() ->
-     ?wxLANGUAGE_ENGLISH_NEW_ZEALAND.
+constant(constwxLANGUAGE_ENGLISH_PHILIPPINES) ->
+     ?wxLANGUAGE_ENGLISH_PHILIPPINES;
 
-wx_language_english_philippines() ->
-     ?wxLANGUAGE_ENGLISH_PHILIPPINES.
+constant(constwxLANGUAGE_ENGLISH_SOUTH_AFRICA) ->
+     ?wxLANGUAGE_ENGLISH_SOUTH_AFRICA;
 
-wx_language_english_south_africa() ->
-     ?wxLANGUAGE_ENGLISH_SOUTH_AFRICA.
+constant(constwxLANGUAGE_ENGLISH_TRINIDAD) ->
+     ?wxLANGUAGE_ENGLISH_TRINIDAD;
 
-wx_language_english_trinidad() ->
-     ?wxLANGUAGE_ENGLISH_TRINIDAD.
+constant(constwxLANGUAGE_ENGLISH_ZIMBABWE) ->
+     ?wxLANGUAGE_ENGLISH_ZIMBABWE;
 
-wx_language_english_zimbabwe() ->
-     ?wxLANGUAGE_ENGLISH_ZIMBABWE.
+constant(constwxLANGUAGE_ESPERANTO) ->
+     ?wxLANGUAGE_ESPERANTO;
 
-wx_language_esperanto() ->
-     ?wxLANGUAGE_ESPERANTO.
+constant(constwxLANGUAGE_ESTONIAN) ->
+     ?wxLANGUAGE_ESTONIAN;
 
-wx_language_estonian() ->
-     ?wxLANGUAGE_ESTONIAN.
+constant(constwxLANGUAGE_FAEROESE) ->
+     ?wxLANGUAGE_FAEROESE;
 
-wx_language_faeroese() ->
-     ?wxLANGUAGE_FAEROESE.
+constant(constwxLANGUAGE_FARSI) ->
+     ?wxLANGUAGE_FARSI;
 
-wx_language_farsi() ->
-     ?wxLANGUAGE_FARSI.
+constant(constwxLANGUAGE_FIJI) ->
+     ?wxLANGUAGE_FIJI;
 
-wx_language_fiji() ->
-     ?wxLANGUAGE_FIJI.
+constant(constwxLANGUAGE_FINNISH) ->
+     ?wxLANGUAGE_FINNISH;
 
-wx_language_finnish() ->
-     ?wxLANGUAGE_FINNISH.
+constant(constwxLANGUAGE_FRENCH) ->
+     ?wxLANGUAGE_FRENCH;
 
-wx_language_french() ->
-     ?wxLANGUAGE_FRENCH.
+constant(constwxLANGUAGE_FRENCH_BELGIAN) ->
+     ?wxLANGUAGE_FRENCH_BELGIAN;
 
-wx_language_french_belgian() ->
-     ?wxLANGUAGE_FRENCH_BELGIAN.
+constant(constwxLANGUAGE_FRENCH_CANADIAN) ->
+     ?wxLANGUAGE_FRENCH_CANADIAN;
 
-wx_language_french_canadian() ->
-     ?wxLANGUAGE_FRENCH_CANADIAN.
+constant(constwxLANGUAGE_FRENCH_LUXEMBOURG) ->
+     ?wxLANGUAGE_FRENCH_LUXEMBOURG;
 
-wx_language_french_luxembourg() ->
-     ?wxLANGUAGE_FRENCH_LUXEMBOURG.
+constant(constwxLANGUAGE_FRENCH_MONACO) ->
+     ?wxLANGUAGE_FRENCH_MONACO;
 
-wx_language_french_monaco() ->
-     ?wxLANGUAGE_FRENCH_MONACO.
+constant(constwxLANGUAGE_FRENCH_SWISS) ->
+     ?wxLANGUAGE_FRENCH_SWISS;
 
-wx_language_french_swiss() ->
-     ?wxLANGUAGE_FRENCH_SWISS.
+constant(constwxLANGUAGE_FRISIAN) ->
+     ?wxLANGUAGE_FRISIAN;
 
-wx_language_frisian() ->
-     ?wxLANGUAGE_FRISIAN.
+constant(constwxLANGUAGE_GALICIAN) ->
+     ?wxLANGUAGE_GALICIAN;
 
-wx_language_galician() ->
-     ?wxLANGUAGE_GALICIAN.
+constant(constwxLANGUAGE_GEORGIAN) ->
+     ?wxLANGUAGE_GEORGIAN;
 
-wx_language_georgian() ->
-     ?wxLANGUAGE_GEORGIAN.
+constant(constwxLANGUAGE_GERMAN) ->
+     ?wxLANGUAGE_GERMAN;
 
-wx_language_german() ->
-     ?wxLANGUAGE_GERMAN.
+constant(constwxLANGUAGE_GERMAN_AUSTRIAN) ->
+     ?wxLANGUAGE_GERMAN_AUSTRIAN;
 
-wx_language_german_austrian() ->
-     ?wxLANGUAGE_GERMAN_AUSTRIAN.
+constant(constwxLANGUAGE_GERMAN_BELGIUM) ->
+     ?wxLANGUAGE_GERMAN_BELGIUM;
 
-wx_language_german_belgium() ->
-     ?wxLANGUAGE_GERMAN_BELGIUM.
+constant(constwxLANGUAGE_GERMAN_LIECHTENSTEIN) ->
+     ?wxLANGUAGE_GERMAN_LIECHTENSTEIN;
 
-wx_language_german_liechtenstein() ->
-     ?wxLANGUAGE_GERMAN_LIECHTENSTEIN.
+constant(constwxLANGUAGE_GERMAN_LUXEMBOURG) ->
+     ?wxLANGUAGE_GERMAN_LUXEMBOURG;
 
-wx_language_german_luxembourg() ->
-     ?wxLANGUAGE_GERMAN_LUXEMBOURG.
+constant(constwxLANGUAGE_GERMAN_SWISS) ->
+     ?wxLANGUAGE_GERMAN_SWISS;
 
-wx_language_german_swiss() ->
-     ?wxLANGUAGE_GERMAN_SWISS.
+constant(constwxLANGUAGE_GREEK) ->
+     ?wxLANGUAGE_GREEK;
 
-wx_language_greek() ->
-     ?wxLANGUAGE_GREEK.
+constant(constwxLANGUAGE_GREENLANDIC) ->
+     ?wxLANGUAGE_GREENLANDIC;
 
-wx_language_greenlandic() ->
-     ?wxLANGUAGE_GREENLANDIC.
+constant(constwxLANGUAGE_GUARANI) ->
+     ?wxLANGUAGE_GUARANI;
 
-wx_language_guarani() ->
-     ?wxLANGUAGE_GUARANI.
+constant(constwxLANGUAGE_GUJARATI) ->
+     ?wxLANGUAGE_GUJARATI;
 
-wx_language_gujarati() ->
-     ?wxLANGUAGE_GUJARATI.
+constant(constwxLANGUAGE_HAUSA) ->
+     ?wxLANGUAGE_HAUSA;
 
-wx_language_hausa() ->
-     ?wxLANGUAGE_HAUSA.
+constant(constwxLANGUAGE_HEBREW) ->
+     ?wxLANGUAGE_HEBREW;
 
-wx_language_hebrew() ->
-     ?wxLANGUAGE_HEBREW.
+constant(constwxLANGUAGE_HINDI) ->
+     ?wxLANGUAGE_HINDI;
 
-wx_language_hindi() ->
-     ?wxLANGUAGE_HINDI.
+constant(constwxLANGUAGE_HUNGARIAN) ->
+     ?wxLANGUAGE_HUNGARIAN;
 
-wx_language_hungarian() ->
-     ?wxLANGUAGE_HUNGARIAN.
+constant(constwxLANGUAGE_ICELANDIC) ->
+     ?wxLANGUAGE_ICELANDIC;
 
-wx_language_icelandic() ->
-     ?wxLANGUAGE_ICELANDIC.
+constant(constwxLANGUAGE_INDONESIAN) ->
+     ?wxLANGUAGE_INDONESIAN;
 
-wx_language_indonesian() ->
-     ?wxLANGUAGE_INDONESIAN.
+constant(constwxLANGUAGE_INTERLINGUA) ->
+     ?wxLANGUAGE_INTERLINGUA;
 
-wx_language_interlingua() ->
-     ?wxLANGUAGE_INTERLINGUA.
+constant(constwxLANGUAGE_INTERLINGUE) ->
+     ?wxLANGUAGE_INTERLINGUE;
 
-wx_language_interlingue() ->
-     ?wxLANGUAGE_INTERLINGUE.
+constant(constwxLANGUAGE_INUKTITUT) ->
+     ?wxLANGUAGE_INUKTITUT;
 
-wx_language_inuktitut() ->
-     ?wxLANGUAGE_INUKTITUT.
+constant(constwxLANGUAGE_INUPIAK) ->
+     ?wxLANGUAGE_INUPIAK;
 
-wx_language_inupiak() ->
-     ?wxLANGUAGE_INUPIAK.
+constant(constwxLANGUAGE_IRISH) ->
+     ?wxLANGUAGE_IRISH;
 
-wx_language_irish() ->
-     ?wxLANGUAGE_IRISH.
+constant(constwxLANGUAGE_ITALIAN) ->
+     ?wxLANGUAGE_ITALIAN;
 
-wx_language_italian() ->
-     ?wxLANGUAGE_ITALIAN.
+constant(constwxLANGUAGE_ITALIAN_SWISS) ->
+     ?wxLANGUAGE_ITALIAN_SWISS;
 
-wx_language_italian_swiss() ->
-     ?wxLANGUAGE_ITALIAN_SWISS.
+constant(constwxLANGUAGE_JAPANESE) ->
+     ?wxLANGUAGE_JAPANESE;
 
-wx_language_japanese() ->
-     ?wxLANGUAGE_JAPANESE.
+constant(constwxLANGUAGE_JAVANESE) ->
+     ?wxLANGUAGE_JAVANESE;
 
-wx_language_javanese() ->
-     ?wxLANGUAGE_JAVANESE.
+constant(constwxLANGUAGE_KANNADA) ->
+     ?wxLANGUAGE_KANNADA;
 
-wx_language_kannada() ->
-     ?wxLANGUAGE_KANNADA.
+constant(constwxLANGUAGE_KASHMIRI) ->
+     ?wxLANGUAGE_KASHMIRI;
 
-wx_language_kashmiri() ->
-     ?wxLANGUAGE_KASHMIRI.
+constant(constwxLANGUAGE_KASHMIRI_INDIA) ->
+     ?wxLANGUAGE_KASHMIRI_INDIA;
 
-wx_language_kashmiri_india() ->
-     ?wxLANGUAGE_KASHMIRI_INDIA.
+constant(constwxLANGUAGE_KAZAKH) ->
+     ?wxLANGUAGE_KAZAKH;
 
-wx_language_kazakh() ->
-     ?wxLANGUAGE_KAZAKH.
+constant(constwxLANGUAGE_KERNEWEK) ->
+     ?wxLANGUAGE_KERNEWEK;
 
-wx_language_kernewek() ->
-     ?wxLANGUAGE_KERNEWEK.
+constant(constwxLANGUAGE_KINYARWANDA) ->
+     ?wxLANGUAGE_KINYARWANDA;
 
-wx_language_kinyarwanda() ->
-     ?wxLANGUAGE_KINYARWANDA.
+constant(constwxLANGUAGE_KIRGHIZ) ->
+     ?wxLANGUAGE_KIRGHIZ;
 
-wx_language_kirghiz() ->
-     ?wxLANGUAGE_KIRGHIZ.
+constant(constwxLANGUAGE_KIRUNDI) ->
+     ?wxLANGUAGE_KIRUNDI;
 
-wx_language_kirundi() ->
-     ?wxLANGUAGE_KIRUNDI.
+constant(constwxLANGUAGE_KONKANI) ->
+     ?wxLANGUAGE_KONKANI;
 
-wx_language_konkani() ->
-     ?wxLANGUAGE_KONKANI.
+constant(constwxLANGUAGE_KOREAN) ->
+     ?wxLANGUAGE_KOREAN;
 
-wx_language_korean() ->
-     ?wxLANGUAGE_KOREAN.
+constant(constwxLANGUAGE_KURDISH) ->
+     ?wxLANGUAGE_KURDISH;
 
-wx_language_kurdish() ->
-     ?wxLANGUAGE_KURDISH.
+constant(constwxLANGUAGE_LAOTHIAN) ->
+     ?wxLANGUAGE_LAOTHIAN;
 
-wx_language_laothian() ->
-     ?wxLANGUAGE_LAOTHIAN.
+constant(constwxLANGUAGE_LATIN) ->
+     ?wxLANGUAGE_LATIN;
 
-wx_language_latin() ->
-     ?wxLANGUAGE_LATIN.
+constant(constwxLANGUAGE_LATVIAN) ->
+     ?wxLANGUAGE_LATVIAN;
 
-wx_language_latvian() ->
-     ?wxLANGUAGE_LATVIAN.
+constant(constwxLANGUAGE_LINGALA) ->
+     ?wxLANGUAGE_LINGALA;
 
-wx_language_lingala() ->
-     ?wxLANGUAGE_LINGALA.
+constant(constwxLANGUAGE_LITHUANIAN) ->
+     ?wxLANGUAGE_LITHUANIAN;
 
-wx_language_lithuanian() ->
-     ?wxLANGUAGE_LITHUANIAN.
+constant(constwxLANGUAGE_MACEDONIAN) ->
+     ?wxLANGUAGE_MACEDONIAN;
 
-wx_language_macedonian() ->
-     ?wxLANGUAGE_MACEDONIAN.
+constant(constwxLANGUAGE_MALAGASY) ->
+     ?wxLANGUAGE_MALAGASY;
 
-wx_language_malagasy() ->
-     ?wxLANGUAGE_MALAGASY.
+constant(constwxLANGUAGE_MALAY) ->
+     ?wxLANGUAGE_MALAY;
 
-wx_language_malay() ->
-     ?wxLANGUAGE_MALAY.
+constant(constwxLANGUAGE_MALAYALAM) ->
+     ?wxLANGUAGE_MALAYALAM;
 
-wx_language_malayalam() ->
-     ?wxLANGUAGE_MALAYALAM.
+constant(constwxLANGUAGE_MALAY_BRUNEI_DARUSSALAM) ->
+     ?wxLANGUAGE_MALAY_BRUNEI_DARUSSALAM;
 
-wx_language_malay_brunei_darussalam() ->
-     ?wxLANGUAGE_MALAY_BRUNEI_DARUSSALAM.
+constant(constwxLANGUAGE_MALAY_MALAYSIA) ->
+     ?wxLANGUAGE_MALAY_MALAYSIA;
 
-wx_language_malay_malaysia() ->
-     ?wxLANGUAGE_MALAY_MALAYSIA.
+constant(constwxLANGUAGE_MALTESE) ->
+     ?wxLANGUAGE_MALTESE;
 
-wx_language_maltese() ->
-     ?wxLANGUAGE_MALTESE.
+constant(constwxLANGUAGE_MANIPURI) ->
+     ?wxLANGUAGE_MANIPURI;
 
-wx_language_manipuri() ->
-     ?wxLANGUAGE_MANIPURI.
+constant(constwxLANGUAGE_MAORI) ->
+     ?wxLANGUAGE_MAORI;
 
-wx_language_maori() ->
-     ?wxLANGUAGE_MAORI.
+constant(constwxLANGUAGE_MARATHI) ->
+     ?wxLANGUAGE_MARATHI;
 
-wx_language_marathi() ->
-     ?wxLANGUAGE_MARATHI.
+constant(constwxLANGUAGE_MOLDAVIAN) ->
+     ?wxLANGUAGE_MOLDAVIAN;
 
-wx_language_moldavian() ->
-     ?wxLANGUAGE_MOLDAVIAN.
+constant(constwxLANGUAGE_MONGOLIAN) ->
+     ?wxLANGUAGE_MONGOLIAN;
 
-wx_language_mongolian() ->
-     ?wxLANGUAGE_MONGOLIAN.
+constant(constwxLANGUAGE_NAURU) ->
+     ?wxLANGUAGE_NAURU;
 
-wx_language_nauru() ->
-     ?wxLANGUAGE_NAURU.
+constant(constwxLANGUAGE_NEPALI) ->
+     ?wxLANGUAGE_NEPALI;
 
-wx_language_nepali() ->
-     ?wxLANGUAGE_NEPALI.
+constant(constwxLANGUAGE_NEPALI_INDIA) ->
+     ?wxLANGUAGE_NEPALI_INDIA;
 
-wx_language_nepali_india() ->
-     ?wxLANGUAGE_NEPALI_INDIA.
+constant(constwxLANGUAGE_NORWEGIAN_BOKMAL) ->
+     ?wxLANGUAGE_NORWEGIAN_BOKMAL;
 
-wx_language_norwegian_bokmal() ->
-     ?wxLANGUAGE_NORWEGIAN_BOKMAL.
+constant(constwxLANGUAGE_NORWEGIAN_NYNORSK) ->
+     ?wxLANGUAGE_NORWEGIAN_NYNORSK;
 
-wx_language_norwegian_nynorsk() ->
-     ?wxLANGUAGE_NORWEGIAN_NYNORSK.
+constant(constwxLANGUAGE_OCCITAN) ->
+     ?wxLANGUAGE_OCCITAN;
 
-wx_language_occitan() ->
-     ?wxLANGUAGE_OCCITAN.
+constant(constwxLANGUAGE_ORIYA) ->
+     ?wxLANGUAGE_ORIYA;
 
-wx_language_oriya() ->
-     ?wxLANGUAGE_ORIYA.
+constant(constwxLANGUAGE_OROMO) ->
+     ?wxLANGUAGE_OROMO;
 
-wx_language_oromo() ->
-     ?wxLANGUAGE_OROMO.
+constant(constwxLANGUAGE_PASHTO) ->
+     ?wxLANGUAGE_PASHTO;
 
-wx_language_pashto() ->
-     ?wxLANGUAGE_PASHTO.
+constant(constwxLANGUAGE_POLISH) ->
+     ?wxLANGUAGE_POLISH;
 
-wx_language_polish() ->
-     ?wxLANGUAGE_POLISH.
+constant(constwxLANGUAGE_PORTUGUESE) ->
+     ?wxLANGUAGE_PORTUGUESE;
 
-wx_language_portuguese() ->
-     ?wxLANGUAGE_PORTUGUESE.
+constant(constwxLANGUAGE_PORTUGUESE_BRAZILIAN) ->
+     ?wxLANGUAGE_PORTUGUESE_BRAZILIAN;
 
-wx_language_portuguese_brazilian() ->
-     ?wxLANGUAGE_PORTUGUESE_BRAZILIAN.
+constant(constwxLANGUAGE_PUNJABI) ->
+     ?wxLANGUAGE_PUNJABI;
 
-wx_language_punjabi() ->
-     ?wxLANGUAGE_PUNJABI.
+constant(constwxLANGUAGE_QUECHUA) ->
+     ?wxLANGUAGE_QUECHUA;
 
-wx_language_quechua() ->
-     ?wxLANGUAGE_QUECHUA.
+constant(constwxLANGUAGE_RHAETO_ROMANCE) ->
+     ?wxLANGUAGE_RHAETO_ROMANCE;
 
-wx_language_rhaeto_romance() ->
-     ?wxLANGUAGE_RHAETO_ROMANCE.
+constant(constwxLANGUAGE_ROMANIAN) ->
+     ?wxLANGUAGE_ROMANIAN;
 
-wx_language_romanian() ->
-     ?wxLANGUAGE_ROMANIAN.
+constant(constwxLANGUAGE_RUSSIAN) ->
+     ?wxLANGUAGE_RUSSIAN;
 
-wx_language_russian() ->
-     ?wxLANGUAGE_RUSSIAN.
+constant(constwxLANGUAGE_RUSSIAN_UKRAINE) ->
+     ?wxLANGUAGE_RUSSIAN_UKRAINE;
 
-wx_language_russian_ukraine() ->
-     ?wxLANGUAGE_RUSSIAN_UKRAINE.
+constant(constwxLANGUAGE_SAMOAN) ->
+     ?wxLANGUAGE_SAMOAN;
 
-wx_language_samoan() ->
-     ?wxLANGUAGE_SAMOAN.
+constant(constwxLANGUAGE_SANGHO) ->
+     ?wxLANGUAGE_SANGHO;
 
-wx_language_sangho() ->
-     ?wxLANGUAGE_SANGHO.
+constant(constwxLANGUAGE_SANSKRIT) ->
+     ?wxLANGUAGE_SANSKRIT;
 
-wx_language_sanskrit() ->
-     ?wxLANGUAGE_SANSKRIT.
+constant(constwxLANGUAGE_SCOTS_GAELIC) ->
+     ?wxLANGUAGE_SCOTS_GAELIC;
 
-wx_language_scots_gaelic() ->
-     ?wxLANGUAGE_SCOTS_GAELIC.
+constant(constwxLANGUAGE_SERBIAN) ->
+     ?wxLANGUAGE_SERBIAN;
 
-wx_language_serbian() ->
-     ?wxLANGUAGE_SERBIAN.
+constant(constwxLANGUAGE_SERBIAN_CYRILLIC) ->
+     ?wxLANGUAGE_SERBIAN_CYRILLIC;
 
-wx_language_serbian_cyrillic() ->
-     ?wxLANGUAGE_SERBIAN_CYRILLIC.
+constant(constwxLANGUAGE_SERBIAN_LATIN) ->
+     ?wxLANGUAGE_SERBIAN_LATIN;
 
-wx_language_serbian_latin() ->
-     ?wxLANGUAGE_SERBIAN_LATIN.
+constant(constwxLANGUAGE_SERBO_CROATIAN) ->
+     ?wxLANGUAGE_SERBO_CROATIAN;
 
-wx_language_serbo_croatian() ->
-     ?wxLANGUAGE_SERBO_CROATIAN.
+constant(constwxLANGUAGE_SESOTHO) ->
+     ?wxLANGUAGE_SESOTHO;
 
-wx_language_sesotho() ->
-     ?wxLANGUAGE_SESOTHO.
+constant(constwxLANGUAGE_SETSWANA) ->
+     ?wxLANGUAGE_SETSWANA;
 
-wx_language_setswana() ->
-     ?wxLANGUAGE_SETSWANA.
+constant(constwxLANGUAGE_SHONA) ->
+     ?wxLANGUAGE_SHONA;
 
-wx_language_shona() ->
-     ?wxLANGUAGE_SHONA.
+constant(constwxLANGUAGE_SINDHI) ->
+     ?wxLANGUAGE_SINDHI;
 
-wx_language_sindhi() ->
-     ?wxLANGUAGE_SINDHI.
+constant(constwxLANGUAGE_SINHALESE) ->
+     ?wxLANGUAGE_SINHALESE;
 
-wx_language_sinhalese() ->
-     ?wxLANGUAGE_SINHALESE.
+constant(constwxLANGUAGE_SISWATI) ->
+     ?wxLANGUAGE_SISWATI;
 
-wx_language_siswati() ->
-     ?wxLANGUAGE_SISWATI.
+constant(constwxLANGUAGE_SLOVAK) ->
+     ?wxLANGUAGE_SLOVAK;
 
-wx_language_slovak() ->
-     ?wxLANGUAGE_SLOVAK.
+constant(constwxLANGUAGE_SLOVENIAN) ->
+     ?wxLANGUAGE_SLOVENIAN;
 
-wx_language_slovenian() ->
-     ?wxLANGUAGE_SLOVENIAN.
+constant(constwxLANGUAGE_SOMALI) ->
+     ?wxLANGUAGE_SOMALI;
 
-wx_language_somali() ->
-     ?wxLANGUAGE_SOMALI.
+constant(constwxLANGUAGE_SPANISH) ->
+     ?wxLANGUAGE_SPANISH;
 
-wx_language_spanish() ->
-     ?wxLANGUAGE_SPANISH.
+constant(constwxLANGUAGE_SPANISH_ARGENTINA) ->
+     ?wxLANGUAGE_SPANISH_ARGENTINA;
 
-wx_language_spanish_argentina() ->
-     ?wxLANGUAGE_SPANISH_ARGENTINA.
+constant(constwxLANGUAGE_SPANISH_BOLIVIA) ->
+     ?wxLANGUAGE_SPANISH_BOLIVIA;
 
-wx_language_spanish_bolivia() ->
-     ?wxLANGUAGE_SPANISH_BOLIVIA.
+constant(constwxLANGUAGE_SPANISH_CHILE) ->
+     ?wxLANGUAGE_SPANISH_CHILE;
 
-wx_language_spanish_chile() ->
-     ?wxLANGUAGE_SPANISH_CHILE.
+constant(constwxLANGUAGE_SPANISH_COLOMBIA) ->
+     ?wxLANGUAGE_SPANISH_COLOMBIA;
 
-wx_language_spanish_colombia() ->
-     ?wxLANGUAGE_SPANISH_COLOMBIA.
+constant(constwxLANGUAGE_SPANISH_COSTA_RICA) ->
+     ?wxLANGUAGE_SPANISH_COSTA_RICA;
 
-wx_language_spanish_costa_rica() ->
-     ?wxLANGUAGE_SPANISH_COSTA_RICA.
+constant(constwxLANGUAGE_SPANISH_DOMINICAN_REPUBLIC) ->
+     ?wxLANGUAGE_SPANISH_DOMINICAN_REPUBLIC;
 
-wx_language_spanish_dominican_republic() ->
-     ?wxLANGUAGE_SPANISH_DOMINICAN_REPUBLIC.
+constant(constwxLANGUAGE_SPANISH_ECUADOR) ->
+     ?wxLANGUAGE_SPANISH_ECUADOR;
 
-wx_language_spanish_ecuador() ->
-     ?wxLANGUAGE_SPANISH_ECUADOR.
+constant(constwxLANGUAGE_SPANISH_EL_SALVADOR) ->
+     ?wxLANGUAGE_SPANISH_EL_SALVADOR;
 
-wx_language_spanish_el_salvador() ->
-     ?wxLANGUAGE_SPANISH_EL_SALVADOR.
+constant(constwxLANGUAGE_SPANISH_GUATEMALA) ->
+     ?wxLANGUAGE_SPANISH_GUATEMALA;
 
-wx_language_spanish_guatemala() ->
-     ?wxLANGUAGE_SPANISH_GUATEMALA.
+constant(constwxLANGUAGE_SPANISH_HONDURAS) ->
+     ?wxLANGUAGE_SPANISH_HONDURAS;
 
-wx_language_spanish_honduras() ->
-     ?wxLANGUAGE_SPANISH_HONDURAS.
+constant(constwxLANGUAGE_SPANISH_MEXICAN) ->
+     ?wxLANGUAGE_SPANISH_MEXICAN;
 
-wx_language_spanish_mexican() ->
-     ?wxLANGUAGE_SPANISH_MEXICAN.
+constant(constwxLANGUAGE_SPANISH_MODERN) ->
+     ?wxLANGUAGE_SPANISH_MODERN;
 
-wx_language_spanish_modern() ->
-     ?wxLANGUAGE_SPANISH_MODERN.
+constant(constwxLANGUAGE_SPANISH_NICARAGUA) ->
+     ?wxLANGUAGE_SPANISH_NICARAGUA;
 
-wx_language_spanish_nicaragua() ->
-     ?wxLANGUAGE_SPANISH_NICARAGUA.
+constant(constwxLANGUAGE_SPANISH_PANAMA) ->
+     ?wxLANGUAGE_SPANISH_PANAMA;
 
-wx_language_spanish_panama() ->
-     ?wxLANGUAGE_SPANISH_PANAMA.
+constant(constwxLANGUAGE_SPANISH_PARAGUAY) ->
+     ?wxLANGUAGE_SPANISH_PARAGUAY;
 
-wx_language_spanish_paraguay() ->
-     ?wxLANGUAGE_SPANISH_PARAGUAY.
+constant(constwxLANGUAGE_SPANISH_PERU) ->
+     ?wxLANGUAGE_SPANISH_PERU;
 
-wx_language_spanish_peru() ->
-     ?wxLANGUAGE_SPANISH_PERU.
+constant(constwxLANGUAGE_SPANISH_PUERTO_RICO) ->
+     ?wxLANGUAGE_SPANISH_PUERTO_RICO;
 
-wx_language_spanish_puerto_rico() ->
-     ?wxLANGUAGE_SPANISH_PUERTO_RICO.
+constant(constwxLANGUAGE_SPANISH_URUGUAY) ->
+     ?wxLANGUAGE_SPANISH_URUGUAY;
 
-wx_language_spanish_uruguay() ->
-     ?wxLANGUAGE_SPANISH_URUGUAY.
+constant(constwxLANGUAGE_SPANISH_US) ->
+     ?wxLANGUAGE_SPANISH_US;
 
-wx_language_spanish_us() ->
-     ?wxLANGUAGE_SPANISH_US.
+constant(constwxLANGUAGE_SPANISH_VENEZUELA) ->
+     ?wxLANGUAGE_SPANISH_VENEZUELA;
 
-wx_language_spanish_venezuela() ->
-     ?wxLANGUAGE_SPANISH_VENEZUELA.
+constant(constwxLANGUAGE_SUNDANESE) ->
+     ?wxLANGUAGE_SUNDANESE;
 
-wx_language_sundanese() ->
-     ?wxLANGUAGE_SUNDANESE.
+constant(constwxLANGUAGE_SWAHILI) ->
+     ?wxLANGUAGE_SWAHILI;
 
-wx_language_swahili() ->
-     ?wxLANGUAGE_SWAHILI.
+constant(constwxLANGUAGE_SWEDISH) ->
+     ?wxLANGUAGE_SWEDISH;
 
-wx_language_swedish() ->
-     ?wxLANGUAGE_SWEDISH.
+constant(constwxLANGUAGE_SWEDISH_FINLAND) ->
+     ?wxLANGUAGE_SWEDISH_FINLAND;
 
-wx_language_swedish_finland() ->
-     ?wxLANGUAGE_SWEDISH_FINLAND.
+constant(constwxLANGUAGE_TAGALOG) ->
+     ?wxLANGUAGE_TAGALOG;
 
-wx_language_tagalog() ->
-     ?wxLANGUAGE_TAGALOG.
+constant(constwxLANGUAGE_TAJIK) ->
+     ?wxLANGUAGE_TAJIK;
 
-wx_language_tajik() ->
-     ?wxLANGUAGE_TAJIK.
+constant(constwxLANGUAGE_TAMIL) ->
+     ?wxLANGUAGE_TAMIL;
 
-wx_language_tamil() ->
-     ?wxLANGUAGE_TAMIL.
+constant(constwxLANGUAGE_TATAR) ->
+     ?wxLANGUAGE_TATAR;
 
-wx_language_tatar() ->
-     ?wxLANGUAGE_TATAR.
+constant(constwxLANGUAGE_TELUGU) ->
+     ?wxLANGUAGE_TELUGU;
 
-wx_language_telugu() ->
-     ?wxLANGUAGE_TELUGU.
+constant(constwxLANGUAGE_THAI) ->
+     ?wxLANGUAGE_THAI;
 
-wx_language_thai() ->
-     ?wxLANGUAGE_THAI.
+constant(constwxLANGUAGE_TIBETAN) ->
+     ?wxLANGUAGE_TIBETAN;
 
-wx_language_tibetan() ->
-     ?wxLANGUAGE_TIBETAN.
+constant(constwxLANGUAGE_TIGRINYA) ->
+     ?wxLANGUAGE_TIGRINYA;
 
-wx_language_tigrinya() ->
-     ?wxLANGUAGE_TIGRINYA.
+constant(constwxLANGUAGE_TONGA) ->
+     ?wxLANGUAGE_TONGA;
 
-wx_language_tonga() ->
-     ?wxLANGUAGE_TONGA.
+constant(constwxLANGUAGE_TSONGA) ->
+     ?wxLANGUAGE_TSONGA;
 
-wx_language_tsonga() ->
-     ?wxLANGUAGE_TSONGA.
+constant(constwxLANGUAGE_TURKISH) ->
+     ?wxLANGUAGE_TURKISH;
 
-wx_language_turkish() ->
-     ?wxLANGUAGE_TURKISH.
+constant(constwxLANGUAGE_TURKMEN) ->
+     ?wxLANGUAGE_TURKMEN;
 
-wx_language_turkmen() ->
-     ?wxLANGUAGE_TURKMEN.
+constant(constwxLANGUAGE_TWI) ->
+     ?wxLANGUAGE_TWI;
 
-wx_language_twi() ->
-     ?wxLANGUAGE_TWI.
+constant(constwxLANGUAGE_UIGHUR) ->
+     ?wxLANGUAGE_UIGHUR;
 
-wx_language_uighur() ->
-     ?wxLANGUAGE_UIGHUR.
+constant(constwxLANGUAGE_UKRAINIAN) ->
+     ?wxLANGUAGE_UKRAINIAN;
 
-wx_language_ukrainian() ->
-     ?wxLANGUAGE_UKRAINIAN.
+constant(constwxLANGUAGE_URDU) ->
+     ?wxLANGUAGE_URDU;
 
-wx_language_urdu() ->
-     ?wxLANGUAGE_URDU.
+constant(constwxLANGUAGE_URDU_INDIA) ->
+     ?wxLANGUAGE_URDU_INDIA;
 
-wx_language_urdu_india() ->
-     ?wxLANGUAGE_URDU_INDIA.
+constant(constwxLANGUAGE_URDU_PAKISTAN) ->
+     ?wxLANGUAGE_URDU_PAKISTAN;
 
-wx_language_urdu_pakistan() ->
-     ?wxLANGUAGE_URDU_PAKISTAN.
+constant(constwxLANGUAGE_UZBEK) ->
+     ?wxLANGUAGE_UZBEK;
 
-wx_language_uzbek() ->
-     ?wxLANGUAGE_UZBEK.
+constant(constwxLANGUAGE_UZBEK_CYRILLIC) ->
+     ?wxLANGUAGE_UZBEK_CYRILLIC;
 
-wx_language_uzbek_cyrillic() ->
-     ?wxLANGUAGE_UZBEK_CYRILLIC.
+constant(constwxLANGUAGE_UZBEK_LATIN) ->
+     ?wxLANGUAGE_UZBEK_LATIN;
 
-wx_language_uzbek_latin() ->
-     ?wxLANGUAGE_UZBEK_LATIN.
+constant(constwxLANGUAGE_VIETNAMESE) ->
+     ?wxLANGUAGE_VIETNAMESE;
 
-wx_language_vietnamese() ->
-     ?wxLANGUAGE_VIETNAMESE.
+constant(constwxLANGUAGE_VOLAPUK) ->
+     ?wxLANGUAGE_VOLAPUK;
 
-wx_language_volapuk() ->
-     ?wxLANGUAGE_VOLAPUK.
+constant(constwxLANGUAGE_WELSH) ->
+     ?wxLANGUAGE_WELSH;
 
-wx_language_welsh() ->
-     ?wxLANGUAGE_WELSH.
+constant(constwxLANGUAGE_WOLOF) ->
+     ?wxLANGUAGE_WOLOF;
 
-wx_language_wolof() ->
-     ?wxLANGUAGE_WOLOF.
+constant(constwxLANGUAGE_XHOSA) ->
+     ?wxLANGUAGE_XHOSA;
 
-wx_language_xhosa() ->
-     ?wxLANGUAGE_XHOSA.
+constant(constwxLANGUAGE_YIDDISH) ->
+     ?wxLANGUAGE_YIDDISH;
 
-wx_language_yiddish() ->
-     ?wxLANGUAGE_YIDDISH.
+constant(constwxLANGUAGE_YORUBA) ->
+     ?wxLANGUAGE_YORUBA;
 
-wx_language_yoruba() ->
-     ?wxLANGUAGE_YORUBA.
+constant(constwxLANGUAGE_ZHUANG) ->
+     ?wxLANGUAGE_ZHUANG;
 
-wx_language_zhuang() ->
-     ?wxLANGUAGE_ZHUANG.
+constant(constwxLANGUAGE_ZULU) ->
+     ?wxLANGUAGE_ZULU;
 
-wx_language_zulu() ->
-     ?wxLANGUAGE_ZULU.
+constant(constwxLANGUAGE_USER_DEFINED) ->
+     ?wxLANGUAGE_USER_DEFINED;
 
-wx_language_user_defined() ->
-     ?wxLANGUAGE_USER_DEFINED.
+constant(constwxLANGUAGE_VALENCIAN) ->
+     ?wxLANGUAGE_VALENCIAN;
 
-wx_language_valencian() ->
-     ?wxLANGUAGE_VALENCIAN.
+constant(constwxLANGUAGE_SAMI) ->
+     ?wxLANGUAGE_SAMI;
 
-wx_language_sami() ->
-     ?wxLANGUAGE_SAMI.
+constant(constwxLayout_Default) ->
+     ?wxLayout_Default;
 
-wx_layout__default() ->
-     ?wxLayout_Default.
+constant(constwxLayout_LeftToRight) ->
+     ?wxLayout_LeftToRight;
 
-wx_layout__left_to_right() ->
-     ?wxLayout_LeftToRight.
+constant(constwxLayout_RightToLeft) ->
+     ?wxLayout_RightToLeft;
 
-wx_layout__right_to_left() ->
-     ?wxLayout_RightToLeft.
+constant(constwxLOCALE_CAT_NUMBER) ->
+     ?wxLOCALE_CAT_NUMBER;
 
-wx_locale_cat_number() ->
-     ?wxLOCALE_CAT_NUMBER.
+constant(constwxLOCALE_CAT_DATE) ->
+     ?wxLOCALE_CAT_DATE;
 
-wx_locale_cat_date() ->
-     ?wxLOCALE_CAT_DATE.
+constant(constwxLOCALE_CAT_MONEY) ->
+     ?wxLOCALE_CAT_MONEY;
 
-wx_locale_cat_money() ->
-     ?wxLOCALE_CAT_MONEY.
+constant(constwxLOCALE_CAT_MAX) ->
+     ?wxLOCALE_CAT_MAX;
 
-wx_locale_cat_max() ->
-     ?wxLOCALE_CAT_MAX.
+constant(constwxLOCALE_THOUSANDS_SEP) ->
+     ?wxLOCALE_THOUSANDS_SEP;
 
-wx_locale_thousands_sep() ->
-     ?wxLOCALE_THOUSANDS_SEP.
+constant(constwxLOCALE_DECIMAL_POINT) ->
+     ?wxLOCALE_DECIMAL_POINT;
 
-wx_locale_decimal_point() ->
-     ?wxLOCALE_DECIMAL_POINT.
+constant(constwxLOCALE_LOAD_DEFAULT) ->
+     ?wxLOCALE_LOAD_DEFAULT;
 
-wx_locale_load_default() ->
-     ?wxLOCALE_LOAD_DEFAULT.
+constant(constwxLOCALE_CONV_ENCODING) ->
+     ?wxLOCALE_CONV_ENCODING;
 
-wx_locale_conv_encoding() ->
-     ?wxLOCALE_CONV_ENCODING.
+constant(constwxLAYOUT_DEFAULT_MARGIN) ->
+     ?wxLAYOUT_DEFAULT_MARGIN;
 
-wx_layout_default_margin() ->
-     ?wxLAYOUT_DEFAULT_MARGIN.
+constant(constwxLeft) ->
+     ?wxLeft;
 
-wx_left() ->
-     ?wxLeft.
+constant(constwxTop) ->
+     ?wxTop;
 
-wx_top() ->
-     ?wxTop.
+constant(constwxRight) ->
+     ?wxRight;
 
-wx_right() ->
-     ?wxRight.
+constant(constwxBottom) ->
+     ?wxBottom;
 
-wx_bottom() ->
-     ?wxBottom.
+constant(constwxWidth) ->
+     ?wxWidth;
 
-wx_width() ->
-     ?wxWidth.
+constant(constwxHeight) ->
+     ?wxHeight;
 
-wx_height() ->
-     ?wxHeight.
+constant(constwxCentre) ->
+     ?wxCentre;
 
-wx_centre() ->
-     ?wxCentre.
+constant(constwxCenter) ->
+     ?wxCenter;
 
-wx_center() ->
-     ?wxCenter.
+constant(constwxCentreX) ->
+     ?wxCentreX;
 
-wx_centre_x() ->
-     ?wxCentreX.
+constant(constwxCentreY) ->
+     ?wxCentreY;
 
-wx_centre_y() ->
-     ?wxCentreY.
+constant(constwxUnconstrained) ->
+     ?wxUnconstrained;
 
-wx_unconstrained() ->
-     ?wxUnconstrained.
+constant(constwxAsIs) ->
+     ?wxAsIs;
 
-wx_as_is() ->
-     ?wxAsIs.
+constant(constwxPercentOf) ->
+     ?wxPercentOf;
 
-wx_percent_of() ->
-     ?wxPercentOf.
+constant(constwxAbove) ->
+     ?wxAbove;
 
-wx_above() ->
-     ?wxAbove.
+constant(constwxBelow) ->
+     ?wxBelow;
 
-wx_below() ->
-     ?wxBelow.
+constant(constwxLeftOf) ->
+     ?wxLeftOf;
 
-wx_left_of() ->
-     ?wxLeftOf.
+constant(constwxRightOf) ->
+     ?wxRightOf;
 
-wx_right_of() ->
-     ?wxRightOf.
+constant(constwxSameAs) ->
+     ?wxSameAs;
 
-wx_same_as() ->
-     ?wxSameAs.
+constant(constwxAbsolute) ->
+     ?wxAbsolute;
 
-wx_absolute() ->
-     ?wxAbsolute.
+constant(constwxKEY_NONE) ->
+     ?wxKEY_NONE;
 
-wx_key_none() ->
-     ?wxKEY_NONE.
+constant(constwxKEY_INTEGER) ->
+     ?wxKEY_INTEGER;
 
-wx_key_integer() ->
-     ?wxKEY_INTEGER.
+constant(constwxKEY_STRING) ->
+     ?wxKEY_STRING;
 
-wx_key_string() ->
-     ?wxKEY_STRING.
+constant(constwxLIST_NEXT_ABOVE) ->
+     ?wxLIST_NEXT_ABOVE;
 
-wx_list_next_above() ->
-     ?wxLIST_NEXT_ABOVE.
+constant(constwxLIST_NEXT_ALL) ->
+     ?wxLIST_NEXT_ALL;
 
-wx_list_next_all() ->
-     ?wxLIST_NEXT_ALL.
+constant(constwxLIST_NEXT_BELOW) ->
+     ?wxLIST_NEXT_BELOW;
 
-wx_list_next_below() ->
-     ?wxLIST_NEXT_BELOW.
+constant(constwxLIST_NEXT_LEFT) ->
+     ?wxLIST_NEXT_LEFT;
 
-wx_list_next_left() ->
-     ?wxLIST_NEXT_LEFT.
+constant(constwxLIST_NEXT_RIGHT) ->
+     ?wxLIST_NEXT_RIGHT;
 
-wx_list_next_right() ->
-     ?wxLIST_NEXT_RIGHT.
+constant(constwxLIST_ALIGN_DEFAULT) ->
+     ?wxLIST_ALIGN_DEFAULT;
 
-wx_list_align_default() ->
-     ?wxLIST_ALIGN_DEFAULT.
+constant(constwxLIST_ALIGN_LEFT) ->
+     ?wxLIST_ALIGN_LEFT;
 
-wx_list_align_left() ->
-     ?wxLIST_ALIGN_LEFT.
+constant(constwxLIST_ALIGN_TOP) ->
+     ?wxLIST_ALIGN_TOP;
 
-wx_list_align_top() ->
-     ?wxLIST_ALIGN_TOP.
+constant(constwxLIST_ALIGN_SNAP_TO_GRID) ->
+     ?wxLIST_ALIGN_SNAP_TO_GRID;
 
-wx_list_align_snap_to_grid() ->
-     ?wxLIST_ALIGN_SNAP_TO_GRID.
+constant(constwxLIST_AUTOSIZE) ->
+     ?wxLIST_AUTOSIZE;
 
-wx_list_autosize() ->
-     ?wxLIST_AUTOSIZE.
+constant(constwxLIST_AUTOSIZE_USEHEADER) ->
+     ?wxLIST_AUTOSIZE_USEHEADER;
 
-wx_list_autosize_useheader() ->
-     ?wxLIST_AUTOSIZE_USEHEADER.
+constant(constwxLIST_RECT_BOUNDS) ->
+     ?wxLIST_RECT_BOUNDS;
 
-wx_list_rect_bounds() ->
-     ?wxLIST_RECT_BOUNDS.
+constant(constwxLIST_RECT_ICON) ->
+     ?wxLIST_RECT_ICON;
 
-wx_list_rect_icon() ->
-     ?wxLIST_RECT_ICON.
+constant(constwxLIST_RECT_LABEL) ->
+     ?wxLIST_RECT_LABEL;
 
-wx_list_rect_label() ->
-     ?wxLIST_RECT_LABEL.
+constant(constwxLIST_FIND_UP) ->
+     ?wxLIST_FIND_UP;
 
-wx_list_find_up() ->
-     ?wxLIST_FIND_UP.
+constant(constwxLIST_FIND_DOWN) ->
+     ?wxLIST_FIND_DOWN;
 
-wx_list_find_down() ->
-     ?wxLIST_FIND_DOWN.
+constant(constwxLIST_FIND_LEFT) ->
+     ?wxLIST_FIND_LEFT;
 
-wx_list_find_left() ->
-     ?wxLIST_FIND_LEFT.
+constant(constwxLIST_FIND_RIGHT) ->
+     ?wxLIST_FIND_RIGHT;
 
-wx_list_find_right() ->
-     ?wxLIST_FIND_RIGHT.
+constant(constwxLIST_HITTEST_ONITEM) ->
+     ?wxLIST_HITTEST_ONITEM;
 
-wx_list_hittest_onitem() ->
-     ?wxLIST_HITTEST_ONITEM.
+constant(constwxLIST_HITTEST_TORIGHT) ->
+     ?wxLIST_HITTEST_TORIGHT;
 
-wx_list_hittest_toright() ->
-     ?wxLIST_HITTEST_TORIGHT.
+constant(constwxLIST_HITTEST_TOLEFT) ->
+     ?wxLIST_HITTEST_TOLEFT;
 
-wx_list_hittest_toleft() ->
-     ?wxLIST_HITTEST_TOLEFT.
+constant(constwxLIST_HITTEST_ONITEMSTATEICON) ->
+     ?wxLIST_HITTEST_ONITEMSTATEICON;
 
-wx_list_hittest_onitemstateicon() ->
-     ?wxLIST_HITTEST_ONITEMSTATEICON.
+constant(constwxLIST_HITTEST_ONITEMRIGHT) ->
+     ?wxLIST_HITTEST_ONITEMRIGHT;
 
-wx_list_hittest_onitemright() ->
-     ?wxLIST_HITTEST_ONITEMRIGHT.
+constant(constwxLIST_HITTEST_ONITEMLABEL) ->
+     ?wxLIST_HITTEST_ONITEMLABEL;
 
-wx_list_hittest_onitemlabel() ->
-     ?wxLIST_HITTEST_ONITEMLABEL.
+constant(constwxLIST_HITTEST_ONITEMICON) ->
+     ?wxLIST_HITTEST_ONITEMICON;
 
-wx_list_hittest_onitemicon() ->
-     ?wxLIST_HITTEST_ONITEMICON.
+constant(constwxLIST_HITTEST_NOWHERE) ->
+     ?wxLIST_HITTEST_NOWHERE;
 
-wx_list_hittest_nowhere() ->
-     ?wxLIST_HITTEST_NOWHERE.
+constant(constwxLIST_HITTEST_BELOW) ->
+     ?wxLIST_HITTEST_BELOW;
 
-wx_list_hittest_below() ->
-     ?wxLIST_HITTEST_BELOW.
+constant(constwxLIST_HITTEST_ABOVE) ->
+     ?wxLIST_HITTEST_ABOVE;
 
-wx_list_hittest_above() ->
-     ?wxLIST_HITTEST_ABOVE.
+constant(constwxLIST_STATE_SOURCE) ->
+     ?wxLIST_STATE_SOURCE;
 
-wx_list_state_source() ->
-     ?wxLIST_STATE_SOURCE.
+constant(constwxLIST_STATE_PICKED) ->
+     ?wxLIST_STATE_PICKED;
 
-wx_list_state_picked() ->
-     ?wxLIST_STATE_PICKED.
+constant(constwxLIST_STATE_INUSE) ->
+     ?wxLIST_STATE_INUSE;
 
-wx_list_state_inuse() ->
-     ?wxLIST_STATE_INUSE.
+constant(constwxLIST_STATE_FILTERED) ->
+     ?wxLIST_STATE_FILTERED;
 
-wx_list_state_filtered() ->
-     ?wxLIST_STATE_FILTERED.
+constant(constwxLIST_STATE_DISABLED) ->
+     ?wxLIST_STATE_DISABLED;
 
-wx_list_state_disabled() ->
-     ?wxLIST_STATE_DISABLED.
+constant(constwxLIST_STATE_CUT) ->
+     ?wxLIST_STATE_CUT;
 
-wx_list_state_cut() ->
-     ?wxLIST_STATE_CUT.
+constant(constwxLIST_STATE_SELECTED) ->
+     ?wxLIST_STATE_SELECTED;
 
-wx_list_state_selected() ->
-     ?wxLIST_STATE_SELECTED.
+constant(constwxLIST_STATE_FOCUSED) ->
+     ?wxLIST_STATE_FOCUSED;
 
-wx_list_state_focused() ->
-     ?wxLIST_STATE_FOCUSED.
+constant(constwxLIST_STATE_DROPHILITED) ->
+     ?wxLIST_STATE_DROPHILITED;
 
-wx_list_state_drophilited() ->
-     ?wxLIST_STATE_DROPHILITED.
+constant(constwxLIST_STATE_DONTCARE) ->
+     ?wxLIST_STATE_DONTCARE;
 
-wx_list_state_dontcare() ->
-     ?wxLIST_STATE_DONTCARE.
+constant(constwxLIST_MASK_FORMAT) ->
+     ?wxLIST_MASK_FORMAT;
 
-wx_list_mask_format() ->
-     ?wxLIST_MASK_FORMAT.
+constant(constwxLIST_MASK_WIDTH) ->
+     ?wxLIST_MASK_WIDTH;
 
-wx_list_mask_width() ->
-     ?wxLIST_MASK_WIDTH.
+constant(constwxLIST_SET_ITEM) ->
+     ?wxLIST_SET_ITEM;
 
-wx_list_set_item() ->
-     ?wxLIST_SET_ITEM.
+constant(constwxLIST_MASK_DATA) ->
+     ?wxLIST_MASK_DATA;
 
-wx_list_mask_data() ->
-     ?wxLIST_MASK_DATA.
+constant(constwxLIST_MASK_IMAGE) ->
+     ?wxLIST_MASK_IMAGE;
 
-wx_list_mask_image() ->
-     ?wxLIST_MASK_IMAGE.
+constant(constwxLIST_MASK_TEXT) ->
+     ?wxLIST_MASK_TEXT;
 
-wx_list_mask_text() ->
-     ?wxLIST_MASK_TEXT.
+constant(constwxLIST_MASK_STATE) ->
+     ?wxLIST_MASK_STATE;
 
-wx_list_mask_state() ->
-     ?wxLIST_MASK_STATE.
+constant(constwxLC_USER_TEXT) ->
+     ?wxLC_USER_TEXT;
 
-wx_lc_user_text() ->
-     ?wxLC_USER_TEXT.
+constant(constwxLC_MASK_SORT) ->
+     ?wxLC_MASK_SORT;
 
-wx_lc_mask_sort() ->
-     ?wxLC_MASK_SORT.
+constant(constwxLC_MASK_ALIGN) ->
+     ?wxLC_MASK_ALIGN;
 
-wx_lc_mask_align() ->
-     ?wxLC_MASK_ALIGN.
+constant(constwxLC_MASK_TYPE) ->
+     ?wxLC_MASK_TYPE;
 
-wx_lc_mask_type() ->
-     ?wxLC_MASK_TYPE.
+constant(constwxLC_SORT_DESCENDING) ->
+     ?wxLC_SORT_DESCENDING;
 
-wx_lc_sort_descending() ->
-     ?wxLC_SORT_DESCENDING.
+constant(constwxLC_SORT_ASCENDING) ->
+     ?wxLC_SORT_ASCENDING;
 
-wx_lc_sort_ascending() ->
-     ?wxLC_SORT_ASCENDING.
+constant(constwxLC_SINGLE_SEL) ->
+     ?wxLC_SINGLE_SEL;
 
-wx_lc_single_sel() ->
-     ?wxLC_SINGLE_SEL.
+constant(constwxLC_NO_SORT_HEADER) ->
+     ?wxLC_NO_SORT_HEADER;
 
-wx_lc_no_sort_header() ->
-     ?wxLC_NO_SORT_HEADER.
+constant(constwxLC_NO_HEADER) ->
+     ?wxLC_NO_HEADER;
 
-wx_lc_no_header() ->
-     ?wxLC_NO_HEADER.
+constant(constwxLC_EDIT_LABELS) ->
+     ?wxLC_EDIT_LABELS;
 
-wx_lc_edit_labels() ->
-     ?wxLC_EDIT_LABELS.
+constant(constwxLC_VIRTUAL) ->
+     ?wxLC_VIRTUAL;
 
-wx_lc_virtual() ->
-     ?wxLC_VIRTUAL.
+constant(constwxLC_AUTOARRANGE) ->
+     ?wxLC_AUTOARRANGE;
 
-wx_lc_autoarrange() ->
-     ?wxLC_AUTOARRANGE.
+constant(constwxLC_ALIGN_LEFT) ->
+     ?wxLC_ALIGN_LEFT;
 
-wx_lc_align_left() ->
-     ?wxLC_ALIGN_LEFT.
+constant(constwxLC_ALIGN_TOP) ->
+     ?wxLC_ALIGN_TOP;
 
-wx_lc_align_top() ->
-     ?wxLC_ALIGN_TOP.
+constant(constwxLC_REPORT) ->
+     ?wxLC_REPORT;
 
-wx_lc_report() ->
-     ?wxLC_REPORT.
+constant(constwxLC_LIST) ->
+     ?wxLC_LIST;
 
-wx_lc_list() ->
-     ?wxLC_LIST.
+constant(constwxLC_SMALL_ICON) ->
+     ?wxLC_SMALL_ICON;
 
-wx_lc_small_icon() ->
-     ?wxLC_SMALL_ICON.
+constant(constwxLC_ICON) ->
+     ?wxLC_ICON;
 
-wx_lc_icon() ->
-     ?wxLC_ICON.
+constant(constwxLC_HRULES) ->
+     ?wxLC_HRULES;
 
-wx_lc_hrules() ->
-     ?wxLC_HRULES.
+constant(constwxLC_VRULES) ->
+     ?wxLC_VRULES;
 
-wx_lc_vrules() ->
-     ?wxLC_VRULES.
+constant(constwxLIST_FORMAT_LEFT) ->
+     ?wxLIST_FORMAT_LEFT;
 
-wx_list_format_left() ->
-     ?wxLIST_FORMAT_LEFT.
+constant(constwxLIST_FORMAT_RIGHT) ->
+     ?wxLIST_FORMAT_RIGHT;
 
-wx_list_format_right() ->
-     ?wxLIST_FORMAT_RIGHT.
+constant(constwxLIST_FORMAT_CENTRE) ->
+     ?wxLIST_FORMAT_CENTRE;
 
-wx_list_format_centre() ->
-     ?wxLIST_FORMAT_CENTRE.
+constant(constwxLIST_FORMAT_CENTER) ->
+     ?wxLIST_FORMAT_CENTER;
 
-wx_list_format_center() ->
-     ?wxLIST_FORMAT_CENTER.
+constant(constwxLB_ALIGN_MASK) ->
+     ?wxLB_ALIGN_MASK;
 
-wx_lb_align_mask() ->
-     ?wxLB_ALIGN_MASK.
+constant(constwxLB_RIGHT) ->
+     ?wxLB_RIGHT;
 
-wx_lb_right() ->
-     ?wxLB_RIGHT.
+constant(constwxLB_LEFT) ->
+     ?wxLB_LEFT;
 
-wx_lb_left() ->
-     ?wxLB_LEFT.
+constant(constwxLB_BOTTOM) ->
+     ?wxLB_BOTTOM;
 
-wx_lb_bottom() ->
-     ?wxLB_BOTTOM.
+constant(constwxLB_TOP) ->
+     ?wxLB_TOP;
 
-wx_lb_top() ->
-     ?wxLB_TOP.
+constant(constwxLB_DEFAULT) ->
+     ?wxLB_DEFAULT;
 
-wx_lb_default() ->
-     ?wxLB_DEFAULT.
+constant(constwxTraceRefCount) ->
+     ?wxTraceRefCount;
 
-wx_trace_ref_count() ->
-     ?wxTraceRefCount.
+constant(constwxTraceResAlloc) ->
+     ?wxTraceResAlloc;
 
-wx_trace_res_alloc() ->
-     ?wxTraceResAlloc.
+constant(constwxTraceMessages) ->
+     ?wxTraceMessages;
 
-wx_trace_messages() ->
-     ?wxTraceMessages.
+constant(constwxTraceMemAlloc) ->
+     ?wxTraceMemAlloc;
 
-wx_trace_mem_alloc() ->
-     ?wxTraceMemAlloc.
+constant(constwxNB_HITTEST_NOWHERE) ->
+     ?wxNB_HITTEST_NOWHERE;
 
-wx_nb_hittest_nowhere() ->
-     ?wxNB_HITTEST_NOWHERE.
+constant(constwxNB_HITTEST_ONICON) ->
+     ?wxNB_HITTEST_ONICON;
 
-wx_nb_hittest_onicon() ->
-     ?wxNB_HITTEST_ONICON.
+constant(constwxNB_HITTEST_ONLABEL) ->
+     ?wxNB_HITTEST_ONLABEL;
 
-wx_nb_hittest_onlabel() ->
-     ?wxNB_HITTEST_ONLABEL.
+constant(constwxNB_HITTEST_ONITEM) ->
+     ?wxNB_HITTEST_ONITEM;
 
-wx_nb_hittest_onitem() ->
-     ?wxNB_HITTEST_ONITEM.
+constant(constwxNB_HITTEST_ONPAGE) ->
+     ?wxNB_HITTEST_ONPAGE;
 
-wx_nb_hittest_onpage() ->
-     ?wxNB_HITTEST_ONPAGE.
+constant(constwxNB_FLAT) ->
+     ?wxNB_FLAT;
 
-wx_nb_flat() ->
-     ?wxNB_FLAT.
+constant(constwxNB_NOPAGETHEME) ->
+     ?wxNB_NOPAGETHEME;
 
-wx_nb_nopagetheme() ->
-     ?wxNB_NOPAGETHEME.
+constant(constwxNB_MULTILINE) ->
+     ?wxNB_MULTILINE;
 
-wx_nb_multiline() ->
-     ?wxNB_MULTILINE.
+constant(constwxNB_FIXEDWIDTH) ->
+     ?wxNB_FIXEDWIDTH;
 
-wx_nb_fixedwidth() ->
-     ?wxNB_FIXEDWIDTH.
+constant(constwxNB_RIGHT) ->
+     ?wxNB_RIGHT;
 
-wx_nb_right() ->
-     ?wxNB_RIGHT.
+constant(constwxNB_LEFT) ->
+     ?wxNB_LEFT;
 
-wx_nb_left() ->
-     ?wxNB_LEFT.
+constant(constwxNB_BOTTOM) ->
+     ?wxNB_BOTTOM;
 
-wx_nb_bottom() ->
-     ?wxNB_BOTTOM.
+constant(constwxNB_TOP) ->
+     ?wxNB_TOP;
 
-wx_nb_top() ->
-     ?wxNB_TOP.
+constant(constwxNB_DEFAULT) ->
+     ?wxNB_DEFAULT;
 
-wx_nb_default() ->
-     ?wxNB_DEFAULT.
+constant(constwxPB_USE_TEXTCTRL) ->
+     ?wxPB_USE_TEXTCTRL;
 
-wx_pb_use_textctrl() ->
-     ?wxPB_USE_TEXTCTRL.
+constant(constwxID_PREVIEW_GOTO) ->
+     ?wxID_PREVIEW_GOTO;
 
-wx_id_preview_goto() ->
-     ?wxID_PREVIEW_GOTO.
+constant(constwxID_PREVIEW_LAST) ->
+     ?wxID_PREVIEW_LAST;
 
-wx_id_preview_last() ->
-     ?wxID_PREVIEW_LAST.
+constant(constwxID_PREVIEW_FIRST) ->
+     ?wxID_PREVIEW_FIRST;
 
-wx_id_preview_first() ->
-     ?wxID_PREVIEW_FIRST.
+constant(constwxID_PREVIEW_ZOOM) ->
+     ?wxID_PREVIEW_ZOOM;
 
-wx_id_preview_zoom() ->
-     ?wxID_PREVIEW_ZOOM.
+constant(constwxID_PREVIEW_PRINT) ->
+     ?wxID_PREVIEW_PRINT;
 
-wx_id_preview_print() ->
-     ?wxID_PREVIEW_PRINT.
+constant(constwxID_PREVIEW_PREVIOUS) ->
+     ?wxID_PREVIEW_PREVIOUS;
 
-wx_id_preview_previous() ->
-     ?wxID_PREVIEW_PREVIOUS.
+constant(constwxID_PREVIEW_NEXT) ->
+     ?wxID_PREVIEW_NEXT;
 
-wx_id_preview_next() ->
-     ?wxID_PREVIEW_NEXT.
+constant(constwxID_PREVIEW_CLOSE) ->
+     ?wxID_PREVIEW_CLOSE;
 
-wx_id_preview_close() ->
-     ?wxID_PREVIEW_CLOSE.
+constant(constwxPREVIEW_DEFAULT) ->
+     ?wxPREVIEW_DEFAULT;
 
-wx_preview_default() ->
-     ?wxPREVIEW_DEFAULT.
+constant(constwxPREVIEW_GOTO) ->
+     ?wxPREVIEW_GOTO;
 
-wx_preview_goto() ->
-     ?wxPREVIEW_GOTO.
+constant(constwxPREVIEW_LAST) ->
+     ?wxPREVIEW_LAST;
 
-wx_preview_last() ->
-     ?wxPREVIEW_LAST.
+constant(constwxPREVIEW_FIRST) ->
+     ?wxPREVIEW_FIRST;
 
-wx_preview_first() ->
-     ?wxPREVIEW_FIRST.
+constant(constwxPREVIEW_ZOOM) ->
+     ?wxPREVIEW_ZOOM;
 
-wx_preview_zoom() ->
-     ?wxPREVIEW_ZOOM.
+constant(constwxPREVIEW_NEXT) ->
+     ?wxPREVIEW_NEXT;
 
-wx_preview_next() ->
-     ?wxPREVIEW_NEXT.
+constant(constwxPREVIEW_PREVIOUS) ->
+     ?wxPREVIEW_PREVIOUS;
 
-wx_preview_previous() ->
-     ?wxPREVIEW_PREVIOUS.
+constant(constwxPREVIEW_PRINT) ->
+     ?wxPREVIEW_PRINT;
 
-wx_preview_print() ->
-     ?wxPREVIEW_PRINT.
+constant(constwxPRINTER_NO_ERROR) ->
+     ?wxPRINTER_NO_ERROR;
 
-wx_printer_no_error() ->
-     ?wxPRINTER_NO_ERROR.
+constant(constwxPRINTER_CANCELLED) ->
+     ?wxPRINTER_CANCELLED;
 
-wx_printer_cancelled() ->
-     ?wxPRINTER_CANCELLED.
+constant(constwxPRINTER_ERROR) ->
+     ?wxPRINTER_ERROR;
 
-wx_printer_error() ->
-     ?wxPRINTER_ERROR.
+constant(constwxPD_CAN_SKIP) ->
+     ?wxPD_CAN_SKIP;
 
-wx_pd_can_skip() ->
-     ?wxPD_CAN_SKIP.
+constant(constwxPD_REMAINING_TIME) ->
+     ?wxPD_REMAINING_TIME;
 
-wx_pd_remaining_time() ->
-     ?wxPD_REMAINING_TIME.
+constant(constwxPD_SMOOTH) ->
+     ?wxPD_SMOOTH;
 
-wx_pd_smooth() ->
-     ?wxPD_SMOOTH.
+constant(constwxPD_ESTIMATED_TIME) ->
+     ?wxPD_ESTIMATED_TIME;
 
-wx_pd_estimated_time() ->
-     ?wxPD_ESTIMATED_TIME.
+constant(constwxPD_ELAPSED_TIME) ->
+     ?wxPD_ELAPSED_TIME;
 
-wx_pd_elapsed_time() ->
-     ?wxPD_ELAPSED_TIME.
+constant(constwxPD_AUTO_HIDE) ->
+     ?wxPD_AUTO_HIDE;
 
-wx_pd_auto_hide() ->
-     ?wxPD_AUTO_HIDE.
+constant(constwxPD_APP_MODAL) ->
+     ?wxPD_APP_MODAL;
 
-wx_pd_app_modal() ->
-     ?wxPD_APP_MODAL.
+constant(constwxPD_CAN_ABORT) ->
+     ?wxPD_CAN_ABORT;
 
-wx_pd_can_abort() ->
-     ?wxPD_CAN_ABORT.
+constant(constwxOutRegion) ->
+     ?wxOutRegion;
 
-wx_out_region() ->
-     ?wxOutRegion.
+constant(constwxPartRegion) ->
+     ?wxPartRegion;
 
-wx_part_region() ->
-     ?wxPartRegion.
+constant(constwxInRegion) ->
+     ?wxInRegion;
 
-wx_in_region() ->
-     ?wxInRegion.
+constant(constwxRGN_AND) ->
+     ?wxRGN_AND;
 
-wx_rgn_and() ->
-     ?wxRGN_AND.
+constant(constwxRGN_COPY) ->
+     ?wxRGN_COPY;
 
-wx_rgn_copy() ->
-     ?wxRGN_COPY.
+constant(constwxRGN_DIFF) ->
+     ?wxRGN_DIFF;
 
-wx_rgn_diff() ->
-     ?wxRGN_DIFF.
+constant(constwxRGN_OR) ->
+     ?wxRGN_OR;
 
-wx_rgn_or() ->
-     ?wxRGN_OR.
+constant(constwxRGN_XOR) ->
+     ?wxRGN_XOR;
 
-wx_rgn_xor() ->
-     ?wxRGN_XOR.
+constant(constwxScrolledWindowStyle) ->
+     ?wxScrolledWindowStyle;
 
-wx_scrolled_window_style() ->
-     ?wxScrolledWindowStyle.
+constant(constwxSYS_COLOUR_SCROLLBAR) ->
+     ?wxSYS_COLOUR_SCROLLBAR;
 
-wx_sys_colour_scrollbar() ->
-     ?wxSYS_COLOUR_SCROLLBAR.
+constant(constwxSYS_COLOUR_BACKGROUND) ->
+     ?wxSYS_COLOUR_BACKGROUND;
 
-wx_sys_colour_background() ->
-     ?wxSYS_COLOUR_BACKGROUND.
+constant(constwxSYS_COLOUR_DESKTOP) ->
+     ?wxSYS_COLOUR_DESKTOP;
 
-wx_sys_colour_desktop() ->
-     ?wxSYS_COLOUR_DESKTOP.
+constant(constwxSYS_COLOUR_ACTIVECAPTION) ->
+     ?wxSYS_COLOUR_ACTIVECAPTION;
 
-wx_sys_colour_activecaption() ->
-     ?wxSYS_COLOUR_ACTIVECAPTION.
+constant(constwxSYS_COLOUR_INACTIVECAPTION) ->
+     ?wxSYS_COLOUR_INACTIVECAPTION;
 
-wx_sys_colour_inactivecaption() ->
-     ?wxSYS_COLOUR_INACTIVECAPTION.
+constant(constwxSYS_COLOUR_MENU) ->
+     ?wxSYS_COLOUR_MENU;
 
-wx_sys_colour_menu() ->
-     ?wxSYS_COLOUR_MENU.
+constant(constwxSYS_COLOUR_WINDOW) ->
+     ?wxSYS_COLOUR_WINDOW;
 
-wx_sys_colour_window() ->
-     ?wxSYS_COLOUR_WINDOW.
+constant(constwxSYS_COLOUR_WINDOWFRAME) ->
+     ?wxSYS_COLOUR_WINDOWFRAME;
 
-wx_sys_colour_windowframe() ->
-     ?wxSYS_COLOUR_WINDOWFRAME.
+constant(constwxSYS_COLOUR_MENUTEXT) ->
+     ?wxSYS_COLOUR_MENUTEXT;
 
-wx_sys_colour_menutext() ->
-     ?wxSYS_COLOUR_MENUTEXT.
+constant(constwxSYS_COLOUR_WINDOWTEXT) ->
+     ?wxSYS_COLOUR_WINDOWTEXT;
 
-wx_sys_colour_windowtext() ->
-     ?wxSYS_COLOUR_WINDOWTEXT.
+constant(constwxSYS_COLOUR_CAPTIONTEXT) ->
+     ?wxSYS_COLOUR_CAPTIONTEXT;
 
-wx_sys_colour_captiontext() ->
-     ?wxSYS_COLOUR_CAPTIONTEXT.
+constant(constwxSYS_COLOUR_ACTIVEBORDER) ->
+     ?wxSYS_COLOUR_ACTIVEBORDER;
 
-wx_sys_colour_activeborder() ->
-     ?wxSYS_COLOUR_ACTIVEBORDER.
+constant(constwxSYS_COLOUR_INACTIVEBORDER) ->
+     ?wxSYS_COLOUR_INACTIVEBORDER;
 
-wx_sys_colour_inactiveborder() ->
-     ?wxSYS_COLOUR_INACTIVEBORDER.
+constant(constwxSYS_COLOUR_APPWORKSPACE) ->
+     ?wxSYS_COLOUR_APPWORKSPACE;
 
-wx_sys_colour_appworkspace() ->
-     ?wxSYS_COLOUR_APPWORKSPACE.
+constant(constwxSYS_COLOUR_HIGHLIGHT) ->
+     ?wxSYS_COLOUR_HIGHLIGHT;
 
-wx_sys_colour_highlight() ->
-     ?wxSYS_COLOUR_HIGHLIGHT.
+constant(constwxSYS_COLOUR_HIGHLIGHTTEXT) ->
+     ?wxSYS_COLOUR_HIGHLIGHTTEXT;
 
-wx_sys_colour_highlighttext() ->
-     ?wxSYS_COLOUR_HIGHLIGHTTEXT.
+constant(constwxSYS_COLOUR_BTNFACE) ->
+     ?wxSYS_COLOUR_BTNFACE;
 
-wx_sys_colour_btnface() ->
-     ?wxSYS_COLOUR_BTNFACE.
+constant(constwxSYS_COLOUR_3DFACE) ->
+     ?wxSYS_COLOUR_3DFACE;
 
-wx_sys_colour_3_dface() ->
-     ?wxSYS_COLOUR_3DFACE.
+constant(constwxSYS_COLOUR_BTNSHADOW) ->
+     ?wxSYS_COLOUR_BTNSHADOW;
 
-wx_sys_colour_btnshadow() ->
-     ?wxSYS_COLOUR_BTNSHADOW.
+constant(constwxSYS_COLOUR_3DSHADOW) ->
+     ?wxSYS_COLOUR_3DSHADOW;
 
-wx_sys_colour_3_dshadow() ->
-     ?wxSYS_COLOUR_3DSHADOW.
+constant(constwxSYS_COLOUR_GRAYTEXT) ->
+     ?wxSYS_COLOUR_GRAYTEXT;
 
-wx_sys_colour_graytext() ->
-     ?wxSYS_COLOUR_GRAYTEXT.
+constant(constwxSYS_COLOUR_BTNTEXT) ->
+     ?wxSYS_COLOUR_BTNTEXT;
 
-wx_sys_colour_btntext() ->
-     ?wxSYS_COLOUR_BTNTEXT.
+constant(constwxSYS_COLOUR_INACTIVECAPTIONTEXT) ->
+     ?wxSYS_COLOUR_INACTIVECAPTIONTEXT;
 
-wx_sys_colour_inactivecaptiontext() ->
-     ?wxSYS_COLOUR_INACTIVECAPTIONTEXT.
+constant(constwxSYS_COLOUR_BTNHIGHLIGHT) ->
+     ?wxSYS_COLOUR_BTNHIGHLIGHT;
 
-wx_sys_colour_btnhighlight() ->
-     ?wxSYS_COLOUR_BTNHIGHLIGHT.
+constant(constwxSYS_COLOUR_BTNHILIGHT) ->
+     ?wxSYS_COLOUR_BTNHILIGHT;
 
-wx_sys_colour_btnhilight() ->
-     ?wxSYS_COLOUR_BTNHILIGHT.
+constant(constwxSYS_COLOUR_3DHIGHLIGHT) ->
+     ?wxSYS_COLOUR_3DHIGHLIGHT;
 
-wx_sys_colour_3_dhighlight() ->
-     ?wxSYS_COLOUR_3DHIGHLIGHT.
+constant(constwxSYS_COLOUR_3DHILIGHT) ->
+     ?wxSYS_COLOUR_3DHILIGHT;
 
-wx_sys_colour_3_dhilight() ->
-     ?wxSYS_COLOUR_3DHILIGHT.
+constant(constwxSYS_COLOUR_3DDKSHADOW) ->
+     ?wxSYS_COLOUR_3DDKSHADOW;
 
-wx_sys_colour_3_ddkshadow() ->
-     ?wxSYS_COLOUR_3DDKSHADOW.
+constant(constwxSYS_COLOUR_3DLIGHT) ->
+     ?wxSYS_COLOUR_3DLIGHT;
 
-wx_sys_colour_3_dlight() ->
-     ?wxSYS_COLOUR_3DLIGHT.
+constant(constwxSYS_COLOUR_INFOTEXT) ->
+     ?wxSYS_COLOUR_INFOTEXT;
 
-wx_sys_colour_infotext() ->
-     ?wxSYS_COLOUR_INFOTEXT.
+constant(constwxSYS_COLOUR_INFOBK) ->
+     ?wxSYS_COLOUR_INFOBK;
 
-wx_sys_colour_infobk() ->
-     ?wxSYS_COLOUR_INFOBK.
+constant(constwxSYS_COLOUR_LISTBOX) ->
+     ?wxSYS_COLOUR_LISTBOX;
 
-wx_sys_colour_listbox() ->
-     ?wxSYS_COLOUR_LISTBOX.
+constant(constwxSYS_COLOUR_HOTLIGHT) ->
+     ?wxSYS_COLOUR_HOTLIGHT;
 
-wx_sys_colour_hotlight() ->
-     ?wxSYS_COLOUR_HOTLIGHT.
+constant(constwxSYS_COLOUR_GRADIENTACTIVECAPTION) ->
+     ?wxSYS_COLOUR_GRADIENTACTIVECAPTION;
 
-wx_sys_colour_gradientactivecaption() ->
-     ?wxSYS_COLOUR_GRADIENTACTIVECAPTION.
+constant(constwxSYS_COLOUR_GRADIENTINACTIVECAPTION) ->
+     ?wxSYS_COLOUR_GRADIENTINACTIVECAPTION;
 
-wx_sys_colour_gradientinactivecaption() ->
-     ?wxSYS_COLOUR_GRADIENTINACTIVECAPTION.
+constant(constwxSYS_COLOUR_MENUHILIGHT) ->
+     ?wxSYS_COLOUR_MENUHILIGHT;
 
-wx_sys_colour_menuhilight() ->
-     ?wxSYS_COLOUR_MENUHILIGHT.
+constant(constwxSYS_COLOUR_MENUBAR) ->
+     ?wxSYS_COLOUR_MENUBAR;
 
-wx_sys_colour_menubar() ->
-     ?wxSYS_COLOUR_MENUBAR.
+constant(constwxSYS_COLOUR_LISTBOXTEXT) ->
+     ?wxSYS_COLOUR_LISTBOXTEXT;
 
-wx_sys_colour_listboxtext() ->
-     ?wxSYS_COLOUR_LISTBOXTEXT.
+constant(constwxSYS_COLOUR_LISTBOXHIGHLIGHTTEXT) ->
+     ?wxSYS_COLOUR_LISTBOXHIGHLIGHTTEXT;
 
-wx_sys_colour_listboxhighlighttext() ->
-     ?wxSYS_COLOUR_LISTBOXHIGHLIGHTTEXT.
+constant(constwxSYS_COLOUR_MAX) ->
+     ?wxSYS_COLOUR_MAX;
 
-wx_sys_colour_max() ->
-     ?wxSYS_COLOUR_MAX.
+constant(constwxSYS_CAN_DRAW_FRAME_DECORATIONS) ->
+     ?wxSYS_CAN_DRAW_FRAME_DECORATIONS;
 
-wx_sys_can_draw_frame_decorations() ->
-     ?wxSYS_CAN_DRAW_FRAME_DECORATIONS.
+constant(constwxSYS_CAN_ICONIZE_FRAME) ->
+     ?wxSYS_CAN_ICONIZE_FRAME;
 
-wx_sys_can_iconize_frame() ->
-     ?wxSYS_CAN_ICONIZE_FRAME.
+constant(constwxSYS_TABLET_PRESENT) ->
+     ?wxSYS_TABLET_PRESENT;
 
-wx_sys_tablet_present() ->
-     ?wxSYS_TABLET_PRESENT.
+constant(constwxSYS_OEM_FIXED_FONT) ->
+     ?wxSYS_OEM_FIXED_FONT;
 
-wx_sys_oem_fixed_font() ->
-     ?wxSYS_OEM_FIXED_FONT.
+constant(constwxSYS_ANSI_FIXED_FONT) ->
+     ?wxSYS_ANSI_FIXED_FONT;
 
-wx_sys_ansi_fixed_font() ->
-     ?wxSYS_ANSI_FIXED_FONT.
+constant(constwxSYS_ANSI_VAR_FONT) ->
+     ?wxSYS_ANSI_VAR_FONT;
 
-wx_sys_ansi_var_font() ->
-     ?wxSYS_ANSI_VAR_FONT.
+constant(constwxSYS_SYSTEM_FONT) ->
+     ?wxSYS_SYSTEM_FONT;
 
-wx_sys_system_font() ->
-     ?wxSYS_SYSTEM_FONT.
+constant(constwxSYS_DEVICE_DEFAULT_FONT) ->
+     ?wxSYS_DEVICE_DEFAULT_FONT;
 
-wx_sys_device_default_font() ->
-     ?wxSYS_DEVICE_DEFAULT_FONT.
+constant(constwxSYS_DEFAULT_PALETTE) ->
+     ?wxSYS_DEFAULT_PALETTE;
 
-wx_sys_default_palette() ->
-     ?wxSYS_DEFAULT_PALETTE.
+constant(constwxSYS_SYSTEM_FIXED_FONT) ->
+     ?wxSYS_SYSTEM_FIXED_FONT;
 
-wx_sys_system_fixed_font() ->
-     ?wxSYS_SYSTEM_FIXED_FONT.
+constant(constwxSYS_DEFAULT_GUI_FONT) ->
+     ?wxSYS_DEFAULT_GUI_FONT;
 
-wx_sys_default_gui_font() ->
-     ?wxSYS_DEFAULT_GUI_FONT.
+constant(constwxSYS_ICONTITLE_FONT) ->
+     ?wxSYS_ICONTITLE_FONT;
 
-wx_sys_icontitle_font() ->
-     ?wxSYS_ICONTITLE_FONT.
+constant(constwxSYS_MOUSE_BUTTONS) ->
+     ?wxSYS_MOUSE_BUTTONS;
 
-wx_sys_mouse_buttons() ->
-     ?wxSYS_MOUSE_BUTTONS.
+constant(constwxSYS_BORDER_X) ->
+     ?wxSYS_BORDER_X;
 
-wx_sys_border_x() ->
-     ?wxSYS_BORDER_X.
+constant(constwxSYS_BORDER_Y) ->
+     ?wxSYS_BORDER_Y;
 
-wx_sys_border_y() ->
-     ?wxSYS_BORDER_Y.
+constant(constwxSYS_CURSOR_X) ->
+     ?wxSYS_CURSOR_X;
 
-wx_sys_cursor_x() ->
-     ?wxSYS_CURSOR_X.
+constant(constwxSYS_CURSOR_Y) ->
+     ?wxSYS_CURSOR_Y;
 
-wx_sys_cursor_y() ->
-     ?wxSYS_CURSOR_Y.
+constant(constwxSYS_DCLICK_X) ->
+     ?wxSYS_DCLICK_X;
 
-wx_sys_dclick_x() ->
-     ?wxSYS_DCLICK_X.
+constant(constwxSYS_DCLICK_Y) ->
+     ?wxSYS_DCLICK_Y;
 
-wx_sys_dclick_y() ->
-     ?wxSYS_DCLICK_Y.
+constant(constwxSYS_DRAG_X) ->
+     ?wxSYS_DRAG_X;
 
-wx_sys_drag_x() ->
-     ?wxSYS_DRAG_X.
+constant(constwxSYS_DRAG_Y) ->
+     ?wxSYS_DRAG_Y;
 
-wx_sys_drag_y() ->
-     ?wxSYS_DRAG_Y.
+constant(constwxSYS_EDGE_X) ->
+     ?wxSYS_EDGE_X;
 
-wx_sys_edge_x() ->
-     ?wxSYS_EDGE_X.
+constant(constwxSYS_EDGE_Y) ->
+     ?wxSYS_EDGE_Y;
 
-wx_sys_edge_y() ->
-     ?wxSYS_EDGE_Y.
+constant(constwxSYS_HSCROLL_ARROW_X) ->
+     ?wxSYS_HSCROLL_ARROW_X;
 
-wx_sys_hscroll_arrow_x() ->
-     ?wxSYS_HSCROLL_ARROW_X.
+constant(constwxSYS_HSCROLL_ARROW_Y) ->
+     ?wxSYS_HSCROLL_ARROW_Y;
 
-wx_sys_hscroll_arrow_y() ->
-     ?wxSYS_HSCROLL_ARROW_Y.
+constant(constwxSYS_HTHUMB_X) ->
+     ?wxSYS_HTHUMB_X;
 
-wx_sys_hthumb_x() ->
-     ?wxSYS_HTHUMB_X.
+constant(constwxSYS_ICON_X) ->
+     ?wxSYS_ICON_X;
 
-wx_sys_icon_x() ->
-     ?wxSYS_ICON_X.
+constant(constwxSYS_ICON_Y) ->
+     ?wxSYS_ICON_Y;
 
-wx_sys_icon_y() ->
-     ?wxSYS_ICON_Y.
+constant(constwxSYS_ICONSPACING_X) ->
+     ?wxSYS_ICONSPACING_X;
 
-wx_sys_iconspacing_x() ->
-     ?wxSYS_ICONSPACING_X.
+constant(constwxSYS_ICONSPACING_Y) ->
+     ?wxSYS_ICONSPACING_Y;
 
-wx_sys_iconspacing_y() ->
-     ?wxSYS_ICONSPACING_Y.
+constant(constwxSYS_WINDOWMIN_X) ->
+     ?wxSYS_WINDOWMIN_X;
 
-wx_sys_windowmin_x() ->
-     ?wxSYS_WINDOWMIN_X.
+constant(constwxSYS_WINDOWMIN_Y) ->
+     ?wxSYS_WINDOWMIN_Y;
 
-wx_sys_windowmin_y() ->
-     ?wxSYS_WINDOWMIN_Y.
+constant(constwxSYS_SCREEN_X) ->
+     ?wxSYS_SCREEN_X;
 
-wx_sys_screen_x() ->
-     ?wxSYS_SCREEN_X.
+constant(constwxSYS_SCREEN_Y) ->
+     ?wxSYS_SCREEN_Y;
 
-wx_sys_screen_y() ->
-     ?wxSYS_SCREEN_Y.
+constant(constwxSYS_FRAMESIZE_X) ->
+     ?wxSYS_FRAMESIZE_X;
 
-wx_sys_framesize_x() ->
-     ?wxSYS_FRAMESIZE_X.
+constant(constwxSYS_FRAMESIZE_Y) ->
+     ?wxSYS_FRAMESIZE_Y;
 
-wx_sys_framesize_y() ->
-     ?wxSYS_FRAMESIZE_Y.
+constant(constwxSYS_SMALLICON_X) ->
+     ?wxSYS_SMALLICON_X;
 
-wx_sys_smallicon_x() ->
-     ?wxSYS_SMALLICON_X.
+constant(constwxSYS_SMALLICON_Y) ->
+     ?wxSYS_SMALLICON_Y;
 
-wx_sys_smallicon_y() ->
-     ?wxSYS_SMALLICON_Y.
+constant(constwxSYS_HSCROLL_Y) ->
+     ?wxSYS_HSCROLL_Y;
 
-wx_sys_hscroll_y() ->
-     ?wxSYS_HSCROLL_Y.
+constant(constwxSYS_VSCROLL_X) ->
+     ?wxSYS_VSCROLL_X;
 
-wx_sys_vscroll_x() ->
-     ?wxSYS_VSCROLL_X.
+constant(constwxSYS_VSCROLL_ARROW_X) ->
+     ?wxSYS_VSCROLL_ARROW_X;
 
-wx_sys_vscroll_arrow_x() ->
-     ?wxSYS_VSCROLL_ARROW_X.
+constant(constwxSYS_VSCROLL_ARROW_Y) ->
+     ?wxSYS_VSCROLL_ARROW_Y;
 
-wx_sys_vscroll_arrow_y() ->
-     ?wxSYS_VSCROLL_ARROW_Y.
+constant(constwxSYS_VTHUMB_Y) ->
+     ?wxSYS_VTHUMB_Y;
 
-wx_sys_vthumb_y() ->
-     ?wxSYS_VTHUMB_Y.
+constant(constwxSYS_CAPTION_Y) ->
+     ?wxSYS_CAPTION_Y;
 
-wx_sys_caption_y() ->
-     ?wxSYS_CAPTION_Y.
+constant(constwxSYS_MENU_Y) ->
+     ?wxSYS_MENU_Y;
 
-wx_sys_menu_y() ->
-     ?wxSYS_MENU_Y.
+constant(constwxSYS_NETWORK_PRESENT) ->
+     ?wxSYS_NETWORK_PRESENT;
 
-wx_sys_network_present() ->
-     ?wxSYS_NETWORK_PRESENT.
+constant(constwxSYS_PENWINDOWS_PRESENT) ->
+     ?wxSYS_PENWINDOWS_PRESENT;
 
-wx_sys_penwindows_present() ->
-     ?wxSYS_PENWINDOWS_PRESENT.
+constant(constwxSYS_SHOW_SOUNDS) ->
+     ?wxSYS_SHOW_SOUNDS;
 
-wx_sys_show_sounds() ->
-     ?wxSYS_SHOW_SOUNDS.
+constant(constwxSYS_SWAP_BUTTONS) ->
+     ?wxSYS_SWAP_BUTTONS;
 
-wx_sys_swap_buttons() ->
-     ?wxSYS_SWAP_BUTTONS.
+constant(constwxSYS_SCREEN_NONE) ->
+     ?wxSYS_SCREEN_NONE;
 
-wx_sys_screen_none() ->
-     ?wxSYS_SCREEN_NONE.
+constant(constwxSYS_SCREEN_TINY) ->
+     ?wxSYS_SCREEN_TINY;
 
-wx_sys_screen_tiny() ->
-     ?wxSYS_SCREEN_TINY.
+constant(constwxSYS_SCREEN_PDA) ->
+     ?wxSYS_SCREEN_PDA;
 
-wx_sys_screen_pda() ->
-     ?wxSYS_SCREEN_PDA.
+constant(constwxSYS_SCREEN_SMALL) ->
+     ?wxSYS_SCREEN_SMALL;
 
-wx_sys_screen_small() ->
-     ?wxSYS_SCREEN_SMALL.
+constant(constwxSYS_SCREEN_DESKTOP) ->
+     ?wxSYS_SCREEN_DESKTOP;
 
-wx_sys_screen_desktop() ->
-     ?wxSYS_SCREEN_DESKTOP.
+constant(constwxFLEX_GROWMODE_NONE) ->
+     ?wxFLEX_GROWMODE_NONE;
 
-wx_flex_growmode_none() ->
-     ?wxFLEX_GROWMODE_NONE.
+constant(constwxFLEX_GROWMODE_SPECIFIED) ->
+     ?wxFLEX_GROWMODE_SPECIFIED;
 
-wx_flex_growmode_specified() ->
-     ?wxFLEX_GROWMODE_SPECIFIED.
+constant(constwxFLEX_GROWMODE_ALL) ->
+     ?wxFLEX_GROWMODE_ALL;
 
-wx_flex_growmode_all() ->
-     ?wxFLEX_GROWMODE_ALL.
+constant(constwxSL_INVERSE) ->
+     ?wxSL_INVERSE;
 
-wx_sl_inverse() ->
-     ?wxSL_INVERSE.
+constant(constwxSL_SELRANGE) ->
+     ?wxSL_SELRANGE;
 
-wx_sl_selrange() ->
-     ?wxSL_SELRANGE.
+constant(constwxSL_BOTH) ->
+     ?wxSL_BOTH;
 
-wx_sl_both() ->
-     ?wxSL_BOTH.
+constant(constwxSL_BOTTOM) ->
+     ?wxSL_BOTTOM;
 
-wx_sl_bottom() ->
-     ?wxSL_BOTTOM.
+constant(constwxSL_RIGHT) ->
+     ?wxSL_RIGHT;
 
-wx_sl_right() ->
-     ?wxSL_RIGHT.
+constant(constwxSL_TOP) ->
+     ?wxSL_TOP;
 
-wx_sl_top() ->
-     ?wxSL_TOP.
+constant(constwxSL_LEFT) ->
+     ?wxSL_LEFT;
 
-wx_sl_left() ->
-     ?wxSL_LEFT.
+constant(constwxSL_LABELS) ->
+     ?wxSL_LABELS;
 
-wx_sl_labels() ->
-     ?wxSL_LABELS.
+constant(constwxSL_AUTOTICKS) ->
+     ?wxSL_AUTOTICKS;
 
-wx_sl_autoticks() ->
-     ?wxSL_AUTOTICKS.
+constant(constwxSL_TICKS) ->
+     ?wxSL_TICKS;
 
-wx_sl_ticks() ->
-     ?wxSL_TICKS.
+constant(constwxSL_VERTICAL) ->
+     ?wxSL_VERTICAL;
 
-wx_sl_vertical() ->
-     ?wxSL_VERTICAL.
+constant(constwxSL_HORIZONTAL) ->
+     ?wxSL_HORIZONTAL;
 
-wx_sl_horizontal() ->
-     ?wxSL_HORIZONTAL.
+constant(constwxSP_3D) ->
+     ?wxSP_3D;
 
-wx_sp_3_d() ->
-     ?wxSP_3D.
+constant(constwxSP_BORDER) ->
+     ?wxSP_BORDER;
 
-wx_sp_border() ->
-     ?wxSP_BORDER.
+constant(constwxSP_NO_XP_THEME) ->
+     ?wxSP_NO_XP_THEME;
 
-wx_sp_no_xp_theme() ->
-     ?wxSP_NO_XP_THEME.
+constant(constwxSP_3DBORDER) ->
+     ?wxSP_3DBORDER;
 
-wx_sp_3_dborder() ->
-     ?wxSP_3DBORDER.
+constant(constwxSP_3DSASH) ->
+     ?wxSP_3DSASH;
 
-wx_sp_3_dsash() ->
-     ?wxSP_3DSASH.
+constant(constwxSP_LIVE_UPDATE) ->
+     ?wxSP_LIVE_UPDATE;
 
-wx_sp_live_update() ->
-     ?wxSP_LIVE_UPDATE.
+constant(constwxSP_PERMIT_UNSPLIT) ->
+     ?wxSP_PERMIT_UNSPLIT;
 
-wx_sp_permit_unsplit() ->
-     ?wxSP_PERMIT_UNSPLIT.
+constant(constwxSP_NOSASH) ->
+     ?wxSP_NOSASH;
 
-wx_sp_nosash() ->
-     ?wxSP_NOSASH.
+constant(constwxSP_NOBORDER) ->
+     ?wxSP_NOBORDER;
 
-wx_sp_noborder() ->
-     ?wxSP_NOBORDER.
+constant(constwxSB_RAISED) ->
+     ?wxSB_RAISED;
 
-wx_sb_raised() ->
-     ?wxSB_RAISED.
+constant(constwxSB_FLAT) ->
+     ?wxSB_FLAT;
 
-wx_sb_flat() ->
-     ?wxSB_FLAT.
+constant(constwxSB_NORMAL) ->
+     ?wxSB_NORMAL;
 
-wx_sb_normal() ->
-     ?wxSB_NORMAL.
+constant(constwxSTC_CMD_WORDRIGHTENDEXTEND) ->
+     ?wxSTC_CMD_WORDRIGHTENDEXTEND;
 
-wx_stc_cmd_wordrightendextend() ->
-     ?wxSTC_CMD_WORDRIGHTENDEXTEND.
+constant(constwxSTC_CMD_WORDRIGHTEND) ->
+     ?wxSTC_CMD_WORDRIGHTEND;
 
-wx_stc_cmd_wordrightend() ->
-     ?wxSTC_CMD_WORDRIGHTEND.
+constant(constwxSTC_CMD_WORDLEFTENDEXTEND) ->
+     ?wxSTC_CMD_WORDLEFTENDEXTEND;
 
-wx_stc_cmd_wordleftendextend() ->
-     ?wxSTC_CMD_WORDLEFTENDEXTEND.
+constant(constwxSTC_CMD_WORDLEFTEND) ->
+     ?wxSTC_CMD_WORDLEFTEND;
 
-wx_stc_cmd_wordleftend() ->
-     ?wxSTC_CMD_WORDLEFTEND.
+constant(constwxSTC_CMD_STUTTEREDPAGEDOWNEXTEND) ->
+     ?wxSTC_CMD_STUTTEREDPAGEDOWNEXTEND;
 
-wx_stc_cmd_stutteredpagedownextend() ->
-     ?wxSTC_CMD_STUTTEREDPAGEDOWNEXTEND.
+constant(constwxSTC_CMD_STUTTEREDPAGEDOWN) ->
+     ?wxSTC_CMD_STUTTEREDPAGEDOWN;
 
-wx_stc_cmd_stutteredpagedown() ->
-     ?wxSTC_CMD_STUTTEREDPAGEDOWN.
+constant(constwxSTC_CMD_STUTTEREDPAGEUPEXTEND) ->
+     ?wxSTC_CMD_STUTTEREDPAGEUPEXTEND;
 
-wx_stc_cmd_stutteredpageupextend() ->
-     ?wxSTC_CMD_STUTTEREDPAGEUPEXTEND.
+constant(constwxSTC_CMD_STUTTEREDPAGEUP) ->
+     ?wxSTC_CMD_STUTTEREDPAGEUP;
 
-wx_stc_cmd_stutteredpageup() ->
-     ?wxSTC_CMD_STUTTEREDPAGEUP.
+constant(constwxSTC_CMD_PAGEDOWNRECTEXTEND) ->
+     ?wxSTC_CMD_PAGEDOWNRECTEXTEND;
 
-wx_stc_cmd_pagedownrectextend() ->
-     ?wxSTC_CMD_PAGEDOWNRECTEXTEND.
+constant(constwxSTC_CMD_PAGEUPRECTEXTEND) ->
+     ?wxSTC_CMD_PAGEUPRECTEXTEND;
 
-wx_stc_cmd_pageuprectextend() ->
-     ?wxSTC_CMD_PAGEUPRECTEXTEND.
+constant(constwxSTC_CMD_LINEENDRECTEXTEND) ->
+     ?wxSTC_CMD_LINEENDRECTEXTEND;
 
-wx_stc_cmd_lineendrectextend() ->
-     ?wxSTC_CMD_LINEENDRECTEXTEND.
+constant(constwxSTC_CMD_VCHOMERECTEXTEND) ->
+     ?wxSTC_CMD_VCHOMERECTEXTEND;
 
-wx_stc_cmd_vchomerectextend() ->
-     ?wxSTC_CMD_VCHOMERECTEXTEND.
+constant(constwxSTC_CMD_HOMERECTEXTEND) ->
+     ?wxSTC_CMD_HOMERECTEXTEND;
 
-wx_stc_cmd_homerectextend() ->
-     ?wxSTC_CMD_HOMERECTEXTEND.
+constant(constwxSTC_CMD_CHARRIGHTRECTEXTEND) ->
+     ?wxSTC_CMD_CHARRIGHTRECTEXTEND;
 
-wx_stc_cmd_charrightrectextend() ->
-     ?wxSTC_CMD_CHARRIGHTRECTEXTEND.
+constant(constwxSTC_CMD_CHARLEFTRECTEXTEND) ->
+     ?wxSTC_CMD_CHARLEFTRECTEXTEND;
 
-wx_stc_cmd_charleftrectextend() ->
-     ?wxSTC_CMD_CHARLEFTRECTEXTEND.
+constant(constwxSTC_CMD_LINEUPRECTEXTEND) ->
+     ?wxSTC_CMD_LINEUPRECTEXTEND;
 
-wx_stc_cmd_lineuprectextend() ->
-     ?wxSTC_CMD_LINEUPRECTEXTEND.
+constant(constwxSTC_CMD_LINEDOWNRECTEXTEND) ->
+     ?wxSTC_CMD_LINEDOWNRECTEXTEND;
 
-wx_stc_cmd_linedownrectextend() ->
-     ?wxSTC_CMD_LINEDOWNRECTEXTEND.
+constant(constwxSTC_CMD_PARAUPEXTEND) ->
+     ?wxSTC_CMD_PARAUPEXTEND;
 
-wx_stc_cmd_paraupextend() ->
-     ?wxSTC_CMD_PARAUPEXTEND.
+constant(constwxSTC_CMD_PARAUP) ->
+     ?wxSTC_CMD_PARAUP;
 
-wx_stc_cmd_paraup() ->
-     ?wxSTC_CMD_PARAUP.
+constant(constwxSTC_CMD_PARADOWNEXTEND) ->
+     ?wxSTC_CMD_PARADOWNEXTEND;
 
-wx_stc_cmd_paradownextend() ->
-     ?wxSTC_CMD_PARADOWNEXTEND.
+constant(constwxSTC_CMD_PARADOWN) ->
+     ?wxSTC_CMD_PARADOWN;
 
-wx_stc_cmd_paradown() ->
-     ?wxSTC_CMD_PARADOWN.
+constant(constwxSTC_CMD_DELLINERIGHT) ->
+     ?wxSTC_CMD_DELLINERIGHT;
 
-wx_stc_cmd_dellineright() ->
-     ?wxSTC_CMD_DELLINERIGHT.
+constant(constwxSTC_CMD_DELLINELEFT) ->
+     ?wxSTC_CMD_DELLINELEFT;
 
-wx_stc_cmd_dellineleft() ->
-     ?wxSTC_CMD_DELLINELEFT.
+constant(constwxSTC_CMD_WORDPARTRIGHTEXTEND) ->
+     ?wxSTC_CMD_WORDPARTRIGHTEXTEND;
 
-wx_stc_cmd_wordpartrightextend() ->
-     ?wxSTC_CMD_WORDPARTRIGHTEXTEND.
+constant(constwxSTC_CMD_WORDPARTRIGHT) ->
+     ?wxSTC_CMD_WORDPARTRIGHT;
 
-wx_stc_cmd_wordpartright() ->
-     ?wxSTC_CMD_WORDPARTRIGHT.
+constant(constwxSTC_CMD_WORDPARTLEFTEXTEND) ->
+     ?wxSTC_CMD_WORDPARTLEFTEXTEND;
 
-wx_stc_cmd_wordpartleftextend() ->
-     ?wxSTC_CMD_WORDPARTLEFTEXTEND.
+constant(constwxSTC_CMD_WORDPARTLEFT) ->
+     ?wxSTC_CMD_WORDPARTLEFT;
 
-wx_stc_cmd_wordpartleft() ->
-     ?wxSTC_CMD_WORDPARTLEFT.
+constant(constwxSTC_CMD_LINECOPY) ->
+     ?wxSTC_CMD_LINECOPY;
 
-wx_stc_cmd_linecopy() ->
-     ?wxSTC_CMD_LINECOPY.
+constant(constwxSTC_CMD_VCHOMEWRAPEXTEND) ->
+     ?wxSTC_CMD_VCHOMEWRAPEXTEND;
 
-wx_stc_cmd_vchomewrapextend() ->
-     ?wxSTC_CMD_VCHOMEWRAPEXTEND.
+constant(constwxSTC_CMD_VCHOMEWRAP) ->
+     ?wxSTC_CMD_VCHOMEWRAP;
 
-wx_stc_cmd_vchomewrap() ->
-     ?wxSTC_CMD_VCHOMEWRAP.
+constant(constwxSTC_CMD_LINEENDWRAPEXTEND) ->
+     ?wxSTC_CMD_LINEENDWRAPEXTEND;
 
-wx_stc_cmd_lineendwrapextend() ->
-     ?wxSTC_CMD_LINEENDWRAPEXTEND.
+constant(constwxSTC_CMD_LINEENDWRAP) ->
+     ?wxSTC_CMD_LINEENDWRAP;
 
-wx_stc_cmd_lineendwrap() ->
-     ?wxSTC_CMD_LINEENDWRAP.
+constant(constwxSTC_CMD_HOMEWRAPEXTEND) ->
+     ?wxSTC_CMD_HOMEWRAPEXTEND;
 
-wx_stc_cmd_homewrapextend() ->
-     ?wxSTC_CMD_HOMEWRAPEXTEND.
+constant(constwxSTC_CMD_HOMEWRAP) ->
+     ?wxSTC_CMD_HOMEWRAP;
 
-wx_stc_cmd_homewrap() ->
-     ?wxSTC_CMD_HOMEWRAP.
+constant(constwxSTC_CMD_LINEENDDISPLAYEXTEND) ->
+     ?wxSTC_CMD_LINEENDDISPLAYEXTEND;
 
-wx_stc_cmd_lineenddisplayextend() ->
-     ?wxSTC_CMD_LINEENDDISPLAYEXTEND.
+constant(constwxSTC_CMD_LINEENDDISPLAY) ->
+     ?wxSTC_CMD_LINEENDDISPLAY;
 
-wx_stc_cmd_lineenddisplay() ->
-     ?wxSTC_CMD_LINEENDDISPLAY.
+constant(constwxSTC_CMD_HOMEDISPLAYEXTEND) ->
+     ?wxSTC_CMD_HOMEDISPLAYEXTEND;
 
-wx_stc_cmd_homedisplayextend() ->
-     ?wxSTC_CMD_HOMEDISPLAYEXTEND.
+constant(constwxSTC_CMD_HOMEDISPLAY) ->
+     ?wxSTC_CMD_HOMEDISPLAY;
 
-wx_stc_cmd_homedisplay() ->
-     ?wxSTC_CMD_HOMEDISPLAY.
+constant(constwxSTC_CMD_DELETEBACKNOTLINE) ->
+     ?wxSTC_CMD_DELETEBACKNOTLINE;
 
-wx_stc_cmd_deletebacknotline() ->
-     ?wxSTC_CMD_DELETEBACKNOTLINE.
+constant(constwxSTC_CMD_LINESCROLLUP) ->
+     ?wxSTC_CMD_LINESCROLLUP;
 
-wx_stc_cmd_linescrollup() ->
-     ?wxSTC_CMD_LINESCROLLUP.
+constant(constwxSTC_CMD_LINESCROLLDOWN) ->
+     ?wxSTC_CMD_LINESCROLLDOWN;
 
-wx_stc_cmd_linescrolldown() ->
-     ?wxSTC_CMD_LINESCROLLDOWN.
+constant(constwxSTC_CMD_UPPERCASE) ->
+     ?wxSTC_CMD_UPPERCASE;
 
-wx_stc_cmd_uppercase() ->
-     ?wxSTC_CMD_UPPERCASE.
+constant(constwxSTC_CMD_LOWERCASE) ->
+     ?wxSTC_CMD_LOWERCASE;
 
-wx_stc_cmd_lowercase() ->
-     ?wxSTC_CMD_LOWERCASE.
+constant(constwxSTC_CMD_LINEDUPLICATE) ->
+     ?wxSTC_CMD_LINEDUPLICATE;
 
-wx_stc_cmd_lineduplicate() ->
-     ?wxSTC_CMD_LINEDUPLICATE.
+constant(constwxSTC_CMD_LINETRANSPOSE) ->
+     ?wxSTC_CMD_LINETRANSPOSE;
 
-wx_stc_cmd_linetranspose() ->
-     ?wxSTC_CMD_LINETRANSPOSE.
+constant(constwxSTC_CMD_LINEDELETE) ->
+     ?wxSTC_CMD_LINEDELETE;
 
-wx_stc_cmd_linedelete() ->
-     ?wxSTC_CMD_LINEDELETE.
+constant(constwxSTC_CMD_LINECUT) ->
+     ?wxSTC_CMD_LINECUT;
 
-wx_stc_cmd_linecut() ->
-     ?wxSTC_CMD_LINECUT.
+constant(constwxSTC_CMD_DELWORDRIGHT) ->
+     ?wxSTC_CMD_DELWORDRIGHT;
 
-wx_stc_cmd_delwordright() ->
-     ?wxSTC_CMD_DELWORDRIGHT.
+constant(constwxSTC_CMD_DELWORDLEFT) ->
+     ?wxSTC_CMD_DELWORDLEFT;
 
-wx_stc_cmd_delwordleft() ->
-     ?wxSTC_CMD_DELWORDLEFT.
+constant(constwxSTC_CMD_ZOOMOUT) ->
+     ?wxSTC_CMD_ZOOMOUT;
 
-wx_stc_cmd_zoomout() ->
-     ?wxSTC_CMD_ZOOMOUT.
+constant(constwxSTC_CMD_ZOOMIN) ->
+     ?wxSTC_CMD_ZOOMIN;
 
-wx_stc_cmd_zoomin() ->
-     ?wxSTC_CMD_ZOOMIN.
+constant(constwxSTC_CMD_VCHOMEEXTEND) ->
+     ?wxSTC_CMD_VCHOMEEXTEND;
 
-wx_stc_cmd_vchomeextend() ->
-     ?wxSTC_CMD_VCHOMEEXTEND.
+constant(constwxSTC_CMD_VCHOME) ->
+     ?wxSTC_CMD_VCHOME;
 
-wx_stc_cmd_vchome() ->
-     ?wxSTC_CMD_VCHOME.
+constant(constwxSTC_CMD_FORMFEED) ->
+     ?wxSTC_CMD_FORMFEED;
 
-wx_stc_cmd_formfeed() ->
-     ?wxSTC_CMD_FORMFEED.
+constant(constwxSTC_CMD_NEWLINE) ->
+     ?wxSTC_CMD_NEWLINE;
 
-wx_stc_cmd_newline() ->
-     ?wxSTC_CMD_NEWLINE.
+constant(constwxSTC_CMD_BACKTAB) ->
+     ?wxSTC_CMD_BACKTAB;
 
-wx_stc_cmd_backtab() ->
-     ?wxSTC_CMD_BACKTAB.
+constant(constwxSTC_CMD_TAB) ->
+     ?wxSTC_CMD_TAB;
 
-wx_stc_cmd_tab() ->
-     ?wxSTC_CMD_TAB.
+constant(constwxSTC_CMD_DELETEBACK) ->
+     ?wxSTC_CMD_DELETEBACK;
 
-wx_stc_cmd_deleteback() ->
-     ?wxSTC_CMD_DELETEBACK.
+constant(constwxSTC_CMD_CANCEL) ->
+     ?wxSTC_CMD_CANCEL;
 
-wx_stc_cmd_cancel() ->
-     ?wxSTC_CMD_CANCEL.
+constant(constwxSTC_CMD_EDITTOGGLEOVERTYPE) ->
+     ?wxSTC_CMD_EDITTOGGLEOVERTYPE;
 
-wx_stc_cmd_edittoggleovertype() ->
-     ?wxSTC_CMD_EDITTOGGLEOVERTYPE.
+constant(constwxSTC_CMD_PAGEDOWNEXTEND) ->
+     ?wxSTC_CMD_PAGEDOWNEXTEND;
 
-wx_stc_cmd_pagedownextend() ->
-     ?wxSTC_CMD_PAGEDOWNEXTEND.
+constant(constwxSTC_CMD_PAGEDOWN) ->
+     ?wxSTC_CMD_PAGEDOWN;
 
-wx_stc_cmd_pagedown() ->
-     ?wxSTC_CMD_PAGEDOWN.
+constant(constwxSTC_CMD_PAGEUPEXTEND) ->
+     ?wxSTC_CMD_PAGEUPEXTEND;
 
-wx_stc_cmd_pageupextend() ->
-     ?wxSTC_CMD_PAGEUPEXTEND.
+constant(constwxSTC_CMD_PAGEUP) ->
+     ?wxSTC_CMD_PAGEUP;
 
-wx_stc_cmd_pageup() ->
-     ?wxSTC_CMD_PAGEUP.
+constant(constwxSTC_CMD_DOCUMENTENDEXTEND) ->
+     ?wxSTC_CMD_DOCUMENTENDEXTEND;
 
-wx_stc_cmd_documentendextend() ->
-     ?wxSTC_CMD_DOCUMENTENDEXTEND.
+constant(constwxSTC_CMD_DOCUMENTEND) ->
+     ?wxSTC_CMD_DOCUMENTEND;
 
-wx_stc_cmd_documentend() ->
-     ?wxSTC_CMD_DOCUMENTEND.
+constant(constwxSTC_CMD_DOCUMENTSTARTEXTEND) ->
+     ?wxSTC_CMD_DOCUMENTSTARTEXTEND;
 
-wx_stc_cmd_documentstartextend() ->
-     ?wxSTC_CMD_DOCUMENTSTARTEXTEND.
+constant(constwxSTC_CMD_DOCUMENTSTART) ->
+     ?wxSTC_CMD_DOCUMENTSTART;
 
-wx_stc_cmd_documentstart() ->
-     ?wxSTC_CMD_DOCUMENTSTART.
+constant(constwxSTC_CMD_LINEENDEXTEND) ->
+     ?wxSTC_CMD_LINEENDEXTEND;
 
-wx_stc_cmd_lineendextend() ->
-     ?wxSTC_CMD_LINEENDEXTEND.
+constant(constwxSTC_CMD_LINEEND) ->
+     ?wxSTC_CMD_LINEEND;
 
-wx_stc_cmd_lineend() ->
-     ?wxSTC_CMD_LINEEND.
+constant(constwxSTC_CMD_HOMEEXTEND) ->
+     ?wxSTC_CMD_HOMEEXTEND;
 
-wx_stc_cmd_homeextend() ->
-     ?wxSTC_CMD_HOMEEXTEND.
+constant(constwxSTC_CMD_HOME) ->
+     ?wxSTC_CMD_HOME;
 
-wx_stc_cmd_home() ->
-     ?wxSTC_CMD_HOME.
+constant(constwxSTC_CMD_WORDRIGHTEXTEND) ->
+     ?wxSTC_CMD_WORDRIGHTEXTEND;
 
-wx_stc_cmd_wordrightextend() ->
-     ?wxSTC_CMD_WORDRIGHTEXTEND.
+constant(constwxSTC_CMD_WORDRIGHT) ->
+     ?wxSTC_CMD_WORDRIGHT;
 
-wx_stc_cmd_wordright() ->
-     ?wxSTC_CMD_WORDRIGHT.
+constant(constwxSTC_CMD_WORDLEFTEXTEND) ->
+     ?wxSTC_CMD_WORDLEFTEXTEND;
 
-wx_stc_cmd_wordleftextend() ->
-     ?wxSTC_CMD_WORDLEFTEXTEND.
+constant(constwxSTC_CMD_WORDLEFT) ->
+     ?wxSTC_CMD_WORDLEFT;
 
-wx_stc_cmd_wordleft() ->
-     ?wxSTC_CMD_WORDLEFT.
+constant(constwxSTC_CMD_CHARRIGHTEXTEND) ->
+     ?wxSTC_CMD_CHARRIGHTEXTEND;
 
-wx_stc_cmd_charrightextend() ->
-     ?wxSTC_CMD_CHARRIGHTEXTEND.
+constant(constwxSTC_CMD_CHARRIGHT) ->
+     ?wxSTC_CMD_CHARRIGHT;
 
-wx_stc_cmd_charright() ->
-     ?wxSTC_CMD_CHARRIGHT.
+constant(constwxSTC_CMD_CHARLEFTEXTEND) ->
+     ?wxSTC_CMD_CHARLEFTEXTEND;
 
-wx_stc_cmd_charleftextend() ->
-     ?wxSTC_CMD_CHARLEFTEXTEND.
+constant(constwxSTC_CMD_CHARLEFT) ->
+     ?wxSTC_CMD_CHARLEFT;
 
-wx_stc_cmd_charleft() ->
-     ?wxSTC_CMD_CHARLEFT.
+constant(constwxSTC_CMD_LINEUPEXTEND) ->
+     ?wxSTC_CMD_LINEUPEXTEND;
 
-wx_stc_cmd_lineupextend() ->
-     ?wxSTC_CMD_LINEUPEXTEND.
+constant(constwxSTC_CMD_LINEUP) ->
+     ?wxSTC_CMD_LINEUP;
 
-wx_stc_cmd_lineup() ->
-     ?wxSTC_CMD_LINEUP.
+constant(constwxSTC_CMD_LINEDOWNEXTEND) ->
+     ?wxSTC_CMD_LINEDOWNEXTEND;
 
-wx_stc_cmd_linedownextend() ->
-     ?wxSTC_CMD_LINEDOWNEXTEND.
+constant(constwxSTC_CMD_LINEDOWN) ->
+     ?wxSTC_CMD_LINEDOWN;
 
-wx_stc_cmd_linedown() ->
-     ?wxSTC_CMD_LINEDOWN.
+constant(constwxSTC_CMD_CLEAR) ->
+     ?wxSTC_CMD_CLEAR;
 
-wx_stc_cmd_clear() ->
-     ?wxSTC_CMD_CLEAR.
+constant(constwxSTC_CMD_PASTE) ->
+     ?wxSTC_CMD_PASTE;
 
-wx_stc_cmd_paste() ->
-     ?wxSTC_CMD_PASTE.
+constant(constwxSTC_CMD_COPY) ->
+     ?wxSTC_CMD_COPY;
 
-wx_stc_cmd_copy() ->
-     ?wxSTC_CMD_COPY.
+constant(constwxSTC_CMD_CUT) ->
+     ?wxSTC_CMD_CUT;
 
-wx_stc_cmd_cut() ->
-     ?wxSTC_CMD_CUT.
+constant(constwxSTC_CMD_UNDO) ->
+     ?wxSTC_CMD_UNDO;
 
-wx_stc_cmd_undo() ->
-     ?wxSTC_CMD_UNDO.
+constant(constwxSTC_CMD_SELECTALL) ->
+     ?wxSTC_CMD_SELECTALL;
 
-wx_stc_cmd_selectall() ->
-     ?wxSTC_CMD_SELECTALL.
+constant(constwxSTC_CMD_REDO) ->
+     ?wxSTC_CMD_REDO;
 
-wx_stc_cmd_redo() ->
-     ?wxSTC_CMD_REDO.
+constant(constwxSTC_SPICE_COMMENTLINE) ->
+     ?wxSTC_SPICE_COMMENTLINE;
 
-wx_stc_spice_commentline() ->
-     ?wxSTC_SPICE_COMMENTLINE.
+constant(constwxSTC_SPICE_VALUE) ->
+     ?wxSTC_SPICE_VALUE;
 
-wx_stc_spice_value() ->
-     ?wxSTC_SPICE_VALUE.
+constant(constwxSTC_SPICE_DELIMITER) ->
+     ?wxSTC_SPICE_DELIMITER;
 
-wx_stc_spice_delimiter() ->
-     ?wxSTC_SPICE_DELIMITER.
+constant(constwxSTC_SPICE_NUMBER) ->
+     ?wxSTC_SPICE_NUMBER;
 
-wx_stc_spice_number() ->
-     ?wxSTC_SPICE_NUMBER.
+constant(constwxSTC_SPICE_KEYWORD3) ->
+     ?wxSTC_SPICE_KEYWORD3;
 
-wx_stc_spice_keywor_d3() ->
-     ?wxSTC_SPICE_KEYWORD3.
+constant(constwxSTC_SPICE_KEYWORD2) ->
+     ?wxSTC_SPICE_KEYWORD2;
 
-wx_stc_spice_keywor_d2() ->
-     ?wxSTC_SPICE_KEYWORD2.
+constant(constwxSTC_SPICE_KEYWORD) ->
+     ?wxSTC_SPICE_KEYWORD;
 
-wx_stc_spice_keyword() ->
-     ?wxSTC_SPICE_KEYWORD.
+constant(constwxSTC_SPICE_IDENTIFIER) ->
+     ?wxSTC_SPICE_IDENTIFIER;
 
-wx_stc_spice_identifier() ->
-     ?wxSTC_SPICE_IDENTIFIER.
+constant(constwxSTC_SPICE_DEFAULT) ->
+     ?wxSTC_SPICE_DEFAULT;
 
-wx_stc_spice_default() ->
-     ?wxSTC_SPICE_DEFAULT.
+constant(constwxSTC_OPAL_DEFAULT) ->
+     ?wxSTC_OPAL_DEFAULT;
 
-wx_stc_opal_default() ->
-     ?wxSTC_OPAL_DEFAULT.
+constant(constwxSTC_OPAL_BOOL_CONST) ->
+     ?wxSTC_OPAL_BOOL_CONST;
 
-wx_stc_opal_bool_const() ->
-     ?wxSTC_OPAL_BOOL_CONST.
+constant(constwxSTC_OPAL_PAR) ->
+     ?wxSTC_OPAL_PAR;
 
-wx_stc_opal_par() ->
-     ?wxSTC_OPAL_PAR.
+constant(constwxSTC_OPAL_STRING) ->
+     ?wxSTC_OPAL_STRING;
 
-wx_stc_opal_string() ->
-     ?wxSTC_OPAL_STRING.
+constant(constwxSTC_OPAL_SORT) ->
+     ?wxSTC_OPAL_SORT;
 
-wx_stc_opal_sort() ->
-     ?wxSTC_OPAL_SORT.
+constant(constwxSTC_OPAL_KEYWORD) ->
+     ?wxSTC_OPAL_KEYWORD;
 
-wx_stc_opal_keyword() ->
-     ?wxSTC_OPAL_KEYWORD.
+constant(constwxSTC_OPAL_INTEGER) ->
+     ?wxSTC_OPAL_INTEGER;
 
-wx_stc_opal_integer() ->
-     ?wxSTC_OPAL_INTEGER.
+constant(constwxSTC_OPAL_COMMENT_LINE) ->
+     ?wxSTC_OPAL_COMMENT_LINE;
 
-wx_stc_opal_comment_line() ->
-     ?wxSTC_OPAL_COMMENT_LINE.
+constant(constwxSTC_OPAL_COMMENT_BLOCK) ->
+     ?wxSTC_OPAL_COMMENT_BLOCK;
 
-wx_stc_opal_comment_block() ->
-     ?wxSTC_OPAL_COMMENT_BLOCK.
+constant(constwxSTC_OPAL_SPACE) ->
+     ?wxSTC_OPAL_SPACE;
 
-wx_stc_opal_space() ->
-     ?wxSTC_OPAL_SPACE.
+constant(constwxSTC_INNO_IDENTIFIER) ->
+     ?wxSTC_INNO_IDENTIFIER;
 
-wx_stc_inno_identifier() ->
-     ?wxSTC_INNO_IDENTIFIER.
+constant(constwxSTC_INNO_STRING_SINGLE) ->
+     ?wxSTC_INNO_STRING_SINGLE;
 
-wx_stc_inno_string_single() ->
-     ?wxSTC_INNO_STRING_SINGLE.
+constant(constwxSTC_INNO_STRING_DOUBLE) ->
+     ?wxSTC_INNO_STRING_DOUBLE;
 
-wx_stc_inno_string_double() ->
-     ?wxSTC_INNO_STRING_DOUBLE.
+constant(constwxSTC_INNO_KEYWORD_USER) ->
+     ?wxSTC_INNO_KEYWORD_USER;
 
-wx_stc_inno_keyword_user() ->
-     ?wxSTC_INNO_KEYWORD_USER.
+constant(constwxSTC_INNO_KEYWORD_PASCAL) ->
+     ?wxSTC_INNO_KEYWORD_PASCAL;
 
-wx_stc_inno_keyword_pascal() ->
-     ?wxSTC_INNO_KEYWORD_PASCAL.
+constant(constwxSTC_INNO_COMMENT_PASCAL) ->
+     ?wxSTC_INNO_COMMENT_PASCAL;
 
-wx_stc_inno_comment_pascal() ->
-     ?wxSTC_INNO_COMMENT_PASCAL.
+constant(constwxSTC_INNO_PREPROC_INLINE) ->
+     ?wxSTC_INNO_PREPROC_INLINE;
 
-wx_stc_inno_preproc_inline() ->
-     ?wxSTC_INNO_PREPROC_INLINE.
+constant(constwxSTC_INNO_PREPROC) ->
+     ?wxSTC_INNO_PREPROC;
 
-wx_stc_inno_preproc() ->
-     ?wxSTC_INNO_PREPROC.
+constant(constwxSTC_INNO_SECTION) ->
+     ?wxSTC_INNO_SECTION;
 
-wx_stc_inno_section() ->
-     ?wxSTC_INNO_SECTION.
+constant(constwxSTC_INNO_PARAMETER) ->
+     ?wxSTC_INNO_PARAMETER;
 
-wx_stc_inno_parameter() ->
-     ?wxSTC_INNO_PARAMETER.
+constant(constwxSTC_INNO_KEYWORD) ->
+     ?wxSTC_INNO_KEYWORD;
 
-wx_stc_inno_keyword() ->
-     ?wxSTC_INNO_KEYWORD.
+constant(constwxSTC_INNO_COMMENT) ->
+     ?wxSTC_INNO_COMMENT;
 
-wx_stc_inno_comment() ->
-     ?wxSTC_INNO_COMMENT.
+constant(constwxSTC_INNO_DEFAULT) ->
+     ?wxSTC_INNO_DEFAULT;
 
-wx_stc_inno_default() ->
-     ?wxSTC_INNO_DEFAULT.
+constant(constwxSTC_CSOUND_STRINGEOL) ->
+     ?wxSTC_CSOUND_STRINGEOL;
 
-wx_stc_csound_stringeol() ->
-     ?wxSTC_CSOUND_STRINGEOL.
+constant(constwxSTC_CSOUND_GLOBAL_VAR) ->
+     ?wxSTC_CSOUND_GLOBAL_VAR;
 
-wx_stc_csound_global_var() ->
-     ?wxSTC_CSOUND_GLOBAL_VAR.
+constant(constwxSTC_CSOUND_IRATE_VAR) ->
+     ?wxSTC_CSOUND_IRATE_VAR;
 
-wx_stc_csound_irate_var() ->
-     ?wxSTC_CSOUND_IRATE_VAR.
+constant(constwxSTC_CSOUND_KRATE_VAR) ->
+     ?wxSTC_CSOUND_KRATE_VAR;
 
-wx_stc_csound_krate_var() ->
-     ?wxSTC_CSOUND_KRATE_VAR.
+constant(constwxSTC_CSOUND_ARATE_VAR) ->
+     ?wxSTC_CSOUND_ARATE_VAR;
 
-wx_stc_csound_arate_var() ->
-     ?wxSTC_CSOUND_ARATE_VAR.
+constant(constwxSTC_CSOUND_PARAM) ->
+     ?wxSTC_CSOUND_PARAM;
 
-wx_stc_csound_param() ->
-     ?wxSTC_CSOUND_PARAM.
+constant(constwxSTC_CSOUND_COMMENTBLOCK) ->
+     ?wxSTC_CSOUND_COMMENTBLOCK;
 
-wx_stc_csound_commentblock() ->
-     ?wxSTC_CSOUND_COMMENTBLOCK.
+constant(constwxSTC_CSOUND_USERKEYWORD) ->
+     ?wxSTC_CSOUND_USERKEYWORD;
 
-wx_stc_csound_userkeyword() ->
-     ?wxSTC_CSOUND_USERKEYWORD.
+constant(constwxSTC_CSOUND_HEADERSTMT) ->
+     ?wxSTC_CSOUND_HEADERSTMT;
 
-wx_stc_csound_headerstmt() ->
-     ?wxSTC_CSOUND_HEADERSTMT.
+constant(constwxSTC_CSOUND_OPCODE) ->
+     ?wxSTC_CSOUND_OPCODE;
 
-wx_stc_csound_opcode() ->
-     ?wxSTC_CSOUND_OPCODE.
+constant(constwxSTC_CSOUND_IDENTIFIER) ->
+     ?wxSTC_CSOUND_IDENTIFIER;
 
-wx_stc_csound_identifier() ->
-     ?wxSTC_CSOUND_IDENTIFIER.
+constant(constwxSTC_CSOUND_INSTR) ->
+     ?wxSTC_CSOUND_INSTR;
 
-wx_stc_csound_instr() ->
-     ?wxSTC_CSOUND_INSTR.
+constant(constwxSTC_CSOUND_OPERATOR) ->
+     ?wxSTC_CSOUND_OPERATOR;
 
-wx_stc_csound_operator() ->
-     ?wxSTC_CSOUND_OPERATOR.
+constant(constwxSTC_CSOUND_NUMBER) ->
+     ?wxSTC_CSOUND_NUMBER;
 
-wx_stc_csound_number() ->
-     ?wxSTC_CSOUND_NUMBER.
+constant(constwxSTC_CSOUND_COMMENT) ->
+     ?wxSTC_CSOUND_COMMENT;
 
-wx_stc_csound_comment() ->
-     ?wxSTC_CSOUND_COMMENT.
+constant(constwxSTC_CSOUND_DEFAULT) ->
+     ?wxSTC_CSOUND_DEFAULT;
 
-wx_stc_csound_default() ->
-     ?wxSTC_CSOUND_DEFAULT.
+constant(constwxSTC_FS_BINNUMBER) ->
+     ?wxSTC_FS_BINNUMBER;
 
-wx_stc_fs_binnumber() ->
-     ?wxSTC_FS_BINNUMBER.
+constant(constwxSTC_FS_HEXNUMBER) ->
+     ?wxSTC_FS_HEXNUMBER;
 
-wx_stc_fs_hexnumber() ->
-     ?wxSTC_FS_HEXNUMBER.
+constant(constwxSTC_FS_ERROR) ->
+     ?wxSTC_FS_ERROR;
 
-wx_stc_fs_error() ->
-     ?wxSTC_FS_ERROR.
+constant(constwxSTC_FS_LABEL) ->
+     ?wxSTC_FS_LABEL;
 
-wx_stc_fs_label() ->
-     ?wxSTC_FS_LABEL.
+constant(constwxSTC_FS_ASM) ->
+     ?wxSTC_FS_ASM;
 
-wx_stc_fs_asm() ->
-     ?wxSTC_FS_ASM.
+constant(constwxSTC_FS_CONSTANT) ->
+     ?wxSTC_FS_CONSTANT;
 
-wx_stc_fs_constant() ->
-     ?wxSTC_FS_CONSTANT.
+constant(constwxSTC_FS_STRINGEOL) ->
+     ?wxSTC_FS_STRINGEOL;
 
-wx_stc_fs_stringeol() ->
-     ?wxSTC_FS_STRINGEOL.
+constant(constwxSTC_FS_DATE) ->
+     ?wxSTC_FS_DATE;
 
-wx_stc_fs_date() ->
-     ?wxSTC_FS_DATE.
+constant(constwxSTC_FS_IDENTIFIER) ->
+     ?wxSTC_FS_IDENTIFIER;
 
-wx_stc_fs_identifier() ->
-     ?wxSTC_FS_IDENTIFIER.
+constant(constwxSTC_FS_OPERATOR) ->
+     ?wxSTC_FS_OPERATOR;
 
-wx_stc_fs_operator() ->
-     ?wxSTC_FS_OPERATOR.
+constant(constwxSTC_FS_PREPROCESSOR) ->
+     ?wxSTC_FS_PREPROCESSOR;
 
-wx_stc_fs_preprocessor() ->
-     ?wxSTC_FS_PREPROCESSOR.
+constant(constwxSTC_FS_STRING) ->
+     ?wxSTC_FS_STRING;
 
-wx_stc_fs_string() ->
-     ?wxSTC_FS_STRING.
+constant(constwxSTC_FS_NUMBER) ->
+     ?wxSTC_FS_NUMBER;
 
-wx_stc_fs_number() ->
-     ?wxSTC_FS_NUMBER.
+constant(constwxSTC_FS_KEYWORD4) ->
+     ?wxSTC_FS_KEYWORD4;
 
-wx_stc_fs_keywor_d4() ->
-     ?wxSTC_FS_KEYWORD4.
+constant(constwxSTC_FS_KEYWORD3) ->
+     ?wxSTC_FS_KEYWORD3;
 
-wx_stc_fs_keywor_d3() ->
-     ?wxSTC_FS_KEYWORD3.
+constant(constwxSTC_FS_KEYWORD2) ->
+     ?wxSTC_FS_KEYWORD2;
 
-wx_stc_fs_keywor_d2() ->
-     ?wxSTC_FS_KEYWORD2.
+constant(constwxSTC_FS_KEYWORD) ->
+     ?wxSTC_FS_KEYWORD;
 
-wx_stc_fs_keyword() ->
-     ?wxSTC_FS_KEYWORD.
+constant(constwxSTC_FS_COMMENTDOCKEYWORDERROR) ->
+     ?wxSTC_FS_COMMENTDOCKEYWORDERROR;
 
-wx_stc_fs_commentdockeyworderror() ->
-     ?wxSTC_FS_COMMENTDOCKEYWORDERROR.
+constant(constwxSTC_FS_COMMENTDOCKEYWORD) ->
+     ?wxSTC_FS_COMMENTDOCKEYWORD;
 
-wx_stc_fs_commentdockeyword() ->
-     ?wxSTC_FS_COMMENTDOCKEYWORD.
+constant(constwxSTC_FS_COMMENTLINEDOC) ->
+     ?wxSTC_FS_COMMENTLINEDOC;
 
-wx_stc_fs_commentlinedoc() ->
-     ?wxSTC_FS_COMMENTLINEDOC.
+constant(constwxSTC_FS_COMMENTDOC) ->
+     ?wxSTC_FS_COMMENTDOC;
 
-wx_stc_fs_commentdoc() ->
-     ?wxSTC_FS_COMMENTDOC.
+constant(constwxSTC_FS_COMMENTLINE) ->
+     ?wxSTC_FS_COMMENTLINE;
 
-wx_stc_fs_commentline() ->
-     ?wxSTC_FS_COMMENTLINE.
+constant(constwxSTC_FS_COMMENT) ->
+     ?wxSTC_FS_COMMENT;
 
-wx_stc_fs_comment() ->
-     ?wxSTC_FS_COMMENT.
+constant(constwxSTC_FS_DEFAULT) ->
+     ?wxSTC_FS_DEFAULT;
 
-wx_stc_fs_default() ->
-     ?wxSTC_FS_DEFAULT.
+constant(constwxSTC_ST_SPEC_SEL) ->
+     ?wxSTC_ST_SPEC_SEL;
 
-wx_stc_st_spec_sel() ->
-     ?wxSTC_ST_SPEC_SEL.
+constant(constwxSTC_ST_CHARACTER) ->
+     ?wxSTC_ST_CHARACTER;
 
-wx_stc_st_character() ->
-     ?wxSTC_ST_CHARACTER.
+constant(constwxSTC_ST_ASSIGN) ->
+     ?wxSTC_ST_ASSIGN;
 
-wx_stc_st_assign() ->
-     ?wxSTC_ST_ASSIGN.
+constant(constwxSTC_ST_KWSEND) ->
+     ?wxSTC_ST_KWSEND;
 
-wx_stc_st_kwsend() ->
-     ?wxSTC_ST_KWSEND.
+constant(constwxSTC_ST_SPECIAL) ->
+     ?wxSTC_ST_SPECIAL;
 
-wx_stc_st_special() ->
-     ?wxSTC_ST_SPECIAL.
+constant(constwxSTC_ST_RETURN) ->
+     ?wxSTC_ST_RETURN;
 
-wx_stc_st_return() ->
-     ?wxSTC_ST_RETURN.
+constant(constwxSTC_ST_GLOBAL) ->
+     ?wxSTC_ST_GLOBAL;
 
-wx_stc_st_global() ->
-     ?wxSTC_ST_GLOBAL.
+constant(constwxSTC_ST_NIL) ->
+     ?wxSTC_ST_NIL;
 
-wx_stc_st_nil() ->
-     ?wxSTC_ST_NIL.
+constant(constwxSTC_ST_SUPER) ->
+     ?wxSTC_ST_SUPER;
 
-wx_stc_st_super() ->
-     ?wxSTC_ST_SUPER.
+constant(constwxSTC_ST_SELF) ->
+     ?wxSTC_ST_SELF;
 
-wx_stc_st_self() ->
-     ?wxSTC_ST_SELF.
+constant(constwxSTC_ST_BOOL) ->
+     ?wxSTC_ST_BOOL;
 
-wx_stc_st_bool() ->
-     ?wxSTC_ST_BOOL.
+constant(constwxSTC_ST_BINARY) ->
+     ?wxSTC_ST_BINARY;
 
-wx_stc_st_binary() ->
-     ?wxSTC_ST_BINARY.
+constant(constwxSTC_ST_SYMBOL) ->
+     ?wxSTC_ST_SYMBOL;
 
-wx_stc_st_symbol() ->
-     ?wxSTC_ST_SYMBOL.
+constant(constwxSTC_ST_COMMENT) ->
+     ?wxSTC_ST_COMMENT;
 
-wx_stc_st_comment() ->
-     ?wxSTC_ST_COMMENT.
+constant(constwxSTC_ST_NUMBER) ->
+     ?wxSTC_ST_NUMBER;
 
-wx_stc_st_number() ->
-     ?wxSTC_ST_NUMBER.
+constant(constwxSTC_ST_STRING) ->
+     ?wxSTC_ST_STRING;
 
-wx_stc_st_string() ->
-     ?wxSTC_ST_STRING.
+constant(constwxSTC_ST_DEFAULT) ->
+     ?wxSTC_ST_DEFAULT;
 
-wx_stc_st_default() ->
-     ?wxSTC_ST_DEFAULT.
+constant(constwxSTC_SQL_QUOTEDIDENTIFIER) ->
+     ?wxSTC_SQL_QUOTEDIDENTIFIER;
 
-wx_stc_sql_quotedidentifier() ->
-     ?wxSTC_SQL_QUOTEDIDENTIFIER.
+constant(constwxSTC_SQL_USER4) ->
+     ?wxSTC_SQL_USER4;
 
-wx_stc_sql_use_r4() ->
-     ?wxSTC_SQL_USER4.
+constant(constwxSTC_SQL_USER3) ->
+     ?wxSTC_SQL_USER3;
 
-wx_stc_sql_use_r3() ->
-     ?wxSTC_SQL_USER3.
+constant(constwxSTC_SQL_USER2) ->
+     ?wxSTC_SQL_USER2;
 
-wx_stc_sql_use_r2() ->
-     ?wxSTC_SQL_USER2.
+constant(constwxSTC_SQL_USER1) ->
+     ?wxSTC_SQL_USER1;
 
-wx_stc_sql_use_r1() ->
-     ?wxSTC_SQL_USER1.
+constant(constwxSTC_SQL_COMMENTDOCKEYWORDERROR) ->
+     ?wxSTC_SQL_COMMENTDOCKEYWORDERROR;
 
-wx_stc_sql_commentdockeyworderror() ->
-     ?wxSTC_SQL_COMMENTDOCKEYWORDERROR.
+constant(constwxSTC_SQL_COMMENTDOCKEYWORD) ->
+     ?wxSTC_SQL_COMMENTDOCKEYWORD;
 
-wx_stc_sql_commentdockeyword() ->
-     ?wxSTC_SQL_COMMENTDOCKEYWORD.
+constant(constwxSTC_SQL_WORD2) ->
+     ?wxSTC_SQL_WORD2;
 
-wx_stc_sql_wor_d2() ->
-     ?wxSTC_SQL_WORD2.
+constant(constwxSTC_SQL_COMMENTLINEDOC) ->
+     ?wxSTC_SQL_COMMENTLINEDOC;
 
-wx_stc_sql_commentlinedoc() ->
-     ?wxSTC_SQL_COMMENTLINEDOC.
+constant(constwxSTC_SQL_SQLPLUS_COMMENT) ->
+     ?wxSTC_SQL_SQLPLUS_COMMENT;
 
-wx_stc_sql_sqlplus_comment() ->
-     ?wxSTC_SQL_SQLPLUS_COMMENT.
+constant(constwxSTC_SQL_IDENTIFIER) ->
+     ?wxSTC_SQL_IDENTIFIER;
 
-wx_stc_sql_identifier() ->
-     ?wxSTC_SQL_IDENTIFIER.
+constant(constwxSTC_SQL_OPERATOR) ->
+     ?wxSTC_SQL_OPERATOR;
 
-wx_stc_sql_operator() ->
-     ?wxSTC_SQL_OPERATOR.
+constant(constwxSTC_SQL_SQLPLUS_PROMPT) ->
+     ?wxSTC_SQL_SQLPLUS_PROMPT;
 
-wx_stc_sql_sqlplus_prompt() ->
-     ?wxSTC_SQL_SQLPLUS_PROMPT.
+constant(constwxSTC_SQL_SQLPLUS) ->
+     ?wxSTC_SQL_SQLPLUS;
 
-wx_stc_sql_sqlplus() ->
-     ?wxSTC_SQL_SQLPLUS.
+constant(constwxSTC_SQL_CHARACTER) ->
+     ?wxSTC_SQL_CHARACTER;
 
-wx_stc_sql_character() ->
-     ?wxSTC_SQL_CHARACTER.
+constant(constwxSTC_SQL_STRING) ->
+     ?wxSTC_SQL_STRING;
 
-wx_stc_sql_string() ->
-     ?wxSTC_SQL_STRING.
+constant(constwxSTC_SQL_WORD) ->
+     ?wxSTC_SQL_WORD;
 
-wx_stc_sql_word() ->
-     ?wxSTC_SQL_WORD.
+constant(constwxSTC_SQL_NUMBER) ->
+     ?wxSTC_SQL_NUMBER;
 
-wx_stc_sql_number() ->
-     ?wxSTC_SQL_NUMBER.
+constant(constwxSTC_SQL_COMMENTDOC) ->
+     ?wxSTC_SQL_COMMENTDOC;
 
-wx_stc_sql_commentdoc() ->
-     ?wxSTC_SQL_COMMENTDOC.
+constant(constwxSTC_SQL_COMMENTLINE) ->
+     ?wxSTC_SQL_COMMENTLINE;
 
-wx_stc_sql_commentline() ->
-     ?wxSTC_SQL_COMMENTLINE.
+constant(constwxSTC_SQL_COMMENT) ->
+     ?wxSTC_SQL_COMMENT;
 
-wx_stc_sql_comment() ->
-     ?wxSTC_SQL_COMMENT.
+constant(constwxSTC_SQL_DEFAULT) ->
+     ?wxSTC_SQL_DEFAULT;
 
-wx_stc_sql_default() ->
-     ?wxSTC_SQL_DEFAULT.
+constant(constwxSTC_REBOL_WORD8) ->
+     ?wxSTC_REBOL_WORD8;
 
-wx_stc_rebol_wor_d8() ->
-     ?wxSTC_REBOL_WORD8.
+constant(constwxSTC_REBOL_WORD7) ->
+     ?wxSTC_REBOL_WORD7;
 
-wx_stc_rebol_wor_d7() ->
-     ?wxSTC_REBOL_WORD7.
+constant(constwxSTC_REBOL_WORD6) ->
+     ?wxSTC_REBOL_WORD6;
 
-wx_stc_rebol_wor_d6() ->
-     ?wxSTC_REBOL_WORD6.
+constant(constwxSTC_REBOL_WORD5) ->
+     ?wxSTC_REBOL_WORD5;
 
-wx_stc_rebol_wor_d5() ->
-     ?wxSTC_REBOL_WORD5.
+constant(constwxSTC_REBOL_WORD4) ->
+     ?wxSTC_REBOL_WORD4;
 
-wx_stc_rebol_wor_d4() ->
-     ?wxSTC_REBOL_WORD4.
+constant(constwxSTC_REBOL_WORD3) ->
+     ?wxSTC_REBOL_WORD3;
 
-wx_stc_rebol_wor_d3() ->
-     ?wxSTC_REBOL_WORD3.
+constant(constwxSTC_REBOL_WORD2) ->
+     ?wxSTC_REBOL_WORD2;
 
-wx_stc_rebol_wor_d2() ->
-     ?wxSTC_REBOL_WORD2.
+constant(constwxSTC_REBOL_WORD) ->
+     ?wxSTC_REBOL_WORD;
 
-wx_stc_rebol_word() ->
-     ?wxSTC_REBOL_WORD.
+constant(constwxSTC_REBOL_IDENTIFIER) ->
+     ?wxSTC_REBOL_IDENTIFIER;
 
-wx_stc_rebol_identifier() ->
-     ?wxSTC_REBOL_IDENTIFIER.
+constant(constwxSTC_REBOL_TIME) ->
+     ?wxSTC_REBOL_TIME;
 
-wx_stc_rebol_time() ->
-     ?wxSTC_REBOL_TIME.
+constant(constwxSTC_REBOL_DATE) ->
+     ?wxSTC_REBOL_DATE;
 
-wx_stc_rebol_date() ->
-     ?wxSTC_REBOL_DATE.
+constant(constwxSTC_REBOL_URL) ->
+     ?wxSTC_REBOL_URL;
 
-wx_stc_rebol_url() ->
-     ?wxSTC_REBOL_URL.
+constant(constwxSTC_REBOL_EMAIL) ->
+     ?wxSTC_REBOL_EMAIL;
 
-wx_stc_rebol_email() ->
-     ?wxSTC_REBOL_EMAIL.
+constant(constwxSTC_REBOL_FILE) ->
+     ?wxSTC_REBOL_FILE;
 
-wx_stc_rebol_file() ->
-     ?wxSTC_REBOL_FILE.
+constant(constwxSTC_REBOL_TAG) ->
+     ?wxSTC_REBOL_TAG;
 
-wx_stc_rebol_tag() ->
-     ?wxSTC_REBOL_TAG.
+constant(constwxSTC_REBOL_ISSUE) ->
+     ?wxSTC_REBOL_ISSUE;
 
-wx_stc_rebol_issue() ->
-     ?wxSTC_REBOL_ISSUE.
+constant(constwxSTC_REBOL_MONEY) ->
+     ?wxSTC_REBOL_MONEY;
 
-wx_stc_rebol_money() ->
-     ?wxSTC_REBOL_MONEY.
+constant(constwxSTC_REBOL_BINARY) ->
+     ?wxSTC_REBOL_BINARY;
 
-wx_stc_rebol_binary() ->
-     ?wxSTC_REBOL_BINARY.
+constant(constwxSTC_REBOL_TUPLE) ->
+     ?wxSTC_REBOL_TUPLE;
 
-wx_stc_rebol_tuple() ->
-     ?wxSTC_REBOL_TUPLE.
+constant(constwxSTC_REBOL_PAIR) ->
+     ?wxSTC_REBOL_PAIR;
 
-wx_stc_rebol_pair() ->
-     ?wxSTC_REBOL_PAIR.
+constant(constwxSTC_REBOL_NUMBER) ->
+     ?wxSTC_REBOL_NUMBER;
 
-wx_stc_rebol_number() ->
-     ?wxSTC_REBOL_NUMBER.
+constant(constwxSTC_REBOL_BRACEDSTRING) ->
+     ?wxSTC_REBOL_BRACEDSTRING;
 
-wx_stc_rebol_bracedstring() ->
-     ?wxSTC_REBOL_BRACEDSTRING.
+constant(constwxSTC_REBOL_QUOTEDSTRING) ->
+     ?wxSTC_REBOL_QUOTEDSTRING;
 
-wx_stc_rebol_quotedstring() ->
-     ?wxSTC_REBOL_QUOTEDSTRING.
+constant(constwxSTC_REBOL_CHARACTER) ->
+     ?wxSTC_REBOL_CHARACTER;
 
-wx_stc_rebol_character() ->
-     ?wxSTC_REBOL_CHARACTER.
+constant(constwxSTC_REBOL_OPERATOR) ->
+     ?wxSTC_REBOL_OPERATOR;
 
-wx_stc_rebol_operator() ->
-     ?wxSTC_REBOL_OPERATOR.
+constant(constwxSTC_REBOL_PREFACE) ->
+     ?wxSTC_REBOL_PREFACE;
 
-wx_stc_rebol_preface() ->
-     ?wxSTC_REBOL_PREFACE.
+constant(constwxSTC_REBOL_COMMENTBLOCK) ->
+     ?wxSTC_REBOL_COMMENTBLOCK;
 
-wx_stc_rebol_commentblock() ->
-     ?wxSTC_REBOL_COMMENTBLOCK.
+constant(constwxSTC_REBOL_COMMENTLINE) ->
+     ?wxSTC_REBOL_COMMENTLINE;
 
-wx_stc_rebol_commentline() ->
-     ?wxSTC_REBOL_COMMENTLINE.
+constant(constwxSTC_REBOL_DEFAULT) ->
+     ?wxSTC_REBOL_DEFAULT;
 
-wx_stc_rebol_default() ->
-     ?wxSTC_REBOL_DEFAULT.
+constant(constwxSTC_T3_USER3) ->
+     ?wxSTC_T3_USER3;
 
-wx_stc__t3_use_r3() ->
-     ?wxSTC_T3_USER3.
+constant(constwxSTC_T3_USER2) ->
+     ?wxSTC_T3_USER2;
 
-wx_stc__t3_use_r2() ->
-     ?wxSTC_T3_USER2.
+constant(constwxSTC_T3_USER1) ->
+     ?wxSTC_T3_USER1;
 
-wx_stc__t3_use_r1() ->
-     ?wxSTC_T3_USER1.
+constant(constwxSTC_T3_HTML_STRING) ->
+     ?wxSTC_T3_HTML_STRING;
 
-wx_stc__t3_html_string() ->
-     ?wxSTC_T3_HTML_STRING.
+constant(constwxSTC_T3_HTML_DEFAULT) ->
+     ?wxSTC_T3_HTML_DEFAULT;
 
-wx_stc__t3_html_default() ->
-     ?wxSTC_T3_HTML_DEFAULT.
+constant(constwxSTC_T3_HTML_TAG) ->
+     ?wxSTC_T3_HTML_TAG;
 
-wx_stc__t3_html_tag() ->
-     ?wxSTC_T3_HTML_TAG.
+constant(constwxSTC_T3_MSG_PARAM) ->
+     ?wxSTC_T3_MSG_PARAM;
 
-wx_stc__t3_msg_param() ->
-     ?wxSTC_T3_MSG_PARAM.
+constant(constwxSTC_T3_LIB_DIRECTIVE) ->
+     ?wxSTC_T3_LIB_DIRECTIVE;
 
-wx_stc__t3_lib_directive() ->
-     ?wxSTC_T3_LIB_DIRECTIVE.
+constant(constwxSTC_T3_X_STRING) ->
+     ?wxSTC_T3_X_STRING;
 
-wx_stc__t3_x_string() ->
-     ?wxSTC_T3_X_STRING.
+constant(constwxSTC_T3_D_STRING) ->
+     ?wxSTC_T3_D_STRING;
 
-wx_stc__t3_d_string() ->
-     ?wxSTC_T3_D_STRING.
+constant(constwxSTC_T3_S_STRING) ->
+     ?wxSTC_T3_S_STRING;
 
-wx_stc__t3_s_string() ->
-     ?wxSTC_T3_S_STRING.
+constant(constwxSTC_T3_IDENTIFIER) ->
+     ?wxSTC_T3_IDENTIFIER;
 
-wx_stc__t3_identifier() ->
-     ?wxSTC_T3_IDENTIFIER.
+constant(constwxSTC_T3_NUMBER) ->
+     ?wxSTC_T3_NUMBER;
 
-wx_stc__t3_number() ->
-     ?wxSTC_T3_NUMBER.
+constant(constwxSTC_T3_KEYWORD) ->
+     ?wxSTC_T3_KEYWORD;
 
-wx_stc__t3_keyword() ->
-     ?wxSTC_T3_KEYWORD.
+constant(constwxSTC_T3_OPERATOR) ->
+     ?wxSTC_T3_OPERATOR;
 
-wx_stc__t3_operator() ->
-     ?wxSTC_T3_OPERATOR.
+constant(constwxSTC_T3_LINE_COMMENT) ->
+     ?wxSTC_T3_LINE_COMMENT;
 
-wx_stc__t3_line_comment() ->
-     ?wxSTC_T3_LINE_COMMENT.
+constant(constwxSTC_T3_BLOCK_COMMENT) ->
+     ?wxSTC_T3_BLOCK_COMMENT;
 
-wx_stc__t3_block_comment() ->
-     ?wxSTC_T3_BLOCK_COMMENT.
+constant(constwxSTC_T3_PREPROCESSOR) ->
+     ?wxSTC_T3_PREPROCESSOR;
 
-wx_stc__t3_preprocessor() ->
-     ?wxSTC_T3_PREPROCESSOR.
+constant(constwxSTC_T3_X_DEFAULT) ->
+     ?wxSTC_T3_X_DEFAULT;
 
-wx_stc__t3_x_default() ->
-     ?wxSTC_T3_X_DEFAULT.
+constant(constwxSTC_T3_DEFAULT) ->
+     ?wxSTC_T3_DEFAULT;
 
-wx_stc__t3_default() ->
-     ?wxSTC_T3_DEFAULT.
+constant(constwxSTC_HA_COMMENTBLOCK3) ->
+     ?wxSTC_HA_COMMENTBLOCK3;
 
-wx_stc_ha_commentbloc_k3() ->
-     ?wxSTC_HA_COMMENTBLOCK3.
+constant(constwxSTC_HA_COMMENTBLOCK2) ->
+     ?wxSTC_HA_COMMENTBLOCK2;
 
-wx_stc_ha_commentbloc_k2() ->
-     ?wxSTC_HA_COMMENTBLOCK2.
+constant(constwxSTC_HA_COMMENTBLOCK) ->
+     ?wxSTC_HA_COMMENTBLOCK;
 
-wx_stc_ha_commentblock() ->
-     ?wxSTC_HA_COMMENTBLOCK.
+constant(constwxSTC_HA_COMMENTLINE) ->
+     ?wxSTC_HA_COMMENTLINE;
 
-wx_stc_ha_commentline() ->
-     ?wxSTC_HA_COMMENTLINE.
+constant(constwxSTC_HA_INSTANCE) ->
+     ?wxSTC_HA_INSTANCE;
 
-wx_stc_ha_instance() ->
-     ?wxSTC_HA_INSTANCE.
+constant(constwxSTC_HA_OPERATOR) ->
+     ?wxSTC_HA_OPERATOR;
 
-wx_stc_ha_operator() ->
-     ?wxSTC_HA_OPERATOR.
+constant(constwxSTC_HA_IMPORT) ->
+     ?wxSTC_HA_IMPORT;
 
-wx_stc_ha_import() ->
-     ?wxSTC_HA_IMPORT.
+constant(constwxSTC_HA_DATA) ->
+     ?wxSTC_HA_DATA;
 
-wx_stc_ha_data() ->
-     ?wxSTC_HA_DATA.
+constant(constwxSTC_HA_CAPITAL) ->
+     ?wxSTC_HA_CAPITAL;
 
-wx_stc_ha_capital() ->
-     ?wxSTC_HA_CAPITAL.
+constant(constwxSTC_HA_MODULE) ->
+     ?wxSTC_HA_MODULE;
 
-wx_stc_ha_module() ->
-     ?wxSTC_HA_MODULE.
+constant(constwxSTC_HA_CLASS) ->
+     ?wxSTC_HA_CLASS;
 
-wx_stc_ha_class() ->
-     ?wxSTC_HA_CLASS.
+constant(constwxSTC_HA_CHARACTER) ->
+     ?wxSTC_HA_CHARACTER;
 
-wx_stc_ha_character() ->
-     ?wxSTC_HA_CHARACTER.
+constant(constwxSTC_HA_STRING) ->
+     ?wxSTC_HA_STRING;
 
-wx_stc_ha_string() ->
-     ?wxSTC_HA_STRING.
+constant(constwxSTC_HA_NUMBER) ->
+     ?wxSTC_HA_NUMBER;
 
-wx_stc_ha_number() ->
-     ?wxSTC_HA_NUMBER.
+constant(constwxSTC_HA_KEYWORD) ->
+     ?wxSTC_HA_KEYWORD;
 
-wx_stc_ha_keyword() ->
-     ?wxSTC_HA_KEYWORD.
+constant(constwxSTC_HA_IDENTIFIER) ->
+     ?wxSTC_HA_IDENTIFIER;
 
-wx_stc_ha_identifier() ->
-     ?wxSTC_HA_IDENTIFIER.
+constant(constwxSTC_HA_DEFAULT) ->
+     ?wxSTC_HA_DEFAULT;
 
-wx_stc_ha_default() ->
-     ?wxSTC_HA_DEFAULT.
+constant(constwxSTC_CAML_COMMENT3) ->
+     ?wxSTC_CAML_COMMENT3;
 
-wx_stc_caml_commen_t3() ->
-     ?wxSTC_CAML_COMMENT3.
+constant(constwxSTC_CAML_COMMENT2) ->
+     ?wxSTC_CAML_COMMENT2;
 
-wx_stc_caml_commen_t2() ->
-     ?wxSTC_CAML_COMMENT2.
+constant(constwxSTC_CAML_COMMENT1) ->
+     ?wxSTC_CAML_COMMENT1;
 
-wx_stc_caml_commen_t1() ->
-     ?wxSTC_CAML_COMMENT1.
+constant(constwxSTC_CAML_COMMENT) ->
+     ?wxSTC_CAML_COMMENT;
 
-wx_stc_caml_comment() ->
-     ?wxSTC_CAML_COMMENT.
+constant(constwxSTC_CAML_STRING) ->
+     ?wxSTC_CAML_STRING;
 
-wx_stc_caml_string() ->
-     ?wxSTC_CAML_STRING.
+constant(constwxSTC_CAML_CHAR) ->
+     ?wxSTC_CAML_CHAR;
 
-wx_stc_caml_char() ->
-     ?wxSTC_CAML_CHAR.
+constant(constwxSTC_CAML_NUMBER) ->
+     ?wxSTC_CAML_NUMBER;
 
-wx_stc_caml_number() ->
-     ?wxSTC_CAML_NUMBER.
+constant(constwxSTC_CAML_OPERATOR) ->
+     ?wxSTC_CAML_OPERATOR;
 
-wx_stc_caml_operator() ->
-     ?wxSTC_CAML_OPERATOR.
+constant(constwxSTC_CAML_LINENUM) ->
+     ?wxSTC_CAML_LINENUM;
 
-wx_stc_caml_linenum() ->
-     ?wxSTC_CAML_LINENUM.
+constant(constwxSTC_CAML_KEYWORD3) ->
+     ?wxSTC_CAML_KEYWORD3;
 
-wx_stc_caml_keywor_d3() ->
-     ?wxSTC_CAML_KEYWORD3.
+constant(constwxSTC_CAML_KEYWORD2) ->
+     ?wxSTC_CAML_KEYWORD2;
 
-wx_stc_caml_keywor_d2() ->
-     ?wxSTC_CAML_KEYWORD2.
+constant(constwxSTC_CAML_KEYWORD) ->
+     ?wxSTC_CAML_KEYWORD;
 
-wx_stc_caml_keyword() ->
-     ?wxSTC_CAML_KEYWORD.
+constant(constwxSTC_CAML_TAGNAME) ->
+     ?wxSTC_CAML_TAGNAME;
 
-wx_stc_caml_tagname() ->
-     ?wxSTC_CAML_TAGNAME.
+constant(constwxSTC_CAML_IDENTIFIER) ->
+     ?wxSTC_CAML_IDENTIFIER;
 
-wx_stc_caml_identifier() ->
-     ?wxSTC_CAML_IDENTIFIER.
+constant(constwxSTC_CAML_DEFAULT) ->
+     ?wxSTC_CAML_DEFAULT;
 
-wx_stc_caml_default() ->
-     ?wxSTC_CAML_DEFAULT.
+constant(constwxSTC_VHDL_USERWORD) ->
+     ?wxSTC_VHDL_USERWORD;
 
-wx_stc_vhdl_userword() ->
-     ?wxSTC_VHDL_USERWORD.
+constant(constwxSTC_VHDL_STDTYPE) ->
+     ?wxSTC_VHDL_STDTYPE;
 
-wx_stc_vhdl_stdtype() ->
-     ?wxSTC_VHDL_STDTYPE.
+constant(constwxSTC_VHDL_STDPACKAGE) ->
+     ?wxSTC_VHDL_STDPACKAGE;
 
-wx_stc_vhdl_stdpackage() ->
-     ?wxSTC_VHDL_STDPACKAGE.
+constant(constwxSTC_VHDL_STDFUNCTION) ->
+     ?wxSTC_VHDL_STDFUNCTION;
 
-wx_stc_vhdl_stdfunction() ->
-     ?wxSTC_VHDL_STDFUNCTION.
+constant(constwxSTC_VHDL_ATTRIBUTE) ->
+     ?wxSTC_VHDL_ATTRIBUTE;
 
-wx_stc_vhdl_attribute() ->
-     ?wxSTC_VHDL_ATTRIBUTE.
+constant(constwxSTC_VHDL_STDOPERATOR) ->
+     ?wxSTC_VHDL_STDOPERATOR;
 
-wx_stc_vhdl_stdoperator() ->
-     ?wxSTC_VHDL_STDOPERATOR.
+constant(constwxSTC_VHDL_KEYWORD) ->
+     ?wxSTC_VHDL_KEYWORD;
 
-wx_stc_vhdl_keyword() ->
-     ?wxSTC_VHDL_KEYWORD.
+constant(constwxSTC_VHDL_STRINGEOL) ->
+     ?wxSTC_VHDL_STRINGEOL;
 
-wx_stc_vhdl_stringeol() ->
-     ?wxSTC_VHDL_STRINGEOL.
+constant(constwxSTC_VHDL_IDENTIFIER) ->
+     ?wxSTC_VHDL_IDENTIFIER;
 
-wx_stc_vhdl_identifier() ->
-     ?wxSTC_VHDL_IDENTIFIER.
+constant(constwxSTC_VHDL_OPERATOR) ->
+     ?wxSTC_VHDL_OPERATOR;
 
-wx_stc_vhdl_operator() ->
-     ?wxSTC_VHDL_OPERATOR.
+constant(constwxSTC_VHDL_STRING) ->
+     ?wxSTC_VHDL_STRING;
 
-wx_stc_vhdl_string() ->
-     ?wxSTC_VHDL_STRING.
+constant(constwxSTC_VHDL_NUMBER) ->
+     ?wxSTC_VHDL_NUMBER;
 
-wx_stc_vhdl_number() ->
-     ?wxSTC_VHDL_NUMBER.
+constant(constwxSTC_VHDL_COMMENTLINEBANG) ->
+     ?wxSTC_VHDL_COMMENTLINEBANG;
 
-wx_stc_vhdl_commentlinebang() ->
-     ?wxSTC_VHDL_COMMENTLINEBANG.
+constant(constwxSTC_VHDL_COMMENT) ->
+     ?wxSTC_VHDL_COMMENT;
 
-wx_stc_vhdl_comment() ->
-     ?wxSTC_VHDL_COMMENT.
+constant(constwxSTC_VHDL_DEFAULT) ->
+     ?wxSTC_VHDL_DEFAULT;
 
-wx_stc_vhdl_default() ->
-     ?wxSTC_VHDL_DEFAULT.
+constant(constwxSTC_ASN1_OPERATOR) ->
+     ?wxSTC_ASN1_OPERATOR;
 
-wx_stc_as_n1_operator() ->
-     ?wxSTC_ASN1_OPERATOR.
+constant(constwxSTC_ASN1_TYPE) ->
+     ?wxSTC_ASN1_TYPE;
 
-wx_stc_as_n1_type() ->
-     ?wxSTC_ASN1_TYPE.
+constant(constwxSTC_ASN1_DESCRIPTOR) ->
+     ?wxSTC_ASN1_DESCRIPTOR;
 
-wx_stc_as_n1_descriptor() ->
-     ?wxSTC_ASN1_DESCRIPTOR.
+constant(constwxSTC_ASN1_ATTRIBUTE) ->
+     ?wxSTC_ASN1_ATTRIBUTE;
 
-wx_stc_as_n1_attribute() ->
-     ?wxSTC_ASN1_ATTRIBUTE.
+constant(constwxSTC_ASN1_KEYWORD) ->
+     ?wxSTC_ASN1_KEYWORD;
 
-wx_stc_as_n1_keyword() ->
-     ?wxSTC_ASN1_KEYWORD.
+constant(constwxSTC_ASN1_SCALAR) ->
+     ?wxSTC_ASN1_SCALAR;
 
-wx_stc_as_n1_scalar() ->
-     ?wxSTC_ASN1_SCALAR.
+constant(constwxSTC_ASN1_OID) ->
+     ?wxSTC_ASN1_OID;
 
-wx_stc_as_n1_oid() ->
-     ?wxSTC_ASN1_OID.
+constant(constwxSTC_ASN1_STRING) ->
+     ?wxSTC_ASN1_STRING;
 
-wx_stc_as_n1_string() ->
-     ?wxSTC_ASN1_STRING.
+constant(constwxSTC_ASN1_IDENTIFIER) ->
+     ?wxSTC_ASN1_IDENTIFIER;
 
-wx_stc_as_n1_identifier() ->
-     ?wxSTC_ASN1_IDENTIFIER.
+constant(constwxSTC_ASN1_COMMENT) ->
+     ?wxSTC_ASN1_COMMENT;
 
-wx_stc_as_n1_comment() ->
-     ?wxSTC_ASN1_COMMENT.
+constant(constwxSTC_ASN1_DEFAULT) ->
+     ?wxSTC_ASN1_DEFAULT;
 
-wx_stc_as_n1_default() ->
-     ?wxSTC_ASN1_DEFAULT.
+constant(constwxSTC_SH_HERE_Q) ->
+     ?wxSTC_SH_HERE_Q;
 
-wx_stc_sh_here_q() ->
-     ?wxSTC_SH_HERE_Q.
+constant(constwxSTC_SH_HERE_DELIM) ->
+     ?wxSTC_SH_HERE_DELIM;
 
-wx_stc_sh_here_delim() ->
-     ?wxSTC_SH_HERE_DELIM.
+constant(constwxSTC_SH_BACKTICKS) ->
+     ?wxSTC_SH_BACKTICKS;
 
-wx_stc_sh_backticks() ->
-     ?wxSTC_SH_BACKTICKS.
+constant(constwxSTC_SH_PARAM) ->
+     ?wxSTC_SH_PARAM;
 
-wx_stc_sh_param() ->
-     ?wxSTC_SH_PARAM.
+constant(constwxSTC_SH_SCALAR) ->
+     ?wxSTC_SH_SCALAR;
 
-wx_stc_sh_scalar() ->
-     ?wxSTC_SH_SCALAR.
+constant(constwxSTC_SH_IDENTIFIER) ->
+     ?wxSTC_SH_IDENTIFIER;
 
-wx_stc_sh_identifier() ->
-     ?wxSTC_SH_IDENTIFIER.
+constant(constwxSTC_SH_OPERATOR) ->
+     ?wxSTC_SH_OPERATOR;
 
-wx_stc_sh_operator() ->
-     ?wxSTC_SH_OPERATOR.
+constant(constwxSTC_SH_CHARACTER) ->
+     ?wxSTC_SH_CHARACTER;
 
-wx_stc_sh_character() ->
-     ?wxSTC_SH_CHARACTER.
+constant(constwxSTC_SH_STRING) ->
+     ?wxSTC_SH_STRING;
 
-wx_stc_sh_string() ->
-     ?wxSTC_SH_STRING.
+constant(constwxSTC_SH_WORD) ->
+     ?wxSTC_SH_WORD;
 
-wx_stc_sh_word() ->
-     ?wxSTC_SH_WORD.
+constant(constwxSTC_SH_NUMBER) ->
+     ?wxSTC_SH_NUMBER;
 
-wx_stc_sh_number() ->
-     ?wxSTC_SH_NUMBER.
+constant(constwxSTC_SH_COMMENTLINE) ->
+     ?wxSTC_SH_COMMENTLINE;
 
-wx_stc_sh_commentline() ->
-     ?wxSTC_SH_COMMENTLINE.
+constant(constwxSTC_SH_ERROR) ->
+     ?wxSTC_SH_ERROR;
 
-wx_stc_sh_error() ->
-     ?wxSTC_SH_ERROR.
+constant(constwxSTC_SH_DEFAULT) ->
+     ?wxSTC_SH_DEFAULT;
 
-wx_stc_sh_default() ->
-     ?wxSTC_SH_DEFAULT.
+constant(constwxSTC_APDL_FUNCTION) ->
+     ?wxSTC_APDL_FUNCTION;
 
-wx_stc_apdl_function() ->
-     ?wxSTC_APDL_FUNCTION.
+constant(constwxSTC_APDL_ARGUMENT) ->
+     ?wxSTC_APDL_ARGUMENT;
 
-wx_stc_apdl_argument() ->
-     ?wxSTC_APDL_ARGUMENT.
+constant(constwxSTC_APDL_STARCOMMAND) ->
+     ?wxSTC_APDL_STARCOMMAND;
 
-wx_stc_apdl_starcommand() ->
-     ?wxSTC_APDL_STARCOMMAND.
+constant(constwxSTC_APDL_SLASHCOMMAND) ->
+     ?wxSTC_APDL_SLASHCOMMAND;
 
-wx_stc_apdl_slashcommand() ->
-     ?wxSTC_APDL_SLASHCOMMAND.
+constant(constwxSTC_APDL_COMMAND) ->
+     ?wxSTC_APDL_COMMAND;
 
-wx_stc_apdl_command() ->
-     ?wxSTC_APDL_COMMAND.
+constant(constwxSTC_APDL_PROCESSOR) ->
+     ?wxSTC_APDL_PROCESSOR;
 
-wx_stc_apdl_processor() ->
-     ?wxSTC_APDL_PROCESSOR.
+constant(constwxSTC_APDL_WORD) ->
+     ?wxSTC_APDL_WORD;
 
-wx_stc_apdl_word() ->
-     ?wxSTC_APDL_WORD.
+constant(constwxSTC_APDL_OPERATOR) ->
+     ?wxSTC_APDL_OPERATOR;
 
-wx_stc_apdl_operator() ->
-     ?wxSTC_APDL_OPERATOR.
+constant(constwxSTC_APDL_STRING) ->
+     ?wxSTC_APDL_STRING;
 
-wx_stc_apdl_string() ->
-     ?wxSTC_APDL_STRING.
+constant(constwxSTC_APDL_NUMBER) ->
+     ?wxSTC_APDL_NUMBER;
 
-wx_stc_apdl_number() ->
-     ?wxSTC_APDL_NUMBER.
+constant(constwxSTC_APDL_COMMENTBLOCK) ->
+     ?wxSTC_APDL_COMMENTBLOCK;
 
-wx_stc_apdl_commentblock() ->
-     ?wxSTC_APDL_COMMENTBLOCK.
+constant(constwxSTC_APDL_COMMENT) ->
+     ?wxSTC_APDL_COMMENT;
 
-wx_stc_apdl_comment() ->
-     ?wxSTC_APDL_COMMENT.
+constant(constwxSTC_APDL_DEFAULT) ->
+     ?wxSTC_APDL_DEFAULT;
 
-wx_stc_apdl_default() ->
-     ?wxSTC_APDL_DEFAULT.
+constant(constwxSTC_AU3_UDF) ->
+     ?wxSTC_AU3_UDF;
 
-wx_stc_a_u3_udf() ->
-     ?wxSTC_AU3_UDF.
+constant(constwxSTC_AU3_COMOBJ) ->
+     ?wxSTC_AU3_COMOBJ;
 
-wx_stc_a_u3_comobj() ->
-     ?wxSTC_AU3_COMOBJ.
+constant(constwxSTC_AU3_EXPAND) ->
+     ?wxSTC_AU3_EXPAND;
 
-wx_stc_a_u3_expand() ->
-     ?wxSTC_AU3_EXPAND.
+constant(constwxSTC_AU3_SPECIAL) ->
+     ?wxSTC_AU3_SPECIAL;
 
-wx_stc_a_u3_special() ->
-     ?wxSTC_AU3_SPECIAL.
+constant(constwxSTC_AU3_PREPROCESSOR) ->
+     ?wxSTC_AU3_PREPROCESSOR;
 
-wx_stc_a_u3_preprocessor() ->
-     ?wxSTC_AU3_PREPROCESSOR.
+constant(constwxSTC_AU3_SENT) ->
+     ?wxSTC_AU3_SENT;
 
-wx_stc_a_u3_sent() ->
-     ?wxSTC_AU3_SENT.
+constant(constwxSTC_AU3_VARIABLE) ->
+     ?wxSTC_AU3_VARIABLE;
 
-wx_stc_a_u3_variable() ->
-     ?wxSTC_AU3_VARIABLE.
+constant(constwxSTC_AU3_OPERATOR) ->
+     ?wxSTC_AU3_OPERATOR;
 
-wx_stc_a_u3_operator() ->
-     ?wxSTC_AU3_OPERATOR.
+constant(constwxSTC_AU3_STRING) ->
+     ?wxSTC_AU3_STRING;
 
-wx_stc_a_u3_string() ->
-     ?wxSTC_AU3_STRING.
+constant(constwxSTC_AU3_MACRO) ->
+     ?wxSTC_AU3_MACRO;
 
-wx_stc_a_u3_macro() ->
-     ?wxSTC_AU3_MACRO.
+constant(constwxSTC_AU3_KEYWORD) ->
+     ?wxSTC_AU3_KEYWORD;
 
-wx_stc_a_u3_keyword() ->
-     ?wxSTC_AU3_KEYWORD.
+constant(constwxSTC_AU3_FUNCTION) ->
+     ?wxSTC_AU3_FUNCTION;
 
-wx_stc_a_u3_function() ->
-     ?wxSTC_AU3_FUNCTION.
+constant(constwxSTC_AU3_NUMBER) ->
+     ?wxSTC_AU3_NUMBER;
 
-wx_stc_a_u3_number() ->
-     ?wxSTC_AU3_NUMBER.
+constant(constwxSTC_AU3_COMMENTBLOCK) ->
+     ?wxSTC_AU3_COMMENTBLOCK;
 
-wx_stc_a_u3_commentblock() ->
-     ?wxSTC_AU3_COMMENTBLOCK.
+constant(constwxSTC_AU3_COMMENT) ->
+     ?wxSTC_AU3_COMMENT;
 
-wx_stc_a_u3_comment() ->
-     ?wxSTC_AU3_COMMENT.
+constant(constwxSTC_AU3_DEFAULT) ->
+     ?wxSTC_AU3_DEFAULT;
 
-wx_stc_a_u3_default() ->
-     ?wxSTC_AU3_DEFAULT.
+constant(constwxSTC_SN_USER) ->
+     ?wxSTC_SN_USER;
 
-wx_stc_sn_user() ->
-     ?wxSTC_SN_USER.
+constant(constwxSTC_SN_SIGNAL) ->
+     ?wxSTC_SN_SIGNAL;
 
-wx_stc_sn_signal() ->
-     ?wxSTC_SN_SIGNAL.
+constant(constwxSTC_SN_REGEXTAG) ->
+     ?wxSTC_SN_REGEXTAG;
 
-wx_stc_sn_regextag() ->
-     ?wxSTC_SN_REGEXTAG.
+constant(constwxSTC_SN_STRINGEOL) ->
+     ?wxSTC_SN_STRINGEOL;
 
-wx_stc_sn_stringeol() ->
-     ?wxSTC_SN_STRINGEOL.
+constant(constwxSTC_SN_IDENTIFIER) ->
+     ?wxSTC_SN_IDENTIFIER;
 
-wx_stc_sn_identifier() ->
-     ?wxSTC_SN_IDENTIFIER.
+constant(constwxSTC_SN_OPERATOR) ->
+     ?wxSTC_SN_OPERATOR;
 
-wx_stc_sn_operator() ->
-     ?wxSTC_SN_OPERATOR.
+constant(constwxSTC_SN_PREPROCESSOR) ->
+     ?wxSTC_SN_PREPROCESSOR;
 
-wx_stc_sn_preprocessor() ->
-     ?wxSTC_SN_PREPROCESSOR.
+constant(constwxSTC_SN_WORD3) ->
+     ?wxSTC_SN_WORD3;
 
-wx_stc_sn_wor_d3() ->
-     ?wxSTC_SN_WORD3.
+constant(constwxSTC_SN_WORD2) ->
+     ?wxSTC_SN_WORD2;
 
-wx_stc_sn_wor_d2() ->
-     ?wxSTC_SN_WORD2.
+constant(constwxSTC_SN_STRING) ->
+     ?wxSTC_SN_STRING;
 
-wx_stc_sn_string() ->
-     ?wxSTC_SN_STRING.
+constant(constwxSTC_SN_WORD) ->
+     ?wxSTC_SN_WORD;
 
-wx_stc_sn_word() ->
-     ?wxSTC_SN_WORD.
+constant(constwxSTC_SN_NUMBER) ->
+     ?wxSTC_SN_NUMBER;
 
-wx_stc_sn_number() ->
-     ?wxSTC_SN_NUMBER.
+constant(constwxSTC_SN_COMMENTLINEBANG) ->
+     ?wxSTC_SN_COMMENTLINEBANG;
 
-wx_stc_sn_commentlinebang() ->
-     ?wxSTC_SN_COMMENTLINEBANG.
+constant(constwxSTC_SN_COMMENTLINE) ->
+     ?wxSTC_SN_COMMENTLINE;
 
-wx_stc_sn_commentline() ->
-     ?wxSTC_SN_COMMENTLINE.
+constant(constwxSTC_SN_CODE) ->
+     ?wxSTC_SN_CODE;
 
-wx_stc_sn_code() ->
-     ?wxSTC_SN_CODE.
+constant(constwxSTC_SN_DEFAULT) ->
+     ?wxSTC_SN_DEFAULT;
 
-wx_stc_sn_default() ->
-     ?wxSTC_SN_DEFAULT.
+constant(constwxSTC_GC_OPERATOR) ->
+     ?wxSTC_GC_OPERATOR;
 
-wx_stc_gc_operator() ->
-     ?wxSTC_GC_OPERATOR.
+constant(constwxSTC_GC_STRING) ->
+     ?wxSTC_GC_STRING;
 
-wx_stc_gc_string() ->
-     ?wxSTC_GC_STRING.
+constant(constwxSTC_GC_COMMAND) ->
+     ?wxSTC_GC_COMMAND;
 
-wx_stc_gc_command() ->
-     ?wxSTC_GC_COMMAND.
+constant(constwxSTC_GC_CONTROL) ->
+     ?wxSTC_GC_CONTROL;
 
-wx_stc_gc_control() ->
-     ?wxSTC_GC_CONTROL.
+constant(constwxSTC_GC_ATTRIBUTE) ->
+     ?wxSTC_GC_ATTRIBUTE;
 
-wx_stc_gc_attribute() ->
-     ?wxSTC_GC_ATTRIBUTE.
+constant(constwxSTC_GC_EVENT) ->
+     ?wxSTC_GC_EVENT;
 
-wx_stc_gc_event() ->
-     ?wxSTC_GC_EVENT.
+constant(constwxSTC_GC_GLOBAL) ->
+     ?wxSTC_GC_GLOBAL;
 
-wx_stc_gc_global() ->
-     ?wxSTC_GC_GLOBAL.
+constant(constwxSTC_GC_COMMENTBLOCK) ->
+     ?wxSTC_GC_COMMENTBLOCK;
 
-wx_stc_gc_commentblock() ->
-     ?wxSTC_GC_COMMENTBLOCK.
+constant(constwxSTC_GC_COMMENTLINE) ->
+     ?wxSTC_GC_COMMENTLINE;
 
-wx_stc_gc_commentline() ->
-     ?wxSTC_GC_COMMENTLINE.
+constant(constwxSTC_GC_DEFAULT) ->
+     ?wxSTC_GC_DEFAULT;
 
-wx_stc_gc_default() ->
-     ?wxSTC_GC_DEFAULT.
+constant(constwxSTC_KIX_IDENTIFIER) ->
+     ?wxSTC_KIX_IDENTIFIER;
 
-wx_stc_kix_identifier() ->
-     ?wxSTC_KIX_IDENTIFIER.
+constant(constwxSTC_KIX_OPERATOR) ->
+     ?wxSTC_KIX_OPERATOR;
 
-wx_stc_kix_operator() ->
-     ?wxSTC_KIX_OPERATOR.
+constant(constwxSTC_KIX_FUNCTIONS) ->
+     ?wxSTC_KIX_FUNCTIONS;
 
-wx_stc_kix_functions() ->
-     ?wxSTC_KIX_FUNCTIONS.
+constant(constwxSTC_KIX_KEYWORD) ->
+     ?wxSTC_KIX_KEYWORD;
 
-wx_stc_kix_keyword() ->
-     ?wxSTC_KIX_KEYWORD.
+constant(constwxSTC_KIX_MACRO) ->
+     ?wxSTC_KIX_MACRO;
 
-wx_stc_kix_macro() ->
-     ?wxSTC_KIX_MACRO.
+constant(constwxSTC_KIX_VAR) ->
+     ?wxSTC_KIX_VAR;
 
-wx_stc_kix_var() ->
-     ?wxSTC_KIX_VAR.
+constant(constwxSTC_KIX_NUMBER) ->
+     ?wxSTC_KIX_NUMBER;
 
-wx_stc_kix_number() ->
-     ?wxSTC_KIX_NUMBER.
+constant(constwxSTC_KIX_STRING2) ->
+     ?wxSTC_KIX_STRING2;
 
-wx_stc_kix_strin_g2() ->
-     ?wxSTC_KIX_STRING2.
+constant(constwxSTC_KIX_STRING1) ->
+     ?wxSTC_KIX_STRING1;
 
-wx_stc_kix_strin_g1() ->
-     ?wxSTC_KIX_STRING1.
+constant(constwxSTC_KIX_COMMENT) ->
+     ?wxSTC_KIX_COMMENT;
 
-wx_stc_kix_comment() ->
-     ?wxSTC_KIX_COMMENT.
+constant(constwxSTC_KIX_DEFAULT) ->
+     ?wxSTC_KIX_DEFAULT;
 
-wx_stc_kix_default() ->
-     ?wxSTC_KIX_DEFAULT.
+constant(constwxSTC_V_USER) ->
+     ?wxSTC_V_USER;
 
-wx_stc_v_user() ->
-     ?wxSTC_V_USER.
+constant(constwxSTC_V_STRINGEOL) ->
+     ?wxSTC_V_STRINGEOL;
 
-wx_stc_v_stringeol() ->
-     ?wxSTC_V_STRINGEOL.
+constant(constwxSTC_V_IDENTIFIER) ->
+     ?wxSTC_V_IDENTIFIER;
 
-wx_stc_v_identifier() ->
-     ?wxSTC_V_IDENTIFIER.
+constant(constwxSTC_V_OPERATOR) ->
+     ?wxSTC_V_OPERATOR;
 
-wx_stc_v_operator() ->
-     ?wxSTC_V_OPERATOR.
+constant(constwxSTC_V_PREPROCESSOR) ->
+     ?wxSTC_V_PREPROCESSOR;
 
-wx_stc_v_preprocessor() ->
-     ?wxSTC_V_PREPROCESSOR.
+constant(constwxSTC_V_WORD3) ->
+     ?wxSTC_V_WORD3;
 
-wx_stc_v_wor_d3() ->
-     ?wxSTC_V_WORD3.
+constant(constwxSTC_V_WORD2) ->
+     ?wxSTC_V_WORD2;
 
-wx_stc_v_wor_d2() ->
-     ?wxSTC_V_WORD2.
+constant(constwxSTC_V_STRING) ->
+     ?wxSTC_V_STRING;
 
-wx_stc_v_string() ->
-     ?wxSTC_V_STRING.
+constant(constwxSTC_V_WORD) ->
+     ?wxSTC_V_WORD;
 
-wx_stc_v_word() ->
-     ?wxSTC_V_WORD.
+constant(constwxSTC_V_NUMBER) ->
+     ?wxSTC_V_NUMBER;
 
-wx_stc_v_number() ->
-     ?wxSTC_V_NUMBER.
+constant(constwxSTC_V_COMMENTLINEBANG) ->
+     ?wxSTC_V_COMMENTLINEBANG;
 
-wx_stc_v_commentlinebang() ->
-     ?wxSTC_V_COMMENTLINEBANG.
+constant(constwxSTC_V_COMMENTLINE) ->
+     ?wxSTC_V_COMMENTLINE;
 
-wx_stc_v_commentline() ->
-     ?wxSTC_V_COMMENTLINE.
+constant(constwxSTC_V_COMMENT) ->
+     ?wxSTC_V_COMMENT;
 
-wx_stc_v_comment() ->
-     ?wxSTC_V_COMMENT.
+constant(constwxSTC_V_DEFAULT) ->
+     ?wxSTC_V_DEFAULT;
 
-wx_stc_v_default() ->
-     ?wxSTC_V_DEFAULT.
+constant(constwxSTC_MSSQL_COLUMN_NAME_2) ->
+     ?wxSTC_MSSQL_COLUMN_NAME_2;
 
-wx_stc_mssql_column_name_2() ->
-     ?wxSTC_MSSQL_COLUMN_NAME_2.
+constant(constwxSTC_MSSQL_DEFAULT_PREF_DATATYPE) ->
+     ?wxSTC_MSSQL_DEFAULT_PREF_DATATYPE;
 
-wx_stc_mssql_default_pref_datatype() ->
-     ?wxSTC_MSSQL_DEFAULT_PREF_DATATYPE.
+constant(constwxSTC_MSSQL_STORED_PROCEDURE) ->
+     ?wxSTC_MSSQL_STORED_PROCEDURE;
 
-wx_stc_mssql_stored_procedure() ->
-     ?wxSTC_MSSQL_STORED_PROCEDURE.
+constant(constwxSTC_MSSQL_FUNCTION) ->
+     ?wxSTC_MSSQL_FUNCTION;
 
-wx_stc_mssql_function() ->
-     ?wxSTC_MSSQL_FUNCTION.
+constant(constwxSTC_MSSQL_GLOBAL_VARIABLE) ->
+     ?wxSTC_MSSQL_GLOBAL_VARIABLE;
 
-wx_stc_mssql_global_variable() ->
-     ?wxSTC_MSSQL_GLOBAL_VARIABLE.
+constant(constwxSTC_MSSQL_SYSTABLE) ->
+     ?wxSTC_MSSQL_SYSTABLE;
 
-wx_stc_mssql_systable() ->
-     ?wxSTC_MSSQL_SYSTABLE.
+constant(constwxSTC_MSSQL_DATATYPE) ->
+     ?wxSTC_MSSQL_DATATYPE;
 
-wx_stc_mssql_datatype() ->
-     ?wxSTC_MSSQL_DATATYPE.
+constant(constwxSTC_MSSQL_STATEMENT) ->
+     ?wxSTC_MSSQL_STATEMENT;
 
-wx_stc_mssql_statement() ->
-     ?wxSTC_MSSQL_STATEMENT.
+constant(constwxSTC_MSSQL_COLUMN_NAME) ->
+     ?wxSTC_MSSQL_COLUMN_NAME;
 
-wx_stc_mssql_column_name() ->
-     ?wxSTC_MSSQL_COLUMN_NAME.
+constant(constwxSTC_MSSQL_VARIABLE) ->
+     ?wxSTC_MSSQL_VARIABLE;
 
-wx_stc_mssql_variable() ->
-     ?wxSTC_MSSQL_VARIABLE.
+constant(constwxSTC_MSSQL_IDENTIFIER) ->
+     ?wxSTC_MSSQL_IDENTIFIER;
 
-wx_stc_mssql_identifier() ->
-     ?wxSTC_MSSQL_IDENTIFIER.
+constant(constwxSTC_MSSQL_OPERATOR) ->
+     ?wxSTC_MSSQL_OPERATOR;
 
-wx_stc_mssql_operator() ->
-     ?wxSTC_MSSQL_OPERATOR.
+constant(constwxSTC_MSSQL_STRING) ->
+     ?wxSTC_MSSQL_STRING;
 
-wx_stc_mssql_string() ->
-     ?wxSTC_MSSQL_STRING.
+constant(constwxSTC_MSSQL_NUMBER) ->
+     ?wxSTC_MSSQL_NUMBER;
 
-wx_stc_mssql_number() ->
-     ?wxSTC_MSSQL_NUMBER.
+constant(constwxSTC_MSSQL_LINE_COMMENT) ->
+     ?wxSTC_MSSQL_LINE_COMMENT;
 
-wx_stc_mssql_line_comment() ->
-     ?wxSTC_MSSQL_LINE_COMMENT.
+constant(constwxSTC_MSSQL_COMMENT) ->
+     ?wxSTC_MSSQL_COMMENT;
 
-wx_stc_mssql_comment() ->
-     ?wxSTC_MSSQL_COMMENT.
+constant(constwxSTC_MSSQL_DEFAULT) ->
+     ?wxSTC_MSSQL_DEFAULT;
 
-wx_stc_mssql_default() ->
-     ?wxSTC_MSSQL_DEFAULT.
+constant(constwxSTC_ERLANG_UNKNOWN) ->
+     ?wxSTC_ERLANG_UNKNOWN;
 
-wx_stc_erlang_unknown() ->
-     ?wxSTC_ERLANG_UNKNOWN.
+constant(constwxSTC_ERLANG_NODE_NAME) ->
+     ?wxSTC_ERLANG_NODE_NAME;
 
-wx_stc_erlang_node_name() ->
-     ?wxSTC_ERLANG_NODE_NAME.
+constant(constwxSTC_ERLANG_SEPARATOR) ->
+     ?wxSTC_ERLANG_SEPARATOR;
 
-wx_stc_erlang_separator() ->
-     ?wxSTC_ERLANG_SEPARATOR.
+constant(constwxSTC_ERLANG_RECORD) ->
+     ?wxSTC_ERLANG_RECORD;
 
-wx_stc_erlang_record() ->
-     ?wxSTC_ERLANG_RECORD.
+constant(constwxSTC_ERLANG_MACRO) ->
+     ?wxSTC_ERLANG_MACRO;
 
-wx_stc_erlang_macro() ->
-     ?wxSTC_ERLANG_MACRO.
+constant(constwxSTC_ERLANG_CHARACTER) ->
+     ?wxSTC_ERLANG_CHARACTER;
 
-wx_stc_erlang_character() ->
-     ?wxSTC_ERLANG_CHARACTER.
+constant(constwxSTC_ERLANG_FUNCTION_NAME) ->
+     ?wxSTC_ERLANG_FUNCTION_NAME;
 
-wx_stc_erlang_function_name() ->
-     ?wxSTC_ERLANG_FUNCTION_NAME.
+constant(constwxSTC_ERLANG_ATOM) ->
+     ?wxSTC_ERLANG_ATOM;
 
-wx_stc_erlang_atom() ->
-     ?wxSTC_ERLANG_ATOM.
+constant(constwxSTC_ERLANG_OPERATOR) ->
+     ?wxSTC_ERLANG_OPERATOR;
 
-wx_stc_erlang_operator() ->
-     ?wxSTC_ERLANG_OPERATOR.
+constant(constwxSTC_ERLANG_STRING) ->
+     ?wxSTC_ERLANG_STRING;
 
-wx_stc_erlang_string() ->
-     ?wxSTC_ERLANG_STRING.
+constant(constwxSTC_ERLANG_KEYWORD) ->
+     ?wxSTC_ERLANG_KEYWORD;
 
-wx_stc_erlang_keyword() ->
-     ?wxSTC_ERLANG_KEYWORD.
+constant(constwxSTC_ERLANG_NUMBER) ->
+     ?wxSTC_ERLANG_NUMBER;
 
-wx_stc_erlang_number() ->
-     ?wxSTC_ERLANG_NUMBER.
+constant(constwxSTC_ERLANG_VARIABLE) ->
+     ?wxSTC_ERLANG_VARIABLE;
 
-wx_stc_erlang_variable() ->
-     ?wxSTC_ERLANG_VARIABLE.
+constant(constwxSTC_ERLANG_COMMENT) ->
+     ?wxSTC_ERLANG_COMMENT;
 
-wx_stc_erlang_comment() ->
-     ?wxSTC_ERLANG_COMMENT.
+constant(constwxSTC_ERLANG_DEFAULT) ->
+     ?wxSTC_ERLANG_DEFAULT;
 
-wx_stc_erlang_default() ->
-     ?wxSTC_ERLANG_DEFAULT.
+constant(constwxSTC_METAPOST_EXTRA) ->
+     ?wxSTC_METAPOST_EXTRA;
 
-wx_stc_metapost_extra() ->
-     ?wxSTC_METAPOST_EXTRA.
+constant(constwxSTC_METAPOST_TEXT) ->
+     ?wxSTC_METAPOST_TEXT;
 
-wx_stc_metapost_text() ->
-     ?wxSTC_METAPOST_TEXT.
+constant(constwxSTC_METAPOST_COMMAND) ->
+     ?wxSTC_METAPOST_COMMAND;
 
-wx_stc_metapost_command() ->
-     ?wxSTC_METAPOST_COMMAND.
+constant(constwxSTC_METAPOST_SYMBOL) ->
+     ?wxSTC_METAPOST_SYMBOL;
 
-wx_stc_metapost_symbol() ->
-     ?wxSTC_METAPOST_SYMBOL.
+constant(constwxSTC_METAPOST_GROUP) ->
+     ?wxSTC_METAPOST_GROUP;
 
-wx_stc_metapost_group() ->
-     ?wxSTC_METAPOST_GROUP.
+constant(constwxSTC_METAPOST_SPECIAL) ->
+     ?wxSTC_METAPOST_SPECIAL;
 
-wx_stc_metapost_special() ->
-     ?wxSTC_METAPOST_SPECIAL.
+constant(constwxSTC_METAPOST_DEFAULT) ->
+     ?wxSTC_METAPOST_DEFAULT;
 
-wx_stc_metapost_default() ->
-     ?wxSTC_METAPOST_DEFAULT.
+constant(constwxSTC_TEX_TEXT) ->
+     ?wxSTC_TEX_TEXT;
 
-wx_stc_tex_text() ->
-     ?wxSTC_TEX_TEXT.
+constant(constwxSTC_TEX_COMMAND) ->
+     ?wxSTC_TEX_COMMAND;
 
-wx_stc_tex_command() ->
-     ?wxSTC_TEX_COMMAND.
+constant(constwxSTC_TEX_SYMBOL) ->
+     ?wxSTC_TEX_SYMBOL;
 
-wx_stc_tex_symbol() ->
-     ?wxSTC_TEX_SYMBOL.
+constant(constwxSTC_TEX_GROUP) ->
+     ?wxSTC_TEX_GROUP;
 
-wx_stc_tex_group() ->
-     ?wxSTC_TEX_GROUP.
+constant(constwxSTC_TEX_SPECIAL) ->
+     ?wxSTC_TEX_SPECIAL;
 
-wx_stc_tex_special() ->
-     ?wxSTC_TEX_SPECIAL.
+constant(constwxSTC_TEX_DEFAULT) ->
+     ?wxSTC_TEX_DEFAULT;
 
-wx_stc_tex_default() ->
-     ?wxSTC_TEX_DEFAULT.
+constant(constwxSTC_YAML_ERROR) ->
+     ?wxSTC_YAML_ERROR;
 
-wx_stc_yaml_error() ->
-     ?wxSTC_YAML_ERROR.
+constant(constwxSTC_YAML_TEXT) ->
+     ?wxSTC_YAML_TEXT;
 
-wx_stc_yaml_text() ->
-     ?wxSTC_YAML_TEXT.
+constant(constwxSTC_YAML_DOCUMENT) ->
+     ?wxSTC_YAML_DOCUMENT;
 
-wx_stc_yaml_document() ->
-     ?wxSTC_YAML_DOCUMENT.
+constant(constwxSTC_YAML_REFERENCE) ->
+     ?wxSTC_YAML_REFERENCE;
 
-wx_stc_yaml_reference() ->
-     ?wxSTC_YAML_REFERENCE.
+constant(constwxSTC_YAML_NUMBER) ->
+     ?wxSTC_YAML_NUMBER;
 
-wx_stc_yaml_number() ->
-     ?wxSTC_YAML_NUMBER.
+constant(constwxSTC_YAML_KEYWORD) ->
+     ?wxSTC_YAML_KEYWORD;
 
-wx_stc_yaml_keyword() ->
-     ?wxSTC_YAML_KEYWORD.
+constant(constwxSTC_YAML_IDENTIFIER) ->
+     ?wxSTC_YAML_IDENTIFIER;
 
-wx_stc_yaml_identifier() ->
-     ?wxSTC_YAML_IDENTIFIER.
+constant(constwxSTC_YAML_COMMENT) ->
+     ?wxSTC_YAML_COMMENT;
 
-wx_stc_yaml_comment() ->
-     ?wxSTC_YAML_COMMENT.
+constant(constwxSTC_YAML_DEFAULT) ->
+     ?wxSTC_YAML_DEFAULT;
 
-wx_stc_yaml_default() ->
-     ?wxSTC_YAML_DEFAULT.
+constant(constwxSTC_LOT_ABORT) ->
+     ?wxSTC_LOT_ABORT;
 
-wx_stc_lot_abort() ->
-     ?wxSTC_LOT_ABORT.
+constant(constwxSTC_LOT_FAIL) ->
+     ?wxSTC_LOT_FAIL;
 
-wx_stc_lot_fail() ->
-     ?wxSTC_LOT_FAIL.
+constant(constwxSTC_LOT_PASS) ->
+     ?wxSTC_LOT_PASS;
 
-wx_stc_lot_pass() ->
-     ?wxSTC_LOT_PASS.
+constant(constwxSTC_LOT_SET) ->
+     ?wxSTC_LOT_SET;
 
-wx_stc_lot_set() ->
-     ?wxSTC_LOT_SET.
+constant(constwxSTC_LOT_BREAK) ->
+     ?wxSTC_LOT_BREAK;
 
-wx_stc_lot_break() ->
-     ?wxSTC_LOT_BREAK.
+constant(constwxSTC_LOT_HEADER) ->
+     ?wxSTC_LOT_HEADER;
 
-wx_stc_lot_header() ->
-     ?wxSTC_LOT_HEADER.
+constant(constwxSTC_LOT_DEFAULT) ->
+     ?wxSTC_LOT_DEFAULT;
 
-wx_stc_lot_default() ->
-     ?wxSTC_LOT_DEFAULT.
+constant(constwxSTC_CLW_DEPRECATED) ->
+     ?wxSTC_CLW_DEPRECATED;
 
-wx_stc_clw_deprecated() ->
-     ?wxSTC_CLW_DEPRECATED.
+constant(constwxSTC_CLW_ERROR) ->
+     ?wxSTC_CLW_ERROR;
 
-wx_stc_clw_error() ->
-     ?wxSTC_CLW_ERROR.
+constant(constwxSTC_CLW_STANDARD_EQUATE) ->
+     ?wxSTC_CLW_STANDARD_EQUATE;
 
-wx_stc_clw_standard_equate() ->
-     ?wxSTC_CLW_STANDARD_EQUATE.
+constant(constwxSTC_CLW_ATTRIBUTE) ->
+     ?wxSTC_CLW_ATTRIBUTE;
 
-wx_stc_clw_attribute() ->
-     ?wxSTC_CLW_ATTRIBUTE.
+constant(constwxSTC_CLW_STRUCTURE_DATA_TYPE) ->
+     ?wxSTC_CLW_STRUCTURE_DATA_TYPE;
 
-wx_stc_clw_structure_data_type() ->
-     ?wxSTC_CLW_STRUCTURE_DATA_TYPE.
+constant(constwxSTC_CLW_BUILTIN_PROCEDURES_FUNCTION) ->
+     ?wxSTC_CLW_BUILTIN_PROCEDURES_FUNCTION;
 
-wx_stc_clw_builtin_procedures_function() ->
-     ?wxSTC_CLW_BUILTIN_PROCEDURES_FUNCTION.
+constant(constwxSTC_CLW_RUNTIME_EXPRESSIONS) ->
+     ?wxSTC_CLW_RUNTIME_EXPRESSIONS;
 
-wx_stc_clw_runtime_expressions() ->
-     ?wxSTC_CLW_RUNTIME_EXPRESSIONS.
+constant(constwxSTC_CLW_COMPILER_DIRECTIVE) ->
+     ?wxSTC_CLW_COMPILER_DIRECTIVE;
 
-wx_stc_clw_compiler_directive() ->
-     ?wxSTC_CLW_COMPILER_DIRECTIVE.
+constant(constwxSTC_CLW_KEYWORD) ->
+     ?wxSTC_CLW_KEYWORD;
 
-wx_stc_clw_keyword() ->
-     ?wxSTC_CLW_KEYWORD.
+constant(constwxSTC_CLW_PICTURE_STRING) ->
+     ?wxSTC_CLW_PICTURE_STRING;
 
-wx_stc_clw_picture_string() ->
-     ?wxSTC_CLW_PICTURE_STRING.
+constant(constwxSTC_CLW_REAL_CONSTANT) ->
+     ?wxSTC_CLW_REAL_CONSTANT;
 
-wx_stc_clw_real_constant() ->
-     ?wxSTC_CLW_REAL_CONSTANT.
+constant(constwxSTC_CLW_INTEGER_CONSTANT) ->
+     ?wxSTC_CLW_INTEGER_CONSTANT;
 
-wx_stc_clw_integer_constant() ->
-     ?wxSTC_CLW_INTEGER_CONSTANT.
+constant(constwxSTC_CLW_USER_IDENTIFIER) ->
+     ?wxSTC_CLW_USER_IDENTIFIER;
 
-wx_stc_clw_user_identifier() ->
-     ?wxSTC_CLW_USER_IDENTIFIER.
+constant(constwxSTC_CLW_STRING) ->
+     ?wxSTC_CLW_STRING;
 
-wx_stc_clw_string() ->
-     ?wxSTC_CLW_STRING.
+constant(constwxSTC_CLW_COMMENT) ->
+     ?wxSTC_CLW_COMMENT;
 
-wx_stc_clw_comment() ->
-     ?wxSTC_CLW_COMMENT.
+constant(constwxSTC_CLW_LABEL) ->
+     ?wxSTC_CLW_LABEL;
 
-wx_stc_clw_label() ->
-     ?wxSTC_CLW_LABEL.
+constant(constwxSTC_CLW_DEFAULT) ->
+     ?wxSTC_CLW_DEFAULT;
 
-wx_stc_clw_default() ->
-     ?wxSTC_CLW_DEFAULT.
+constant(constwxSTC_MMIXAL_INCLUDE) ->
+     ?wxSTC_MMIXAL_INCLUDE;
 
-wx_stc_mmixal_include() ->
-     ?wxSTC_MMIXAL_INCLUDE.
+constant(constwxSTC_MMIXAL_SYMBOL) ->
+     ?wxSTC_MMIXAL_SYMBOL;
 
-wx_stc_mmixal_symbol() ->
-     ?wxSTC_MMIXAL_SYMBOL.
+constant(constwxSTC_MMIXAL_OPERATOR) ->
+     ?wxSTC_MMIXAL_OPERATOR;
 
-wx_stc_mmixal_operator() ->
-     ?wxSTC_MMIXAL_OPERATOR.
+constant(constwxSTC_MMIXAL_HEX) ->
+     ?wxSTC_MMIXAL_HEX;
 
-wx_stc_mmixal_hex() ->
-     ?wxSTC_MMIXAL_HEX.
+constant(constwxSTC_MMIXAL_REGISTER) ->
+     ?wxSTC_MMIXAL_REGISTER;
 
-wx_stc_mmixal_register() ->
-     ?wxSTC_MMIXAL_REGISTER.
+constant(constwxSTC_MMIXAL_STRING) ->
+     ?wxSTC_MMIXAL_STRING;
 
-wx_stc_mmixal_string() ->
-     ?wxSTC_MMIXAL_STRING.
+constant(constwxSTC_MMIXAL_CHAR) ->
+     ?wxSTC_MMIXAL_CHAR;
 
-wx_stc_mmixal_char() ->
-     ?wxSTC_MMIXAL_CHAR.
+constant(constwxSTC_MMIXAL_REF) ->
+     ?wxSTC_MMIXAL_REF;
 
-wx_stc_mmixal_ref() ->
-     ?wxSTC_MMIXAL_REF.
+constant(constwxSTC_MMIXAL_NUMBER) ->
+     ?wxSTC_MMIXAL_NUMBER;
 
-wx_stc_mmixal_number() ->
-     ?wxSTC_MMIXAL_NUMBER.
+constant(constwxSTC_MMIXAL_OPERANDS) ->
+     ?wxSTC_MMIXAL_OPERANDS;
 
-wx_stc_mmixal_operands() ->
-     ?wxSTC_MMIXAL_OPERANDS.
+constant(constwxSTC_MMIXAL_OPCODE_POST) ->
+     ?wxSTC_MMIXAL_OPCODE_POST;
 
-wx_stc_mmixal_opcode_post() ->
-     ?wxSTC_MMIXAL_OPCODE_POST.
+constant(constwxSTC_MMIXAL_OPCODE_UNKNOWN) ->
+     ?wxSTC_MMIXAL_OPCODE_UNKNOWN;
 
-wx_stc_mmixal_opcode_unknown() ->
-     ?wxSTC_MMIXAL_OPCODE_UNKNOWN.
+constant(constwxSTC_MMIXAL_OPCODE_VALID) ->
+     ?wxSTC_MMIXAL_OPCODE_VALID;
 
-wx_stc_mmixal_opcode_valid() ->
-     ?wxSTC_MMIXAL_OPCODE_VALID.
+constant(constwxSTC_MMIXAL_OPCODE_PRE) ->
+     ?wxSTC_MMIXAL_OPCODE_PRE;
 
-wx_stc_mmixal_opcode_pre() ->
-     ?wxSTC_MMIXAL_OPCODE_PRE.
+constant(constwxSTC_MMIXAL_OPCODE) ->
+     ?wxSTC_MMIXAL_OPCODE;
 
-wx_stc_mmixal_opcode() ->
-     ?wxSTC_MMIXAL_OPCODE.
+constant(constwxSTC_MMIXAL_LABEL) ->
+     ?wxSTC_MMIXAL_LABEL;
 
-wx_stc_mmixal_label() ->
-     ?wxSTC_MMIXAL_LABEL.
+constant(constwxSTC_MMIXAL_COMMENT) ->
+     ?wxSTC_MMIXAL_COMMENT;
 
-wx_stc_mmixal_comment() ->
-     ?wxSTC_MMIXAL_COMMENT.
+constant(constwxSTC_MMIXAL_LEADWS) ->
+     ?wxSTC_MMIXAL_LEADWS;
 
-wx_stc_mmixal_leadws() ->
-     ?wxSTC_MMIXAL_LEADWS.
+constant(constwxSTC_NSIS_COMMENTBOX) ->
+     ?wxSTC_NSIS_COMMENTBOX;
 
-wx_stc_nsis_commentbox() ->
-     ?wxSTC_NSIS_COMMENTBOX.
+constant(constwxSTC_NSIS_FUNCTIONDEF) ->
+     ?wxSTC_NSIS_FUNCTIONDEF;
 
-wx_stc_nsis_functiondef() ->
-     ?wxSTC_NSIS_FUNCTIONDEF.
+constant(constwxSTC_NSIS_PAGEEX) ->
+     ?wxSTC_NSIS_PAGEEX;
 
-wx_stc_nsis_pageex() ->
-     ?wxSTC_NSIS_PAGEEX.
+constant(constwxSTC_NSIS_SECTIONGROUP) ->
+     ?wxSTC_NSIS_SECTIONGROUP;
 
-wx_stc_nsis_sectiongroup() ->
-     ?wxSTC_NSIS_SECTIONGROUP.
+constant(constwxSTC_NSIS_NUMBER) ->
+     ?wxSTC_NSIS_NUMBER;
 
-wx_stc_nsis_number() ->
-     ?wxSTC_NSIS_NUMBER.
+constant(constwxSTC_NSIS_STRINGVAR) ->
+     ?wxSTC_NSIS_STRINGVAR;
 
-wx_stc_nsis_stringvar() ->
-     ?wxSTC_NSIS_STRINGVAR.
+constant(constwxSTC_NSIS_MACRODEF) ->
+     ?wxSTC_NSIS_MACRODEF;
 
-wx_stc_nsis_macrodef() ->
-     ?wxSTC_NSIS_MACRODEF.
+constant(constwxSTC_NSIS_IFDEFINEDEF) ->
+     ?wxSTC_NSIS_IFDEFINEDEF;
 
-wx_stc_nsis_ifdefinedef() ->
-     ?wxSTC_NSIS_IFDEFINEDEF.
+constant(constwxSTC_NSIS_SUBSECTIONDEF) ->
+     ?wxSTC_NSIS_SUBSECTIONDEF;
 
-wx_stc_nsis_subsectiondef() ->
-     ?wxSTC_NSIS_SUBSECTIONDEF.
+constant(constwxSTC_NSIS_SECTIONDEF) ->
+     ?wxSTC_NSIS_SECTIONDEF;
 
-wx_stc_nsis_sectiondef() ->
-     ?wxSTC_NSIS_SECTIONDEF.
+constant(constwxSTC_NSIS_USERDEFINED) ->
+     ?wxSTC_NSIS_USERDEFINED;
 
-wx_stc_nsis_userdefined() ->
-     ?wxSTC_NSIS_USERDEFINED.
+constant(constwxSTC_NSIS_LABEL) ->
+     ?wxSTC_NSIS_LABEL;
 
-wx_stc_nsis_label() ->
-     ?wxSTC_NSIS_LABEL.
+constant(constwxSTC_NSIS_VARIABLE) ->
+     ?wxSTC_NSIS_VARIABLE;
 
-wx_stc_nsis_variable() ->
-     ?wxSTC_NSIS_VARIABLE.
+constant(constwxSTC_NSIS_FUNCTION) ->
+     ?wxSTC_NSIS_FUNCTION;
 
-wx_stc_nsis_function() ->
-     ?wxSTC_NSIS_FUNCTION.
+constant(constwxSTC_NSIS_STRINGRQ) ->
+     ?wxSTC_NSIS_STRINGRQ;
 
-wx_stc_nsis_stringrq() ->
-     ?wxSTC_NSIS_STRINGRQ.
+constant(constwxSTC_NSIS_STRINGLQ) ->
+     ?wxSTC_NSIS_STRINGLQ;
 
-wx_stc_nsis_stringlq() ->
-     ?wxSTC_NSIS_STRINGLQ.
+constant(constwxSTC_NSIS_STRINGDQ) ->
+     ?wxSTC_NSIS_STRINGDQ;
 
-wx_stc_nsis_stringdq() ->
-     ?wxSTC_NSIS_STRINGDQ.
+constant(constwxSTC_NSIS_COMMENT) ->
+     ?wxSTC_NSIS_COMMENT;
 
-wx_stc_nsis_comment() ->
-     ?wxSTC_NSIS_COMMENT.
+constant(constwxSTC_NSIS_DEFAULT) ->
+     ?wxSTC_NSIS_DEFAULT;
 
-wx_stc_nsis_default() ->
-     ?wxSTC_NSIS_DEFAULT.
+constant(constwxSTC_PS_BADSTRINGCHAR) ->
+     ?wxSTC_PS_BADSTRINGCHAR;
 
-wx_stc_ps_badstringchar() ->
-     ?wxSTC_PS_BADSTRINGCHAR.
+constant(constwxSTC_PS_BASE85STRING) ->
+     ?wxSTC_PS_BASE85STRING;
 
-wx_stc_ps_bas_e85_string() ->
-     ?wxSTC_PS_BASE85STRING.
+constant(constwxSTC_PS_HEXSTRING) ->
+     ?wxSTC_PS_HEXSTRING;
 
-wx_stc_ps_hexstring() ->
-     ?wxSTC_PS_HEXSTRING.
+constant(constwxSTC_PS_TEXT) ->
+     ?wxSTC_PS_TEXT;
 
-wx_stc_ps_text() ->
-     ?wxSTC_PS_TEXT.
+constant(constwxSTC_PS_PAREN_PROC) ->
+     ?wxSTC_PS_PAREN_PROC;
 
-wx_stc_ps_paren_proc() ->
-     ?wxSTC_PS_PAREN_PROC.
+constant(constwxSTC_PS_PAREN_DICT) ->
+     ?wxSTC_PS_PAREN_DICT;
 
-wx_stc_ps_paren_dict() ->
-     ?wxSTC_PS_PAREN_DICT.
+constant(constwxSTC_PS_PAREN_ARRAY) ->
+     ?wxSTC_PS_PAREN_ARRAY;
 
-wx_stc_ps_paren_array() ->
-     ?wxSTC_PS_PAREN_ARRAY.
+constant(constwxSTC_PS_IMMEVAL) ->
+     ?wxSTC_PS_IMMEVAL;
 
-wx_stc_ps_immeval() ->
-     ?wxSTC_PS_IMMEVAL.
+constant(constwxSTC_PS_LITERAL) ->
+     ?wxSTC_PS_LITERAL;
 
-wx_stc_ps_literal() ->
-     ?wxSTC_PS_LITERAL.
+constant(constwxSTC_PS_KEYWORD) ->
+     ?wxSTC_PS_KEYWORD;
 
-wx_stc_ps_keyword() ->
-     ?wxSTC_PS_KEYWORD.
+constant(constwxSTC_PS_NAME) ->
+     ?wxSTC_PS_NAME;
 
-wx_stc_ps_name() ->
-     ?wxSTC_PS_NAME.
+constant(constwxSTC_PS_NUMBER) ->
+     ?wxSTC_PS_NUMBER;
 
-wx_stc_ps_number() ->
-     ?wxSTC_PS_NUMBER.
+constant(constwxSTC_PS_DSC_VALUE) ->
+     ?wxSTC_PS_DSC_VALUE;
 
-wx_stc_ps_dsc_value() ->
-     ?wxSTC_PS_DSC_VALUE.
+constant(constwxSTC_PS_DSC_COMMENT) ->
+     ?wxSTC_PS_DSC_COMMENT;
 
-wx_stc_ps_dsc_comment() ->
-     ?wxSTC_PS_DSC_COMMENT.
+constant(constwxSTC_PS_COMMENT) ->
+     ?wxSTC_PS_COMMENT;
 
-wx_stc_ps_comment() ->
-     ?wxSTC_PS_COMMENT.
+constant(constwxSTC_PS_DEFAULT) ->
+     ?wxSTC_PS_DEFAULT;
 
-wx_stc_ps_default() ->
-     ?wxSTC_PS_DEFAULT.
+constant(constwxSTC_ESCRIPT_WORD3) ->
+     ?wxSTC_ESCRIPT_WORD3;
 
-wx_stc_escript_wor_d3() ->
-     ?wxSTC_ESCRIPT_WORD3.
+constant(constwxSTC_ESCRIPT_WORD2) ->
+     ?wxSTC_ESCRIPT_WORD2;
 
-wx_stc_escript_wor_d2() ->
-     ?wxSTC_ESCRIPT_WORD2.
+constant(constwxSTC_ESCRIPT_BRACE) ->
+     ?wxSTC_ESCRIPT_BRACE;
 
-wx_stc_escript_brace() ->
-     ?wxSTC_ESCRIPT_BRACE.
+constant(constwxSTC_ESCRIPT_IDENTIFIER) ->
+     ?wxSTC_ESCRIPT_IDENTIFIER;
 
-wx_stc_escript_identifier() ->
-     ?wxSTC_ESCRIPT_IDENTIFIER.
+constant(constwxSTC_ESCRIPT_OPERATOR) ->
+     ?wxSTC_ESCRIPT_OPERATOR;
 
-wx_stc_escript_operator() ->
-     ?wxSTC_ESCRIPT_OPERATOR.
+constant(constwxSTC_ESCRIPT_STRING) ->
+     ?wxSTC_ESCRIPT_STRING;
 
-wx_stc_escript_string() ->
-     ?wxSTC_ESCRIPT_STRING.
+constant(constwxSTC_ESCRIPT_WORD) ->
+     ?wxSTC_ESCRIPT_WORD;
 
-wx_stc_escript_word() ->
-     ?wxSTC_ESCRIPT_WORD.
+constant(constwxSTC_ESCRIPT_NUMBER) ->
+     ?wxSTC_ESCRIPT_NUMBER;
 
-wx_stc_escript_number() ->
-     ?wxSTC_ESCRIPT_NUMBER.
+constant(constwxSTC_ESCRIPT_COMMENTDOC) ->
+     ?wxSTC_ESCRIPT_COMMENTDOC;
 
-wx_stc_escript_commentdoc() ->
-     ?wxSTC_ESCRIPT_COMMENTDOC.
+constant(constwxSTC_ESCRIPT_COMMENTLINE) ->
+     ?wxSTC_ESCRIPT_COMMENTLINE;
 
-wx_stc_escript_commentline() ->
-     ?wxSTC_ESCRIPT_COMMENTLINE.
+constant(constwxSTC_ESCRIPT_COMMENT) ->
+     ?wxSTC_ESCRIPT_COMMENT;
 
-wx_stc_escript_comment() ->
-     ?wxSTC_ESCRIPT_COMMENT.
+constant(constwxSTC_ESCRIPT_DEFAULT) ->
+     ?wxSTC_ESCRIPT_DEFAULT;
 
-wx_stc_escript_default() ->
-     ?wxSTC_ESCRIPT_DEFAULT.
+constant(constwxSTC_LOUT_STRINGEOL) ->
+     ?wxSTC_LOUT_STRINGEOL;
 
-wx_stc_lout_stringeol() ->
-     ?wxSTC_LOUT_STRINGEOL.
+constant(constwxSTC_LOUT_IDENTIFIER) ->
+     ?wxSTC_LOUT_IDENTIFIER;
 
-wx_stc_lout_identifier() ->
-     ?wxSTC_LOUT_IDENTIFIER.
+constant(constwxSTC_LOUT_OPERATOR) ->
+     ?wxSTC_LOUT_OPERATOR;
 
-wx_stc_lout_operator() ->
-     ?wxSTC_LOUT_OPERATOR.
+constant(constwxSTC_LOUT_STRING) ->
+     ?wxSTC_LOUT_STRING;
 
-wx_stc_lout_string() ->
-     ?wxSTC_LOUT_STRING.
+constant(constwxSTC_LOUT_WORD4) ->
+     ?wxSTC_LOUT_WORD4;
 
-wx_stc_lout_wor_d4() ->
-     ?wxSTC_LOUT_WORD4.
+constant(constwxSTC_LOUT_WORD3) ->
+     ?wxSTC_LOUT_WORD3;
 
-wx_stc_lout_wor_d3() ->
-     ?wxSTC_LOUT_WORD3.
+constant(constwxSTC_LOUT_WORD2) ->
+     ?wxSTC_LOUT_WORD2;
 
-wx_stc_lout_wor_d2() ->
-     ?wxSTC_LOUT_WORD2.
+constant(constwxSTC_LOUT_WORD) ->
+     ?wxSTC_LOUT_WORD;
 
-wx_stc_lout_word() ->
-     ?wxSTC_LOUT_WORD.
+constant(constwxSTC_LOUT_NUMBER) ->
+     ?wxSTC_LOUT_NUMBER;
 
-wx_stc_lout_number() ->
-     ?wxSTC_LOUT_NUMBER.
+constant(constwxSTC_LOUT_COMMENT) ->
+     ?wxSTC_LOUT_COMMENT;
 
-wx_stc_lout_comment() ->
-     ?wxSTC_LOUT_COMMENT.
+constant(constwxSTC_LOUT_DEFAULT) ->
+     ?wxSTC_LOUT_DEFAULT;
 
-wx_stc_lout_default() ->
-     ?wxSTC_LOUT_DEFAULT.
+constant(constwxSTC_POV_WORD8) ->
+     ?wxSTC_POV_WORD8;
 
-wx_stc_pov_wor_d8() ->
-     ?wxSTC_POV_WORD8.
+constant(constwxSTC_POV_WORD7) ->
+     ?wxSTC_POV_WORD7;
 
-wx_stc_pov_wor_d7() ->
-     ?wxSTC_POV_WORD7.
+constant(constwxSTC_POV_WORD6) ->
+     ?wxSTC_POV_WORD6;
 
-wx_stc_pov_wor_d6() ->
-     ?wxSTC_POV_WORD6.
+constant(constwxSTC_POV_WORD5) ->
+     ?wxSTC_POV_WORD5;
 
-wx_stc_pov_wor_d5() ->
-     ?wxSTC_POV_WORD5.
+constant(constwxSTC_POV_WORD4) ->
+     ?wxSTC_POV_WORD4;
 
-wx_stc_pov_wor_d4() ->
-     ?wxSTC_POV_WORD4.
+constant(constwxSTC_POV_WORD3) ->
+     ?wxSTC_POV_WORD3;
 
-wx_stc_pov_wor_d3() ->
-     ?wxSTC_POV_WORD3.
+constant(constwxSTC_POV_WORD2) ->
+     ?wxSTC_POV_WORD2;
 
-wx_stc_pov_wor_d2() ->
-     ?wxSTC_POV_WORD2.
+constant(constwxSTC_POV_BADDIRECTIVE) ->
+     ?wxSTC_POV_BADDIRECTIVE;
 
-wx_stc_pov_baddirective() ->
-     ?wxSTC_POV_BADDIRECTIVE.
+constant(constwxSTC_POV_DIRECTIVE) ->
+     ?wxSTC_POV_DIRECTIVE;
 
-wx_stc_pov_directive() ->
-     ?wxSTC_POV_DIRECTIVE.
+constant(constwxSTC_POV_STRINGEOL) ->
+     ?wxSTC_POV_STRINGEOL;
 
-wx_stc_pov_stringeol() ->
-     ?wxSTC_POV_STRINGEOL.
+constant(constwxSTC_POV_STRING) ->
+     ?wxSTC_POV_STRING;
 
-wx_stc_pov_string() ->
-     ?wxSTC_POV_STRING.
+constant(constwxSTC_POV_IDENTIFIER) ->
+     ?wxSTC_POV_IDENTIFIER;
 
-wx_stc_pov_identifier() ->
-     ?wxSTC_POV_IDENTIFIER.
+constant(constwxSTC_POV_OPERATOR) ->
+     ?wxSTC_POV_OPERATOR;
 
-wx_stc_pov_operator() ->
-     ?wxSTC_POV_OPERATOR.
+constant(constwxSTC_POV_NUMBER) ->
+     ?wxSTC_POV_NUMBER;
 
-wx_stc_pov_number() ->
-     ?wxSTC_POV_NUMBER.
+constant(constwxSTC_POV_COMMENTLINE) ->
+     ?wxSTC_POV_COMMENTLINE;
 
-wx_stc_pov_commentline() ->
-     ?wxSTC_POV_COMMENTLINE.
+constant(constwxSTC_POV_COMMENT) ->
+     ?wxSTC_POV_COMMENT;
 
-wx_stc_pov_comment() ->
-     ?wxSTC_POV_COMMENT.
+constant(constwxSTC_POV_DEFAULT) ->
+     ?wxSTC_POV_DEFAULT;
 
-wx_stc_pov_default() ->
-     ?wxSTC_POV_DEFAULT.
+constant(constwxSTC_CSS_ATTRIBUTE) ->
+     ?wxSTC_CSS_ATTRIBUTE;
 
-wx_stc_css_attribute() ->
-     ?wxSTC_CSS_ATTRIBUTE.
+constant(constwxSTC_CSS_IDENTIFIER2) ->
+     ?wxSTC_CSS_IDENTIFIER2;
 
-wx_stc_css_identifie_r2() ->
-     ?wxSTC_CSS_IDENTIFIER2.
+constant(constwxSTC_CSS_SINGLESTRING) ->
+     ?wxSTC_CSS_SINGLESTRING;
 
-wx_stc_css_singlestring() ->
-     ?wxSTC_CSS_SINGLESTRING.
+constant(constwxSTC_CSS_DOUBLESTRING) ->
+     ?wxSTC_CSS_DOUBLESTRING;
 
-wx_stc_css_doublestring() ->
-     ?wxSTC_CSS_DOUBLESTRING.
+constant(constwxSTC_CSS_DIRECTIVE) ->
+     ?wxSTC_CSS_DIRECTIVE;
 
-wx_stc_css_directive() ->
-     ?wxSTC_CSS_DIRECTIVE.
+constant(constwxSTC_CSS_IMPORTANT) ->
+     ?wxSTC_CSS_IMPORTANT;
 
-wx_stc_css_important() ->
-     ?wxSTC_CSS_IMPORTANT.
+constant(constwxSTC_CSS_ID) ->
+     ?wxSTC_CSS_ID;
 
-wx_stc_css_id() ->
-     ?wxSTC_CSS_ID.
+constant(constwxSTC_CSS_COMMENT) ->
+     ?wxSTC_CSS_COMMENT;
 
-wx_stc_css_comment() ->
-     ?wxSTC_CSS_COMMENT.
+constant(constwxSTC_CSS_VALUE) ->
+     ?wxSTC_CSS_VALUE;
 
-wx_stc_css_value() ->
-     ?wxSTC_CSS_VALUE.
+constant(constwxSTC_CSS_UNKNOWN_IDENTIFIER) ->
+     ?wxSTC_CSS_UNKNOWN_IDENTIFIER;
 
-wx_stc_css_unknown_identifier() ->
-     ?wxSTC_CSS_UNKNOWN_IDENTIFIER.
+constant(constwxSTC_CSS_IDENTIFIER) ->
+     ?wxSTC_CSS_IDENTIFIER;
 
-wx_stc_css_identifier() ->
-     ?wxSTC_CSS_IDENTIFIER.
+constant(constwxSTC_CSS_OPERATOR) ->
+     ?wxSTC_CSS_OPERATOR;
 
-wx_stc_css_operator() ->
-     ?wxSTC_CSS_OPERATOR.
+constant(constwxSTC_CSS_UNKNOWN_PSEUDOCLASS) ->
+     ?wxSTC_CSS_UNKNOWN_PSEUDOCLASS;
 
-wx_stc_css_unknown_pseudoclass() ->
-     ?wxSTC_CSS_UNKNOWN_PSEUDOCLASS.
+constant(constwxSTC_CSS_PSEUDOCLASS) ->
+     ?wxSTC_CSS_PSEUDOCLASS;
 
-wx_stc_css_pseudoclass() ->
-     ?wxSTC_CSS_PSEUDOCLASS.
+constant(constwxSTC_CSS_CLASS) ->
+     ?wxSTC_CSS_CLASS;
 
-wx_stc_css_class() ->
-     ?wxSTC_CSS_CLASS.
+constant(constwxSTC_CSS_TAG) ->
+     ?wxSTC_CSS_TAG;
 
-wx_stc_css_tag() ->
-     ?wxSTC_CSS_TAG.
+constant(constwxSTC_CSS_DEFAULT) ->
+     ?wxSTC_CSS_DEFAULT;
 
-wx_stc_css_default() ->
-     ?wxSTC_CSS_DEFAULT.
+constant(constwxSTC_F_CONTINUATION) ->
+     ?wxSTC_F_CONTINUATION;
 
-wx_stc_f_continuation() ->
-     ?wxSTC_F_CONTINUATION.
+constant(constwxSTC_F_LABEL) ->
+     ?wxSTC_F_LABEL;
 
-wx_stc_f_label() ->
-     ?wxSTC_F_LABEL.
+constant(constwxSTC_F_OPERATOR2) ->
+     ?wxSTC_F_OPERATOR2;
 
-wx_stc_f_operato_r2() ->
-     ?wxSTC_F_OPERATOR2.
+constant(constwxSTC_F_PREPROCESSOR) ->
+     ?wxSTC_F_PREPROCESSOR;
 
-wx_stc_f_preprocessor() ->
-     ?wxSTC_F_PREPROCESSOR.
+constant(constwxSTC_F_WORD3) ->
+     ?wxSTC_F_WORD3;
 
-wx_stc_f_wor_d3() ->
-     ?wxSTC_F_WORD3.
+constant(constwxSTC_F_WORD2) ->
+     ?wxSTC_F_WORD2;
 
-wx_stc_f_wor_d2() ->
-     ?wxSTC_F_WORD2.
+constant(constwxSTC_F_WORD) ->
+     ?wxSTC_F_WORD;
 
-wx_stc_f_word() ->
-     ?wxSTC_F_WORD.
+constant(constwxSTC_F_IDENTIFIER) ->
+     ?wxSTC_F_IDENTIFIER;
 
-wx_stc_f_identifier() ->
-     ?wxSTC_F_IDENTIFIER.
+constant(constwxSTC_F_OPERATOR) ->
+     ?wxSTC_F_OPERATOR;
 
-wx_stc_f_operator() ->
-     ?wxSTC_F_OPERATOR.
+constant(constwxSTC_F_STRINGEOL) ->
+     ?wxSTC_F_STRINGEOL;
 
-wx_stc_f_stringeol() ->
-     ?wxSTC_F_STRINGEOL.
+constant(constwxSTC_F_STRING2) ->
+     ?wxSTC_F_STRING2;
 
-wx_stc_f_strin_g2() ->
-     ?wxSTC_F_STRING2.
+constant(constwxSTC_F_STRING1) ->
+     ?wxSTC_F_STRING1;
 
-wx_stc_f_strin_g1() ->
-     ?wxSTC_F_STRING1.
+constant(constwxSTC_F_NUMBER) ->
+     ?wxSTC_F_NUMBER;
 
-wx_stc_f_number() ->
-     ?wxSTC_F_NUMBER.
+constant(constwxSTC_F_COMMENT) ->
+     ?wxSTC_F_COMMENT;
 
-wx_stc_f_comment() ->
-     ?wxSTC_F_COMMENT.
+constant(constwxSTC_F_DEFAULT) ->
+     ?wxSTC_F_DEFAULT;
 
-wx_stc_f_default() ->
-     ?wxSTC_F_DEFAULT.
+constant(constwxSTC_ASM_EXTINSTRUCTION) ->
+     ?wxSTC_ASM_EXTINSTRUCTION;
 
-wx_stc_asm_extinstruction() ->
-     ?wxSTC_ASM_EXTINSTRUCTION.
+constant(constwxSTC_ASM_STRINGEOL) ->
+     ?wxSTC_ASM_STRINGEOL;
 
-wx_stc_asm_stringeol() ->
-     ?wxSTC_ASM_STRINGEOL.
+constant(constwxSTC_ASM_CHARACTER) ->
+     ?wxSTC_ASM_CHARACTER;
 
-wx_stc_asm_character() ->
-     ?wxSTC_ASM_CHARACTER.
+constant(constwxSTC_ASM_COMMENTBLOCK) ->
+     ?wxSTC_ASM_COMMENTBLOCK;
 
-wx_stc_asm_commentblock() ->
-     ?wxSTC_ASM_COMMENTBLOCK.
+constant(constwxSTC_ASM_DIRECTIVEOPERAND) ->
+     ?wxSTC_ASM_DIRECTIVEOPERAND;
 
-wx_stc_asm_directiveoperand() ->
-     ?wxSTC_ASM_DIRECTIVEOPERAND.
+constant(constwxSTC_ASM_DIRECTIVE) ->
+     ?wxSTC_ASM_DIRECTIVE;
 
-wx_stc_asm_directive() ->
-     ?wxSTC_ASM_DIRECTIVE.
+constant(constwxSTC_ASM_REGISTER) ->
+     ?wxSTC_ASM_REGISTER;
 
-wx_stc_asm_register() ->
-     ?wxSTC_ASM_REGISTER.
+constant(constwxSTC_ASM_MATHINSTRUCTION) ->
+     ?wxSTC_ASM_MATHINSTRUCTION;
 
-wx_stc_asm_mathinstruction() ->
-     ?wxSTC_ASM_MATHINSTRUCTION.
+constant(constwxSTC_ASM_CPUINSTRUCTION) ->
+     ?wxSTC_ASM_CPUINSTRUCTION;
 
-wx_stc_asm_cpuinstruction() ->
-     ?wxSTC_ASM_CPUINSTRUCTION.
+constant(constwxSTC_ASM_IDENTIFIER) ->
+     ?wxSTC_ASM_IDENTIFIER;
 
-wx_stc_asm_identifier() ->
-     ?wxSTC_ASM_IDENTIFIER.
+constant(constwxSTC_ASM_OPERATOR) ->
+     ?wxSTC_ASM_OPERATOR;
 
-wx_stc_asm_operator() ->
-     ?wxSTC_ASM_OPERATOR.
+constant(constwxSTC_ASM_STRING) ->
+     ?wxSTC_ASM_STRING;
 
-wx_stc_asm_string() ->
-     ?wxSTC_ASM_STRING.
+constant(constwxSTC_ASM_NUMBER) ->
+     ?wxSTC_ASM_NUMBER;
 
-wx_stc_asm_number() ->
-     ?wxSTC_ASM_NUMBER.
+constant(constwxSTC_ASM_COMMENT) ->
+     ?wxSTC_ASM_COMMENT;
 
-wx_stc_asm_comment() ->
-     ?wxSTC_ASM_COMMENT.
+constant(constwxSTC_ASM_DEFAULT) ->
+     ?wxSTC_ASM_DEFAULT;
 
-wx_stc_asm_default() ->
-     ?wxSTC_ASM_DEFAULT.
+constant(constwxSTC_SCRIPTOL_PREPROCESSOR) ->
+     ?wxSTC_SCRIPTOL_PREPROCESSOR;
 
-wx_stc_scriptol_preprocessor() ->
-     ?wxSTC_SCRIPTOL_PREPROCESSOR.
+constant(constwxSTC_SCRIPTOL_CLASSNAME) ->
+     ?wxSTC_SCRIPTOL_CLASSNAME;
 
-wx_stc_scriptol_classname() ->
-     ?wxSTC_SCRIPTOL_CLASSNAME.
+constant(constwxSTC_SCRIPTOL_TRIPLE) ->
+     ?wxSTC_SCRIPTOL_TRIPLE;
 
-wx_stc_scriptol_triple() ->
-     ?wxSTC_SCRIPTOL_TRIPLE.
+constant(constwxSTC_SCRIPTOL_IDENTIFIER) ->
+     ?wxSTC_SCRIPTOL_IDENTIFIER;
 
-wx_stc_scriptol_identifier() ->
-     ?wxSTC_SCRIPTOL_IDENTIFIER.
+constant(constwxSTC_SCRIPTOL_OPERATOR) ->
+     ?wxSTC_SCRIPTOL_OPERATOR;
 
-wx_stc_scriptol_operator() ->
-     ?wxSTC_SCRIPTOL_OPERATOR.
+constant(constwxSTC_SCRIPTOL_KEYWORD) ->
+     ?wxSTC_SCRIPTOL_KEYWORD;
 
-wx_stc_scriptol_keyword() ->
-     ?wxSTC_SCRIPTOL_KEYWORD.
+constant(constwxSTC_SCRIPTOL_STRINGEOL) ->
+     ?wxSTC_SCRIPTOL_STRINGEOL;
 
-wx_stc_scriptol_stringeol() ->
-     ?wxSTC_SCRIPTOL_STRINGEOL.
+constant(constwxSTC_SCRIPTOL_CHARACTER) ->
+     ?wxSTC_SCRIPTOL_CHARACTER;
 
-wx_stc_scriptol_character() ->
-     ?wxSTC_SCRIPTOL_CHARACTER.
+constant(constwxSTC_SCRIPTOL_STRING) ->
+     ?wxSTC_SCRIPTOL_STRING;
 
-wx_stc_scriptol_string() ->
-     ?wxSTC_SCRIPTOL_STRING.
+constant(constwxSTC_SCRIPTOL_NUMBER) ->
+     ?wxSTC_SCRIPTOL_NUMBER;
 
-wx_stc_scriptol_number() ->
-     ?wxSTC_SCRIPTOL_NUMBER.
+constant(constwxSTC_SCRIPTOL_COMMENTBLOCK) ->
+     ?wxSTC_SCRIPTOL_COMMENTBLOCK;
 
-wx_stc_scriptol_commentblock() ->
-     ?wxSTC_SCRIPTOL_COMMENTBLOCK.
+constant(constwxSTC_SCRIPTOL_CSTYLE) ->
+     ?wxSTC_SCRIPTOL_CSTYLE;
 
-wx_stc_scriptol_cstyle() ->
-     ?wxSTC_SCRIPTOL_CSTYLE.
+constant(constwxSTC_SCRIPTOL_PERSISTENT) ->
+     ?wxSTC_SCRIPTOL_PERSISTENT;
 
-wx_stc_scriptol_persistent() ->
-     ?wxSTC_SCRIPTOL_PERSISTENT.
+constant(constwxSTC_SCRIPTOL_COMMENTLINE) ->
+     ?wxSTC_SCRIPTOL_COMMENTLINE;
 
-wx_stc_scriptol_commentline() ->
-     ?wxSTC_SCRIPTOL_COMMENTLINE.
+constant(constwxSTC_SCRIPTOL_WHITE) ->
+     ?wxSTC_SCRIPTOL_WHITE;
 
-wx_stc_scriptol_white() ->
-     ?wxSTC_SCRIPTOL_WHITE.
+constant(constwxSTC_SCRIPTOL_DEFAULT) ->
+     ?wxSTC_SCRIPTOL_DEFAULT;
 
-wx_stc_scriptol_default() ->
-     ?wxSTC_SCRIPTOL_DEFAULT.
+constant(constwxSTC_MATLAB_DOUBLEQUOTESTRING) ->
+     ?wxSTC_MATLAB_DOUBLEQUOTESTRING;
 
-wx_stc_matlab_doublequotestring() ->
-     ?wxSTC_MATLAB_DOUBLEQUOTESTRING.
+constant(constwxSTC_MATLAB_IDENTIFIER) ->
+     ?wxSTC_MATLAB_IDENTIFIER;
 
-wx_stc_matlab_identifier() ->
-     ?wxSTC_MATLAB_IDENTIFIER.
+constant(constwxSTC_MATLAB_OPERATOR) ->
+     ?wxSTC_MATLAB_OPERATOR;
 
-wx_stc_matlab_operator() ->
-     ?wxSTC_MATLAB_OPERATOR.
+constant(constwxSTC_MATLAB_STRING) ->
+     ?wxSTC_MATLAB_STRING;
 
-wx_stc_matlab_string() ->
-     ?wxSTC_MATLAB_STRING.
+constant(constwxSTC_MATLAB_KEYWORD) ->
+     ?wxSTC_MATLAB_KEYWORD;
 
-wx_stc_matlab_keyword() ->
-     ?wxSTC_MATLAB_KEYWORD.
+constant(constwxSTC_MATLAB_NUMBER) ->
+     ?wxSTC_MATLAB_NUMBER;
 
-wx_stc_matlab_number() ->
-     ?wxSTC_MATLAB_NUMBER.
+constant(constwxSTC_MATLAB_COMMAND) ->
+     ?wxSTC_MATLAB_COMMAND;
 
-wx_stc_matlab_command() ->
-     ?wxSTC_MATLAB_COMMAND.
+constant(constwxSTC_MATLAB_COMMENT) ->
+     ?wxSTC_MATLAB_COMMENT;
 
-wx_stc_matlab_comment() ->
-     ?wxSTC_MATLAB_COMMENT.
+constant(constwxSTC_MATLAB_DEFAULT) ->
+     ?wxSTC_MATLAB_DEFAULT;
 
-wx_stc_matlab_default() ->
-     ?wxSTC_MATLAB_DEFAULT.
+constant(constwxSTC_FORTH_LOCALE) ->
+     ?wxSTC_FORTH_LOCALE;
 
-wx_stc_forth_locale() ->
-     ?wxSTC_FORTH_LOCALE.
+constant(constwxSTC_FORTH_STRING) ->
+     ?wxSTC_FORTH_STRING;
 
-wx_stc_forth_string() ->
-     ?wxSTC_FORTH_STRING.
+constant(constwxSTC_FORTH_NUMBER) ->
+     ?wxSTC_FORTH_NUMBER;
 
-wx_stc_forth_number() ->
-     ?wxSTC_FORTH_NUMBER.
+constant(constwxSTC_FORTH_PREWORD2) ->
+     ?wxSTC_FORTH_PREWORD2;
 
-wx_stc_forth_prewor_d2() ->
-     ?wxSTC_FORTH_PREWORD2.
+constant(constwxSTC_FORTH_PREWORD1) ->
+     ?wxSTC_FORTH_PREWORD1;
 
-wx_stc_forth_prewor_d1() ->
-     ?wxSTC_FORTH_PREWORD1.
+constant(constwxSTC_FORTH_DEFWORD) ->
+     ?wxSTC_FORTH_DEFWORD;
 
-wx_stc_forth_defword() ->
-     ?wxSTC_FORTH_DEFWORD.
+constant(constwxSTC_FORTH_KEYWORD) ->
+     ?wxSTC_FORTH_KEYWORD;
 
-wx_stc_forth_keyword() ->
-     ?wxSTC_FORTH_KEYWORD.
+constant(constwxSTC_FORTH_CONTROL) ->
+     ?wxSTC_FORTH_CONTROL;
 
-wx_stc_forth_control() ->
-     ?wxSTC_FORTH_CONTROL.
+constant(constwxSTC_FORTH_IDENTIFIER) ->
+     ?wxSTC_FORTH_IDENTIFIER;
 
-wx_stc_forth_identifier() ->
-     ?wxSTC_FORTH_IDENTIFIER.
+constant(constwxSTC_FORTH_COMMENT_ML) ->
+     ?wxSTC_FORTH_COMMENT_ML;
 
-wx_stc_forth_comment_ml() ->
-     ?wxSTC_FORTH_COMMENT_ML.
+constant(constwxSTC_FORTH_COMMENT) ->
+     ?wxSTC_FORTH_COMMENT;
 
-wx_stc_forth_comment() ->
-     ?wxSTC_FORTH_COMMENT.
+constant(constwxSTC_FORTH_DEFAULT) ->
+     ?wxSTC_FORTH_DEFAULT;
 
-wx_stc_forth_default() ->
-     ?wxSTC_FORTH_DEFAULT.
+constant(constwxSTC_NNCRONTAB_IDENTIFIER) ->
+     ?wxSTC_NNCRONTAB_IDENTIFIER;
 
-wx_stc_nncrontab_identifier() ->
-     ?wxSTC_NNCRONTAB_IDENTIFIER.
+constant(constwxSTC_NNCRONTAB_ENVIRONMENT) ->
+     ?wxSTC_NNCRONTAB_ENVIRONMENT;
 
-wx_stc_nncrontab_environment() ->
-     ?wxSTC_NNCRONTAB_ENVIRONMENT.
+constant(constwxSTC_NNCRONTAB_STRING) ->
+     ?wxSTC_NNCRONTAB_STRING;
 
-wx_stc_nncrontab_string() ->
-     ?wxSTC_NNCRONTAB_STRING.
+constant(constwxSTC_NNCRONTAB_NUMBER) ->
+     ?wxSTC_NNCRONTAB_NUMBER;
 
-wx_stc_nncrontab_number() ->
-     ?wxSTC_NNCRONTAB_NUMBER.
+constant(constwxSTC_NNCRONTAB_ASTERISK) ->
+     ?wxSTC_NNCRONTAB_ASTERISK;
 
-wx_stc_nncrontab_asterisk() ->
-     ?wxSTC_NNCRONTAB_ASTERISK.
+constant(constwxSTC_NNCRONTAB_MODIFIER) ->
+     ?wxSTC_NNCRONTAB_MODIFIER;
 
-wx_stc_nncrontab_modifier() ->
-     ?wxSTC_NNCRONTAB_MODIFIER.
+constant(constwxSTC_NNCRONTAB_KEYWORD) ->
+     ?wxSTC_NNCRONTAB_KEYWORD;
 
-wx_stc_nncrontab_keyword() ->
-     ?wxSTC_NNCRONTAB_KEYWORD.
+constant(constwxSTC_NNCRONTAB_SECTION) ->
+     ?wxSTC_NNCRONTAB_SECTION;
 
-wx_stc_nncrontab_section() ->
-     ?wxSTC_NNCRONTAB_SECTION.
+constant(constwxSTC_NNCRONTAB_TASK) ->
+     ?wxSTC_NNCRONTAB_TASK;
 
-wx_stc_nncrontab_task() ->
-     ?wxSTC_NNCRONTAB_TASK.
+constant(constwxSTC_NNCRONTAB_COMMENT) ->
+     ?wxSTC_NNCRONTAB_COMMENT;
 
-wx_stc_nncrontab_comment() ->
-     ?wxSTC_NNCRONTAB_COMMENT.
+constant(constwxSTC_NNCRONTAB_DEFAULT) ->
+     ?wxSTC_NNCRONTAB_DEFAULT;
 
-wx_stc_nncrontab_default() ->
-     ?wxSTC_NNCRONTAB_DEFAULT.
+constant(constwxSTC_EIFFEL_STRINGEOL) ->
+     ?wxSTC_EIFFEL_STRINGEOL;
 
-wx_stc_eiffel_stringeol() ->
-     ?wxSTC_EIFFEL_STRINGEOL.
+constant(constwxSTC_EIFFEL_IDENTIFIER) ->
+     ?wxSTC_EIFFEL_IDENTIFIER;
 
-wx_stc_eiffel_identifier() ->
-     ?wxSTC_EIFFEL_IDENTIFIER.
+constant(constwxSTC_EIFFEL_OPERATOR) ->
+     ?wxSTC_EIFFEL_OPERATOR;
 
-wx_stc_eiffel_operator() ->
-     ?wxSTC_EIFFEL_OPERATOR.
+constant(constwxSTC_EIFFEL_CHARACTER) ->
+     ?wxSTC_EIFFEL_CHARACTER;
 
-wx_stc_eiffel_character() ->
-     ?wxSTC_EIFFEL_CHARACTER.
+constant(constwxSTC_EIFFEL_STRING) ->
+     ?wxSTC_EIFFEL_STRING;
 
-wx_stc_eiffel_string() ->
-     ?wxSTC_EIFFEL_STRING.
+constant(constwxSTC_EIFFEL_WORD) ->
+     ?wxSTC_EIFFEL_WORD;
 
-wx_stc_eiffel_word() ->
-     ?wxSTC_EIFFEL_WORD.
+constant(constwxSTC_EIFFEL_NUMBER) ->
+     ?wxSTC_EIFFEL_NUMBER;
 
-wx_stc_eiffel_number() ->
-     ?wxSTC_EIFFEL_NUMBER.
+constant(constwxSTC_EIFFEL_COMMENTLINE) ->
+     ?wxSTC_EIFFEL_COMMENTLINE;
 
-wx_stc_eiffel_commentline() ->
-     ?wxSTC_EIFFEL_COMMENTLINE.
+constant(constwxSTC_EIFFEL_DEFAULT) ->
+     ?wxSTC_EIFFEL_DEFAULT;
 
-wx_stc_eiffel_default() ->
-     ?wxSTC_EIFFEL_DEFAULT.
+constant(constwxSTC_LISP_MULTI_COMMENT) ->
+     ?wxSTC_LISP_MULTI_COMMENT;
 
-wx_stc_lisp_multi_comment() ->
-     ?wxSTC_LISP_MULTI_COMMENT.
+constant(constwxSTC_LISP_SPECIAL) ->
+     ?wxSTC_LISP_SPECIAL;
 
-wx_stc_lisp_special() ->
-     ?wxSTC_LISP_SPECIAL.
+constant(constwxSTC_LISP_OPERATOR) ->
+     ?wxSTC_LISP_OPERATOR;
 
-wx_stc_lisp_operator() ->
-     ?wxSTC_LISP_OPERATOR.
+constant(constwxSTC_LISP_IDENTIFIER) ->
+     ?wxSTC_LISP_IDENTIFIER;
 
-wx_stc_lisp_identifier() ->
-     ?wxSTC_LISP_IDENTIFIER.
+constant(constwxSTC_LISP_STRINGEOL) ->
+     ?wxSTC_LISP_STRINGEOL;
 
-wx_stc_lisp_stringeol() ->
-     ?wxSTC_LISP_STRINGEOL.
+constant(constwxSTC_LISP_STRING) ->
+     ?wxSTC_LISP_STRING;
 
-wx_stc_lisp_string() ->
-     ?wxSTC_LISP_STRING.
+constant(constwxSTC_LISP_SYMBOL) ->
+     ?wxSTC_LISP_SYMBOL;
 
-wx_stc_lisp_symbol() ->
-     ?wxSTC_LISP_SYMBOL.
+constant(constwxSTC_LISP_KEYWORD_KW) ->
+     ?wxSTC_LISP_KEYWORD_KW;
 
-wx_stc_lisp_keyword_kw() ->
-     ?wxSTC_LISP_KEYWORD_KW.
+constant(constwxSTC_LISP_KEYWORD) ->
+     ?wxSTC_LISP_KEYWORD;
 
-wx_stc_lisp_keyword() ->
-     ?wxSTC_LISP_KEYWORD.
+constant(constwxSTC_LISP_NUMBER) ->
+     ?wxSTC_LISP_NUMBER;
 
-wx_stc_lisp_number() ->
-     ?wxSTC_LISP_NUMBER.
+constant(constwxSTC_LISP_COMMENT) ->
+     ?wxSTC_LISP_COMMENT;
 
-wx_stc_lisp_comment() ->
-     ?wxSTC_LISP_COMMENT.
+constant(constwxSTC_LISP_DEFAULT) ->
+     ?wxSTC_LISP_DEFAULT;
 
-wx_stc_lisp_default() ->
-     ?wxSTC_LISP_DEFAULT.
+constant(constwxSTC_BAAN_WORD2) ->
+     ?wxSTC_BAAN_WORD2;
 
-wx_stc_baan_wor_d2() ->
-     ?wxSTC_BAAN_WORD2.
+constant(constwxSTC_BAAN_STRINGEOL) ->
+     ?wxSTC_BAAN_STRINGEOL;
 
-wx_stc_baan_stringeol() ->
-     ?wxSTC_BAAN_STRINGEOL.
+constant(constwxSTC_BAAN_IDENTIFIER) ->
+     ?wxSTC_BAAN_IDENTIFIER;
 
-wx_stc_baan_identifier() ->
-     ?wxSTC_BAAN_IDENTIFIER.
+constant(constwxSTC_BAAN_OPERATOR) ->
+     ?wxSTC_BAAN_OPERATOR;
 
-wx_stc_baan_operator() ->
-     ?wxSTC_BAAN_OPERATOR.
+constant(constwxSTC_BAAN_PREPROCESSOR) ->
+     ?wxSTC_BAAN_PREPROCESSOR;
 
-wx_stc_baan_preprocessor() ->
-     ?wxSTC_BAAN_PREPROCESSOR.
+constant(constwxSTC_BAAN_STRING) ->
+     ?wxSTC_BAAN_STRING;
 
-wx_stc_baan_string() ->
-     ?wxSTC_BAAN_STRING.
+constant(constwxSTC_BAAN_WORD) ->
+     ?wxSTC_BAAN_WORD;
 
-wx_stc_baan_word() ->
-     ?wxSTC_BAAN_WORD.
+constant(constwxSTC_BAAN_NUMBER) ->
+     ?wxSTC_BAAN_NUMBER;
 
-wx_stc_baan_number() ->
-     ?wxSTC_BAAN_NUMBER.
+constant(constwxSTC_BAAN_COMMENTDOC) ->
+     ?wxSTC_BAAN_COMMENTDOC;
 
-wx_stc_baan_commentdoc() ->
-     ?wxSTC_BAAN_COMMENTDOC.
+constant(constwxSTC_BAAN_COMMENT) ->
+     ?wxSTC_BAAN_COMMENT;
 
-wx_stc_baan_comment() ->
-     ?wxSTC_BAAN_COMMENT.
+constant(constwxSTC_BAAN_DEFAULT) ->
+     ?wxSTC_BAAN_DEFAULT;
 
-wx_stc_baan_default() ->
-     ?wxSTC_BAAN_DEFAULT.
+constant(constwxSTC_ADA_ILLEGAL) ->
+     ?wxSTC_ADA_ILLEGAL;
 
-wx_stc_ada_illegal() ->
-     ?wxSTC_ADA_ILLEGAL.
+constant(constwxSTC_ADA_COMMENTLINE) ->
+     ?wxSTC_ADA_COMMENTLINE;
 
-wx_stc_ada_commentline() ->
-     ?wxSTC_ADA_COMMENTLINE.
+constant(constwxSTC_ADA_LABEL) ->
+     ?wxSTC_ADA_LABEL;
 
-wx_stc_ada_label() ->
-     ?wxSTC_ADA_LABEL.
+constant(constwxSTC_ADA_STRINGEOL) ->
+     ?wxSTC_ADA_STRINGEOL;
 
-wx_stc_ada_stringeol() ->
-     ?wxSTC_ADA_STRINGEOL.
+constant(constwxSTC_ADA_STRING) ->
+     ?wxSTC_ADA_STRING;
 
-wx_stc_ada_string() ->
-     ?wxSTC_ADA_STRING.
+constant(constwxSTC_ADA_CHARACTEREOL) ->
+     ?wxSTC_ADA_CHARACTEREOL;
 
-wx_stc_ada_charactereol() ->
-     ?wxSTC_ADA_CHARACTEREOL.
+constant(constwxSTC_ADA_CHARACTER) ->
+     ?wxSTC_ADA_CHARACTER;
 
-wx_stc_ada_character() ->
-     ?wxSTC_ADA_CHARACTER.
+constant(constwxSTC_ADA_DELIMITER) ->
+     ?wxSTC_ADA_DELIMITER;
 
-wx_stc_ada_delimiter() ->
-     ?wxSTC_ADA_DELIMITER.
+constant(constwxSTC_ADA_NUMBER) ->
+     ?wxSTC_ADA_NUMBER;
 
-wx_stc_ada_number() ->
-     ?wxSTC_ADA_NUMBER.
+constant(constwxSTC_ADA_IDENTIFIER) ->
+     ?wxSTC_ADA_IDENTIFIER;
 
-wx_stc_ada_identifier() ->
-     ?wxSTC_ADA_IDENTIFIER.
+constant(constwxSTC_ADA_WORD) ->
+     ?wxSTC_ADA_WORD;
 
-wx_stc_ada_word() ->
-     ?wxSTC_ADA_WORD.
+constant(constwxSTC_ADA_DEFAULT) ->
+     ?wxSTC_ADA_DEFAULT;
 
-wx_stc_ada_default() ->
-     ?wxSTC_ADA_DEFAULT.
+constant(constwxSTC_AVE_WORD6) ->
+     ?wxSTC_AVE_WORD6;
 
-wx_stc_ave_wor_d6() ->
-     ?wxSTC_AVE_WORD6.
+constant(constwxSTC_AVE_WORD5) ->
+     ?wxSTC_AVE_WORD5;
 
-wx_stc_ave_wor_d5() ->
-     ?wxSTC_AVE_WORD5.
+constant(constwxSTC_AVE_WORD4) ->
+     ?wxSTC_AVE_WORD4;
 
-wx_stc_ave_wor_d4() ->
-     ?wxSTC_AVE_WORD4.
+constant(constwxSTC_AVE_WORD3) ->
+     ?wxSTC_AVE_WORD3;
 
-wx_stc_ave_wor_d3() ->
-     ?wxSTC_AVE_WORD3.
+constant(constwxSTC_AVE_WORD2) ->
+     ?wxSTC_AVE_WORD2;
 
-wx_stc_ave_wor_d2() ->
-     ?wxSTC_AVE_WORD2.
+constant(constwxSTC_AVE_WORD1) ->
+     ?wxSTC_AVE_WORD1;
 
-wx_stc_ave_wor_d1() ->
-     ?wxSTC_AVE_WORD1.
+constant(constwxSTC_AVE_OPERATOR) ->
+     ?wxSTC_AVE_OPERATOR;
 
-wx_stc_ave_operator() ->
-     ?wxSTC_AVE_OPERATOR.
+constant(constwxSTC_AVE_IDENTIFIER) ->
+     ?wxSTC_AVE_IDENTIFIER;
 
-wx_stc_ave_identifier() ->
-     ?wxSTC_AVE_IDENTIFIER.
+constant(constwxSTC_AVE_STRINGEOL) ->
+     ?wxSTC_AVE_STRINGEOL;
 
-wx_stc_ave_stringeol() ->
-     ?wxSTC_AVE_STRINGEOL.
+constant(constwxSTC_AVE_ENUM) ->
+     ?wxSTC_AVE_ENUM;
 
-wx_stc_ave_enum() ->
-     ?wxSTC_AVE_ENUM.
+constant(constwxSTC_AVE_STRING) ->
+     ?wxSTC_AVE_STRING;
 
-wx_stc_ave_string() ->
-     ?wxSTC_AVE_STRING.
+constant(constwxSTC_AVE_WORD) ->
+     ?wxSTC_AVE_WORD;
 
-wx_stc_ave_word() ->
-     ?wxSTC_AVE_WORD.
+constant(constwxSTC_AVE_NUMBER) ->
+     ?wxSTC_AVE_NUMBER;
 
-wx_stc_ave_number() ->
-     ?wxSTC_AVE_NUMBER.
+constant(constwxSTC_AVE_COMMENT) ->
+     ?wxSTC_AVE_COMMENT;
 
-wx_stc_ave_comment() ->
-     ?wxSTC_AVE_COMMENT.
+constant(constwxSTC_AVE_DEFAULT) ->
+     ?wxSTC_AVE_DEFAULT;
 
-wx_stc_ave_default() ->
-     ?wxSTC_AVE_DEFAULT.
+constant(constwxSTC_CONF_DIRECTIVE) ->
+     ?wxSTC_CONF_DIRECTIVE;
 
-wx_stc_conf_directive() ->
-     ?wxSTC_CONF_DIRECTIVE.
+constant(constwxSTC_CONF_IP) ->
+     ?wxSTC_CONF_IP;
 
-wx_stc_conf_ip() ->
-     ?wxSTC_CONF_IP.
+constant(constwxSTC_CONF_OPERATOR) ->
+     ?wxSTC_CONF_OPERATOR;
 
-wx_stc_conf_operator() ->
-     ?wxSTC_CONF_OPERATOR.
+constant(constwxSTC_CONF_STRING) ->
+     ?wxSTC_CONF_STRING;
 
-wx_stc_conf_string() ->
-     ?wxSTC_CONF_STRING.
+constant(constwxSTC_CONF_PARAMETER) ->
+     ?wxSTC_CONF_PARAMETER;
 
-wx_stc_conf_parameter() ->
-     ?wxSTC_CONF_PARAMETER.
+constant(constwxSTC_CONF_EXTENSION) ->
+     ?wxSTC_CONF_EXTENSION;
 
-wx_stc_conf_extension() ->
-     ?wxSTC_CONF_EXTENSION.
+constant(constwxSTC_CONF_IDENTIFIER) ->
+     ?wxSTC_CONF_IDENTIFIER;
 
-wx_stc_conf_identifier() ->
-     ?wxSTC_CONF_IDENTIFIER.
+constant(constwxSTC_CONF_NUMBER) ->
+     ?wxSTC_CONF_NUMBER;
 
-wx_stc_conf_number() ->
-     ?wxSTC_CONF_NUMBER.
+constant(constwxSTC_CONF_COMMENT) ->
+     ?wxSTC_CONF_COMMENT;
 
-wx_stc_conf_comment() ->
-     ?wxSTC_CONF_COMMENT.
+constant(constwxSTC_CONF_DEFAULT) ->
+     ?wxSTC_CONF_DEFAULT;
 
-wx_stc_conf_default() ->
-     ?wxSTC_CONF_DEFAULT.
+constant(constwxSTC_DIFF_ADDED) ->
+     ?wxSTC_DIFF_ADDED;
 
-wx_stc_diff_added() ->
-     ?wxSTC_DIFF_ADDED.
+constant(constwxSTC_DIFF_DELETED) ->
+     ?wxSTC_DIFF_DELETED;
 
-wx_stc_diff_deleted() ->
-     ?wxSTC_DIFF_DELETED.
+constant(constwxSTC_DIFF_POSITION) ->
+     ?wxSTC_DIFF_POSITION;
 
-wx_stc_diff_position() ->
-     ?wxSTC_DIFF_POSITION.
+constant(constwxSTC_DIFF_HEADER) ->
+     ?wxSTC_DIFF_HEADER;
 
-wx_stc_diff_header() ->
-     ?wxSTC_DIFF_HEADER.
+constant(constwxSTC_DIFF_COMMAND) ->
+     ?wxSTC_DIFF_COMMAND;
 
-wx_stc_diff_command() ->
-     ?wxSTC_DIFF_COMMAND.
+constant(constwxSTC_DIFF_COMMENT) ->
+     ?wxSTC_DIFF_COMMENT;
 
-wx_stc_diff_comment() ->
-     ?wxSTC_DIFF_COMMENT.
+constant(constwxSTC_DIFF_DEFAULT) ->
+     ?wxSTC_DIFF_DEFAULT;
 
-wx_stc_diff_default() ->
-     ?wxSTC_DIFF_DEFAULT.
+constant(constwxSTC_MAKE_IDEOL) ->
+     ?wxSTC_MAKE_IDEOL;
 
-wx_stc_make_ideol() ->
-     ?wxSTC_MAKE_IDEOL.
+constant(constwxSTC_MAKE_TARGET) ->
+     ?wxSTC_MAKE_TARGET;
 
-wx_stc_make_target() ->
-     ?wxSTC_MAKE_TARGET.
+constant(constwxSTC_MAKE_OPERATOR) ->
+     ?wxSTC_MAKE_OPERATOR;
 
-wx_stc_make_operator() ->
-     ?wxSTC_MAKE_OPERATOR.
+constant(constwxSTC_MAKE_IDENTIFIER) ->
+     ?wxSTC_MAKE_IDENTIFIER;
 
-wx_stc_make_identifier() ->
-     ?wxSTC_MAKE_IDENTIFIER.
+constant(constwxSTC_MAKE_PREPROCESSOR) ->
+     ?wxSTC_MAKE_PREPROCESSOR;
 
-wx_stc_make_preprocessor() ->
-     ?wxSTC_MAKE_PREPROCESSOR.
+constant(constwxSTC_MAKE_COMMENT) ->
+     ?wxSTC_MAKE_COMMENT;
 
-wx_stc_make_comment() ->
-     ?wxSTC_MAKE_COMMENT.
+constant(constwxSTC_MAKE_DEFAULT) ->
+     ?wxSTC_MAKE_DEFAULT;
 
-wx_stc_make_default() ->
-     ?wxSTC_MAKE_DEFAULT.
+constant(constwxSTC_BAT_OPERATOR) ->
+     ?wxSTC_BAT_OPERATOR;
 
-wx_stc_bat_operator() ->
-     ?wxSTC_BAT_OPERATOR.
+constant(constwxSTC_BAT_IDENTIFIER) ->
+     ?wxSTC_BAT_IDENTIFIER;
 
-wx_stc_bat_identifier() ->
-     ?wxSTC_BAT_IDENTIFIER.
+constant(constwxSTC_BAT_COMMAND) ->
+     ?wxSTC_BAT_COMMAND;
 
-wx_stc_bat_command() ->
-     ?wxSTC_BAT_COMMAND.
+constant(constwxSTC_BAT_HIDE) ->
+     ?wxSTC_BAT_HIDE;
 
-wx_stc_bat_hide() ->
-     ?wxSTC_BAT_HIDE.
+constant(constwxSTC_BAT_LABEL) ->
+     ?wxSTC_BAT_LABEL;
 
-wx_stc_bat_label() ->
-     ?wxSTC_BAT_LABEL.
+constant(constwxSTC_BAT_WORD) ->
+     ?wxSTC_BAT_WORD;
 
-wx_stc_bat_word() ->
-     ?wxSTC_BAT_WORD.
+constant(constwxSTC_BAT_COMMENT) ->
+     ?wxSTC_BAT_COMMENT;
 
-wx_stc_bat_comment() ->
-     ?wxSTC_BAT_COMMENT.
+constant(constwxSTC_BAT_DEFAULT) ->
+     ?wxSTC_BAT_DEFAULT;
 
-wx_stc_bat_default() ->
-     ?wxSTC_BAT_DEFAULT.
+constant(constwxSTC_ERR_JAVA_STACK) ->
+     ?wxSTC_ERR_JAVA_STACK;
 
-wx_stc_err_java_stack() ->
-     ?wxSTC_ERR_JAVA_STACK.
+constant(constwxSTC_ERR_TIDY) ->
+     ?wxSTC_ERR_TIDY;
 
-wx_stc_err_tidy() ->
-     ?wxSTC_ERR_TIDY.
+constant(constwxSTC_ERR_ABSF) ->
+     ?wxSTC_ERR_ABSF;
 
-wx_stc_err_absf() ->
-     ?wxSTC_ERR_ABSF.
+constant(constwxSTC_ERR_IFORT) ->
+     ?wxSTC_ERR_IFORT;
 
-wx_stc_err_ifort() ->
-     ?wxSTC_ERR_IFORT.
+constant(constwxSTC_ERR_IFC) ->
+     ?wxSTC_ERR_IFC;
 
-wx_stc_err_ifc() ->
-     ?wxSTC_ERR_IFC.
+constant(constwxSTC_ERR_ELF) ->
+     ?wxSTC_ERR_ELF;
 
-wx_stc_err_elf() ->
-     ?wxSTC_ERR_ELF.
+constant(constwxSTC_ERR_PHP) ->
+     ?wxSTC_ERR_PHP;
 
-wx_stc_err_php() ->
-     ?wxSTC_ERR_PHP.
+constant(constwxSTC_ERR_DIFF_MESSAGE) ->
+     ?wxSTC_ERR_DIFF_MESSAGE;
 
-wx_stc_err_diff_message() ->
-     ?wxSTC_ERR_DIFF_MESSAGE.
+constant(constwxSTC_ERR_DIFF_DELETION) ->
+     ?wxSTC_ERR_DIFF_DELETION;
 
-wx_stc_err_diff_deletion() ->
-     ?wxSTC_ERR_DIFF_DELETION.
+constant(constwxSTC_ERR_DIFF_ADDITION) ->
+     ?wxSTC_ERR_DIFF_ADDITION;
 
-wx_stc_err_diff_addition() ->
-     ?wxSTC_ERR_DIFF_ADDITION.
+constant(constwxSTC_ERR_DIFF_CHANGED) ->
+     ?wxSTC_ERR_DIFF_CHANGED;
 
-wx_stc_err_diff_changed() ->
-     ?wxSTC_ERR_DIFF_CHANGED.
+constant(constwxSTC_ERR_CTAG) ->
+     ?wxSTC_ERR_CTAG;
 
-wx_stc_err_ctag() ->
-     ?wxSTC_ERR_CTAG.
+constant(constwxSTC_ERR_LUA) ->
+     ?wxSTC_ERR_LUA;
 
-wx_stc_err_lua() ->
-     ?wxSTC_ERR_LUA.
+constant(constwxSTC_ERR_NET) ->
+     ?wxSTC_ERR_NET;
 
-wx_stc_err_net() ->
-     ?wxSTC_ERR_NET.
+constant(constwxSTC_ERR_PERL) ->
+     ?wxSTC_ERR_PERL;
 
-wx_stc_err_perl() ->
-     ?wxSTC_ERR_PERL.
+constant(constwxSTC_ERR_BORLAND) ->
+     ?wxSTC_ERR_BORLAND;
 
-wx_stc_err_borland() ->
-     ?wxSTC_ERR_BORLAND.
+constant(constwxSTC_ERR_CMD) ->
+     ?wxSTC_ERR_CMD;
 
-wx_stc_err_cmd() ->
-     ?wxSTC_ERR_CMD.
+constant(constwxSTC_ERR_MS) ->
+     ?wxSTC_ERR_MS;
 
-wx_stc_err_ms() ->
-     ?wxSTC_ERR_MS.
+constant(constwxSTC_ERR_GCC) ->
+     ?wxSTC_ERR_GCC;
 
-wx_stc_err_gcc() ->
-     ?wxSTC_ERR_GCC.
+constant(constwxSTC_ERR_PYTHON) ->
+     ?wxSTC_ERR_PYTHON;
 
-wx_stc_err_python() ->
-     ?wxSTC_ERR_PYTHON.
+constant(constwxSTC_ERR_DEFAULT) ->
+     ?wxSTC_ERR_DEFAULT;
 
-wx_stc_err_default() ->
-     ?wxSTC_ERR_DEFAULT.
+constant(constwxSTC_LUA_WORD8) ->
+     ?wxSTC_LUA_WORD8;
 
-wx_stc_lua_wor_d8() ->
-     ?wxSTC_LUA_WORD8.
+constant(constwxSTC_LUA_WORD7) ->
+     ?wxSTC_LUA_WORD7;
 
-wx_stc_lua_wor_d7() ->
-     ?wxSTC_LUA_WORD7.
+constant(constwxSTC_LUA_WORD6) ->
+     ?wxSTC_LUA_WORD6;
 
-wx_stc_lua_wor_d6() ->
-     ?wxSTC_LUA_WORD6.
+constant(constwxSTC_LUA_WORD5) ->
+     ?wxSTC_LUA_WORD5;
 
-wx_stc_lua_wor_d5() ->
-     ?wxSTC_LUA_WORD5.
+constant(constwxSTC_LUA_WORD4) ->
+     ?wxSTC_LUA_WORD4;
 
-wx_stc_lua_wor_d4() ->
-     ?wxSTC_LUA_WORD4.
+constant(constwxSTC_LUA_WORD3) ->
+     ?wxSTC_LUA_WORD3;
 
-wx_stc_lua_wor_d3() ->
-     ?wxSTC_LUA_WORD3.
+constant(constwxSTC_LUA_WORD2) ->
+     ?wxSTC_LUA_WORD2;
 
-wx_stc_lua_wor_d2() ->
-     ?wxSTC_LUA_WORD2.
+constant(constwxSTC_LUA_STRINGEOL) ->
+     ?wxSTC_LUA_STRINGEOL;
 
-wx_stc_lua_stringeol() ->
-     ?wxSTC_LUA_STRINGEOL.
+constant(constwxSTC_LUA_IDENTIFIER) ->
+     ?wxSTC_LUA_IDENTIFIER;
 
-wx_stc_lua_identifier() ->
-     ?wxSTC_LUA_IDENTIFIER.
+constant(constwxSTC_LUA_OPERATOR) ->
+     ?wxSTC_LUA_OPERATOR;
 
-wx_stc_lua_operator() ->
-     ?wxSTC_LUA_OPERATOR.
+constant(constwxSTC_LUA_PREPROCESSOR) ->
+     ?wxSTC_LUA_PREPROCESSOR;
 
-wx_stc_lua_preprocessor() ->
-     ?wxSTC_LUA_PREPROCESSOR.
+constant(constwxSTC_LUA_LITERALSTRING) ->
+     ?wxSTC_LUA_LITERALSTRING;
 
-wx_stc_lua_literalstring() ->
-     ?wxSTC_LUA_LITERALSTRING.
+constant(constwxSTC_LUA_CHARACTER) ->
+     ?wxSTC_LUA_CHARACTER;
 
-wx_stc_lua_character() ->
-     ?wxSTC_LUA_CHARACTER.
+constant(constwxSTC_LUA_STRING) ->
+     ?wxSTC_LUA_STRING;
 
-wx_stc_lua_string() ->
-     ?wxSTC_LUA_STRING.
+constant(constwxSTC_LUA_WORD) ->
+     ?wxSTC_LUA_WORD;
 
-wx_stc_lua_word() ->
-     ?wxSTC_LUA_WORD.
+constant(constwxSTC_LUA_NUMBER) ->
+     ?wxSTC_LUA_NUMBER;
 
-wx_stc_lua_number() ->
-     ?wxSTC_LUA_NUMBER.
+constant(constwxSTC_LUA_COMMENTDOC) ->
+     ?wxSTC_LUA_COMMENTDOC;
 
-wx_stc_lua_commentdoc() ->
-     ?wxSTC_LUA_COMMENTDOC.
+constant(constwxSTC_LUA_COMMENTLINE) ->
+     ?wxSTC_LUA_COMMENTLINE;
 
-wx_stc_lua_commentline() ->
-     ?wxSTC_LUA_COMMENTLINE.
+constant(constwxSTC_LUA_COMMENT) ->
+     ?wxSTC_LUA_COMMENT;
 
-wx_stc_lua_comment() ->
-     ?wxSTC_LUA_COMMENT.
+constant(constwxSTC_LUA_DEFAULT) ->
+     ?wxSTC_LUA_DEFAULT;
 
-wx_stc_lua_default() ->
-     ?wxSTC_LUA_DEFAULT.
+constant(constwxSTC_L_COMMENT) ->
+     ?wxSTC_L_COMMENT;
 
-wx_stc_l_comment() ->
-     ?wxSTC_L_COMMENT.
+constant(constwxSTC_L_MATH) ->
+     ?wxSTC_L_MATH;
 
-wx_stc_l_math() ->
-     ?wxSTC_L_MATH.
+constant(constwxSTC_L_TAG) ->
+     ?wxSTC_L_TAG;
 
-wx_stc_l_tag() ->
-     ?wxSTC_L_TAG.
+constant(constwxSTC_L_COMMAND) ->
+     ?wxSTC_L_COMMAND;
 
-wx_stc_l_command() ->
-     ?wxSTC_L_COMMAND.
+constant(constwxSTC_L_DEFAULT) ->
+     ?wxSTC_L_DEFAULT;
 
-wx_stc_l_default() ->
-     ?wxSTC_L_DEFAULT.
+constant(constwxSTC_PROPS_KEY) ->
+     ?wxSTC_PROPS_KEY;
 
-wx_stc_props_key() ->
-     ?wxSTC_PROPS_KEY.
+constant(constwxSTC_PROPS_DEFVAL) ->
+     ?wxSTC_PROPS_DEFVAL;
 
-wx_stc_props_defval() ->
-     ?wxSTC_PROPS_DEFVAL.
+constant(constwxSTC_PROPS_ASSIGNMENT) ->
+     ?wxSTC_PROPS_ASSIGNMENT;
 
-wx_stc_props_assignment() ->
-     ?wxSTC_PROPS_ASSIGNMENT.
+constant(constwxSTC_PROPS_SECTION) ->
+     ?wxSTC_PROPS_SECTION;
 
-wx_stc_props_section() ->
-     ?wxSTC_PROPS_SECTION.
+constant(constwxSTC_PROPS_COMMENT) ->
+     ?wxSTC_PROPS_COMMENT;
 
-wx_stc_props_comment() ->
-     ?wxSTC_PROPS_COMMENT.
+constant(constwxSTC_PROPS_DEFAULT) ->
+     ?wxSTC_PROPS_DEFAULT;
 
-wx_stc_props_default() ->
-     ?wxSTC_PROPS_DEFAULT.
+constant(constwxSTC_B_BINNUMBER) ->
+     ?wxSTC_B_BINNUMBER;
 
-wx_stc_b_binnumber() ->
-     ?wxSTC_B_BINNUMBER.
+constant(constwxSTC_B_HEXNUMBER) ->
+     ?wxSTC_B_HEXNUMBER;
 
-wx_stc_b_hexnumber() ->
-     ?wxSTC_B_HEXNUMBER.
+constant(constwxSTC_B_ERROR) ->
+     ?wxSTC_B_ERROR;
 
-wx_stc_b_error() ->
-     ?wxSTC_B_ERROR.
+constant(constwxSTC_B_LABEL) ->
+     ?wxSTC_B_LABEL;
 
-wx_stc_b_label() ->
-     ?wxSTC_B_LABEL.
+constant(constwxSTC_B_ASM) ->
+     ?wxSTC_B_ASM;
 
-wx_stc_b_asm() ->
-     ?wxSTC_B_ASM.
+constant(constwxSTC_B_CONSTANT) ->
+     ?wxSTC_B_CONSTANT;
 
-wx_stc_b_constant() ->
-     ?wxSTC_B_CONSTANT.
+constant(constwxSTC_B_KEYWORD4) ->
+     ?wxSTC_B_KEYWORD4;
 
-wx_stc_b_keywor_d4() ->
-     ?wxSTC_B_KEYWORD4.
+constant(constwxSTC_B_KEYWORD3) ->
+     ?wxSTC_B_KEYWORD3;
 
-wx_stc_b_keywor_d3() ->
-     ?wxSTC_B_KEYWORD3.
+constant(constwxSTC_B_KEYWORD2) ->
+     ?wxSTC_B_KEYWORD2;
 
-wx_stc_b_keywor_d2() ->
-     ?wxSTC_B_KEYWORD2.
+constant(constwxSTC_B_STRINGEOL) ->
+     ?wxSTC_B_STRINGEOL;
 
-wx_stc_b_stringeol() ->
-     ?wxSTC_B_STRINGEOL.
+constant(constwxSTC_B_DATE) ->
+     ?wxSTC_B_DATE;
 
-wx_stc_b_date() ->
-     ?wxSTC_B_DATE.
+constant(constwxSTC_B_IDENTIFIER) ->
+     ?wxSTC_B_IDENTIFIER;
 
-wx_stc_b_identifier() ->
-     ?wxSTC_B_IDENTIFIER.
+constant(constwxSTC_B_OPERATOR) ->
+     ?wxSTC_B_OPERATOR;
 
-wx_stc_b_operator() ->
-     ?wxSTC_B_OPERATOR.
+constant(constwxSTC_B_PREPROCESSOR) ->
+     ?wxSTC_B_PREPROCESSOR;
 
-wx_stc_b_preprocessor() ->
-     ?wxSTC_B_PREPROCESSOR.
+constant(constwxSTC_B_STRING) ->
+     ?wxSTC_B_STRING;
 
-wx_stc_b_string() ->
-     ?wxSTC_B_STRING.
+constant(constwxSTC_B_KEYWORD) ->
+     ?wxSTC_B_KEYWORD;
 
-wx_stc_b_keyword() ->
-     ?wxSTC_B_KEYWORD.
+constant(constwxSTC_B_NUMBER) ->
+     ?wxSTC_B_NUMBER;
 
-wx_stc_b_number() ->
-     ?wxSTC_B_NUMBER.
+constant(constwxSTC_B_COMMENT) ->
+     ?wxSTC_B_COMMENT;
 
-wx_stc_b_comment() ->
-     ?wxSTC_B_COMMENT.
+constant(constwxSTC_B_DEFAULT) ->
+     ?wxSTC_B_DEFAULT;
 
-wx_stc_b_default() ->
-     ?wxSTC_B_DEFAULT.
+constant(constwxSTC_RB_UPPER_BOUND) ->
+     ?wxSTC_RB_UPPER_BOUND;
 
-wx_stc_rb_upper_bound() ->
-     ?wxSTC_RB_UPPER_BOUND.
+constant(constwxSTC_RB_STDERR) ->
+     ?wxSTC_RB_STDERR;
 
-wx_stc_rb_stderr() ->
-     ?wxSTC_RB_STDERR.
+constant(constwxSTC_RB_STDOUT) ->
+     ?wxSTC_RB_STDOUT;
 
-wx_stc_rb_stdout() ->
-     ?wxSTC_RB_STDOUT.
+constant(constwxSTC_RB_STDIN) ->
+     ?wxSTC_RB_STDIN;
 
-wx_stc_rb_stdin() ->
-     ?wxSTC_RB_STDIN.
+constant(constwxSTC_RB_WORD_DEMOTED) ->
+     ?wxSTC_RB_WORD_DEMOTED;
 
-wx_stc_rb_word_demoted() ->
-     ?wxSTC_RB_WORD_DEMOTED.
+constant(constwxSTC_RB_STRING_QW) ->
+     ?wxSTC_RB_STRING_QW;
 
-wx_stc_rb_string_qw() ->
-     ?wxSTC_RB_STRING_QW.
+constant(constwxSTC_RB_STRING_QR) ->
+     ?wxSTC_RB_STRING_QR;
 
-wx_stc_rb_string_qr() ->
-     ?wxSTC_RB_STRING_QR.
+constant(constwxSTC_RB_STRING_QX) ->
+     ?wxSTC_RB_STRING_QX;
 
-wx_stc_rb_string_qx() ->
-     ?wxSTC_RB_STRING_QX.
+constant(constwxSTC_RB_STRING_QQ) ->
+     ?wxSTC_RB_STRING_QQ;
 
-wx_stc_rb_string_qq() ->
-     ?wxSTC_RB_STRING_QQ.
+constant(constwxSTC_RB_STRING_Q) ->
+     ?wxSTC_RB_STRING_Q;
 
-wx_stc_rb_string_q() ->
-     ?wxSTC_RB_STRING_Q.
+constant(constwxSTC_RB_HERE_QX) ->
+     ?wxSTC_RB_HERE_QX;
 
-wx_stc_rb_here_qx() ->
-     ?wxSTC_RB_HERE_QX.
+constant(constwxSTC_RB_HERE_QQ) ->
+     ?wxSTC_RB_HERE_QQ;
 
-wx_stc_rb_here_qq() ->
-     ?wxSTC_RB_HERE_QQ.
+constant(constwxSTC_RB_HERE_Q) ->
+     ?wxSTC_RB_HERE_Q;
 
-wx_stc_rb_here_q() ->
-     ?wxSTC_RB_HERE_Q.
+constant(constwxSTC_RB_HERE_DELIM) ->
+     ?wxSTC_RB_HERE_DELIM;
 
-wx_stc_rb_here_delim() ->
-     ?wxSTC_RB_HERE_DELIM.
+constant(constwxSTC_RB_DATASECTION) ->
+     ?wxSTC_RB_DATASECTION;
 
-wx_stc_rb_datasection() ->
-     ?wxSTC_RB_DATASECTION.
+constant(constwxSTC_RB_BACKTICKS) ->
+     ?wxSTC_RB_BACKTICKS;
 
-wx_stc_rb_backticks() ->
-     ?wxSTC_RB_BACKTICKS.
+constant(constwxSTC_RB_CLASS_VAR) ->
+     ?wxSTC_RB_CLASS_VAR;
 
-wx_stc_rb_class_var() ->
-     ?wxSTC_RB_CLASS_VAR.
+constant(constwxSTC_RB_INSTANCE_VAR) ->
+     ?wxSTC_RB_INSTANCE_VAR;
 
-wx_stc_rb_instance_var() ->
-     ?wxSTC_RB_INSTANCE_VAR.
+constant(constwxSTC_RB_MODULE_NAME) ->
+     ?wxSTC_RB_MODULE_NAME;
 
-wx_stc_rb_module_name() ->
-     ?wxSTC_RB_MODULE_NAME.
+constant(constwxSTC_RB_SYMBOL) ->
+     ?wxSTC_RB_SYMBOL;
 
-wx_stc_rb_symbol() ->
-     ?wxSTC_RB_SYMBOL.
+constant(constwxSTC_RB_GLOBAL) ->
+     ?wxSTC_RB_GLOBAL;
 
-wx_stc_rb_global() ->
-     ?wxSTC_RB_GLOBAL.
+constant(constwxSTC_RB_REGEX) ->
+     ?wxSTC_RB_REGEX;
 
-wx_stc_rb_regex() ->
-     ?wxSTC_RB_REGEX.
+constant(constwxSTC_RB_IDENTIFIER) ->
+     ?wxSTC_RB_IDENTIFIER;
 
-wx_stc_rb_identifier() ->
-     ?wxSTC_RB_IDENTIFIER.
+constant(constwxSTC_RB_OPERATOR) ->
+     ?wxSTC_RB_OPERATOR;
 
-wx_stc_rb_operator() ->
-     ?wxSTC_RB_OPERATOR.
+constant(constwxSTC_RB_DEFNAME) ->
+     ?wxSTC_RB_DEFNAME;
 
-wx_stc_rb_defname() ->
-     ?wxSTC_RB_DEFNAME.
+constant(constwxSTC_RB_CLASSNAME) ->
+     ?wxSTC_RB_CLASSNAME;
 
-wx_stc_rb_classname() ->
-     ?wxSTC_RB_CLASSNAME.
+constant(constwxSTC_RB_CHARACTER) ->
+     ?wxSTC_RB_CHARACTER;
 
-wx_stc_rb_character() ->
-     ?wxSTC_RB_CHARACTER.
+constant(constwxSTC_RB_STRING) ->
+     ?wxSTC_RB_STRING;
 
-wx_stc_rb_string() ->
-     ?wxSTC_RB_STRING.
+constant(constwxSTC_RB_WORD) ->
+     ?wxSTC_RB_WORD;
 
-wx_stc_rb_word() ->
-     ?wxSTC_RB_WORD.
+constant(constwxSTC_RB_NUMBER) ->
+     ?wxSTC_RB_NUMBER;
 
-wx_stc_rb_number() ->
-     ?wxSTC_RB_NUMBER.
+constant(constwxSTC_RB_POD) ->
+     ?wxSTC_RB_POD;
 
-wx_stc_rb_pod() ->
-     ?wxSTC_RB_POD.
+constant(constwxSTC_RB_COMMENTLINE) ->
+     ?wxSTC_RB_COMMENTLINE;
 
-wx_stc_rb_commentline() ->
-     ?wxSTC_RB_COMMENTLINE.
+constant(constwxSTC_RB_ERROR) ->
+     ?wxSTC_RB_ERROR;
 
-wx_stc_rb_error() ->
-     ?wxSTC_RB_ERROR.
+constant(constwxSTC_RB_DEFAULT) ->
+     ?wxSTC_RB_DEFAULT;
 
-wx_stc_rb_default() ->
-     ?wxSTC_RB_DEFAULT.
+constant(constwxSTC_PL_POD_VERB) ->
+     ?wxSTC_PL_POD_VERB;
 
-wx_stc_pl_pod_verb() ->
-     ?wxSTC_PL_POD_VERB.
+constant(constwxSTC_PL_STRING_QW) ->
+     ?wxSTC_PL_STRING_QW;
 
-wx_stc_pl_string_qw() ->
-     ?wxSTC_PL_STRING_QW.
+constant(constwxSTC_PL_STRING_QR) ->
+     ?wxSTC_PL_STRING_QR;
 
-wx_stc_pl_string_qr() ->
-     ?wxSTC_PL_STRING_QR.
+constant(constwxSTC_PL_STRING_QX) ->
+     ?wxSTC_PL_STRING_QX;
 
-wx_stc_pl_string_qx() ->
-     ?wxSTC_PL_STRING_QX.
+constant(constwxSTC_PL_STRING_QQ) ->
+     ?wxSTC_PL_STRING_QQ;
 
-wx_stc_pl_string_qq() ->
-     ?wxSTC_PL_STRING_QQ.
+constant(constwxSTC_PL_STRING_Q) ->
+     ?wxSTC_PL_STRING_Q;
 
-wx_stc_pl_string_q() ->
-     ?wxSTC_PL_STRING_Q.
+constant(constwxSTC_PL_HERE_QX) ->
+     ?wxSTC_PL_HERE_QX;
 
-wx_stc_pl_here_qx() ->
-     ?wxSTC_PL_HERE_QX.
+constant(constwxSTC_PL_HERE_QQ) ->
+     ?wxSTC_PL_HERE_QQ;
 
-wx_stc_pl_here_qq() ->
-     ?wxSTC_PL_HERE_QQ.
+constant(constwxSTC_PL_HERE_Q) ->
+     ?wxSTC_PL_HERE_Q;
 
-wx_stc_pl_here_q() ->
-     ?wxSTC_PL_HERE_Q.
+constant(constwxSTC_PL_HERE_DELIM) ->
+     ?wxSTC_PL_HERE_DELIM;
 
-wx_stc_pl_here_delim() ->
-     ?wxSTC_PL_HERE_DELIM.
+constant(constwxSTC_PL_DATASECTION) ->
+     ?wxSTC_PL_DATASECTION;
 
-wx_stc_pl_datasection() ->
-     ?wxSTC_PL_DATASECTION.
+constant(constwxSTC_PL_BACKTICKS) ->
+     ?wxSTC_PL_BACKTICKS;
 
-wx_stc_pl_backticks() ->
-     ?wxSTC_PL_BACKTICKS.
+constant(constwxSTC_PL_LONGQUOTE) ->
+     ?wxSTC_PL_LONGQUOTE;
 
-wx_stc_pl_longquote() ->
-     ?wxSTC_PL_LONGQUOTE.
+constant(constwxSTC_PL_REGSUBST) ->
+     ?wxSTC_PL_REGSUBST;
 
-wx_stc_pl_regsubst() ->
-     ?wxSTC_PL_REGSUBST.
+constant(constwxSTC_PL_REGEX) ->
+     ?wxSTC_PL_REGEX;
 
-wx_stc_pl_regex() ->
-     ?wxSTC_PL_REGEX.
+constant(constwxSTC_PL_VARIABLE_INDEXER) ->
+     ?wxSTC_PL_VARIABLE_INDEXER;
 
-wx_stc_pl_variable_indexer() ->
-     ?wxSTC_PL_VARIABLE_INDEXER.
+constant(constwxSTC_PL_SYMBOLTABLE) ->
+     ?wxSTC_PL_SYMBOLTABLE;
 
-wx_stc_pl_symboltable() ->
-     ?wxSTC_PL_SYMBOLTABLE.
+constant(constwxSTC_PL_HASH) ->
+     ?wxSTC_PL_HASH;
 
-wx_stc_pl_hash() ->
-     ?wxSTC_PL_HASH.
+constant(constwxSTC_PL_ARRAY) ->
+     ?wxSTC_PL_ARRAY;
 
-wx_stc_pl_array() ->
-     ?wxSTC_PL_ARRAY.
+constant(constwxSTC_PL_SCALAR) ->
+     ?wxSTC_PL_SCALAR;
 
-wx_stc_pl_scalar() ->
-     ?wxSTC_PL_SCALAR.
+constant(constwxSTC_PL_IDENTIFIER) ->
+     ?wxSTC_PL_IDENTIFIER;
 
-wx_stc_pl_identifier() ->
-     ?wxSTC_PL_IDENTIFIER.
+constant(constwxSTC_PL_OPERATOR) ->
+     ?wxSTC_PL_OPERATOR;
 
-wx_stc_pl_operator() ->
-     ?wxSTC_PL_OPERATOR.
+constant(constwxSTC_PL_PREPROCESSOR) ->
+     ?wxSTC_PL_PREPROCESSOR;
 
-wx_stc_pl_preprocessor() ->
-     ?wxSTC_PL_PREPROCESSOR.
+constant(constwxSTC_PL_PUNCTUATION) ->
+     ?wxSTC_PL_PUNCTUATION;
 
-wx_stc_pl_punctuation() ->
-     ?wxSTC_PL_PUNCTUATION.
+constant(constwxSTC_PL_CHARACTER) ->
+     ?wxSTC_PL_CHARACTER;
 
-wx_stc_pl_character() ->
-     ?wxSTC_PL_CHARACTER.
+constant(constwxSTC_PL_STRING) ->
+     ?wxSTC_PL_STRING;
 
-wx_stc_pl_string() ->
-     ?wxSTC_PL_STRING.
+constant(constwxSTC_PL_WORD) ->
+     ?wxSTC_PL_WORD;
 
-wx_stc_pl_word() ->
-     ?wxSTC_PL_WORD.
+constant(constwxSTC_PL_NUMBER) ->
+     ?wxSTC_PL_NUMBER;
 
-wx_stc_pl_number() ->
-     ?wxSTC_PL_NUMBER.
+constant(constwxSTC_PL_POD) ->
+     ?wxSTC_PL_POD;
 
-wx_stc_pl_pod() ->
-     ?wxSTC_PL_POD.
+constant(constwxSTC_PL_COMMENTLINE) ->
+     ?wxSTC_PL_COMMENTLINE;
 
-wx_stc_pl_commentline() ->
-     ?wxSTC_PL_COMMENTLINE.
+constant(constwxSTC_PL_ERROR) ->
+     ?wxSTC_PL_ERROR;
 
-wx_stc_pl_error() ->
-     ?wxSTC_PL_ERROR.
+constant(constwxSTC_PL_DEFAULT) ->
+     ?wxSTC_PL_DEFAULT;
 
-wx_stc_pl_default() ->
-     ?wxSTC_PL_DEFAULT.
+constant(constwxSTC_HPHP_OPERATOR) ->
+     ?wxSTC_HPHP_OPERATOR;
 
-wx_stc_hphp_operator() ->
-     ?wxSTC_HPHP_OPERATOR.
+constant(constwxSTC_HPHP_HSTRING_VARIABLE) ->
+     ?wxSTC_HPHP_HSTRING_VARIABLE;
 
-wx_stc_hphp_hstring_variable() ->
-     ?wxSTC_HPHP_HSTRING_VARIABLE.
+constant(constwxSTC_HPHP_COMMENTLINE) ->
+     ?wxSTC_HPHP_COMMENTLINE;
 
-wx_stc_hphp_commentline() ->
-     ?wxSTC_HPHP_COMMENTLINE.
+constant(constwxSTC_HPHP_COMMENT) ->
+     ?wxSTC_HPHP_COMMENT;
 
-wx_stc_hphp_comment() ->
-     ?wxSTC_HPHP_COMMENT.
+constant(constwxSTC_HPHP_VARIABLE) ->
+     ?wxSTC_HPHP_VARIABLE;
 
-wx_stc_hphp_variable() ->
-     ?wxSTC_HPHP_VARIABLE.
+constant(constwxSTC_HPHP_NUMBER) ->
+     ?wxSTC_HPHP_NUMBER;
 
-wx_stc_hphp_number() ->
-     ?wxSTC_HPHP_NUMBER.
+constant(constwxSTC_HPHP_WORD) ->
+     ?wxSTC_HPHP_WORD;
 
-wx_stc_hphp_word() ->
-     ?wxSTC_HPHP_WORD.
+constant(constwxSTC_HPHP_SIMPLESTRING) ->
+     ?wxSTC_HPHP_SIMPLESTRING;
 
-wx_stc_hphp_simplestring() ->
-     ?wxSTC_HPHP_SIMPLESTRING.
+constant(constwxSTC_HPHP_HSTRING) ->
+     ?wxSTC_HPHP_HSTRING;
 
-wx_stc_hphp_hstring() ->
-     ?wxSTC_HPHP_HSTRING.
+constant(constwxSTC_HPHP_DEFAULT) ->
+     ?wxSTC_HPHP_DEFAULT;
 
-wx_stc_hphp_default() ->
-     ?wxSTC_HPHP_DEFAULT.
+constant(constwxSTC_HPA_IDENTIFIER) ->
+     ?wxSTC_HPA_IDENTIFIER;
 
-wx_stc_hpa_identifier() ->
-     ?wxSTC_HPA_IDENTIFIER.
+constant(constwxSTC_HPA_OPERATOR) ->
+     ?wxSTC_HPA_OPERATOR;
 
-wx_stc_hpa_operator() ->
-     ?wxSTC_HPA_OPERATOR.
+constant(constwxSTC_HPA_DEFNAME) ->
+     ?wxSTC_HPA_DEFNAME;
 
-wx_stc_hpa_defname() ->
-     ?wxSTC_HPA_DEFNAME.
+constant(constwxSTC_HPA_CLASSNAME) ->
+     ?wxSTC_HPA_CLASSNAME;
 
-wx_stc_hpa_classname() ->
-     ?wxSTC_HPA_CLASSNAME.
+constant(constwxSTC_HPA_TRIPLEDOUBLE) ->
+     ?wxSTC_HPA_TRIPLEDOUBLE;
 
-wx_stc_hpa_tripledouble() ->
-     ?wxSTC_HPA_TRIPLEDOUBLE.
+constant(constwxSTC_HPA_TRIPLE) ->
+     ?wxSTC_HPA_TRIPLE;
 
-wx_stc_hpa_triple() ->
-     ?wxSTC_HPA_TRIPLE.
+constant(constwxSTC_HPA_WORD) ->
+     ?wxSTC_HPA_WORD;
 
-wx_stc_hpa_word() ->
-     ?wxSTC_HPA_WORD.
+constant(constwxSTC_HPA_CHARACTER) ->
+     ?wxSTC_HPA_CHARACTER;
 
-wx_stc_hpa_character() ->
-     ?wxSTC_HPA_CHARACTER.
+constant(constwxSTC_HPA_STRING) ->
+     ?wxSTC_HPA_STRING;
 
-wx_stc_hpa_string() ->
-     ?wxSTC_HPA_STRING.
+constant(constwxSTC_HPA_NUMBER) ->
+     ?wxSTC_HPA_NUMBER;
 
-wx_stc_hpa_number() ->
-     ?wxSTC_HPA_NUMBER.
+constant(constwxSTC_HPA_COMMENTLINE) ->
+     ?wxSTC_HPA_COMMENTLINE;
 
-wx_stc_hpa_commentline() ->
-     ?wxSTC_HPA_COMMENTLINE.
+constant(constwxSTC_HPA_DEFAULT) ->
+     ?wxSTC_HPA_DEFAULT;
 
-wx_stc_hpa_default() ->
-     ?wxSTC_HPA_DEFAULT.
+constant(constwxSTC_HPA_START) ->
+     ?wxSTC_HPA_START;
 
-wx_stc_hpa_start() ->
-     ?wxSTC_HPA_START.
+constant(constwxSTC_HPHP_COMPLEX_VARIABLE) ->
+     ?wxSTC_HPHP_COMPLEX_VARIABLE;
 
-wx_stc_hphp_complex_variable() ->
-     ?wxSTC_HPHP_COMPLEX_VARIABLE.
+constant(constwxSTC_HP_IDENTIFIER) ->
+     ?wxSTC_HP_IDENTIFIER;
 
-wx_stc_hp_identifier() ->
-     ?wxSTC_HP_IDENTIFIER.
+constant(constwxSTC_HP_OPERATOR) ->
+     ?wxSTC_HP_OPERATOR;
 
-wx_stc_hp_operator() ->
-     ?wxSTC_HP_OPERATOR.
+constant(constwxSTC_HP_DEFNAME) ->
+     ?wxSTC_HP_DEFNAME;
 
-wx_stc_hp_defname() ->
-     ?wxSTC_HP_DEFNAME.
+constant(constwxSTC_HP_CLASSNAME) ->
+     ?wxSTC_HP_CLASSNAME;
 
-wx_stc_hp_classname() ->
-     ?wxSTC_HP_CLASSNAME.
+constant(constwxSTC_HP_TRIPLEDOUBLE) ->
+     ?wxSTC_HP_TRIPLEDOUBLE;
 
-wx_stc_hp_tripledouble() ->
-     ?wxSTC_HP_TRIPLEDOUBLE.
+constant(constwxSTC_HP_TRIPLE) ->
+     ?wxSTC_HP_TRIPLE;
 
-wx_stc_hp_triple() ->
-     ?wxSTC_HP_TRIPLE.
+constant(constwxSTC_HP_WORD) ->
+     ?wxSTC_HP_WORD;
 
-wx_stc_hp_word() ->
-     ?wxSTC_HP_WORD.
+constant(constwxSTC_HP_CHARACTER) ->
+     ?wxSTC_HP_CHARACTER;
 
-wx_stc_hp_character() ->
-     ?wxSTC_HP_CHARACTER.
+constant(constwxSTC_HP_STRING) ->
+     ?wxSTC_HP_STRING;
 
-wx_stc_hp_string() ->
-     ?wxSTC_HP_STRING.
+constant(constwxSTC_HP_NUMBER) ->
+     ?wxSTC_HP_NUMBER;
 
-wx_stc_hp_number() ->
-     ?wxSTC_HP_NUMBER.
+constant(constwxSTC_HP_COMMENTLINE) ->
+     ?wxSTC_HP_COMMENTLINE;
 
-wx_stc_hp_commentline() ->
-     ?wxSTC_HP_COMMENTLINE.
+constant(constwxSTC_HP_DEFAULT) ->
+     ?wxSTC_HP_DEFAULT;
 
-wx_stc_hp_default() ->
-     ?wxSTC_HP_DEFAULT.
+constant(constwxSTC_HP_START) ->
+     ?wxSTC_HP_START;
 
-wx_stc_hp_start() ->
-     ?wxSTC_HP_START.
+constant(constwxSTC_HBA_STRINGEOL) ->
+     ?wxSTC_HBA_STRINGEOL;
 
-wx_stc_hba_stringeol() ->
-     ?wxSTC_HBA_STRINGEOL.
+constant(constwxSTC_HBA_IDENTIFIER) ->
+     ?wxSTC_HBA_IDENTIFIER;
 
-wx_stc_hba_identifier() ->
-     ?wxSTC_HBA_IDENTIFIER.
+constant(constwxSTC_HBA_STRING) ->
+     ?wxSTC_HBA_STRING;
 
-wx_stc_hba_string() ->
-     ?wxSTC_HBA_STRING.
+constant(constwxSTC_HBA_WORD) ->
+     ?wxSTC_HBA_WORD;
 
-wx_stc_hba_word() ->
-     ?wxSTC_HBA_WORD.
+constant(constwxSTC_HBA_NUMBER) ->
+     ?wxSTC_HBA_NUMBER;
 
-wx_stc_hba_number() ->
-     ?wxSTC_HBA_NUMBER.
+constant(constwxSTC_HBA_COMMENTLINE) ->
+     ?wxSTC_HBA_COMMENTLINE;
 
-wx_stc_hba_commentline() ->
-     ?wxSTC_HBA_COMMENTLINE.
+constant(constwxSTC_HBA_DEFAULT) ->
+     ?wxSTC_HBA_DEFAULT;
 
-wx_stc_hba_default() ->
-     ?wxSTC_HBA_DEFAULT.
+constant(constwxSTC_HBA_START) ->
+     ?wxSTC_HBA_START;
 
-wx_stc_hba_start() ->
-     ?wxSTC_HBA_START.
+constant(constwxSTC_HB_STRINGEOL) ->
+     ?wxSTC_HB_STRINGEOL;
 
-wx_stc_hb_stringeol() ->
-     ?wxSTC_HB_STRINGEOL.
+constant(constwxSTC_HB_IDENTIFIER) ->
+     ?wxSTC_HB_IDENTIFIER;
 
-wx_stc_hb_identifier() ->
-     ?wxSTC_HB_IDENTIFIER.
+constant(constwxSTC_HB_STRING) ->
+     ?wxSTC_HB_STRING;
 
-wx_stc_hb_string() ->
-     ?wxSTC_HB_STRING.
+constant(constwxSTC_HB_WORD) ->
+     ?wxSTC_HB_WORD;
 
-wx_stc_hb_word() ->
-     ?wxSTC_HB_WORD.
+constant(constwxSTC_HB_NUMBER) ->
+     ?wxSTC_HB_NUMBER;
 
-wx_stc_hb_number() ->
-     ?wxSTC_HB_NUMBER.
+constant(constwxSTC_HB_COMMENTLINE) ->
+     ?wxSTC_HB_COMMENTLINE;
 
-wx_stc_hb_commentline() ->
-     ?wxSTC_HB_COMMENTLINE.
+constant(constwxSTC_HB_DEFAULT) ->
+     ?wxSTC_HB_DEFAULT;
 
-wx_stc_hb_default() ->
-     ?wxSTC_HB_DEFAULT.
+constant(constwxSTC_HB_START) ->
+     ?wxSTC_HB_START;
 
-wx_stc_hb_start() ->
-     ?wxSTC_HB_START.
+constant(constwxSTC_HJA_REGEX) ->
+     ?wxSTC_HJA_REGEX;
 
-wx_stc_hja_regex() ->
-     ?wxSTC_HJA_REGEX.
+constant(constwxSTC_HJA_STRINGEOL) ->
+     ?wxSTC_HJA_STRINGEOL;
 
-wx_stc_hja_stringeol() ->
-     ?wxSTC_HJA_STRINGEOL.
+constant(constwxSTC_HJA_SYMBOLS) ->
+     ?wxSTC_HJA_SYMBOLS;
 
-wx_stc_hja_symbols() ->
-     ?wxSTC_HJA_SYMBOLS.
+constant(constwxSTC_HJA_SINGLESTRING) ->
+     ?wxSTC_HJA_SINGLESTRING;
 
-wx_stc_hja_singlestring() ->
-     ?wxSTC_HJA_SINGLESTRING.
+constant(constwxSTC_HJA_DOUBLESTRING) ->
+     ?wxSTC_HJA_DOUBLESTRING;
 
-wx_stc_hja_doublestring() ->
-     ?wxSTC_HJA_DOUBLESTRING.
+constant(constwxSTC_HJA_KEYWORD) ->
+     ?wxSTC_HJA_KEYWORD;
 
-wx_stc_hja_keyword() ->
-     ?wxSTC_HJA_KEYWORD.
+constant(constwxSTC_HJA_WORD) ->
+     ?wxSTC_HJA_WORD;
 
-wx_stc_hja_word() ->
-     ?wxSTC_HJA_WORD.
+constant(constwxSTC_HJA_NUMBER) ->
+     ?wxSTC_HJA_NUMBER;
 
-wx_stc_hja_number() ->
-     ?wxSTC_HJA_NUMBER.
+constant(constwxSTC_HJA_COMMENTDOC) ->
+     ?wxSTC_HJA_COMMENTDOC;
 
-wx_stc_hja_commentdoc() ->
-     ?wxSTC_HJA_COMMENTDOC.
+constant(constwxSTC_HJA_COMMENTLINE) ->
+     ?wxSTC_HJA_COMMENTLINE;
 
-wx_stc_hja_commentline() ->
-     ?wxSTC_HJA_COMMENTLINE.
+constant(constwxSTC_HJA_COMMENT) ->
+     ?wxSTC_HJA_COMMENT;
 
-wx_stc_hja_comment() ->
-     ?wxSTC_HJA_COMMENT.
+constant(constwxSTC_HJA_DEFAULT) ->
+     ?wxSTC_HJA_DEFAULT;
 
-wx_stc_hja_default() ->
-     ?wxSTC_HJA_DEFAULT.
+constant(constwxSTC_HJA_START) ->
+     ?wxSTC_HJA_START;
 
-wx_stc_hja_start() ->
-     ?wxSTC_HJA_START.
+constant(constwxSTC_HJ_REGEX) ->
+     ?wxSTC_HJ_REGEX;
 
-wx_stc_hj_regex() ->
-     ?wxSTC_HJ_REGEX.
+constant(constwxSTC_HJ_STRINGEOL) ->
+     ?wxSTC_HJ_STRINGEOL;
 
-wx_stc_hj_stringeol() ->
-     ?wxSTC_HJ_STRINGEOL.
+constant(constwxSTC_HJ_SYMBOLS) ->
+     ?wxSTC_HJ_SYMBOLS;
 
-wx_stc_hj_symbols() ->
-     ?wxSTC_HJ_SYMBOLS.
+constant(constwxSTC_HJ_SINGLESTRING) ->
+     ?wxSTC_HJ_SINGLESTRING;
 
-wx_stc_hj_singlestring() ->
-     ?wxSTC_HJ_SINGLESTRING.
+constant(constwxSTC_HJ_DOUBLESTRING) ->
+     ?wxSTC_HJ_DOUBLESTRING;
 
-wx_stc_hj_doublestring() ->
-     ?wxSTC_HJ_DOUBLESTRING.
+constant(constwxSTC_HJ_KEYWORD) ->
+     ?wxSTC_HJ_KEYWORD;
 
-wx_stc_hj_keyword() ->
-     ?wxSTC_HJ_KEYWORD.
+constant(constwxSTC_HJ_WORD) ->
+     ?wxSTC_HJ_WORD;
 
-wx_stc_hj_word() ->
-     ?wxSTC_HJ_WORD.
+constant(constwxSTC_HJ_NUMBER) ->
+     ?wxSTC_HJ_NUMBER;
 
-wx_stc_hj_number() ->
-     ?wxSTC_HJ_NUMBER.
+constant(constwxSTC_HJ_COMMENTDOC) ->
+     ?wxSTC_HJ_COMMENTDOC;
 
-wx_stc_hj_commentdoc() ->
-     ?wxSTC_HJ_COMMENTDOC.
+constant(constwxSTC_HJ_COMMENTLINE) ->
+     ?wxSTC_HJ_COMMENTLINE;
 
-wx_stc_hj_commentline() ->
-     ?wxSTC_HJ_COMMENTLINE.
+constant(constwxSTC_HJ_COMMENT) ->
+     ?wxSTC_HJ_COMMENT;
 
-wx_stc_hj_comment() ->
-     ?wxSTC_HJ_COMMENT.
+constant(constwxSTC_HJ_DEFAULT) ->
+     ?wxSTC_HJ_DEFAULT;
 
-wx_stc_hj_default() ->
-     ?wxSTC_HJ_DEFAULT.
+constant(constwxSTC_HJ_START) ->
+     ?wxSTC_HJ_START;
 
-wx_stc_hj_start() ->
-     ?wxSTC_HJ_START.
+constant(constwxSTC_H_SGML_BLOCK_DEFAULT) ->
+     ?wxSTC_H_SGML_BLOCK_DEFAULT;
 
-wx_stc_h_sgml_block_default() ->
-     ?wxSTC_H_SGML_BLOCK_DEFAULT.
+constant(constwxSTC_H_SGML_1ST_PARAM_COMMENT) ->
+     ?wxSTC_H_SGML_1ST_PARAM_COMMENT;
 
-wx_stc_h_sgml_1_st_param_comment() ->
-     ?wxSTC_H_SGML_1ST_PARAM_COMMENT.
+constant(constwxSTC_H_SGML_COMMENT) ->
+     ?wxSTC_H_SGML_COMMENT;
 
-wx_stc_h_sgml_comment() ->
-     ?wxSTC_H_SGML_COMMENT.
+constant(constwxSTC_H_SGML_ENTITY) ->
+     ?wxSTC_H_SGML_ENTITY;
 
-wx_stc_h_sgml_entity() ->
-     ?wxSTC_H_SGML_ENTITY.
+constant(constwxSTC_H_SGML_SPECIAL) ->
+     ?wxSTC_H_SGML_SPECIAL;
 
-wx_stc_h_sgml_special() ->
-     ?wxSTC_H_SGML_SPECIAL.
+constant(constwxSTC_H_SGML_ERROR) ->
+     ?wxSTC_H_SGML_ERROR;
 
-wx_stc_h_sgml_error() ->
-     ?wxSTC_H_SGML_ERROR.
+constant(constwxSTC_H_SGML_SIMPLESTRING) ->
+     ?wxSTC_H_SGML_SIMPLESTRING;
 
-wx_stc_h_sgml_simplestring() ->
-     ?wxSTC_H_SGML_SIMPLESTRING.
+constant(constwxSTC_H_SGML_DOUBLESTRING) ->
+     ?wxSTC_H_SGML_DOUBLESTRING;
 
-wx_stc_h_sgml_doublestring() ->
-     ?wxSTC_H_SGML_DOUBLESTRING.
+constant(constwxSTC_H_SGML_1ST_PARAM) ->
+     ?wxSTC_H_SGML_1ST_PARAM;
 
-wx_stc_h_sgml_1_st_param() ->
-     ?wxSTC_H_SGML_1ST_PARAM.
+constant(constwxSTC_H_SGML_COMMAND) ->
+     ?wxSTC_H_SGML_COMMAND;
 
-wx_stc_h_sgml_command() ->
-     ?wxSTC_H_SGML_COMMAND.
+constant(constwxSTC_H_SGML_DEFAULT) ->
+     ?wxSTC_H_SGML_DEFAULT;
 
-wx_stc_h_sgml_default() ->
-     ?wxSTC_H_SGML_DEFAULT.
+constant(constwxSTC_H_XCCOMMENT) ->
+     ?wxSTC_H_XCCOMMENT;
 
-wx_stc_h_xccomment() ->
-     ?wxSTC_H_XCCOMMENT.
+constant(constwxSTC_H_VALUE) ->
+     ?wxSTC_H_VALUE;
 
-wx_stc_h_value() ->
-     ?wxSTC_H_VALUE.
+constant(constwxSTC_H_QUESTION) ->
+     ?wxSTC_H_QUESTION;
 
-wx_stc_h_question() ->
-     ?wxSTC_H_QUESTION.
+constant(constwxSTC_H_CDATA) ->
+     ?wxSTC_H_CDATA;
 
-wx_stc_h_cdata() ->
-     ?wxSTC_H_CDATA.
+constant(constwxSTC_H_ASPAT) ->
+     ?wxSTC_H_ASPAT;
 
-wx_stc_h_aspat() ->
-     ?wxSTC_H_ASPAT.
+constant(constwxSTC_H_ASP) ->
+     ?wxSTC_H_ASP;
 
-wx_stc_h_asp() ->
-     ?wxSTC_H_ASP.
+constant(constwxSTC_H_SCRIPT) ->
+     ?wxSTC_H_SCRIPT;
 
-wx_stc_h_script() ->
-     ?wxSTC_H_SCRIPT.
+constant(constwxSTC_H_XMLEND) ->
+     ?wxSTC_H_XMLEND;
 
-wx_stc_h_xmlend() ->
-     ?wxSTC_H_XMLEND.
+constant(constwxSTC_H_XMLSTART) ->
+     ?wxSTC_H_XMLSTART;
 
-wx_stc_h_xmlstart() ->
-     ?wxSTC_H_XMLSTART.
+constant(constwxSTC_H_TAGEND) ->
+     ?wxSTC_H_TAGEND;
 
-wx_stc_h_tagend() ->
-     ?wxSTC_H_TAGEND.
+constant(constwxSTC_H_ENTITY) ->
+     ?wxSTC_H_ENTITY;
 
-wx_stc_h_entity() ->
-     ?wxSTC_H_ENTITY.
+constant(constwxSTC_H_COMMENT) ->
+     ?wxSTC_H_COMMENT;
 
-wx_stc_h_comment() ->
-     ?wxSTC_H_COMMENT.
+constant(constwxSTC_H_OTHER) ->
+     ?wxSTC_H_OTHER;
 
-wx_stc_h_other() ->
-     ?wxSTC_H_OTHER.
+constant(constwxSTC_H_SINGLESTRING) ->
+     ?wxSTC_H_SINGLESTRING;
 
-wx_stc_h_singlestring() ->
-     ?wxSTC_H_SINGLESTRING.
+constant(constwxSTC_H_DOUBLESTRING) ->
+     ?wxSTC_H_DOUBLESTRING;
 
-wx_stc_h_doublestring() ->
-     ?wxSTC_H_DOUBLESTRING.
+constant(constwxSTC_H_NUMBER) ->
+     ?wxSTC_H_NUMBER;
 
-wx_stc_h_number() ->
-     ?wxSTC_H_NUMBER.
+constant(constwxSTC_H_ATTRIBUTEUNKNOWN) ->
+     ?wxSTC_H_ATTRIBUTEUNKNOWN;
 
-wx_stc_h_attributeunknown() ->
-     ?wxSTC_H_ATTRIBUTEUNKNOWN.
+constant(constwxSTC_H_ATTRIBUTE) ->
+     ?wxSTC_H_ATTRIBUTE;
 
-wx_stc_h_attribute() ->
-     ?wxSTC_H_ATTRIBUTE.
+constant(constwxSTC_H_TAGUNKNOWN) ->
+     ?wxSTC_H_TAGUNKNOWN;
 
-wx_stc_h_tagunknown() ->
-     ?wxSTC_H_TAGUNKNOWN.
+constant(constwxSTC_H_TAG) ->
+     ?wxSTC_H_TAG;
 
-wx_stc_h_tag() ->
-     ?wxSTC_H_TAG.
+constant(constwxSTC_H_DEFAULT) ->
+     ?wxSTC_H_DEFAULT;
 
-wx_stc_h_default() ->
-     ?wxSTC_H_DEFAULT.
+constant(constwxSTC_TCL_BLOCK_COMMENT) ->
+     ?wxSTC_TCL_BLOCK_COMMENT;
 
-wx_stc_tcl_block_comment() ->
-     ?wxSTC_TCL_BLOCK_COMMENT.
+constant(constwxSTC_TCL_COMMENT_BOX) ->
+     ?wxSTC_TCL_COMMENT_BOX;
 
-wx_stc_tcl_comment_box() ->
-     ?wxSTC_TCL_COMMENT_BOX.
+constant(constwxSTC_TCL_WORD8) ->
+     ?wxSTC_TCL_WORD8;
 
-wx_stc_tcl_wor_d8() ->
-     ?wxSTC_TCL_WORD8.
+constant(constwxSTC_TCL_WORD7) ->
+     ?wxSTC_TCL_WORD7;
 
-wx_stc_tcl_wor_d7() ->
-     ?wxSTC_TCL_WORD7.
+constant(constwxSTC_TCL_WORD6) ->
+     ?wxSTC_TCL_WORD6;
 
-wx_stc_tcl_wor_d6() ->
-     ?wxSTC_TCL_WORD6.
+constant(constwxSTC_TCL_WORD5) ->
+     ?wxSTC_TCL_WORD5;
 
-wx_stc_tcl_wor_d5() ->
-     ?wxSTC_TCL_WORD5.
+constant(constwxSTC_TCL_WORD4) ->
+     ?wxSTC_TCL_WORD4;
 
-wx_stc_tcl_wor_d4() ->
-     ?wxSTC_TCL_WORD4.
+constant(constwxSTC_TCL_WORD3) ->
+     ?wxSTC_TCL_WORD3;
 
-wx_stc_tcl_wor_d3() ->
-     ?wxSTC_TCL_WORD3.
+constant(constwxSTC_TCL_WORD2) ->
+     ?wxSTC_TCL_WORD2;
 
-wx_stc_tcl_wor_d2() ->
-     ?wxSTC_TCL_WORD2.
+constant(constwxSTC_TCL_WORD) ->
+     ?wxSTC_TCL_WORD;
 
-wx_stc_tcl_word() ->
-     ?wxSTC_TCL_WORD.
+constant(constwxSTC_TCL_EXPAND) ->
+     ?wxSTC_TCL_EXPAND;
 
-wx_stc_tcl_expand() ->
-     ?wxSTC_TCL_EXPAND.
+constant(constwxSTC_TCL_MODIFIER) ->
+     ?wxSTC_TCL_MODIFIER;
 
-wx_stc_tcl_modifier() ->
-     ?wxSTC_TCL_MODIFIER.
+constant(constwxSTC_TCL_SUB_BRACE) ->
+     ?wxSTC_TCL_SUB_BRACE;
 
-wx_stc_tcl_sub_brace() ->
-     ?wxSTC_TCL_SUB_BRACE.
+constant(constwxSTC_TCL_SUBSTITUTION) ->
+     ?wxSTC_TCL_SUBSTITUTION;
 
-wx_stc_tcl_substitution() ->
-     ?wxSTC_TCL_SUBSTITUTION.
+constant(constwxSTC_TCL_IDENTIFIER) ->
+     ?wxSTC_TCL_IDENTIFIER;
 
-wx_stc_tcl_identifier() ->
-     ?wxSTC_TCL_IDENTIFIER.
+constant(constwxSTC_TCL_OPERATOR) ->
+     ?wxSTC_TCL_OPERATOR;
 
-wx_stc_tcl_operator() ->
-     ?wxSTC_TCL_OPERATOR.
+constant(constwxSTC_TCL_IN_QUOTE) ->
+     ?wxSTC_TCL_IN_QUOTE;
 
-wx_stc_tcl_in_quote() ->
-     ?wxSTC_TCL_IN_QUOTE.
+constant(constwxSTC_TCL_WORD_IN_QUOTE) ->
+     ?wxSTC_TCL_WORD_IN_QUOTE;
 
-wx_stc_tcl_word_in_quote() ->
-     ?wxSTC_TCL_WORD_IN_QUOTE.
+constant(constwxSTC_TCL_NUMBER) ->
+     ?wxSTC_TCL_NUMBER;
 
-wx_stc_tcl_number() ->
-     ?wxSTC_TCL_NUMBER.
+constant(constwxSTC_TCL_COMMENTLINE) ->
+     ?wxSTC_TCL_COMMENTLINE;
 
-wx_stc_tcl_commentline() ->
-     ?wxSTC_TCL_COMMENTLINE.
+constant(constwxSTC_TCL_COMMENT) ->
+     ?wxSTC_TCL_COMMENT;
 
-wx_stc_tcl_comment() ->
-     ?wxSTC_TCL_COMMENT.
+constant(constwxSTC_TCL_DEFAULT) ->
+     ?wxSTC_TCL_DEFAULT;
 
-wx_stc_tcl_default() ->
-     ?wxSTC_TCL_DEFAULT.
+constant(constwxSTC_C_GLOBALCLASS) ->
+     ?wxSTC_C_GLOBALCLASS;
 
-wx_stc_c_globalclass() ->
-     ?wxSTC_C_GLOBALCLASS.
+constant(constwxSTC_C_COMMENTDOCKEYWORDERROR) ->
+     ?wxSTC_C_COMMENTDOCKEYWORDERROR;
 
-wx_stc_c_commentdockeyworderror() ->
-     ?wxSTC_C_COMMENTDOCKEYWORDERROR.
+constant(constwxSTC_C_COMMENTDOCKEYWORD) ->
+     ?wxSTC_C_COMMENTDOCKEYWORD;
 
-wx_stc_c_commentdockeyword() ->
-     ?wxSTC_C_COMMENTDOCKEYWORD.
+constant(constwxSTC_C_WORD2) ->
+     ?wxSTC_C_WORD2;
 
-wx_stc_c_wor_d2() ->
-     ?wxSTC_C_WORD2.
+constant(constwxSTC_C_COMMENTLINEDOC) ->
+     ?wxSTC_C_COMMENTLINEDOC;
 
-wx_stc_c_commentlinedoc() ->
-     ?wxSTC_C_COMMENTLINEDOC.
+constant(constwxSTC_C_REGEX) ->
+     ?wxSTC_C_REGEX;
 
-wx_stc_c_regex() ->
-     ?wxSTC_C_REGEX.
+constant(constwxSTC_C_VERBATIM) ->
+     ?wxSTC_C_VERBATIM;
 
-wx_stc_c_verbatim() ->
-     ?wxSTC_C_VERBATIM.
+constant(constwxSTC_C_STRINGEOL) ->
+     ?wxSTC_C_STRINGEOL;
 
-wx_stc_c_stringeol() ->
-     ?wxSTC_C_STRINGEOL.
+constant(constwxSTC_C_IDENTIFIER) ->
+     ?wxSTC_C_IDENTIFIER;
 
-wx_stc_c_identifier() ->
-     ?wxSTC_C_IDENTIFIER.
+constant(constwxSTC_C_OPERATOR) ->
+     ?wxSTC_C_OPERATOR;
 
-wx_stc_c_operator() ->
-     ?wxSTC_C_OPERATOR.
+constant(constwxSTC_C_PREPROCESSOR) ->
+     ?wxSTC_C_PREPROCESSOR;
 
-wx_stc_c_preprocessor() ->
-     ?wxSTC_C_PREPROCESSOR.
+constant(constwxSTC_C_UUID) ->
+     ?wxSTC_C_UUID;
 
-wx_stc_c_uuid() ->
-     ?wxSTC_C_UUID.
+constant(constwxSTC_C_CHARACTER) ->
+     ?wxSTC_C_CHARACTER;
 
-wx_stc_c_character() ->
-     ?wxSTC_C_CHARACTER.
+constant(constwxSTC_C_STRING) ->
+     ?wxSTC_C_STRING;
 
-wx_stc_c_string() ->
-     ?wxSTC_C_STRING.
+constant(constwxSTC_C_WORD) ->
+     ?wxSTC_C_WORD;
 
-wx_stc_c_word() ->
-     ?wxSTC_C_WORD.
+constant(constwxSTC_C_NUMBER) ->
+     ?wxSTC_C_NUMBER;
 
-wx_stc_c_number() ->
-     ?wxSTC_C_NUMBER.
+constant(constwxSTC_C_COMMENTDOC) ->
+     ?wxSTC_C_COMMENTDOC;
 
-wx_stc_c_commentdoc() ->
-     ?wxSTC_C_COMMENTDOC.
+constant(constwxSTC_C_COMMENTLINE) ->
+     ?wxSTC_C_COMMENTLINE;
 
-wx_stc_c_commentline() ->
-     ?wxSTC_C_COMMENTLINE.
+constant(constwxSTC_C_COMMENT) ->
+     ?wxSTC_C_COMMENT;
 
-wx_stc_c_comment() ->
-     ?wxSTC_C_COMMENT.
+constant(constwxSTC_C_DEFAULT) ->
+     ?wxSTC_C_DEFAULT;
 
-wx_stc_c_default() ->
-     ?wxSTC_C_DEFAULT.
+constant(constwxSTC_P_DECORATOR) ->
+     ?wxSTC_P_DECORATOR;
 
-wx_stc_p_decorator() ->
-     ?wxSTC_P_DECORATOR.
+constant(constwxSTC_P_WORD2) ->
+     ?wxSTC_P_WORD2;
 
-wx_stc_p_wor_d2() ->
-     ?wxSTC_P_WORD2.
+constant(constwxSTC_P_STRINGEOL) ->
+     ?wxSTC_P_STRINGEOL;
 
-wx_stc_p_stringeol() ->
-     ?wxSTC_P_STRINGEOL.
+constant(constwxSTC_P_COMMENTBLOCK) ->
+     ?wxSTC_P_COMMENTBLOCK;
 
-wx_stc_p_commentblock() ->
-     ?wxSTC_P_COMMENTBLOCK.
+constant(constwxSTC_P_IDENTIFIER) ->
+     ?wxSTC_P_IDENTIFIER;
 
-wx_stc_p_identifier() ->
-     ?wxSTC_P_IDENTIFIER.
+constant(constwxSTC_P_OPERATOR) ->
+     ?wxSTC_P_OPERATOR;
 
-wx_stc_p_operator() ->
-     ?wxSTC_P_OPERATOR.
+constant(constwxSTC_P_DEFNAME) ->
+     ?wxSTC_P_DEFNAME;
 
-wx_stc_p_defname() ->
-     ?wxSTC_P_DEFNAME.
+constant(constwxSTC_P_CLASSNAME) ->
+     ?wxSTC_P_CLASSNAME;
 
-wx_stc_p_classname() ->
-     ?wxSTC_P_CLASSNAME.
+constant(constwxSTC_P_TRIPLEDOUBLE) ->
+     ?wxSTC_P_TRIPLEDOUBLE;
 
-wx_stc_p_tripledouble() ->
-     ?wxSTC_P_TRIPLEDOUBLE.
+constant(constwxSTC_P_TRIPLE) ->
+     ?wxSTC_P_TRIPLE;
 
-wx_stc_p_triple() ->
-     ?wxSTC_P_TRIPLE.
+constant(constwxSTC_P_WORD) ->
+     ?wxSTC_P_WORD;
 
-wx_stc_p_word() ->
-     ?wxSTC_P_WORD.
+constant(constwxSTC_P_CHARACTER) ->
+     ?wxSTC_P_CHARACTER;
 
-wx_stc_p_character() ->
-     ?wxSTC_P_CHARACTER.
+constant(constwxSTC_P_STRING) ->
+     ?wxSTC_P_STRING;
 
-wx_stc_p_string() ->
-     ?wxSTC_P_STRING.
+constant(constwxSTC_P_NUMBER) ->
+     ?wxSTC_P_NUMBER;
 
-wx_stc_p_number() ->
-     ?wxSTC_P_NUMBER.
+constant(constwxSTC_P_COMMENTLINE) ->
+     ?wxSTC_P_COMMENTLINE;
 
-wx_stc_p_commentline() ->
-     ?wxSTC_P_COMMENTLINE.
+constant(constwxSTC_P_DEFAULT) ->
+     ?wxSTC_P_DEFAULT;
 
-wx_stc_p_default() ->
-     ?wxSTC_P_DEFAULT.
+constant(constwxSTC_LEX_AUTOMATIC) ->
+     ?wxSTC_LEX_AUTOMATIC;
 
-wx_stc_lex_automatic() ->
-     ?wxSTC_LEX_AUTOMATIC.
+constant(constwxSTC_LEX_SPICE) ->
+     ?wxSTC_LEX_SPICE;
 
-wx_stc_lex_spice() ->
-     ?wxSTC_LEX_SPICE.
+constant(constwxSTC_LEX_OPAL) ->
+     ?wxSTC_LEX_OPAL;
 
-wx_stc_lex_opal() ->
-     ?wxSTC_LEX_OPAL.
+constant(constwxSTC_LEX_INNOSETUP) ->
+     ?wxSTC_LEX_INNOSETUP;
 
-wx_stc_lex_innosetup() ->
-     ?wxSTC_LEX_INNOSETUP.
+constant(constwxSTC_LEX_FREEBASIC) ->
+     ?wxSTC_LEX_FREEBASIC;
 
-wx_stc_lex_freebasic() ->
-     ?wxSTC_LEX_FREEBASIC.
+constant(constwxSTC_LEX_CSOUND) ->
+     ?wxSTC_LEX_CSOUND;
 
-wx_stc_lex_csound() ->
-     ?wxSTC_LEX_CSOUND.
+constant(constwxSTC_LEX_FLAGSHIP) ->
+     ?wxSTC_LEX_FLAGSHIP;
 
-wx_stc_lex_flagship() ->
-     ?wxSTC_LEX_FLAGSHIP.
+constant(constwxSTC_LEX_SMALLTALK) ->
+     ?wxSTC_LEX_SMALLTALK;
 
-wx_stc_lex_smalltalk() ->
-     ?wxSTC_LEX_SMALLTALK.
+constant(constwxSTC_LEX_REBOL) ->
+     ?wxSTC_LEX_REBOL;
 
-wx_stc_lex_rebol() ->
-     ?wxSTC_LEX_REBOL.
+constant(constwxSTC_LEX_TADS3) ->
+     ?wxSTC_LEX_TADS3;
 
-wx_stc_lex_tad_s3() ->
-     ?wxSTC_LEX_TADS3.
+constant(constwxSTC_LEX_PHPSCRIPT) ->
+     ?wxSTC_LEX_PHPSCRIPT;
 
-wx_stc_lex_phpscript() ->
-     ?wxSTC_LEX_PHPSCRIPT.
+constant(constwxSTC_LEX_HASKELL) ->
+     ?wxSTC_LEX_HASKELL;
 
-wx_stc_lex_haskell() ->
-     ?wxSTC_LEX_HASKELL.
+constant(constwxSTC_LEX_PUREBASIC) ->
+     ?wxSTC_LEX_PUREBASIC;
 
-wx_stc_lex_purebasic() ->
-     ?wxSTC_LEX_PUREBASIC.
+constant(constwxSTC_LEX_BLITZBASIC) ->
+     ?wxSTC_LEX_BLITZBASIC;
 
-wx_stc_lex_blitzbasic() ->
-     ?wxSTC_LEX_BLITZBASIC.
+constant(constwxSTC_LEX_CAML) ->
+     ?wxSTC_LEX_CAML;
 
-wx_stc_lex_caml() ->
-     ?wxSTC_LEX_CAML.
+constant(constwxSTC_LEX_VHDL) ->
+     ?wxSTC_LEX_VHDL;
 
-wx_stc_lex_vhdl() ->
-     ?wxSTC_LEX_VHDL.
+constant(constwxSTC_LEX_ASN1) ->
+     ?wxSTC_LEX_ASN1;
 
-wx_stc_lex_as_n1() ->
-     ?wxSTC_LEX_ASN1.
+constant(constwxSTC_LEX_BASH) ->
+     ?wxSTC_LEX_BASH;
 
-wx_stc_lex_bash() ->
-     ?wxSTC_LEX_BASH.
+constant(constwxSTC_LEX_APDL) ->
+     ?wxSTC_LEX_APDL;
 
-wx_stc_lex_apdl() ->
-     ?wxSTC_LEX_APDL.
+constant(constwxSTC_LEX_AU3) ->
+     ?wxSTC_LEX_AU3;
 
-wx_stc_lex_a_u3() ->
-     ?wxSTC_LEX_AU3.
+constant(constwxSTC_LEX_SPECMAN) ->
+     ?wxSTC_LEX_SPECMAN;
 
-wx_stc_lex_specman() ->
-     ?wxSTC_LEX_SPECMAN.
+constant(constwxSTC_LEX_GUI4CLI) ->
+     ?wxSTC_LEX_GUI4CLI;
 
-wx_stc_lex_gu_i4_cli() ->
-     ?wxSTC_LEX_GUI4CLI.
+constant(constwxSTC_LEX_KIX) ->
+     ?wxSTC_LEX_KIX;
 
-wx_stc_lex_kix() ->
-     ?wxSTC_LEX_KIX.
+constant(constwxSTC_LEX_VERILOG) ->
+     ?wxSTC_LEX_VERILOG;
 
-wx_stc_lex_verilog() ->
-     ?wxSTC_LEX_VERILOG.
+constant(constwxSTC_LEX_MSSQL) ->
+     ?wxSTC_LEX_MSSQL;
 
-wx_stc_lex_mssql() ->
-     ?wxSTC_LEX_MSSQL.
+constant(constwxSTC_LEX_OCTAVE) ->
+     ?wxSTC_LEX_OCTAVE;
 
-wx_stc_lex_octave() ->
-     ?wxSTC_LEX_OCTAVE.
+constant(constwxSTC_LEX_ERLANG) ->
+     ?wxSTC_LEX_ERLANG;
 
-wx_stc_lex_erlang() ->
-     ?wxSTC_LEX_ERLANG.
+constant(constwxSTC_LEX_FORTH) ->
+     ?wxSTC_LEX_FORTH;
 
-wx_stc_lex_forth() ->
-     ?wxSTC_LEX_FORTH.
+constant(constwxSTC_LEX_POWERBASIC) ->
+     ?wxSTC_LEX_POWERBASIC;
 
-wx_stc_lex_powerbasic() ->
-     ?wxSTC_LEX_POWERBASIC.
+constant(constwxSTC_LEX_METAPOST) ->
+     ?wxSTC_LEX_METAPOST;
 
-wx_stc_lex_metapost() ->
-     ?wxSTC_LEX_METAPOST.
+constant(constwxSTC_LEX_TEX) ->
+     ?wxSTC_LEX_TEX;
 
-wx_stc_lex_tex() ->
-     ?wxSTC_LEX_TEX.
+constant(constwxSTC_LEX_YAML) ->
+     ?wxSTC_LEX_YAML;
 
-wx_stc_lex_yaml() ->
-     ?wxSTC_LEX_YAML.
+constant(constwxSTC_LEX_LOT) ->
+     ?wxSTC_LEX_LOT;
 
-wx_stc_lex_lot() ->
-     ?wxSTC_LEX_LOT.
+constant(constwxSTC_LEX_CLWNOCASE) ->
+     ?wxSTC_LEX_CLWNOCASE;
 
-wx_stc_lex_clwnocase() ->
-     ?wxSTC_LEX_CLWNOCASE.
+constant(constwxSTC_LEX_CLW) ->
+     ?wxSTC_LEX_CLW;
 
-wx_stc_lex_clw() ->
-     ?wxSTC_LEX_CLW.
+constant(constwxSTC_LEX_MMIXAL) ->
+     ?wxSTC_LEX_MMIXAL;
 
-wx_stc_lex_mmixal() ->
-     ?wxSTC_LEX_MMIXAL.
+constant(constwxSTC_LEX_NSIS) ->
+     ?wxSTC_LEX_NSIS;
 
-wx_stc_lex_nsis() ->
-     ?wxSTC_LEX_NSIS.
+constant(constwxSTC_LEX_PS) ->
+     ?wxSTC_LEX_PS;
 
-wx_stc_lex_ps() ->
-     ?wxSTC_LEX_PS.
+constant(constwxSTC_LEX_ESCRIPT) ->
+     ?wxSTC_LEX_ESCRIPT;
 
-wx_stc_lex_escript() ->
-     ?wxSTC_LEX_ESCRIPT.
+constant(constwxSTC_LEX_LOUT) ->
+     ?wxSTC_LEX_LOUT;
 
-wx_stc_lex_lout() ->
-     ?wxSTC_LEX_LOUT.
+constant(constwxSTC_LEX_POV) ->
+     ?wxSTC_LEX_POV;
 
-wx_stc_lex_pov() ->
-     ?wxSTC_LEX_POV.
+constant(constwxSTC_LEX_CSS) ->
+     ?wxSTC_LEX_CSS;
 
-wx_stc_lex_css() ->
-     ?wxSTC_LEX_CSS.
+constant(constwxSTC_LEX_F77) ->
+     ?wxSTC_LEX_F77;
 
-wx_stc_lex__f77() ->
-     ?wxSTC_LEX_F77.
+constant(constwxSTC_LEX_FORTRAN) ->
+     ?wxSTC_LEX_FORTRAN;
 
-wx_stc_lex_fortran() ->
-     ?wxSTC_LEX_FORTRAN.
+constant(constwxSTC_LEX_CPPNOCASE) ->
+     ?wxSTC_LEX_CPPNOCASE;
 
-wx_stc_lex_cppnocase() ->
-     ?wxSTC_LEX_CPPNOCASE.
+constant(constwxSTC_LEX_ASM) ->
+     ?wxSTC_LEX_ASM;
 
-wx_stc_lex_asm() ->
-     ?wxSTC_LEX_ASM.
+constant(constwxSTC_LEX_SCRIPTOL) ->
+     ?wxSTC_LEX_SCRIPTOL;
 
-wx_stc_lex_scriptol() ->
-     ?wxSTC_LEX_SCRIPTOL.
+constant(constwxSTC_LEX_MATLAB) ->
+     ?wxSTC_LEX_MATLAB;
 
-wx_stc_lex_matlab() ->
-     ?wxSTC_LEX_MATLAB.
+constant(constwxSTC_LEX_BAAN) ->
+     ?wxSTC_LEX_BAAN;
 
-wx_stc_lex_baan() ->
-     ?wxSTC_LEX_BAAN.
+constant(constwxSTC_LEX_VBSCRIPT) ->
+     ?wxSTC_LEX_VBSCRIPT;
 
-wx_stc_lex_vbscript() ->
-     ?wxSTC_LEX_VBSCRIPT.
+constant(constwxSTC_LEX_BULLANT) ->
+     ?wxSTC_LEX_BULLANT;
 
-wx_stc_lex_bullant() ->
-     ?wxSTC_LEX_BULLANT.
+constant(constwxSTC_LEX_NNCRONTAB) ->
+     ?wxSTC_LEX_NNCRONTAB;
 
-wx_stc_lex_nncrontab() ->
-     ?wxSTC_LEX_NNCRONTAB.
+constant(constwxSTC_LEX_TCL) ->
+     ?wxSTC_LEX_TCL;
 
-wx_stc_lex_tcl() ->
-     ?wxSTC_LEX_TCL.
+constant(constwxSTC_LEX_EIFFELKW) ->
+     ?wxSTC_LEX_EIFFELKW;
 
-wx_stc_lex_eiffelkw() ->
-     ?wxSTC_LEX_EIFFELKW.
+constant(constwxSTC_LEX_EIFFEL) ->
+     ?wxSTC_LEX_EIFFEL;
 
-wx_stc_lex_eiffel() ->
-     ?wxSTC_LEX_EIFFEL.
+constant(constwxSTC_LEX_RUBY) ->
+     ?wxSTC_LEX_RUBY;
 
-wx_stc_lex_ruby() ->
-     ?wxSTC_LEX_RUBY.
+constant(constwxSTC_LEX_LISP) ->
+     ?wxSTC_LEX_LISP;
 
-wx_stc_lex_lisp() ->
-     ?wxSTC_LEX_LISP.
+constant(constwxSTC_LEX_ADA) ->
+     ?wxSTC_LEX_ADA;
 
-wx_stc_lex_ada() ->
-     ?wxSTC_LEX_ADA.
+constant(constwxSTC_LEX_AVE) ->
+     ?wxSTC_LEX_AVE;
 
-wx_stc_lex_ave() ->
-     ?wxSTC_LEX_AVE.
+constant(constwxSTC_LEX_PASCAL) ->
+     ?wxSTC_LEX_PASCAL;
 
-wx_stc_lex_pascal() ->
-     ?wxSTC_LEX_PASCAL.
+constant(constwxSTC_LEX_CONF) ->
+     ?wxSTC_LEX_CONF;
 
-wx_stc_lex_conf() ->
-     ?wxSTC_LEX_CONF.
+constant(constwxSTC_LEX_DIFF) ->
+     ?wxSTC_LEX_DIFF;
 
-wx_stc_lex_diff() ->
-     ?wxSTC_LEX_DIFF.
+constant(constwxSTC_LEX_LUA) ->
+     ?wxSTC_LEX_LUA;
 
-wx_stc_lex_lua() ->
-     ?wxSTC_LEX_LUA.
+constant(constwxSTC_LEX_LATEX) ->
+     ?wxSTC_LEX_LATEX;
 
-wx_stc_lex_latex() ->
-     ?wxSTC_LEX_LATEX.
+constant(constwxSTC_LEX_XCODE) ->
+     ?wxSTC_LEX_XCODE;
 
-wx_stc_lex_xcode() ->
-     ?wxSTC_LEX_XCODE.
+constant(constwxSTC_LEX_BATCH) ->
+     ?wxSTC_LEX_BATCH;
 
-wx_stc_lex_batch() ->
-     ?wxSTC_LEX_BATCH.
+constant(constwxSTC_LEX_MAKEFILE) ->
+     ?wxSTC_LEX_MAKEFILE;
 
-wx_stc_lex_makefile() ->
-     ?wxSTC_LEX_MAKEFILE.
+constant(constwxSTC_LEX_ERRORLIST) ->
+     ?wxSTC_LEX_ERRORLIST;
 
-wx_stc_lex_errorlist() ->
-     ?wxSTC_LEX_ERRORLIST.
+constant(constwxSTC_LEX_PROPERTIES) ->
+     ?wxSTC_LEX_PROPERTIES;
 
-wx_stc_lex_properties() ->
-     ?wxSTC_LEX_PROPERTIES.
+constant(constwxSTC_LEX_VB) ->
+     ?wxSTC_LEX_VB;
 
-wx_stc_lex_vb() ->
-     ?wxSTC_LEX_VB.
+constant(constwxSTC_LEX_SQL) ->
+     ?wxSTC_LEX_SQL;
 
-wx_stc_lex_sql() ->
-     ?wxSTC_LEX_SQL.
+constant(constwxSTC_LEX_PERL) ->
+     ?wxSTC_LEX_PERL;
 
-wx_stc_lex_perl() ->
-     ?wxSTC_LEX_PERL.
+constant(constwxSTC_LEX_XML) ->
+     ?wxSTC_LEX_XML;
 
-wx_stc_lex_xml() ->
-     ?wxSTC_LEX_XML.
+constant(constwxSTC_LEX_HTML) ->
+     ?wxSTC_LEX_HTML;
 
-wx_stc_lex_html() ->
-     ?wxSTC_LEX_HTML.
+constant(constwxSTC_LEX_CPP) ->
+     ?wxSTC_LEX_CPP;
 
-wx_stc_lex_cpp() ->
-     ?wxSTC_LEX_CPP.
+constant(constwxSTC_LEX_PYTHON) ->
+     ?wxSTC_LEX_PYTHON;
 
-wx_stc_lex_python() ->
-     ?wxSTC_LEX_PYTHON.
+constant(constwxSTC_LEX_NULL) ->
+     ?wxSTC_LEX_NULL;
 
-wx_stc_lex_null() ->
-     ?wxSTC_LEX_NULL.
+constant(constwxSTC_LEX_CONTAINER) ->
+     ?wxSTC_LEX_CONTAINER;
 
-wx_stc_lex_container() ->
-     ?wxSTC_LEX_CONTAINER.
+constant(constwxSTC_SCMOD_ALT) ->
+     ?wxSTC_SCMOD_ALT;
 
-wx_stc_scmod_alt() ->
-     ?wxSTC_SCMOD_ALT.
+constant(constwxSTC_SCMOD_CTRL) ->
+     ?wxSTC_SCMOD_CTRL;
 
-wx_stc_scmod_ctrl() ->
-     ?wxSTC_SCMOD_CTRL.
+constant(constwxSTC_SCMOD_SHIFT) ->
+     ?wxSTC_SCMOD_SHIFT;
 
-wx_stc_scmod_shift() ->
-     ?wxSTC_SCMOD_SHIFT.
+constant(constwxSTC_SCMOD_NORM) ->
+     ?wxSTC_SCMOD_NORM;
 
-wx_stc_scmod_norm() ->
-     ?wxSTC_SCMOD_NORM.
+constant(constwxSTC_KEY_DIVIDE) ->
+     ?wxSTC_KEY_DIVIDE;
 
-wx_stc_key_divide() ->
-     ?wxSTC_KEY_DIVIDE.
+constant(constwxSTC_KEY_SUBTRACT) ->
+     ?wxSTC_KEY_SUBTRACT;
 
-wx_stc_key_subtract() ->
-     ?wxSTC_KEY_SUBTRACT.
+constant(constwxSTC_KEY_ADD) ->
+     ?wxSTC_KEY_ADD;
 
-wx_stc_key_add() ->
-     ?wxSTC_KEY_ADD.
+constant(constwxSTC_KEY_RETURN) ->
+     ?wxSTC_KEY_RETURN;
 
-wx_stc_key_return() ->
-     ?wxSTC_KEY_RETURN.
+constant(constwxSTC_KEY_TAB) ->
+     ?wxSTC_KEY_TAB;
 
-wx_stc_key_tab() ->
-     ?wxSTC_KEY_TAB.
+constant(constwxSTC_KEY_BACK) ->
+     ?wxSTC_KEY_BACK;
 
-wx_stc_key_back() ->
-     ?wxSTC_KEY_BACK.
+constant(constwxSTC_KEY_ESCAPE) ->
+     ?wxSTC_KEY_ESCAPE;
 
-wx_stc_key_escape() ->
-     ?wxSTC_KEY_ESCAPE.
+constant(constwxSTC_KEY_INSERT) ->
+     ?wxSTC_KEY_INSERT;
 
-wx_stc_key_insert() ->
-     ?wxSTC_KEY_INSERT.
+constant(constwxSTC_KEY_DELETE) ->
+     ?wxSTC_KEY_DELETE;
 
-wx_stc_key_delete() ->
-     ?wxSTC_KEY_DELETE.
+constant(constwxSTC_KEY_NEXT) ->
+     ?wxSTC_KEY_NEXT;
 
-wx_stc_key_next() ->
-     ?wxSTC_KEY_NEXT.
+constant(constwxSTC_KEY_PRIOR) ->
+     ?wxSTC_KEY_PRIOR;
 
-wx_stc_key_prior() ->
-     ?wxSTC_KEY_PRIOR.
+constant(constwxSTC_KEY_END) ->
+     ?wxSTC_KEY_END;
 
-wx_stc_key_end() ->
-     ?wxSTC_KEY_END.
+constant(constwxSTC_KEY_HOME) ->
+     ?wxSTC_KEY_HOME;
 
-wx_stc_key_home() ->
-     ?wxSTC_KEY_HOME.
+constant(constwxSTC_KEY_RIGHT) ->
+     ?wxSTC_KEY_RIGHT;
 
-wx_stc_key_right() ->
-     ?wxSTC_KEY_RIGHT.
+constant(constwxSTC_KEY_LEFT) ->
+     ?wxSTC_KEY_LEFT;
 
-wx_stc_key_left() ->
-     ?wxSTC_KEY_LEFT.
+constant(constwxSTC_KEY_UP) ->
+     ?wxSTC_KEY_UP;
 
-wx_stc_key_up() ->
-     ?wxSTC_KEY_UP.
+constant(constwxSTC_KEY_DOWN) ->
+     ?wxSTC_KEY_DOWN;
 
-wx_stc_key_down() ->
-     ?wxSTC_KEY_DOWN.
+constant(constwxSTC_MODEVENTMASKALL) ->
+     ?wxSTC_MODEVENTMASKALL;
 
-wx_stc_modeventmaskall() ->
-     ?wxSTC_MODEVENTMASKALL.
+constant(constwxSTC_MULTILINEUNDOREDO) ->
+     ?wxSTC_MULTILINEUNDOREDO;
 
-wx_stc_multilineundoredo() ->
-     ?wxSTC_MULTILINEUNDOREDO.
+constant(constwxSTC_MOD_BEFOREDELETE) ->
+     ?wxSTC_MOD_BEFOREDELETE;
 
-wx_stc_mod_beforedelete() ->
-     ?wxSTC_MOD_BEFOREDELETE.
+constant(constwxSTC_MOD_BEFOREINSERT) ->
+     ?wxSTC_MOD_BEFOREINSERT;
 
-wx_stc_mod_beforeinsert() ->
-     ?wxSTC_MOD_BEFOREINSERT.
+constant(constwxSTC_MOD_CHANGEMARKER) ->
+     ?wxSTC_MOD_CHANGEMARKER;
 
-wx_stc_mod_changemarker() ->
-     ?wxSTC_MOD_CHANGEMARKER.
+constant(constwxSTC_LASTSTEPINUNDOREDO) ->
+     ?wxSTC_LASTSTEPINUNDOREDO;
 
-wx_stc_laststepinundoredo() ->
-     ?wxSTC_LASTSTEPINUNDOREDO.
+constant(constwxSTC_MULTISTEPUNDOREDO) ->
+     ?wxSTC_MULTISTEPUNDOREDO;
 
-wx_stc_multistepundoredo() ->
-     ?wxSTC_MULTISTEPUNDOREDO.
+constant(constwxSTC_PERFORMED_REDO) ->
+     ?wxSTC_PERFORMED_REDO;
 
-wx_stc_performed_redo() ->
-     ?wxSTC_PERFORMED_REDO.
+constant(constwxSTC_PERFORMED_UNDO) ->
+     ?wxSTC_PERFORMED_UNDO;
 
-wx_stc_performed_undo() ->
-     ?wxSTC_PERFORMED_UNDO.
+constant(constwxSTC_PERFORMED_USER) ->
+     ?wxSTC_PERFORMED_USER;
 
-wx_stc_performed_user() ->
-     ?wxSTC_PERFORMED_USER.
+constant(constwxSTC_MOD_CHANGEFOLD) ->
+     ?wxSTC_MOD_CHANGEFOLD;
 
-wx_stc_mod_changefold() ->
-     ?wxSTC_MOD_CHANGEFOLD.
+constant(constwxSTC_MOD_CHANGESTYLE) ->
+     ?wxSTC_MOD_CHANGESTYLE;
 
-wx_stc_mod_changestyle() ->
-     ?wxSTC_MOD_CHANGESTYLE.
+constant(constwxSTC_MOD_DELETETEXT) ->
+     ?wxSTC_MOD_DELETETEXT;
 
-wx_stc_mod_deletetext() ->
-     ?wxSTC_MOD_DELETETEXT.
+constant(constwxSTC_MOD_INSERTTEXT) ->
+     ?wxSTC_MOD_INSERTTEXT;
 
-wx_stc_mod_inserttext() ->
-     ?wxSTC_MOD_INSERTTEXT.
+constant(constwxSTC_KEYWORDSET_MAX) ->
+     ?wxSTC_KEYWORDSET_MAX;
 
-wx_stc_keywordset_max() ->
-     ?wxSTC_KEYWORDSET_MAX.
+constant(constwxSTC_ALPHA_NOALPHA) ->
+     ?wxSTC_ALPHA_NOALPHA;
 
-wx_stc_alpha_noalpha() ->
-     ?wxSTC_ALPHA_NOALPHA.
+constant(constwxSTC_ALPHA_OPAQUE) ->
+     ?wxSTC_ALPHA_OPAQUE;
 
-wx_stc_alpha_opaque() ->
-     ?wxSTC_ALPHA_OPAQUE.
+constant(constwxSTC_ALPHA_TRANSPARENT) ->
+     ?wxSTC_ALPHA_TRANSPARENT;
 
-wx_stc_alpha_transparent() ->
-     ?wxSTC_ALPHA_TRANSPARENT.
+constant(constwxSTC_SEL_LINES) ->
+     ?wxSTC_SEL_LINES;
 
-wx_stc_sel_lines() ->
-     ?wxSTC_SEL_LINES.
+constant(constwxSTC_SEL_RECTANGLE) ->
+     ?wxSTC_SEL_RECTANGLE;
 
-wx_stc_sel_rectangle() ->
-     ?wxSTC_SEL_RECTANGLE.
+constant(constwxSTC_SEL_STREAM) ->
+     ?wxSTC_SEL_STREAM;
 
-wx_stc_sel_stream() ->
-     ?wxSTC_SEL_STREAM.
+constant(constwxSTC_CARET_EVEN) ->
+     ?wxSTC_CARET_EVEN;
 
-wx_stc_caret_even() ->
-     ?wxSTC_CARET_EVEN.
+constant(constwxSTC_CARET_JUMPS) ->
+     ?wxSTC_CARET_JUMPS;
 
-wx_stc_caret_jumps() ->
-     ?wxSTC_CARET_JUMPS.
+constant(constwxSTC_CARET_STRICT) ->
+     ?wxSTC_CARET_STRICT;
 
-wx_stc_caret_strict() ->
-     ?wxSTC_CARET_STRICT.
+constant(constwxSTC_CARET_SLOP) ->
+     ?wxSTC_CARET_SLOP;
 
-wx_stc_caret_slop() ->
-     ?wxSTC_CARET_SLOP.
+constant(constwxSTC_VISIBLE_STRICT) ->
+     ?wxSTC_VISIBLE_STRICT;
 
-wx_stc_visible_strict() ->
-     ?wxSTC_VISIBLE_STRICT.
+constant(constwxSTC_VISIBLE_SLOP) ->
+     ?wxSTC_VISIBLE_SLOP;
 
-wx_stc_visible_slop() ->
-     ?wxSTC_VISIBLE_SLOP.
+constant(constwxSTC_CURSORWAIT) ->
+     ?wxSTC_CURSORWAIT;
 
-wx_stc_cursorwait() ->
-     ?wxSTC_CURSORWAIT.
+constant(constwxSTC_CURSORNORMAL) ->
+     ?wxSTC_CURSORNORMAL;
 
-wx_stc_cursornormal() ->
-     ?wxSTC_CURSORNORMAL.
+constant(constwxSTC_EDGE_BACKGROUND) ->
+     ?wxSTC_EDGE_BACKGROUND;
 
-wx_stc_edge_background() ->
-     ?wxSTC_EDGE_BACKGROUND.
+constant(constwxSTC_EDGE_LINE) ->
+     ?wxSTC_EDGE_LINE;
 
-wx_stc_edge_line() ->
-     ?wxSTC_EDGE_LINE.
+constant(constwxSTC_EDGE_NONE) ->
+     ?wxSTC_EDGE_NONE;
 
-wx_stc_edge_none() ->
-     ?wxSTC_EDGE_NONE.
+constant(constwxSTC_CACHE_DOCUMENT) ->
+     ?wxSTC_CACHE_DOCUMENT;
 
-wx_stc_cache_document() ->
-     ?wxSTC_CACHE_DOCUMENT.
+constant(constwxSTC_CACHE_PAGE) ->
+     ?wxSTC_CACHE_PAGE;
 
-wx_stc_cache_page() ->
-     ?wxSTC_CACHE_PAGE.
+constant(constwxSTC_CACHE_CARET) ->
+     ?wxSTC_CACHE_CARET;
 
-wx_stc_cache_caret() ->
-     ?wxSTC_CACHE_CARET.
+constant(constwxSTC_CACHE_NONE) ->
+     ?wxSTC_CACHE_NONE;
 
-wx_stc_cache_none() ->
-     ?wxSTC_CACHE_NONE.
+constant(constwxSTC_WRAPVISUALFLAGLOC_START_BY_TEXT) ->
+     ?wxSTC_WRAPVISUALFLAGLOC_START_BY_TEXT;
 
-wx_stc_wrapvisualflagloc_start_by_text() ->
-     ?wxSTC_WRAPVISUALFLAGLOC_START_BY_TEXT.
+constant(constwxSTC_WRAPVISUALFLAGLOC_END_BY_TEXT) ->
+     ?wxSTC_WRAPVISUALFLAGLOC_END_BY_TEXT;
 
-wx_stc_wrapvisualflagloc_end_by_text() ->
-     ?wxSTC_WRAPVISUALFLAGLOC_END_BY_TEXT.
+constant(constwxSTC_WRAPVISUALFLAGLOC_DEFAULT) ->
+     ?wxSTC_WRAPVISUALFLAGLOC_DEFAULT;
 
-wx_stc_wrapvisualflagloc_default() ->
-     ?wxSTC_WRAPVISUALFLAGLOC_DEFAULT.
+constant(constwxSTC_WRAPVISUALFLAG_START) ->
+     ?wxSTC_WRAPVISUALFLAG_START;
 
-wx_stc_wrapvisualflag_start() ->
-     ?wxSTC_WRAPVISUALFLAG_START.
+constant(constwxSTC_WRAPVISUALFLAG_END) ->
+     ?wxSTC_WRAPVISUALFLAG_END;
 
-wx_stc_wrapvisualflag_end() ->
-     ?wxSTC_WRAPVISUALFLAG_END.
+constant(constwxSTC_WRAPVISUALFLAG_NONE) ->
+     ?wxSTC_WRAPVISUALFLAG_NONE;
 
-wx_stc_wrapvisualflag_none() ->
-     ?wxSTC_WRAPVISUALFLAG_NONE.
+constant(constwxSTC_WRAP_CHAR) ->
+     ?wxSTC_WRAP_CHAR;
 
-wx_stc_wrap_char() ->
-     ?wxSTC_WRAP_CHAR.
+constant(constwxSTC_WRAP_WORD) ->
+     ?wxSTC_WRAP_WORD;
 
-wx_stc_wrap_word() ->
-     ?wxSTC_WRAP_WORD.
+constant(constwxSTC_WRAP_NONE) ->
+     ?wxSTC_WRAP_NONE;
 
-wx_stc_wrap_none() ->
-     ?wxSTC_WRAP_NONE.
+constant(constwxSTC_TIME_FOREVER) ->
+     ?wxSTC_TIME_FOREVER;
 
-wx_stc_time_forever() ->
-     ?wxSTC_TIME_FOREVER.
+constant(constwxSTC_FOLDFLAG_BOX) ->
+     ?wxSTC_FOLDFLAG_BOX;
 
-wx_stc_foldflag_box() ->
-     ?wxSTC_FOLDFLAG_BOX.
+constant(constwxSTC_FOLDFLAG_LEVELNUMBERS) ->
+     ?wxSTC_FOLDFLAG_LEVELNUMBERS;
 
-wx_stc_foldflag_levelnumbers() ->
-     ?wxSTC_FOLDFLAG_LEVELNUMBERS.
+constant(constwxSTC_FOLDFLAG_LINEAFTER_CONTRACTED) ->
+     ?wxSTC_FOLDFLAG_LINEAFTER_CONTRACTED;
 
-wx_stc_foldflag_lineafter_contracted() ->
-     ?wxSTC_FOLDFLAG_LINEAFTER_CONTRACTED.
+constant(constwxSTC_FOLDFLAG_LINEAFTER_EXPANDED) ->
+     ?wxSTC_FOLDFLAG_LINEAFTER_EXPANDED;
 
-wx_stc_foldflag_lineafter_expanded() ->
-     ?wxSTC_FOLDFLAG_LINEAFTER_EXPANDED.
+constant(constwxSTC_FOLDFLAG_LINEBEFORE_CONTRACTED) ->
+     ?wxSTC_FOLDFLAG_LINEBEFORE_CONTRACTED;
 
-wx_stc_foldflag_linebefore_contracted() ->
-     ?wxSTC_FOLDFLAG_LINEBEFORE_CONTRACTED.
+constant(constwxSTC_FOLDFLAG_LINEBEFORE_EXPANDED) ->
+     ?wxSTC_FOLDFLAG_LINEBEFORE_EXPANDED;
 
-wx_stc_foldflag_linebefore_expanded() ->
-     ?wxSTC_FOLDFLAG_LINEBEFORE_EXPANDED.
+constant(constwxSTC_FOLDLEVELNUMBERMASK) ->
+     ?wxSTC_FOLDLEVELNUMBERMASK;
 
-wx_stc_foldlevelnumbermask() ->
-     ?wxSTC_FOLDLEVELNUMBERMASK.
+constant(constwxSTC_FOLDLEVELUNINDENT) ->
+     ?wxSTC_FOLDLEVELUNINDENT;
 
-wx_stc_foldlevelunindent() ->
-     ?wxSTC_FOLDLEVELUNINDENT.
+constant(constwxSTC_FOLDLEVELCONTRACTED) ->
+     ?wxSTC_FOLDLEVELCONTRACTED;
 
-wx_stc_foldlevelcontracted() ->
-     ?wxSTC_FOLDLEVELCONTRACTED.
+constant(constwxSTC_FOLDLEVELBOXFOOTERFLAG) ->
+     ?wxSTC_FOLDLEVELBOXFOOTERFLAG;
 
-wx_stc_foldlevelboxfooterflag() ->
-     ?wxSTC_FOLDLEVELBOXFOOTERFLAG.
+constant(constwxSTC_FOLDLEVELBOXHEADERFLAG) ->
+     ?wxSTC_FOLDLEVELBOXHEADERFLAG;
 
-wx_stc_foldlevelboxheaderflag() ->
-     ?wxSTC_FOLDLEVELBOXHEADERFLAG.
+constant(constwxSTC_FOLDLEVELHEADERFLAG) ->
+     ?wxSTC_FOLDLEVELHEADERFLAG;
 
-wx_stc_foldlevelheaderflag() ->
-     ?wxSTC_FOLDLEVELHEADERFLAG.
+constant(constwxSTC_FOLDLEVELWHITEFLAG) ->
+     ?wxSTC_FOLDLEVELWHITEFLAG;
 
-wx_stc_foldlevelwhiteflag() ->
-     ?wxSTC_FOLDLEVELWHITEFLAG.
+constant(constwxSTC_FOLDLEVELBASE) ->
+     ?wxSTC_FOLDLEVELBASE;
 
-wx_stc_foldlevelbase() ->
-     ?wxSTC_FOLDLEVELBASE.
+constant(constwxSTC_FIND_POSIX) ->
+     ?wxSTC_FIND_POSIX;
 
-wx_stc_find_posix() ->
-     ?wxSTC_FIND_POSIX.
+constant(constwxSTC_FIND_REGEXP) ->
+     ?wxSTC_FIND_REGEXP;
 
-wx_stc_find_regexp() ->
-     ?wxSTC_FIND_REGEXP.
+constant(constwxSTC_FIND_WORDSTART) ->
+     ?wxSTC_FIND_WORDSTART;
 
-wx_stc_find_wordstart() ->
-     ?wxSTC_FIND_WORDSTART.
+constant(constwxSTC_FIND_MATCHCASE) ->
+     ?wxSTC_FIND_MATCHCASE;
 
-wx_stc_find_matchcase() ->
-     ?wxSTC_FIND_MATCHCASE.
+constant(constwxSTC_FIND_WHOLEWORD) ->
+     ?wxSTC_FIND_WHOLEWORD;
 
-wx_stc_find_wholeword() ->
-     ?wxSTC_FIND_WHOLEWORD.
+constant(constwxSTC_PRINT_COLOURONWHITEDEFAULTBG) ->
+     ?wxSTC_PRINT_COLOURONWHITEDEFAULTBG;
 
-wx_stc_print_colouronwhitedefaultbg() ->
-     ?wxSTC_PRINT_COLOURONWHITEDEFAULTBG.
+constant(constwxSTC_PRINT_COLOURONWHITE) ->
+     ?wxSTC_PRINT_COLOURONWHITE;
 
-wx_stc_print_colouronwhite() ->
-     ?wxSTC_PRINT_COLOURONWHITE.
+constant(constwxSTC_PRINT_BLACKONWHITE) ->
+     ?wxSTC_PRINT_BLACKONWHITE;
 
-wx_stc_print_blackonwhite() ->
-     ?wxSTC_PRINT_BLACKONWHITE.
+constant(constwxSTC_PRINT_INVERTLIGHT) ->
+     ?wxSTC_PRINT_INVERTLIGHT;
 
-wx_stc_print_invertlight() ->
-     ?wxSTC_PRINT_INVERTLIGHT.
+constant(constwxSTC_PRINT_NORMAL) ->
+     ?wxSTC_PRINT_NORMAL;
 
-wx_stc_print_normal() ->
-     ?wxSTC_PRINT_NORMAL.
+constant(constwxSTC_INDICS_MASK) ->
+     ?wxSTC_INDICS_MASK;
 
-wx_stc_indics_mask() ->
-     ?wxSTC_INDICS_MASK.
+constant(constwxSTC_INDIC2_MASK) ->
+     ?wxSTC_INDIC2_MASK;
 
-wx_stc_indi_c2_mask() ->
-     ?wxSTC_INDIC2_MASK.
+constant(constwxSTC_INDIC1_MASK) ->
+     ?wxSTC_INDIC1_MASK;
 
-wx_stc_indi_c1_mask() ->
-     ?wxSTC_INDIC1_MASK.
+constant(constwxSTC_INDIC0_MASK) ->
+     ?wxSTC_INDIC0_MASK;
 
-wx_stc_indi_c0_mask() ->
-     ?wxSTC_INDIC0_MASK.
+constant(constwxSTC_INDIC_ROUNDBOX) ->
+     ?wxSTC_INDIC_ROUNDBOX;
 
-wx_stc_indic_roundbox() ->
-     ?wxSTC_INDIC_ROUNDBOX.
+constant(constwxSTC_INDIC_BOX) ->
+     ?wxSTC_INDIC_BOX;
 
-wx_stc_indic_box() ->
-     ?wxSTC_INDIC_BOX.
+constant(constwxSTC_INDIC_HIDDEN) ->
+     ?wxSTC_INDIC_HIDDEN;
 
-wx_stc_indic_hidden() ->
-     ?wxSTC_INDIC_HIDDEN.
+constant(constwxSTC_INDIC_STRIKE) ->
+     ?wxSTC_INDIC_STRIKE;
 
-wx_stc_indic_strike() ->
-     ?wxSTC_INDIC_STRIKE.
+constant(constwxSTC_INDIC_DIAGONAL) ->
+     ?wxSTC_INDIC_DIAGONAL;
 
-wx_stc_indic_diagonal() ->
-     ?wxSTC_INDIC_DIAGONAL.
+constant(constwxSTC_INDIC_TT) ->
+     ?wxSTC_INDIC_TT;
 
-wx_stc_indic_tt() ->
-     ?wxSTC_INDIC_TT.
+constant(constwxSTC_INDIC_SQUIGGLE) ->
+     ?wxSTC_INDIC_SQUIGGLE;
 
-wx_stc_indic_squiggle() ->
-     ?wxSTC_INDIC_SQUIGGLE.
+constant(constwxSTC_INDIC_PLAIN) ->
+     ?wxSTC_INDIC_PLAIN;
 
-wx_stc_indic_plain() ->
-     ?wxSTC_INDIC_PLAIN.
+constant(constwxSTC_INDIC_MAX) ->
+     ?wxSTC_INDIC_MAX;
 
-wx_stc_indic_max() ->
-     ?wxSTC_INDIC_MAX.
+constant(constwxSTC_CASE_LOWER) ->
+     ?wxSTC_CASE_LOWER;
 
-wx_stc_case_lower() ->
-     ?wxSTC_CASE_LOWER.
+constant(constwxSTC_CASE_UPPER) ->
+     ?wxSTC_CASE_UPPER;
 
-wx_stc_case_upper() ->
-     ?wxSTC_CASE_UPPER.
+constant(constwxSTC_CASE_MIXED) ->
+     ?wxSTC_CASE_MIXED;
 
-wx_stc_case_mixed() ->
-     ?wxSTC_CASE_MIXED.
+constant(constwxSTC_CHARSET_8859_15) ->
+     ?wxSTC_CHARSET_8859_15;
 
-wx_stc_charset_8859_15() ->
-     ?wxSTC_CHARSET_8859_15.
+constant(constwxSTC_CHARSET_THAI) ->
+     ?wxSTC_CHARSET_THAI;
 
-wx_stc_charset_thai() ->
-     ?wxSTC_CHARSET_THAI.
+constant(constwxSTC_CHARSET_VIETNAMESE) ->
+     ?wxSTC_CHARSET_VIETNAMESE;
 
-wx_stc_charset_vietnamese() ->
-     ?wxSTC_CHARSET_VIETNAMESE.
+constant(constwxSTC_CHARSET_ARABIC) ->
+     ?wxSTC_CHARSET_ARABIC;
 
-wx_stc_charset_arabic() ->
-     ?wxSTC_CHARSET_ARABIC.
+constant(constwxSTC_CHARSET_HEBREW) ->
+     ?wxSTC_CHARSET_HEBREW;
 
-wx_stc_charset_hebrew() ->
-     ?wxSTC_CHARSET_HEBREW.
+constant(constwxSTC_CHARSET_JOHAB) ->
+     ?wxSTC_CHARSET_JOHAB;
 
-wx_stc_charset_johab() ->
-     ?wxSTC_CHARSET_JOHAB.
+constant(constwxSTC_CHARSET_TURKISH) ->
+     ?wxSTC_CHARSET_TURKISH;
 
-wx_stc_charset_turkish() ->
-     ?wxSTC_CHARSET_TURKISH.
+constant(constwxSTC_CHARSET_SYMBOL) ->
+     ?wxSTC_CHARSET_SYMBOL;
 
-wx_stc_charset_symbol() ->
-     ?wxSTC_CHARSET_SYMBOL.
+constant(constwxSTC_CHARSET_SHIFTJIS) ->
+     ?wxSTC_CHARSET_SHIFTJIS;
 
-wx_stc_charset_shiftjis() ->
-     ?wxSTC_CHARSET_SHIFTJIS.
+constant(constwxSTC_CHARSET_CYRILLIC) ->
+     ?wxSTC_CHARSET_CYRILLIC;
 
-wx_stc_charset_cyrillic() ->
-     ?wxSTC_CHARSET_CYRILLIC.
+constant(constwxSTC_CHARSET_RUSSIAN) ->
+     ?wxSTC_CHARSET_RUSSIAN;
 
-wx_stc_charset_russian() ->
-     ?wxSTC_CHARSET_RUSSIAN.
+constant(constwxSTC_CHARSET_OEM) ->
+     ?wxSTC_CHARSET_OEM;
 
-wx_stc_charset_oem() ->
-     ?wxSTC_CHARSET_OEM.
+constant(constwxSTC_CHARSET_MAC) ->
+     ?wxSTC_CHARSET_MAC;
 
-wx_stc_charset_mac() ->
-     ?wxSTC_CHARSET_MAC.
+constant(constwxSTC_CHARSET_HANGUL) ->
+     ?wxSTC_CHARSET_HANGUL;
 
-wx_stc_charset_hangul() ->
-     ?wxSTC_CHARSET_HANGUL.
+constant(constwxSTC_CHARSET_GREEK) ->
+     ?wxSTC_CHARSET_GREEK;
 
-wx_stc_charset_greek() ->
-     ?wxSTC_CHARSET_GREEK.
+constant(constwxSTC_CHARSET_GB2312) ->
+     ?wxSTC_CHARSET_GB2312;
 
-wx_stc_charset_g_b2312() ->
-     ?wxSTC_CHARSET_GB2312.
+constant(constwxSTC_CHARSET_EASTEUROPE) ->
+     ?wxSTC_CHARSET_EASTEUROPE;
 
-wx_stc_charset_easteurope() ->
-     ?wxSTC_CHARSET_EASTEUROPE.
+constant(constwxSTC_CHARSET_CHINESEBIG5) ->
+     ?wxSTC_CHARSET_CHINESEBIG5;
 
-wx_stc_charset_chinesebi_g5() ->
-     ?wxSTC_CHARSET_CHINESEBIG5.
+constant(constwxSTC_CHARSET_BALTIC) ->
+     ?wxSTC_CHARSET_BALTIC;
 
-wx_stc_charset_baltic() ->
-     ?wxSTC_CHARSET_BALTIC.
+constant(constwxSTC_CHARSET_DEFAULT) ->
+     ?wxSTC_CHARSET_DEFAULT;
 
-wx_stc_charset_default() ->
-     ?wxSTC_CHARSET_DEFAULT.
+constant(constwxSTC_CHARSET_ANSI) ->
+     ?wxSTC_CHARSET_ANSI;
 
-wx_stc_charset_ansi() ->
-     ?wxSTC_CHARSET_ANSI.
+constant(constwxSTC_STYLE_MAX) ->
+     ?wxSTC_STYLE_MAX;
 
-wx_stc_style_max() ->
-     ?wxSTC_STYLE_MAX.
+constant(constwxSTC_STYLE_LASTPREDEFINED) ->
+     ?wxSTC_STYLE_LASTPREDEFINED;
 
-wx_stc_style_lastpredefined() ->
-     ?wxSTC_STYLE_LASTPREDEFINED.
+constant(constwxSTC_STYLE_CALLTIP) ->
+     ?wxSTC_STYLE_CALLTIP;
 
-wx_stc_style_calltip() ->
-     ?wxSTC_STYLE_CALLTIP.
+constant(constwxSTC_STYLE_INDENTGUIDE) ->
+     ?wxSTC_STYLE_INDENTGUIDE;
 
-wx_stc_style_indentguide() ->
-     ?wxSTC_STYLE_INDENTGUIDE.
+constant(constwxSTC_STYLE_CONTROLCHAR) ->
+     ?wxSTC_STYLE_CONTROLCHAR;
 
-wx_stc_style_controlchar() ->
-     ?wxSTC_STYLE_CONTROLCHAR.
+constant(constwxSTC_STYLE_BRACEBAD) ->
+     ?wxSTC_STYLE_BRACEBAD;
 
-wx_stc_style_bracebad() ->
-     ?wxSTC_STYLE_BRACEBAD.
+constant(constwxSTC_STYLE_BRACELIGHT) ->
+     ?wxSTC_STYLE_BRACELIGHT;
 
-wx_stc_style_bracelight() ->
-     ?wxSTC_STYLE_BRACELIGHT.
+constant(constwxSTC_STYLE_LINENUMBER) ->
+     ?wxSTC_STYLE_LINENUMBER;
 
-wx_stc_style_linenumber() ->
-     ?wxSTC_STYLE_LINENUMBER.
+constant(constwxSTC_STYLE_DEFAULT) ->
+     ?wxSTC_STYLE_DEFAULT;
 
-wx_stc_style_default() ->
-     ?wxSTC_STYLE_DEFAULT.
+constant(constwxSTC_MARGIN_FORE) ->
+     ?wxSTC_MARGIN_FORE;
 
-wx_stc_margin_fore() ->
-     ?wxSTC_MARGIN_FORE.
+constant(constwxSTC_MARGIN_BACK) ->
+     ?wxSTC_MARGIN_BACK;
 
-wx_stc_margin_back() ->
-     ?wxSTC_MARGIN_BACK.
+constant(constwxSTC_MARGIN_NUMBER) ->
+     ?wxSTC_MARGIN_NUMBER;
 
-wx_stc_margin_number() ->
-     ?wxSTC_MARGIN_NUMBER.
+constant(constwxSTC_MARGIN_SYMBOL) ->
+     ?wxSTC_MARGIN_SYMBOL;
 
-wx_stc_margin_symbol() ->
-     ?wxSTC_MARGIN_SYMBOL.
+constant(constwxSTC_MASK_FOLDERS) ->
+     ?wxSTC_MASK_FOLDERS;
 
-wx_stc_mask_folders() ->
-     ?wxSTC_MASK_FOLDERS.
+constant(constwxSTC_MARKNUM_FOLDEROPEN) ->
+     ?wxSTC_MARKNUM_FOLDEROPEN;
 
-wx_stc_marknum_folderopen() ->
-     ?wxSTC_MARKNUM_FOLDEROPEN.
+constant(constwxSTC_MARKNUM_FOLDER) ->
+     ?wxSTC_MARKNUM_FOLDER;
 
-wx_stc_marknum_folder() ->
-     ?wxSTC_MARKNUM_FOLDER.
+constant(constwxSTC_MARKNUM_FOLDERSUB) ->
+     ?wxSTC_MARKNUM_FOLDERSUB;
 
-wx_stc_marknum_foldersub() ->
-     ?wxSTC_MARKNUM_FOLDERSUB.
+constant(constwxSTC_MARKNUM_FOLDERTAIL) ->
+     ?wxSTC_MARKNUM_FOLDERTAIL;
 
-wx_stc_marknum_foldertail() ->
-     ?wxSTC_MARKNUM_FOLDERTAIL.
+constant(constwxSTC_MARKNUM_FOLDERMIDTAIL) ->
+     ?wxSTC_MARKNUM_FOLDERMIDTAIL;
 
-wx_stc_marknum_foldermidtail() ->
-     ?wxSTC_MARKNUM_FOLDERMIDTAIL.
+constant(constwxSTC_MARKNUM_FOLDEROPENMID) ->
+     ?wxSTC_MARKNUM_FOLDEROPENMID;
 
-wx_stc_marknum_folderopenmid() ->
-     ?wxSTC_MARKNUM_FOLDEROPENMID.
+constant(constwxSTC_MARKNUM_FOLDEREND) ->
+     ?wxSTC_MARKNUM_FOLDEREND;
 
-wx_stc_marknum_folderend() ->
-     ?wxSTC_MARKNUM_FOLDEREND.
+constant(constwxSTC_MARK_CHARACTER) ->
+     ?wxSTC_MARK_CHARACTER;
 
-wx_stc_mark_character() ->
-     ?wxSTC_MARK_CHARACTER.
+constant(constwxSTC_MARK_FULLRECT) ->
+     ?wxSTC_MARK_FULLRECT;
 
-wx_stc_mark_fullrect() ->
-     ?wxSTC_MARK_FULLRECT.
+constant(constwxSTC_MARK_PIXMAP) ->
+     ?wxSTC_MARK_PIXMAP;
 
-wx_stc_mark_pixmap() ->
-     ?wxSTC_MARK_PIXMAP.
+constant(constwxSTC_MARK_ARROWS) ->
+     ?wxSTC_MARK_ARROWS;
 
-wx_stc_mark_arrows() ->
-     ?wxSTC_MARK_ARROWS.
+constant(constwxSTC_MARK_DOTDOTDOT) ->
+     ?wxSTC_MARK_DOTDOTDOT;
 
-wx_stc_mark_dotdotdot() ->
-     ?wxSTC_MARK_DOTDOTDOT.
+constant(constwxSTC_MARK_BACKGROUND) ->
+     ?wxSTC_MARK_BACKGROUND;
 
-wx_stc_mark_background() ->
-     ?wxSTC_MARK_BACKGROUND.
+constant(constwxSTC_MARK_CIRCLEMINUSCONNECTED) ->
+     ?wxSTC_MARK_CIRCLEMINUSCONNECTED;
 
-wx_stc_mark_circleminusconnected() ->
-     ?wxSTC_MARK_CIRCLEMINUSCONNECTED.
+constant(constwxSTC_MARK_CIRCLEMINUS) ->
+     ?wxSTC_MARK_CIRCLEMINUS;
 
-wx_stc_mark_circleminus() ->
-     ?wxSTC_MARK_CIRCLEMINUS.
+constant(constwxSTC_MARK_CIRCLEPLUSCONNECTED) ->
+     ?wxSTC_MARK_CIRCLEPLUSCONNECTED;
 
-wx_stc_mark_circleplusconnected() ->
-     ?wxSTC_MARK_CIRCLEPLUSCONNECTED.
+constant(constwxSTC_MARK_CIRCLEPLUS) ->
+     ?wxSTC_MARK_CIRCLEPLUS;
 
-wx_stc_mark_circleplus() ->
-     ?wxSTC_MARK_CIRCLEPLUS.
+constant(constwxSTC_MARK_TCORNERCURVE) ->
+     ?wxSTC_MARK_TCORNERCURVE;
 
-wx_stc_mark_tcornercurve() ->
-     ?wxSTC_MARK_TCORNERCURVE.
+constant(constwxSTC_MARK_LCORNERCURVE) ->
+     ?wxSTC_MARK_LCORNERCURVE;
 
-wx_stc_mark_lcornercurve() ->
-     ?wxSTC_MARK_LCORNERCURVE.
+constant(constwxSTC_MARK_BOXMINUSCONNECTED) ->
+     ?wxSTC_MARK_BOXMINUSCONNECTED;
 
-wx_stc_mark_boxminusconnected() ->
-     ?wxSTC_MARK_BOXMINUSCONNECTED.
+constant(constwxSTC_MARK_BOXMINUS) ->
+     ?wxSTC_MARK_BOXMINUS;
 
-wx_stc_mark_boxminus() ->
-     ?wxSTC_MARK_BOXMINUS.
+constant(constwxSTC_MARK_BOXPLUSCONNECTED) ->
+     ?wxSTC_MARK_BOXPLUSCONNECTED;
 
-wx_stc_mark_boxplusconnected() ->
-     ?wxSTC_MARK_BOXPLUSCONNECTED.
+constant(constwxSTC_MARK_BOXPLUS) ->
+     ?wxSTC_MARK_BOXPLUS;
 
-wx_stc_mark_boxplus() ->
-     ?wxSTC_MARK_BOXPLUS.
+constant(constwxSTC_MARK_TCORNER) ->
+     ?wxSTC_MARK_TCORNER;
 
-wx_stc_mark_tcorner() ->
-     ?wxSTC_MARK_TCORNER.
+constant(constwxSTC_MARK_LCORNER) ->
+     ?wxSTC_MARK_LCORNER;
 
-wx_stc_mark_lcorner() ->
-     ?wxSTC_MARK_LCORNER.
+constant(constwxSTC_MARK_VLINE) ->
+     ?wxSTC_MARK_VLINE;
 
-wx_stc_mark_vline() ->
-     ?wxSTC_MARK_VLINE.
+constant(constwxSTC_MARK_PLUS) ->
+     ?wxSTC_MARK_PLUS;
 
-wx_stc_mark_plus() ->
-     ?wxSTC_MARK_PLUS.
+constant(constwxSTC_MARK_MINUS) ->
+     ?wxSTC_MARK_MINUS;
 
-wx_stc_mark_minus() ->
-     ?wxSTC_MARK_MINUS.
+constant(constwxSTC_MARK_ARROWDOWN) ->
+     ?wxSTC_MARK_ARROWDOWN;
 
-wx_stc_mark_arrowdown() ->
-     ?wxSTC_MARK_ARROWDOWN.
+constant(constwxSTC_MARK_EMPTY) ->
+     ?wxSTC_MARK_EMPTY;
 
-wx_stc_mark_empty() ->
-     ?wxSTC_MARK_EMPTY.
+constant(constwxSTC_MARK_SHORTARROW) ->
+     ?wxSTC_MARK_SHORTARROW;
 
-wx_stc_mark_shortarrow() ->
-     ?wxSTC_MARK_SHORTARROW.
+constant(constwxSTC_MARK_SMALLRECT) ->
+     ?wxSTC_MARK_SMALLRECT;
 
-wx_stc_mark_smallrect() ->
-     ?wxSTC_MARK_SMALLRECT.
+constant(constwxSTC_MARK_ARROW) ->
+     ?wxSTC_MARK_ARROW;
 
-wx_stc_mark_arrow() ->
-     ?wxSTC_MARK_ARROW.
+constant(constwxSTC_MARK_ROUNDRECT) ->
+     ?wxSTC_MARK_ROUNDRECT;
 
-wx_stc_mark_roundrect() ->
-     ?wxSTC_MARK_ROUNDRECT.
+constant(constwxSTC_MARK_CIRCLE) ->
+     ?wxSTC_MARK_CIRCLE;
 
-wx_stc_mark_circle() ->
-     ?wxSTC_MARK_CIRCLE.
+constant(constwxSTC_MARKER_MAX) ->
+     ?wxSTC_MARKER_MAX;
 
-wx_stc_marker_max() ->
-     ?wxSTC_MARKER_MAX.
+constant(constwxSTC_CP_DBCS) ->
+     ?wxSTC_CP_DBCS;
 
-wx_stc_cp_dbcs() ->
-     ?wxSTC_CP_DBCS.
+constant(constwxSTC_CP_UTF8) ->
+     ?wxSTC_CP_UTF8;
 
-wx_stc_cp_ut_f8() ->
-     ?wxSTC_CP_UTF8.
+constant(constwxSTC_EOL_LF) ->
+     ?wxSTC_EOL_LF;
 
-wx_stc_eol_lf() ->
-     ?wxSTC_EOL_LF.
+constant(constwxSTC_EOL_CR) ->
+     ?wxSTC_EOL_CR;
 
-wx_stc_eol_cr() ->
-     ?wxSTC_EOL_CR.
+constant(constwxSTC_EOL_CRLF) ->
+     ?wxSTC_EOL_CRLF;
 
-wx_stc_eol_crlf() ->
-     ?wxSTC_EOL_CRLF.
+constant(constwxSTC_WS_VISIBLEAFTERINDENT) ->
+     ?wxSTC_WS_VISIBLEAFTERINDENT;
 
-wx_stc_ws_visibleafterindent() ->
-     ?wxSTC_WS_VISIBLEAFTERINDENT.
+constant(constwxSTC_WS_VISIBLEALWAYS) ->
+     ?wxSTC_WS_VISIBLEALWAYS;
 
-wx_stc_ws_visiblealways() ->
-     ?wxSTC_WS_VISIBLEALWAYS.
+constant(constwxSTC_WS_INVISIBLE) ->
+     ?wxSTC_WS_INVISIBLE;
 
-wx_stc_ws_invisible() ->
-     ?wxSTC_WS_INVISIBLE.
+constant(constwxSTC_LEXER_START) ->
+     ?wxSTC_LEXER_START;
 
-wx_stc_lexer_start() ->
-     ?wxSTC_LEXER_START.
+constant(constwxSTC_OPTIONAL_START) ->
+     ?wxSTC_OPTIONAL_START;
 
-wx_stc_optional_start() ->
-     ?wxSTC_OPTIONAL_START.
+constant(constwxSTC_START) ->
+     ?wxSTC_START;
 
-wx_stc_start() ->
-     ?wxSTC_START.
+constant(constwxSTC_INVALID_POSITION) ->
+     ?wxSTC_INVALID_POSITION;
 
-wx_stc_invalid_position() ->
-     ?wxSTC_INVALID_POSITION.
+constant(constwxSTC_USE_POPUP) ->
+     ?wxSTC_USE_POPUP;
 
-wx_stc_use_popup() ->
-     ?wxSTC_USE_POPUP.
+constant(constwxTOOL_STYLE_BUTTON) ->
+     ?wxTOOL_STYLE_BUTTON;
 
-wx_tool_style_button() ->
-     ?wxTOOL_STYLE_BUTTON.
+constant(constwxTOOL_STYLE_SEPARATOR) ->
+     ?wxTOOL_STYLE_SEPARATOR;
 
-wx_tool_style_separator() ->
-     ?wxTOOL_STYLE_SEPARATOR.
+constant(constwxTOOL_STYLE_CONTROL) ->
+     ?wxTOOL_STYLE_CONTROL;
 
-wx_tool_style_control() ->
-     ?wxTOOL_STYLE_CONTROL.
+constant(constwxTEXT_ATTR_TABS) ->
+     ?wxTEXT_ATTR_TABS;
 
-wx_text_attr_tabs() ->
-     ?wxTEXT_ATTR_TABS.
+constant(constwxTEXT_ATTR_RIGHT_INDENT) ->
+     ?wxTEXT_ATTR_RIGHT_INDENT;
 
-wx_text_attr_right_indent() ->
-     ?wxTEXT_ATTR_RIGHT_INDENT.
+constant(constwxTEXT_ATTR_LEFT_INDENT) ->
+     ?wxTEXT_ATTR_LEFT_INDENT;
 
-wx_text_attr_left_indent() ->
-     ?wxTEXT_ATTR_LEFT_INDENT.
+constant(constwxTEXT_ATTR_ALIGNMENT) ->
+     ?wxTEXT_ATTR_ALIGNMENT;
 
-wx_text_attr_alignment() ->
-     ?wxTEXT_ATTR_ALIGNMENT.
+constant(constwxTEXT_ATTR_FONT) ->
+     ?wxTEXT_ATTR_FONT;
 
-wx_text_attr_font() ->
-     ?wxTEXT_ATTR_FONT.
+constant(constwxTEXT_ATTR_FONT_UNDERLINE) ->
+     ?wxTEXT_ATTR_FONT_UNDERLINE;
 
-wx_text_attr_font_underline() ->
-     ?wxTEXT_ATTR_FONT_UNDERLINE.
+constant(constwxTEXT_ATTR_FONT_ITALIC) ->
+     ?wxTEXT_ATTR_FONT_ITALIC;
 
-wx_text_attr_font_italic() ->
-     ?wxTEXT_ATTR_FONT_ITALIC.
+constant(constwxTEXT_ATTR_FONT_WEIGHT) ->
+     ?wxTEXT_ATTR_FONT_WEIGHT;
 
-wx_text_attr_font_weight() ->
-     ?wxTEXT_ATTR_FONT_WEIGHT.
+constant(constwxTEXT_ATTR_FONT_SIZE) ->
+     ?wxTEXT_ATTR_FONT_SIZE;
 
-wx_text_attr_font_size() ->
-     ?wxTEXT_ATTR_FONT_SIZE.
+constant(constwxTEXT_ATTR_FONT_FACE) ->
+     ?wxTEXT_ATTR_FONT_FACE;
 
-wx_text_attr_font_face() ->
-     ?wxTEXT_ATTR_FONT_FACE.
+constant(constwxTEXT_ATTR_BACKGROUND_COLOUR) ->
+     ?wxTEXT_ATTR_BACKGROUND_COLOUR;
 
-wx_text_attr_background_colour() ->
-     ?wxTEXT_ATTR_BACKGROUND_COLOUR.
+constant(constwxTEXT_ATTR_TEXT_COLOUR) ->
+     ?wxTEXT_ATTR_TEXT_COLOUR;
 
-wx_text_attr_text_colour() ->
-     ?wxTEXT_ATTR_TEXT_COLOUR.
+constant(constwxTEXT_TYPE_ANY) ->
+     ?wxTEXT_TYPE_ANY;
 
-wx_text_type_any() ->
-     ?wxTEXT_TYPE_ANY.
+constant(constwxTE_CAPITALIZE) ->
+     ?wxTE_CAPITALIZE;
 
-wx_te_capitalize() ->
-     ?wxTE_CAPITALIZE.
+constant(constwxTE_RICH2) ->
+     ?wxTE_RICH2;
 
-wx_te_ric_h2() ->
-     ?wxTE_RICH2.
+constant(constwxTE_BESTWRAP) ->
+     ?wxTE_BESTWRAP;
 
-wx_te_bestwrap() ->
-     ?wxTE_BESTWRAP.
+constant(constwxTE_WORDWRAP) ->
+     ?wxTE_WORDWRAP;
 
-wx_te_wordwrap() ->
-     ?wxTE_WORDWRAP.
+constant(constwxTE_CHARWRAP) ->
+     ?wxTE_CHARWRAP;
 
-wx_te_charwrap() ->
-     ?wxTE_CHARWRAP.
+constant(constwxTE_DONTWRAP) ->
+     ?wxTE_DONTWRAP;
 
-wx_te_dontwrap() ->
-     ?wxTE_DONTWRAP.
+constant(constwxTE_NOHIDESEL) ->
+     ?wxTE_NOHIDESEL;
 
-wx_te_nohidesel() ->
-     ?wxTE_NOHIDESEL.
+constant(constwxTE_AUTO_URL) ->
+     ?wxTE_AUTO_URL;
 
-wx_te_auto_url() ->
-     ?wxTE_AUTO_URL.
+constant(constwxTE_PASSWORD) ->
+     ?wxTE_PASSWORD;
 
-wx_te_password() ->
-     ?wxTE_PASSWORD.
+constant(constwxTE_PROCESS_ENTER) ->
+     ?wxTE_PROCESS_ENTER;
 
-wx_te_process_enter() ->
-     ?wxTE_PROCESS_ENTER.
+constant(constwxTE_RICH) ->
+     ?wxTE_RICH;
 
-wx_te_rich() ->
-     ?wxTE_RICH.
+constant(constwxTE_CENTRE) ->
+     ?wxTE_CENTRE;
 
-wx_te_centre() ->
-     ?wxTE_CENTRE.
+constant(constwxTE_RIGHT) ->
+     ?wxTE_RIGHT;
 
-wx_te_right() ->
-     ?wxTE_RIGHT.
+constant(constwxTE_CENTER) ->
+     ?wxTE_CENTER;
 
-wx_te_center() ->
-     ?wxTE_CENTER.
+constant(constwxTE_LEFT) ->
+     ?wxTE_LEFT;
 
-wx_te_left() ->
-     ?wxTE_LEFT.
+constant(constwxTE_PROCESS_TAB) ->
+     ?wxTE_PROCESS_TAB;
 
-wx_te_process_tab() ->
-     ?wxTE_PROCESS_TAB.
+constant(constwxTE_MULTILINE) ->
+     ?wxTE_MULTILINE;
 
-wx_te_multiline() ->
-     ?wxTE_MULTILINE.
+constant(constwxTE_READONLY) ->
+     ?wxTE_READONLY;
 
-wx_te_readonly() ->
-     ?wxTE_READONLY.
+constant(constwxTE_AUTO_SCROLL) ->
+     ?wxTE_AUTO_SCROLL;
 
-wx_te_auto_scroll() ->
-     ?wxTE_AUTO_SCROLL.
+constant(constwxTE_NO_VSCROLL) ->
+     ?wxTE_NO_VSCROLL;
 
-wx_te_no_vscroll() ->
-     ?wxTE_NO_VSCROLL.
+constant(constwxHAS_TEXT_WINDOW_STREAM) ->
+     ?wxHAS_TEXT_WINDOW_STREAM;
 
-wx_has_text_window_stream() ->
-     ?wxHAS_TEXT_WINDOW_STREAM.
+constant(constwxTEXT_ALIGNMENT_DEFAULT) ->
+     ?wxTEXT_ALIGNMENT_DEFAULT;
 
-wx_text_alignment_default() ->
-     ?wxTEXT_ALIGNMENT_DEFAULT.
+constant(constwxTEXT_ALIGNMENT_LEFT) ->
+     ?wxTEXT_ALIGNMENT_LEFT;
 
-wx_text_alignment_left() ->
-     ?wxTEXT_ALIGNMENT_LEFT.
+constant(constwxTEXT_ALIGNMENT_CENTRE) ->
+     ?wxTEXT_ALIGNMENT_CENTRE;
 
-wx_text_alignment_centre() ->
-     ?wxTEXT_ALIGNMENT_CENTRE.
+constant(constwxTEXT_ALIGNMENT_CENTER) ->
+     ?wxTEXT_ALIGNMENT_CENTER;
 
-wx_text_alignment_center() ->
-     ?wxTEXT_ALIGNMENT_CENTER.
+constant(constwxTEXT_ALIGNMENT_RIGHT) ->
+     ?wxTEXT_ALIGNMENT_RIGHT;
 
-wx_text_alignment_right() ->
-     ?wxTEXT_ALIGNMENT_RIGHT.
+constant(constwxTEXT_ALIGNMENT_JUSTIFIED) ->
+     ?wxTEXT_ALIGNMENT_JUSTIFIED;
 
-wx_text_alignment_justified() ->
-     ?wxTEXT_ALIGNMENT_JUSTIFIED.
+constant(constwxTE_HT_UNKNOWN) ->
+     ?wxTE_HT_UNKNOWN;
 
-wx_te_ht_unknown() ->
-     ?wxTE_HT_UNKNOWN.
+constant(constwxTE_HT_BEFORE) ->
+     ?wxTE_HT_BEFORE;
 
-wx_te_ht_before() ->
-     ?wxTE_HT_BEFORE.
+constant(constwxTE_HT_ON_TEXT) ->
+     ?wxTE_HT_ON_TEXT;
 
-wx_te_ht_on_text() ->
-     ?wxTE_HT_ON_TEXT.
+constant(constwxTE_HT_BELOW) ->
+     ?wxTE_HT_BELOW;
 
-wx_te_ht_below() ->
-     ?wxTE_HT_BELOW.
+constant(constwxTE_HT_BEYOND) ->
+     ?wxTE_HT_BEYOND;
 
-wx_te_ht_beyond() ->
-     ?wxTE_HT_BEYOND.
+constant(constwxTextEntryDialogStyle) ->
+     ?wxTextEntryDialogStyle;
 
-wx_text_entry_dialog_style() ->
-     ?wxTextEntryDialogStyle.
+constant(constwxTB_HORIZONTAL) ->
+     ?wxTB_HORIZONTAL;
 
-wx_tb_horizontal() ->
-     ?wxTB_HORIZONTAL.
+constant(constwxTB_TOP) ->
+     ?wxTB_TOP;
 
-wx_tb_top() ->
-     ?wxTB_TOP.
+constant(constwxTB_VERTICAL) ->
+     ?wxTB_VERTICAL;
 
-wx_tb_vertical() ->
-     ?wxTB_VERTICAL.
+constant(constwxTB_LEFT) ->
+     ?wxTB_LEFT;
 
-wx_tb_left() ->
-     ?wxTB_LEFT.
+constant(constwxTB_3DBUTTONS) ->
+     ?wxTB_3DBUTTONS;
 
-wx_tb_3_dbuttons() ->
-     ?wxTB_3DBUTTONS.
+constant(constwxTB_FLAT) ->
+     ?wxTB_FLAT;
 
-wx_tb_flat() ->
-     ?wxTB_FLAT.
+constant(constwxTB_DOCKABLE) ->
+     ?wxTB_DOCKABLE;
 
-wx_tb_dockable() ->
-     ?wxTB_DOCKABLE.
+constant(constwxTB_NOICONS) ->
+     ?wxTB_NOICONS;
 
-wx_tb_noicons() ->
-     ?wxTB_NOICONS.
+constant(constwxTB_TEXT) ->
+     ?wxTB_TEXT;
 
-wx_tb_text() ->
-     ?wxTB_TEXT.
+constant(constwxTB_NODIVIDER) ->
+     ?wxTB_NODIVIDER;
 
-wx_tb_nodivider() ->
-     ?wxTB_NODIVIDER.
+constant(constwxTB_NOALIGN) ->
+     ?wxTB_NOALIGN;
 
-wx_tb_noalign() ->
-     ?wxTB_NOALIGN.
+constant(constwxTB_HORZ_LAYOUT) ->
+     ?wxTB_HORZ_LAYOUT;
 
-wx_tb_horz_layout() ->
-     ?wxTB_HORZ_LAYOUT.
+constant(constwxTB_HORZ_TEXT) ->
+     ?wxTB_HORZ_TEXT;
 
-wx_tb_horz_text() ->
-     ?wxTB_HORZ_TEXT.
+constant(constwxTB_NO_TOOLTIPS) ->
+     ?wxTB_NO_TOOLTIPS;
 
-wx_tb_no_tooltips() ->
-     ?wxTB_NO_TOOLTIPS.
+constant(constwxTB_BOTTOM) ->
+     ?wxTB_BOTTOM;
 
-wx_tb_bottom() ->
-     ?wxTB_BOTTOM.
+constant(constwxTB_RIGHT) ->
+     ?wxTB_RIGHT;
 
-wx_tb_right() ->
-     ?wxTB_RIGHT.
+constant(constwxBK_BUTTONBAR) ->
+     ?wxBK_BUTTONBAR;
 
-wx_bk_buttonbar() ->
-     ?wxBK_BUTTONBAR.
+constant(constwxFULLSCREEN_NOMENUBAR) ->
+     ?wxFULLSCREEN_NOMENUBAR;
 
-wx_fullscreen_nomenubar() ->
-     ?wxFULLSCREEN_NOMENUBAR.
+constant(constwxFULLSCREEN_NOTOOLBAR) ->
+     ?wxFULLSCREEN_NOTOOLBAR;
 
-wx_fullscreen_notoolbar() ->
-     ?wxFULLSCREEN_NOTOOLBAR.
+constant(constwxFULLSCREEN_NOSTATUSBAR) ->
+     ?wxFULLSCREEN_NOSTATUSBAR;
 
-wx_fullscreen_nostatusbar() ->
-     ?wxFULLSCREEN_NOSTATUSBAR.
+constant(constwxFULLSCREEN_NOBORDER) ->
+     ?wxFULLSCREEN_NOBORDER;
 
-wx_fullscreen_noborder() ->
-     ?wxFULLSCREEN_NOBORDER.
+constant(constwxFULLSCREEN_NOCAPTION) ->
+     ?wxFULLSCREEN_NOCAPTION;
 
-wx_fullscreen_nocaption() ->
-     ?wxFULLSCREEN_NOCAPTION.
+constant(constwxFULLSCREEN_ALL) ->
+     ?wxFULLSCREEN_ALL;
 
-wx_fullscreen_all() ->
-     ?wxFULLSCREEN_ALL.
+constant(constwxUSER_ATTENTION_INFO) ->
+     ?wxUSER_ATTENTION_INFO;
 
-wx_user_attention_info() ->
-     ?wxUSER_ATTENTION_INFO.
+constant(constwxUSER_ATTENTION_ERROR) ->
+     ?wxUSER_ATTENTION_ERROR;
 
-wx_user_attention_error() ->
-     ?wxUSER_ATTENTION_ERROR.
+constant(constwxTOPLEVEL_EX_DIALOG) ->
+     ?wxTOPLEVEL_EX_DIALOG;
 
-wx_toplevel_ex_dialog() ->
-     ?wxTOPLEVEL_EX_DIALOG.
+constant(constwxDEFAULT_FRAME_STYLE) ->
+     ?wxDEFAULT_FRAME_STYLE;
 
-wx_default_frame_style() ->
-     ?wxDEFAULT_FRAME_STYLE.
+constant(constwxRESIZE_BORDER) ->
+     ?wxRESIZE_BORDER;
 
-wx_resize_border() ->
-     ?wxRESIZE_BORDER.
+constant(constwxTINY_CAPTION_VERT) ->
+     ?wxTINY_CAPTION_VERT;
 
-wx_tiny_caption_vert() ->
-     ?wxTINY_CAPTION_VERT.
+constant(constwxTINY_CAPTION_HORIZ) ->
+     ?wxTINY_CAPTION_HORIZ;
 
-wx_tiny_caption_horiz() ->
-     ?wxTINY_CAPTION_HORIZ.
+constant(constwxMAXIMIZE_BOX) ->
+     ?wxMAXIMIZE_BOX;
 
-wx_maximize_box() ->
-     ?wxMAXIMIZE_BOX.
+constant(constwxMINIMIZE_BOX) ->
+     ?wxMINIMIZE_BOX;
 
-wx_minimize_box() ->
-     ?wxMINIMIZE_BOX.
+constant(constwxSYSTEM_MENU) ->
+     ?wxSYSTEM_MENU;
 
-wx_system_menu() ->
-     ?wxSYSTEM_MENU.
+constant(constwxCLOSE_BOX) ->
+     ?wxCLOSE_BOX;
 
-wx_close_box() ->
-     ?wxCLOSE_BOX.
+constant(constwxMAXIMIZE) ->
+     ?wxMAXIMIZE;
 
-wx_maximize() ->
-     ?wxMAXIMIZE.
+constant(constwxMINIMIZE) ->
+     ?wxMINIMIZE;
 
-wx_minimize() ->
-     ?wxMINIMIZE.
+constant(constwxICONIZE) ->
+     ?wxICONIZE;
 
-wx_iconize() ->
-     ?wxICONIZE.
+constant(constwxSTAY_ON_TOP) ->
+     ?wxSTAY_ON_TOP;
 
-wx_stay_on_top() ->
-     ?wxSTAY_ON_TOP.
+constant(constwxTR_DEFAULT_STYLE) ->
+     ?wxTR_DEFAULT_STYLE;
 
-wx_tr_default_style() ->
-     ?wxTR_DEFAULT_STYLE.
+constant(constwxTR_FULL_ROW_HIGHLIGHT) ->
+     ?wxTR_FULL_ROW_HIGHLIGHT;
 
-wx_tr_full_row_highlight() ->
-     ?wxTR_FULL_ROW_HIGHLIGHT.
+constant(constwxTR_HIDE_ROOT) ->
+     ?wxTR_HIDE_ROOT;
 
-wx_tr_hide_root() ->
-     ?wxTR_HIDE_ROOT.
+constant(constwxTR_ROW_LINES) ->
+     ?wxTR_ROW_LINES;
 
-wx_tr_row_lines() ->
-     ?wxTR_ROW_LINES.
+constant(constwxTR_EDIT_LABELS) ->
+     ?wxTR_EDIT_LABELS;
 
-wx_tr_edit_labels() ->
-     ?wxTR_EDIT_LABELS.
+constant(constwxTR_HAS_VARIABLE_ROW_HEIGHT) ->
+     ?wxTR_HAS_VARIABLE_ROW_HEIGHT;
 
-wx_tr_has_variable_row_height() ->
-     ?wxTR_HAS_VARIABLE_ROW_HEIGHT.
+constant(constwxTR_EXTENDED) ->
+     ?wxTR_EXTENDED;
 
-wx_tr_extended() ->
-     ?wxTR_EXTENDED.
+constant(constwxTR_MULTIPLE) ->
+     ?wxTR_MULTIPLE;
 
-wx_tr_multiple() ->
-     ?wxTR_MULTIPLE.
+constant(constwxTR_SINGLE) ->
+     ?wxTR_SINGLE;
 
-wx_tr_single() ->
-     ?wxTR_SINGLE.
+constant(constwxTR_TWIST_BUTTONS) ->
+     ?wxTR_TWIST_BUTTONS;
 
-wx_tr_twist_buttons() ->
-     ?wxTR_TWIST_BUTTONS.
+constant(constwxTR_LINES_AT_ROOT) ->
+     ?wxTR_LINES_AT_ROOT;
 
-wx_tr_lines_at_root() ->
-     ?wxTR_LINES_AT_ROOT.
+constant(constwxTR_NO_LINES) ->
+     ?wxTR_NO_LINES;
 
-wx_tr_no_lines() ->
-     ?wxTR_NO_LINES.
+constant(constwxTR_HAS_BUTTONS) ->
+     ?wxTR_HAS_BUTTONS;
 
-wx_tr_has_buttons() ->
-     ?wxTR_HAS_BUTTONS.
+constant(constwxTR_NO_BUTTONS) ->
+     ?wxTR_NO_BUTTONS;
 
-wx_tr_no_buttons() ->
-     ?wxTR_NO_BUTTONS.
+constant(constwxTreeItemIcon_Normal) ->
+     ?wxTreeItemIcon_Normal;
 
-wx_tree_item_icon__normal() ->
-     ?wxTreeItemIcon_Normal.
+constant(constwxTreeItemIcon_Selected) ->
+     ?wxTreeItemIcon_Selected;
 
-wx_tree_item_icon__selected() ->
-     ?wxTreeItemIcon_Selected.
+constant(constwxTreeItemIcon_Expanded) ->
+     ?wxTreeItemIcon_Expanded;
 
-wx_tree_item_icon__expanded() ->
-     ?wxTreeItemIcon_Expanded.
+constant(constwxTreeItemIcon_SelectedExpanded) ->
+     ?wxTreeItemIcon_SelectedExpanded;
 
-wx_tree_item_icon__selected_expanded() ->
-     ?wxTreeItemIcon_SelectedExpanded.
+constant(constwxTreeItemIcon_Max) ->
+     ?wxTreeItemIcon_Max;
 
-wx_tree_item_icon__max() ->
-     ?wxTreeItemIcon_Max.
+constant(constwxEXEC_ASYNC) ->
+     ?wxEXEC_ASYNC;
 
-wx_exec_async() ->
-     ?wxEXEC_ASYNC.
+constant(constwxEXEC_SYNC) ->
+     ?wxEXEC_SYNC;
 
-wx_exec_sync() ->
-     ?wxEXEC_SYNC.
+constant(constwxEXEC_NOHIDE) ->
+     ?wxEXEC_NOHIDE;
 
-wx_exec_nohide() ->
-     ?wxEXEC_NOHIDE.
+constant(constwxEXEC_MAKE_GROUP_LEADER) ->
+     ?wxEXEC_MAKE_GROUP_LEADER;
 
-wx_exec_make_group_leader() ->
-     ?wxEXEC_MAKE_GROUP_LEADER.
+constant(constwxEXEC_NODISABLE) ->
+     ?wxEXEC_NODISABLE;
 
-wx_exec_nodisable() ->
-     ?wxEXEC_NODISABLE.
+constant(constwxBROWSER_NEW_WINDOW) ->
+     ?wxBROWSER_NEW_WINDOW;
 
-wx_browser_new_window() ->
-     ?wxBROWSER_NEW_WINDOW.
+constant(constwxStrip_Mnemonics) ->
+     ?wxStrip_Mnemonics;
 
-wx_strip__mnemonics() ->
-     ?wxStrip_Mnemonics.
+constant(constwxStrip_Accel) ->
+     ?wxStrip_Accel;
 
-wx_strip__accel() ->
-     ?wxStrip_Accel.
+constant(constwxStrip_All) ->
+     ?wxStrip_All;
 
-wx_strip__all() ->
-     ?wxStrip_All.
+constant(constwxKILL_OK) ->
+     ?wxKILL_OK;
 
-wx_kill_ok() ->
-     ?wxKILL_OK.
+constant(constwxKILL_BAD_SIGNAL) ->
+     ?wxKILL_BAD_SIGNAL;
 
-wx_kill_bad_signal() ->
-     ?wxKILL_BAD_SIGNAL.
+constant(constwxKILL_ACCESS_DENIED) ->
+     ?wxKILL_ACCESS_DENIED;
 
-wx_kill_access_denied() ->
-     ?wxKILL_ACCESS_DENIED.
+constant(constwxKILL_NO_PROCESS) ->
+     ?wxKILL_NO_PROCESS;
 
-wx_kill_no_process() ->
-     ?wxKILL_NO_PROCESS.
+constant(constwxKILL_ERROR) ->
+     ?wxKILL_ERROR;
 
-wx_kill_error() ->
-     ?wxKILL_ERROR.
+constant(constwxKILL_NOCHILDREN) ->
+     ?wxKILL_NOCHILDREN;
 
-wx_kill_nochildren() ->
-     ?wxKILL_NOCHILDREN.
+constant(constwxKILL_CHILDREN) ->
+     ?wxKILL_CHILDREN;
 
-wx_kill_children() ->
-     ?wxKILL_CHILDREN.
+constant(constwxSHUTDOWN_POWEROFF) ->
+     ?wxSHUTDOWN_POWEROFF;
 
-wx_shutdown_poweroff() ->
-     ?wxSHUTDOWN_POWEROFF.
+constant(constwxSHUTDOWN_REBOOT) ->
+     ?wxSHUTDOWN_REBOOT;
 
-wx_shutdown_reboot() ->
-     ?wxSHUTDOWN_REBOOT.
+constant(constwxSIGNONE) ->
+     ?wxSIGNONE;
 
-wx_signone() ->
-     ?wxSIGNONE.
+constant(constwxSIGHUP) ->
+     ?wxSIGHUP;
 
-wx_sighup() ->
-     ?wxSIGHUP.
+constant(constwxSIGINT) ->
+     ?wxSIGINT;
 
-wx_sigint() ->
-     ?wxSIGINT.
+constant(constwxSIGQUIT) ->
+     ?wxSIGQUIT;
 
-wx_sigquit() ->
-     ?wxSIGQUIT.
+constant(constwxSIGILL) ->
+     ?wxSIGILL;
 
-wx_sigill() ->
-     ?wxSIGILL.
+constant(constwxSIGTRAP) ->
+     ?wxSIGTRAP;
 
-wx_sigtrap() ->
-     ?wxSIGTRAP.
+constant(constwxSIGABRT) ->
+     ?wxSIGABRT;
 
-wx_sigabrt() ->
-     ?wxSIGABRT.
+constant(constwxSIGIOT) ->
+     ?wxSIGIOT;
 
-wx_sigiot() ->
-     ?wxSIGIOT.
+constant(constwxSIGEMT) ->
+     ?wxSIGEMT;
 
-wx_sigemt() ->
-     ?wxSIGEMT.
+constant(constwxSIGFPE) ->
+     ?wxSIGFPE;
 
-wx_sigfpe() ->
-     ?wxSIGFPE.
+constant(constwxSIGKILL) ->
+     ?wxSIGKILL;
 
-wx_sigkill() ->
-     ?wxSIGKILL.
+constant(constwxSIGBUS) ->
+     ?wxSIGBUS;
 
-wx_sigbus() ->
-     ?wxSIGBUS.
+constant(constwxSIGSEGV) ->
+     ?wxSIGSEGV;
 
-wx_sigsegv() ->
-     ?wxSIGSEGV.
+constant(constwxSIGSYS) ->
+     ?wxSIGSYS;
 
-wx_sigsys() ->
-     ?wxSIGSYS.
+constant(constwxSIGPIPE) ->
+     ?wxSIGPIPE;
 
-wx_sigpipe() ->
-     ?wxSIGPIPE.
+constant(constwxSIGALRM) ->
+     ?wxSIGALRM;
 
-wx_sigalrm() ->
-     ?wxSIGALRM.
+constant(constwxSIGTERM) ->
+     ?wxSIGTERM;
 
-wx_sigterm() ->
-     ?wxSIGTERM.
+constant(constwxFILTER_EXCLUDE_CHAR_LIST) ->
+     ?wxFILTER_EXCLUDE_CHAR_LIST;
 
-wx_filter_exclude_char_list() ->
-     ?wxFILTER_EXCLUDE_CHAR_LIST.
+constant(constwxFILTER_INCLUDE_CHAR_LIST) ->
+     ?wxFILTER_INCLUDE_CHAR_LIST;
 
-wx_filter_include_char_list() ->
-     ?wxFILTER_INCLUDE_CHAR_LIST.
+constant(constwxFILTER_EXCLUDE_LIST) ->
+     ?wxFILTER_EXCLUDE_LIST;
 
-wx_filter_exclude_list() ->
-     ?wxFILTER_EXCLUDE_LIST.
+constant(constwxFILTER_INCLUDE_LIST) ->
+     ?wxFILTER_INCLUDE_LIST;
 
-wx_filter_include_list() ->
-     ?wxFILTER_INCLUDE_LIST.
+constant(constwxFILTER_NUMERIC) ->
+     ?wxFILTER_NUMERIC;
 
-wx_filter_numeric() ->
-     ?wxFILTER_NUMERIC.
+constant(constwxFILTER_ALPHANUMERIC) ->
+     ?wxFILTER_ALPHANUMERIC;
 
-wx_filter_alphanumeric() ->
-     ?wxFILTER_ALPHANUMERIC.
+constant(constwxFILTER_ALPHA) ->
+     ?wxFILTER_ALPHA;
 
-wx_filter_alpha() ->
-     ?wxFILTER_ALPHA.
+constant(constwxFILTER_ASCII) ->
+     ?wxFILTER_ASCII;
 
-wx_filter_ascii() ->
-     ?wxFILTER_ASCII.
+constant(constwxFILTER_NONE) ->
+     ?wxFILTER_NONE;
 
-wx_filter_none() ->
-     ?wxFILTER_NONE.
+constant(constwxBETA_NUMBER) ->
+     ?wxBETA_NUMBER;
 
-wx_beta_number() ->
-     ?wxBETA_NUMBER.
+constant(constwxSUBRELEASE_NUMBER) ->
+     ?wxSUBRELEASE_NUMBER;
 
-wx_subrelease_number() ->
-     ?wxSUBRELEASE_NUMBER.
+constant(constwxRELEASE_NUMBER) ->
+     ?wxRELEASE_NUMBER;
 
-wx_release_number() ->
-     ?wxRELEASE_NUMBER.
+constant(constwxMINOR_VERSION) ->
+     ?wxMINOR_VERSION;
 
-wx_minor_version() ->
-     ?wxMINOR_VERSION.
+constant(constwxMAJOR_VERSION) ->
+     ?wxMAJOR_VERSION;
 
-wx_major_version() ->
-     ?wxMAJOR_VERSION.
+constant(constwxWINDOW_VARIANT_NORMAL) ->
+     ?wxWINDOW_VARIANT_NORMAL;
 
-wx_window_variant_normal() ->
-     ?wxWINDOW_VARIANT_NORMAL.
+constant(constwxWINDOW_VARIANT_SMALL) ->
+     ?wxWINDOW_VARIANT_SMALL;
 
-wx_window_variant_small() ->
-     ?wxWINDOW_VARIANT_SMALL.
+constant(constwxWINDOW_VARIANT_MINI) ->
+     ?wxWINDOW_VARIANT_MINI;
 
-wx_window_variant_mini() ->
-     ?wxWINDOW_VARIANT_MINI.
+constant(constwxWINDOW_VARIANT_LARGE) ->
+     ?wxWINDOW_VARIANT_LARGE;
 
-wx_window_variant_large() ->
-     ?wxWINDOW_VARIANT_LARGE.
+constant(constwxWINDOW_VARIANT_MAX) ->
+     ?wxWINDOW_VARIANT_MAX;
 
-wx_window_variant_max() ->
-     ?wxWINDOW_VARIANT_MAX.
+constant(constwxXRC_USE_LOCALE) ->
+     ?wxXRC_USE_LOCALE;
 
-wx_xrc_use_locale() ->
-     ?wxXRC_USE_LOCALE.
+constant(constwxXRC_NO_SUBCLASSING) ->
+     ?wxXRC_NO_SUBCLASSING;
 
-wx_xrc_no_subclassing() ->
-     ?wxXRC_NO_SUBCLASSING.
-
-wx_xrc_no_reloading() ->
+constant(constwxXRC_NO_RELOADING) ->
      ?wxXRC_NO_RELOADING.
-

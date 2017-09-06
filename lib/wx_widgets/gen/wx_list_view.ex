@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxListView do
 
   @type wxListView_t :: :wxListView.wxListView()

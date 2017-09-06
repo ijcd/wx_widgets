@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxCaret do
 
   @type wxCaret_t :: :wxCaret.wxCaret()

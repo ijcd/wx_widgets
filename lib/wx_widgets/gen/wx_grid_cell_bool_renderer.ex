@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGridCellBoolRenderer do
 
   @type wxGridCellBoolRenderer_t :: :wxGridCellBoolRenderer.wxGridCellBoolRenderer()

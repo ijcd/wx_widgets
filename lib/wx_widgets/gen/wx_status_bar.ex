@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStatusBar do
 
   @type wxStatusBar_t :: :wxStatusBar.wxStatusBar()

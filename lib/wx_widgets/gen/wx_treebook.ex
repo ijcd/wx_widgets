@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxTreebook do
 
   @type wxTreebook_t :: :wxTreebook.wxTreebook()

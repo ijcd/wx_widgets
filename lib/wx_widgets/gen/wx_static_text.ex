@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStaticText do
 
   @type wxStaticText_t :: :wxStaticText.wxStaticText()

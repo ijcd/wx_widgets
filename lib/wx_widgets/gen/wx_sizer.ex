@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSizer do
 
   @type wxSizer_t :: :wxSizer.wxSizer()

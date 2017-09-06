@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxScreenDC do
 
   @type wxScreenDC_t :: :wxScreenDC.wxScreenDC()

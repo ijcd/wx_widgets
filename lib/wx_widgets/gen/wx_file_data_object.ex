@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFileDataObject do
 
   @type wxFileDataObject_t :: :wxFileDataObject.wxFileDataObject()

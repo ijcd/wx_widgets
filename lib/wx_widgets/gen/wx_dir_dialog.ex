@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxDirDialog do
 
   @type wxDirDialog_t :: :wxDirDialog.wxDirDialog()

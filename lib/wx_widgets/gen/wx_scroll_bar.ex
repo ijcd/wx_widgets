@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxScrollBar do
 
   @type wxScrollBar_t :: :wxScrollBar.wxScrollBar()

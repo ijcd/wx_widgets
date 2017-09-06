@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxChoicebook do
 
   @type wxChoicebook_t :: :wxChoicebook.wxChoicebook()

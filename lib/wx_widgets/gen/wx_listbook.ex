@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxListbook do
 
   @type wxListbook_t :: :wxListbook.wxListbook()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFontDialog do
 
   @type wxFontDialog_t :: :wxFontDialog.wxFontDialog()

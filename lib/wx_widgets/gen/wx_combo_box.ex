@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxComboBox do
 
   @type wxComboBox_t :: :wxComboBox.wxComboBox()

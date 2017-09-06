@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxNavigationKeyEvent do
 
   @type wxNavigationKeyEvent_t :: :wxNavigationKeyEvent.wxNavigationKeyEvent()

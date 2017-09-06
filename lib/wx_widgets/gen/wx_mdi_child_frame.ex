@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxMDIChildFrame do
 
   @type wxMDIChildFrame_t :: :wxMDIChildFrame.wxMDIChildFrame()

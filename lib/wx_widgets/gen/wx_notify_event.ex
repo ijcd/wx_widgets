@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxNotifyEvent do
 
   @type wxNotifyEvent_t :: :wxNotifyEvent.wxNotifyEvent()

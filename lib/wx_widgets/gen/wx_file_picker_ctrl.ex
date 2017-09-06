@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxFilePickerCtrl do
 
   @type wxFilePickerCtrl_t :: :wxFilePickerCtrl.wxFilePickerCtrl()

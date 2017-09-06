@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxSashLayoutWindow do
 
   @type wxSashLayoutWindow_t :: :wxSashLayoutWindow.wxSashLayoutWindow()

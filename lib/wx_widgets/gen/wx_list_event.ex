@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxListEvent do
 
   @type wxListEvent_t :: :wxListEvent.wxListEvent()

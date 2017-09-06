@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxIcon do
 
   @type wxIcon_t :: :wxIcon.wxIcon()

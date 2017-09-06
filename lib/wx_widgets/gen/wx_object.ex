@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxObject do
 
   # @spec call(obj :: :wx.wx_object(), request :: term()) :: term()

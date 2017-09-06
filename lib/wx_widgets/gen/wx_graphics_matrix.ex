@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGraphicsMatrix do
 
   @type wxGraphicsMatrix_t :: :wxGraphicsMatrix.wxGraphicsMatrix()

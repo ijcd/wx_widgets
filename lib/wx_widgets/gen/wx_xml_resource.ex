@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxXmlResource do
 
   @type wxXmlResource_t :: :wxXmlResource.wxXmlResource()

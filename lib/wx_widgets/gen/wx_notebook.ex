@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxNotebook do
 
   @type wxNotebook_t :: :wxNotebook.wxNotebook()

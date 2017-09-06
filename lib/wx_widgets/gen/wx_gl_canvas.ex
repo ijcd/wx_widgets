@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGLCanvas do
 
   @type wxGLCanvas_t :: :wxGLCanvas.wxGLCanvas()

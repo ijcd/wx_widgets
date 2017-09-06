@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAcceleratorEntry do
 
   @type wxAcceleratorEntry_t :: :wxAcceleratorEntry.wxAcceleratorEntry()

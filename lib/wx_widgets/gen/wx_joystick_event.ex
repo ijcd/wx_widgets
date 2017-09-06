@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxJoystickEvent do
 
   @type wxJoystickEvent_t :: :wxJoystickEvent.wxJoystickEvent()

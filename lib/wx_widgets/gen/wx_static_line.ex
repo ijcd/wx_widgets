@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxStaticLine do
 
   @type wxStaticLine_t :: :wxStaticLine.wxStaticLine()

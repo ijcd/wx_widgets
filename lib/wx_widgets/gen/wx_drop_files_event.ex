@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxDropFilesEvent do
 
   @type wxDropFilesEvent_t :: :wxDropFilesEvent.wxDropFilesEvent()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxNotebookEvent do
 
   @type wxNotebookEvent_t :: :wxNotebookEvent.wxNotebookEvent()

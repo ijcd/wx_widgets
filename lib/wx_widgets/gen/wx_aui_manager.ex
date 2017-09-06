@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxAuiManager do
 
   @type wxAuiManager_t :: :wxAuiManager.wxAuiManager()

@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxScrolledWindow do
 
   @type wxScrolledWindow_t :: :wxScrolledWindow.wxScrolledWindow()

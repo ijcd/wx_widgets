@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxIdleEvent do
 
   @type wxIdleEvent_t :: :wxIdleEvent.wxIdleEvent()

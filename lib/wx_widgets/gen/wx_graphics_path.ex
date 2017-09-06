@@ -1,3 +1,7 @@
+#
+# GENERATED, DO NOT EDIT
+#
+
 defmodule WxWidgets.WxGraphicsPath do
 
   @type wxGraphicsPath_t :: :wxGraphicsPath.wxGraphicsPath()
