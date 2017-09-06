@@ -28,6 +28,8 @@ defmodule WxWidgets.Mixfile do
       {:sweet_xml, "~> 0.6.5", only: [:dev, :test], runtime: false},
       {:combine, "~> 0.10.0"},
       {:apex, "~>1.0.0"},
+      # {:quaff, github: "qhool/quaff"},
+      {:quaff, path: "../quaff"},
 
       # dev
       {:mix_test_watch, "~> 0.3", only: :dev, runtime: false},

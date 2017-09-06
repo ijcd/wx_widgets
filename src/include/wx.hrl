@@ -29,7 +29,7 @@
              event :: event()           %% The event record
             }).
 
--type wx() :: #wx{}. %% wx event record 
+-type wx() :: #wx{}. %% wx event record
 %% Here comes the definitions of all event records.
 %% they contain the event type and possible some extra information.
 
@@ -360,7 +360,7 @@
 
 %% Hardcoded Records
 -record(wxMouseState, {x :: integer(), y :: integer(),
-          leftDown :: boolean(), middleDown :: boolean(), rightDown :: boolean(), 
+          leftDown :: boolean(), middleDown :: boolean(), rightDown :: boolean(),
           controlDown :: boolean(), shiftDown :: boolean(),
           altDown :: boolean(), metaDown :: boolean(), cmdDown :: boolean()
         }).

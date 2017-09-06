@@ -1,6 +1,7 @@
 defmodule WxWidgets.CodeGen do
   import SweetXml
   alias WxWidgets.CodeGen.AST
+  alias WxWidgets.CodeGen.HRL
 
   defmodule CodeModule do
     defstruct [:name, :types, :specs]
@@ -46,6 +47,39 @@ defmodule WxWidgets.CodeGen do
     )
     |> Enum.join
     |> to_string
+  end
+
+  def generate_hrl_wrapper(hrl_file) do
+    IO.puts("Parsing: #{hrl_file}")
+
+    statements =
+      hrl_file
+      |> File.read!
+      |> String.replace(~r/\%\%.*\n/m, "\n")
+      |> String.replace(~r/%.*\n/m, "\n")
+      |> HRL.hrl_to_defs()
+
+    module_name = Path.basename(hrl_file, ".hrl") <> "_const"
+    defines = for {:define, _} = d <- statements, do: d
+
+    EEx.eval_file(
+      "lib/templates/hrl_erl_template.eex",
+      [
+        assigns: [
+          module_name: module_name,
+          hrl_file: hrl_file,
+          defines: defines,
+        ]
+      ]
+    )
+  end
+
+  def render_hrl_method({:define, constant}) do
+    method_name = Macro.underscore(constant)
+"""
+#{method_name}() ->
+     ?#{constant}.
+"""
   end
 
   def generate_module(specfile) do

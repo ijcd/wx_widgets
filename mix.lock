@@ -1,4 +1,5 @@
-%{"apex": {:hex, :apex, "1.0.0", "abf230314d35ca4c48a902f693247f190ad42fc14862b9c4f7dbb7077b21c20a", [:mix], [], "hexpm"},
+%{"aleppo": {:git, "https://github.com/ChicagoBoss/aleppo.git", "e5af421b8c75d86dd88aefae91402478250bb82c", [tag: "v0.9"]},
+  "apex": {:hex, :apex, "1.0.0", "abf230314d35ca4c48a902f693247f190ad42fc14862b9c4f7dbb7077b21c20a", [:mix], [], "hexpm"},
   "bunt": {:hex, :bunt, "0.2.0", "951c6e801e8b1d2cbe58ebbd3e616a869061ddadcc4863d0a2182541acae9a38", [:mix], [], "hexpm"},
   "combine": {:hex, :combine, "0.10.0", "eff8224eeb56498a2af13011d142c5e7997a80c8f5b97c499f84c841032e429f", [:mix], [], "hexpm"},
   "credo": {:hex, :credo, "0.8.6", "335f723772d35da499b5ebfdaf6b426bfb73590b6fcbc8908d476b75f8cbca3f", [:mix], [{:bunt, "~> 0.2.0", [hex: :bunt, repo: "hexpm", optional: false]}], "hexpm"},
@@ -8,5 +9,6 @@
   "exactor": {:hex, :exactor, "2.2.3", "a6972f43bb6160afeb73e1d8ab45ba604cd0ac8b5244c557093f6e92ce582786", [:mix], [], "hexpm"},
   "fs": {:hex, :fs, "0.9.2", "ed17036c26c3f70ac49781ed9220a50c36775c6ca2cf8182d123b6566e49ec59", [:rebar], [], "hexpm"},
   "mix_test_watch": {:hex, :mix_test_watch, "0.5.0", "2c322d119a4795c3431380fca2bca5afa4dc07324bd3c0b9f6b2efbdd99f5ed3", [:mix], [{:fs, "~> 0.9.1", [hex: :fs, repo: "hexpm", optional: false]}], "hexpm"},
+  "quaff": {:git, "https://github.com/qhool/quaff.git", "0bb123a560ab2a69ec4fed206cb1983b6527963a", []},
   "sweet_xml": {:hex, :sweet_xml, "0.6.5", "dd9cde443212b505d1b5f9758feb2000e66a14d3c449f04c572f3048c66e6697", [:mix], [], "hexpm"},
   "xmap": {:hex, :xmap, "0.2.3", "f87e02139b91db3a6d6f385156e0aa34e090a402f4489c0d8cb30d6b335f4c03", [:mix], [], "hexpm"}}

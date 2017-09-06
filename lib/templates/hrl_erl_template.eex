@@ -1,0 +1,8 @@
+-module(<%= @module_name %>).
+-compile(export_all).
+
+-include_lib("<%= @hrl_file %>").
+
+<%= for d <- @defines do %>
+<%= WxWidgets.CodeGen.render_hrl_method(d) %>
+<% end %>
