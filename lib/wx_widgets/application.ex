@@ -10,6 +10,8 @@ defmodule WxWidgets.Application do
     children = [
       # Starts a worker by calling: WxWidgets.Worker.start_link(arg)
       # {WxWidgets.Worker, arg},
+
+      #WxWidgets.Examples.Elixir.Simple,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

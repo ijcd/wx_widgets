@@ -1,24 +1,22 @@
-defmodule WxWidgets.Examples.Erlang.ElixirOpenGL do
-  import WxWidgets
+defmodule WxWidgets.Examples.Elixir.Full do
+  use WxWidgets.WxObject
 
-  @behaviour :wx_object
+  # @behaviour :wx_object
   use Bitwise
 
   @title 'Elixir OpenGL'
   @size {600, 600}
 
-  #######
-  # API #
-  #######
-  def start_link() do
-    :wx_object.start_link(__MODULE__, [], [])
-  end
-
   #################################
   # :wx_object behavior callbacks #
   #################################
   def init(config) do
-    wx = :wx.new(config)
+    config
+    |> WxWidgets.Wx.new()
+    |> build()
+  end
+
+  def build(wx) do
     frame = :wxFrame.new(wx, wx_const(:wxID_ANY), @title, [{:size, @size}])
     :wxWindow.connect(frame, :close_window)
     :wxFrame.show(frame)

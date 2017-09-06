@@ -11,10 +11,14 @@ import_includes:
 
 import: build_edocs import_edocs import_includes
 
+clean_generated:
+	rm -rf lib/wx_widgets/gen
+	rm -rf src/*_const.erl
+
 regenerate_erl_wrappers:
-	rm -rf lib/wx_widgets/gen && mix wx_widgets.gen.wrappers --erl && mix compile
+	mix wx_widgets.gen.wrappers --erl && mix compile
 
 regenerate_hrl_wrappers:
-	rm -rf src/*_const.erl && mix wx_widgets.gen.wrappers --hrl && mix compile
+	mix wx_widgets.gen.wrappers --hrl && mix compile
 
 regenerate_wrappers: regenerate_erl_wrappers regenerate_hrl_wrappers

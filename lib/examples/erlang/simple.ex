@@ -1,4 +1,4 @@
-defmodule WxWidgets.Examples.Simple do
+defmodule WxWidgets.Examples.Erlang.Simple do
   import WxWidgets
 
   # http://www.idiom.com/~turner/wxtut/wxwidgets.html
@@ -8,8 +8,10 @@ defmodule WxWidgets.Examples.Simple do
     :wxFrame.show(frame)
     :wxFrame.createStatusBar(frame)
     :wxFrame.setStatusText(frame, 'Quiet here.')
+
     menu_bar = :wxMenuBar.new
     :wxFrame.setMenuBar(frame, menu_bar)
+
     file_menu = :wxMenu.new
     :wxMenuBar.append(menu_bar, file_menu, '&File')
   end

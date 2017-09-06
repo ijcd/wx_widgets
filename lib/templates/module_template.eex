@@ -2,12 +2,17 @@
 # GENERATED, DO NOT EDIT
 #
 
-defmodule WxWidgets.<%= @elixir_module_name %> do
+defmodule WxWidgets.Generated.<%= @elixir_module_name %> do
+  defmacro __using__(_params) do
+    quote do
 <%= for t <- @types do %>
-<%= WxWidgets.CodeGen.render_type(t) %>
+    <%= WxWidgets.CodeGen.render_type(t) %>
 <% end %>
 
 <%= for s <- @specs do %>
-<%= WxWidgets.CodeGen.render_def(@mod, s) %>
+    <%= WxWidgets.CodeGen.render_def(@mod, s) %>
 <% end %>
+
+    end
+  end
 end

@@ -122,8 +122,10 @@ constant(const#{constant}) ->
     if spec.head do
       atspecs = (for _s <- specs, do: build_spec(mod, spec)) |> Enum.uniq |> Enum.join
 
-      atspecs
-      <> build_def(mod, specs |> List.first)
+"""
+  #{atspecs}
+#{build_def(mod, specs |> List.first)}
+"""
     else
       ""
     end
@@ -138,9 +140,9 @@ constant(const#{constant}) ->
     method_call = {:module_ref, {:symbol, mod.name}, {:call, sym, call_args}} |> AST.ast_to_elixir(unquote_calls: false)
 
 """
-  def #{method_def} do
-    #{method_call}
-  end
+      def #{method_def} do
+        #{method_call}
+      end
 """
   end
 
@@ -194,15 +196,13 @@ constant(const#{constant}) ->
       end)
       |> Enum.join(", ")
 
-      when_guards = if guards != "" do
-        " when #{guards}"
-      else
-        ""
-      end
+    when_guards = if guards != "" do
+      " when #{guards}"
+    else
+      ""
+    end
 
-"""
-  # @spec #{atspec}#{when_guards}
-"""
+    "# @spec #{atspec}#{when_guards}"
   end
 
   def build_call_args(args) do

@@ -1,47 +1,28 @@
-defmodule WxWidgets.Examples.Simple do
-  import WxWidgets
+defmodule WxWidgets.Examples.Elixir.Simple do
+  #use WxWidgets.WxObject
+
+  @behaviour :wx_object
+  def start_link() do
+    :wx_object.start_link(__MODULE__, [], [])
+  end
 
   # http://www.idiom.com/~turner/wxtut/wxwidgets.html
-  def tutorial do
-	wx = :wx.new
+  def init(args \\ []) do
+    IO.inspect(args, label: "INIT1 ARGS")
+
+    wx = :wx.new
+
     frame = :wxFrame.new(wx, -1, 'Hello, World!')
     :wxFrame.show(frame)
     :wxFrame.createStatusBar(frame)
     :wxFrame.setStatusText(frame, 'Quiet here.')
+
     menu_bar = :wxMenuBar.new
     :wxFrame.setMenuBar(frame, menu_bar)
+
     file_menu = :wxMenu.new
     :wxMenuBar.append(menu_bar, file_menu, '&File')
-  end
 
-  # https://github.com/knewter/extris
-  def extris do
-    left = 10
-    right = 11
-
-    wx = :wx.new
-	frame = :wxFrame.new(wx, -1, "The Title")
-	panel = :wxPanel.new(frame)
-	main_sizer = :wxBoxSizer.new(wx_const(:wxVERTICAL))
-	sizer = :wxStaticBoxSizer.new(wx_const(:wxVERTICAL), panel, label: "Extris")
-	canvas = :wxPanel.new(panel, style: wx_const(:wxFULL_REPAINT_ON_RESIZE), size: {1000,1000})
-	:wxPanel.connect(canvas, :paint, [:callback])
-	:wxSizer.add(sizer, canvas, flag: wx_const(:wxEXPAND), proportion: 1)
-	left = :wxButton.new(frame, left, label: 'Rotate Left')
-	right = :wxButton.new(frame, right, label: 'Rotate Right')
-	:wxSizer.add(main_sizer, left)
-	:wxSizer.add(main_sizer, right)
-	:wxSizer.add(main_sizer, sizer)
-	:wxSizer.add(main_sizer, sizer, flag: wx_const(:wxEXPAND), proportion: 1)
-
-	:wxPanel.setSizer(panel, main_sizer)
-	:wxSizer.layout(main_sizer)
-	:wxPanel.connect(frame, :paint, [:callback])
-	:wxFrame.connect(frame, :command_button_clicked)
-	for action <- [:key_down, :key_up, :char] do
-	    :wxWindow.connect(frame, action)
-	end
-
-    :wxFrame.show(frame)
+    {frame, %{my_state: 1}}
   end
 end
