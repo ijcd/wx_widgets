@@ -1,4 +1,6 @@
-defmodule ElixirOpengl do
+defmodule WxWidgets.Examples.ElixirOpenGL do
+  import WxWidgets
+
   @behaviour :wx_object
   use Bitwise
 
@@ -17,17 +19,17 @@ defmodule ElixirOpengl do
   #################################
   def init(config) do
     wx = :wx.new(config)
-    frame = :wxFrame.new(wx, :wx_const.wx_id_any, @title, [{:size, @size}])
+    frame = :wxFrame.new(wx, wx_const(:wxID_ANY), @title, [{:size, @size}])
     :wxWindow.connect(frame, :close_window)
     :wxFrame.show(frame)
 
     opts = [{:size, @size}]
-    gl_attrib = [{:attribList, [:wx_const.wx_gl_rgba,
-                                :wx_const.wx_gl_doublebuffer,
-                                :wx_const.wx_gl_min_red, 8,
-                                :wx_const.wx_gl_min_green, 8,
-                                :wx_const.wx_gl_min_blue, 8,
-                                :wx_const.wx_gl_depth_size, 24, 0]}]
+    gl_attrib = [{:attribList, [wx_const(:WX_GL_RGBA),
+                                wx_const(:WX_GL_DOUBLEBUFFER),
+                                wx_const(:WX_GL_MIN_RED), 8,
+                                wx_const(:WX_GL_MIN_GREEN), 8,
+                                wx_const(:WX_GL_MIN_BLUE), 8,
+                                wx_const(:WX_GL_DEPTH_SIZE), 24, 0]}]
     canvas = :wxGLCanvas.new(frame, opts ++ gl_attrib)
 
     :wxGLCanvas.connect(canvas, :size)
@@ -46,14 +48,10 @@ defmodule ElixirOpengl do
   end
 
   def handle_cast(msg, state) do
-    IO.puts "Cast:"
-    IO.inspect msg
     {:noreply, state}
   end
 
   def handle_call(msg, _from, state) do
-    IO.puts "Call:"
-    IO.inspect msg
     {:reply, :ok, state}
   end
 
@@ -94,30 +92,30 @@ defmodule ElixirOpengl do
   defp setup_gl(win) do
     {w, h} = :wxWindow.getClientSize(win)
     resize_gl_scene(w, h)
-    :gl.shadeModel(:gl_const.gl_smooth)
+    :gl.shadeModel(gl_const(:GL_SMOOTH))
     :gl.clearColor(0.0, 0.0, 0.0, 0.0)
     :gl.clearDepth(1.0)
-    :gl.enable(:gl_const.gl_depth_test)
-    :gl.depthFunc(:gl_const.gl_lequal)
-    :gl.hint(:gl_const.gl_perspective_correction_hint, :gl_const.gl_nicest)
+    :gl.enable(gl_const(:GL_DEPTH_TEST))
+    :gl.depthFunc(gl_const(:GL_LEQUAL))
+    :gl.hint(gl_const(:GL_PERSPECTIVE_CORRECTION_HINT), gl_const(:GL_NICEST))
     :ok
   end
 
   defp resize_gl_scene(width, height) do
     :gl.viewport(0, 0, width, height)
-    :gl.matrixMode(:gl_const.gl_projection)
+    :gl.matrixMode(gl_const(:GL_PROJECTION))
     :gl.loadIdentity()
     :glu.perspective(45.0, width / height, 0.1, 100.0)
-    :gl.matrixMode(:gl_const.gl_modelview)
+    :gl.matrixMode(gl_const(:GL_MODELVIEW))
     :gl.loadIdentity()
     :ok
   end
 
   defp draw() do
-    :gl.clear(Bitwise.bor(:gl_const.gl_color_buffer_bit, :gl_const.gl_depth_buffer_bit))
+    :gl.clear(Bitwise.bor(gl_const(:GL_COLOR_BUFFER_BIT), gl_const(:GL_DEPTH_BUFFER_BIT)))
     :gl.loadIdentity()
     :gl.translatef(-1.5, 0.0, -6.0)
-    :gl.'begin'(:gl_const.gl_triangles)
+    :gl.'begin'(gl_const(:GL_TRIANGLES))
     :gl.vertex3f(0.0, 1.0, 0.0)
     :gl.vertex3f(-1.0, -1.0, 0.0)
     :gl.vertex3f(1.0, -1.0, 0.0)
